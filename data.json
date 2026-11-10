@@ -785,8 +785,8 @@
   "genre": "R",
   "econ": -1,
   "auth": -5,
-  "confidence": 3,
-  "basis": "2112 credited \"the genius of Ayn Rand\". By 2012 he was a \"bleeding-heart libertarian\" who voted Democrat.",
+  "confidence": 2,
+  "basis": "Credited \"the genius of Ayn Rand\" on 2112 (1976). By 2012 called himself a \"bleeding-heart libertarian\", a label usually meaning pro-market with a social conscience, but reportedly voted only Democrat, citing health care. Actions outweigh the label, so he sits just left of centre, with medium confidence.",
   "shift": {
    "econ": 6,
    "auth": -6,
@@ -800,6 +800,10 @@
    {
     "title": "Mediaite: Neil Peart calls himself a 'bleeding heart libertarian' (2012)",
     "url": "https://www.mediaite.com/online/rush-drummer-neil-peart-denounces-ayn-rand-im-a-bleeding-heart-libertarian"
+   },
+   {
+    "title": "Reason: Peart will only vote Democrat (2012)",
+    "url": "https://reason.com/?p=249069"
    }
   ],
   "checked": "2026-11-11",

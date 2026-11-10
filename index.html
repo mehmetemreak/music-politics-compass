@@ -21,12 +21,12 @@ h1{font:600 24px/1.2 Georgia,"Times New Roman",serif;margin:0 0 4px}
 .tabs{display:inline-flex;border:1px solid var(--grid2);border-radius:8px;overflow:hidden;margin:0 0 10px}
 .tabs button{font:600 14px system-ui,sans-serif;padding:7px 18px;border:0;background:var(--panel);color:var(--ink2);cursor:pointer}
 .tabs button[aria-selected=true]{background:var(--ink);color:var(--panel)}
-.vsel{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 10px;font-size:13px;color:var(--ink2)}
+.vsel{display:flex}
 .vsel .seg{display:inline-flex;border:1px solid var(--grid2);border-radius:999px;overflow:hidden}
 .vsel .seg button{font:600 13px system-ui,sans-serif;padding:6px 14px;border:0;background:var(--panel);color:var(--ink2);cursor:pointer}
 .vsel .seg button[aria-pressed=true]{background:var(--ink);color:var(--panel)}
 .why{font-size:13px;color:var(--ink2);margin:4px 0 0}
-.chips{display:flex;gap:6px;overflow-x:auto;padding:2px 0 8px;margin:0 -12px 0 0;scrollbar-width:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
 .chips::-webkit-scrollbar{display:none}
 .chips button{flex:none;font:13px system-ui,sans-serif;color:var(--ink);background:var(--panel);border:1px solid var(--grid2);border-radius:999px;padding:5px 11px 5px 8px;display:flex;align-items:center;gap:6px;cursor:pointer}
 .chips button[aria-pressed=true]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
@@ -34,6 +34,42 @@ h1{font:600 24px/1.2 Georgia,"Times New Roman",serif;margin:0 0 4px}
 .chips svg{width:15px;height:15px}
 .bar2{display:flex;gap:8px;align-items:flex-start;flex-wrap:wrap;margin:0 0 10px}
 #q{font:inherit;font-size:16px;padding:7px 10px;border:1px solid var(--grid2);border-radius:8px;background:var(--panel);color:var(--ink);flex:1 1 200px;min-width:0}
+.layout{display:block}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 10px}
+.topbar .tabs{margin:0}
+.fbtn{font:600 14px system-ui,sans-serif;padding:7px 14px;border:1px solid var(--grid2);border-radius:8px;background:var(--panel);color:var(--ink);cursor:pointer;display:flex;align-items:center;gap:6px}
+.fbtn span{background:var(--ink);color:var(--panel);border-radius:999px;font-size:12px;min-width:20px;padding:0 6px;text-align:center}
+.fbtn span:empty{display:none}
+.fsec{padding:12px 0;border-bottom:1px solid var(--grid)}
+.fsec:last-of-type{border-bottom:0}
+.fsec h3{margin:0 0 8px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--mut)}
+.fnote{margin:6px 0 0;font-size:12px;color:var(--mut)}
+.chk{display:flex;gap:8px;align-items:center;font-size:14px;color:var(--ink2);padding:3px 0;cursor:pointer}
+.fhead{display:flex;justify-content:space-between;align-items:center}
+.fhead b{font:600 18px Georgia,serif}
+.fhead .x{width:34px;height:34px;border-radius:8px;border:1px solid var(--grid2);background:var(--panel);color:var(--ink);font-size:18px;cursor:pointer}
+.ffoot{display:flex;gap:8px;padding-top:12px;position:sticky;bottom:0;background:var(--bg)}
+.ffoot button{flex:1;font:600 14px system-ui,sans-serif;padding:10px;border-radius:8px;border:1px solid var(--grid2);background:var(--panel);color:var(--ink);cursor:pointer}
+.ffoot .pri{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+.pills{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+.pills:empty{display:none}
+.pill{font:13px system-ui,sans-serif;padding:4px 8px 4px 10px;border-radius:999px;border:1px solid var(--ink);background:var(--panel);color:var(--ink);cursor:pointer;display:flex;align-items:center;gap:6px}
+.pill i{font-style:normal;color:var(--mut);font-size:15px;line-height:1}
+.pill.clr{border-color:var(--grid2);color:var(--ink2)}
+#scrim{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:19}
+@media (max-width:899px){
+ #filters{position:fixed;left:0;right:0;bottom:0;z-index:20;max-height:82vh;overflow:auto;background:var(--bg);border-top:1px solid var(--grid2);border-radius:14px 14px 0 0;box-shadow:0 -8px 28px rgba(0,0,0,.22);padding:14px 16px 0;transform:translateY(105%);transition:transform .22s ease;visibility:hidden}
+ #filters.open{transform:none;visibility:visible}
+ .ffoot{padding-bottom:calc(14px + env(safe-area-inset-bottom))}
+}
+@media (min-width:900px){
+ main{max-width:1180px}
+ .layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:22px;align-items:start}
+ #filters{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto;padding:0 2px}
+ .wrap{max-width:min(100%,calc(100vh - 230px))}
+ .ctl,.leg{max-width:min(100%,calc(100vh - 230px))}
+ .fhead,.ffoot,#fOpen,.pills,#scrim{display:none!important}
+}
 details.opt{flex:none}
 details.opt summary{list-style:none;cursor:pointer;font-size:14px;padding:8px 12px;border:1px solid var(--grid2);border-radius:8px;background:var(--panel);color:var(--ink2)}
 details.opt summary::-webkit-details-marker{display:none}
@@ -121,23 +157,25 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <div class="prog" id="prog"></div>
 <p id="err" hidden>The data file did not load. If you opened this page straight from disk, serve it over http instead.</p>
 
-<div class="tabs" role="tablist">
-<button role="tab" id="tabC" aria-selected="true">Chart</button><button role="tab" id="tabL" aria-selected="false">List</button>
-</div>
-<div class="vsel"><span class="seg"><button type="button" id="vS" aria-pressed="true">50 to start</button><button type="button" id="vA" aria-pressed="false">All</button></span><span id="vNote"></span></div>
-<div class="chips" id="chips"></div>
-<div class="bar2">
-<input id="q" type="search" placeholder="Find a name or band" aria-label="Find a name or band" enterkeyhint="search" autocomplete="off">
-<details class="opt"><summary>Options</summary>
-<div class="optbox">
-<label><input type="checkbox" id="oC" checked> Group crowded areas</label>
-<label><input type="checkbox" id="oT" checked> Shifts over time</label>
-<label><input type="checkbox" id="oS"> Same-band splits</label>
-<label><input type="checkbox" id="oH"> Uncertainty for all</label>
-<label><input type="checkbox" id="oV"> Sourced placements only</label>
-</div></details>
-</div>
-
+<div class="layout">
+<aside id="filters" aria-label="Filters">
+<div class="fhead"><b>Filters</b><button class="x" id="fClose" aria-label="Close filters">&times;</button></div>
+<div class="fsec"><h3>Show</h3><div class="vsel"><span class="seg"><button type="button" id="vS" aria-pressed="true">50 to start</button><button type="button" id="vA" aria-pressed="false">All</button></span></div><p class="fnote" id="vNote"></p></div>
+<div class="fsec"><h3>Genre</h3><div class="chips" id="chips"></div></div>
+<div class="fsec"><h3>Career began</h3><div class="chips" id="dchips"></div><p class="fnote">From the start of "years active" on Wikipedia, not when they became famous.</p></div>
+<div class="fsec"><h3>Evidence</h3><label class="chk"><input type="checkbox" id="oV"> Sourced placements only</label></div>
+<div class="fsec"><h3>On the chart</h3>
+<label class="chk"><input type="checkbox" id="oC" checked> Group crowded areas</label>
+<label class="chk"><input type="checkbox" id="oT" checked> Shifts over time</label>
+<label class="chk"><input type="checkbox" id="oS"> Same-band splits</label>
+<label class="chk"><input type="checkbox" id="oH"> Uncertainty for all</label></div>
+<div class="ffoot"><button type="button" id="fReset">Clear filters</button><button type="button" id="fDone" class="pri">Show</button></div>
+</aside>
+<div id="scrim" hidden></div>
+<div class="mainc">
+<div class="topbar"><div class="tabs" role="tablist"><button role="tab" id="tabC" aria-selected="true">Chart</button><button role="tab" id="tabL" aria-selected="false">List</button></div><button type="button" id="fOpen" class="fbtn">Filters<span id="fCount"></span></button></div>
+<div class="bar2"><input id="q" type="search" placeholder="Find a name or band" aria-label="Find a name or band" enterkeyhint="search" autocomplete="off"></div>
+<div class="pills" id="pills"></div>
 <section id="vChart">
 <div class="wrap" id="wrap">
 <svg id="sv" role="img" aria-label="Political compass of musicians. Use the List tab for an accessible version."><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--acc)"/></marker><clipPath id="cp"><rect id="cpr"/></clipPath></defs>
@@ -156,9 +194,11 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 </section>
 
 <section id="vList" hidden>
-<div class="lh"><span id="lc"></span><label>Sort <select id="sort"><option value="name">Name</option><option value="econ">Left to right</option><option value="auth">Libertarian to authoritarian</option><option value="src">Sourced first</option></select></label></div>
+<div class="lh"><span id="lc"></span><label>Sort <select id="sort"><option value="name">Name</option><option value="econ">Left to right</option><option value="auth">Libertarian to authoritarian</option><option value="src">Sourced first</option><option value="start">Career began</option></select></label></div>
 <div id="list"></div>
 </section>
+
+</div></div>
 
 <h2>How to read it</h2>
 <ul class="note">
@@ -184,7 +224,9 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
 const fmt=n=>(n>0?"+":"")+n;
 let D=[],S=600,M=26,P=548;
-const st={k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:false,sourced:false,sel:null,mode:"chart",sort:"name",cluster:true,view:"start"};
+const st={k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:false,sourced:false,sel:null,mode:"chart",sort:"name",cluster:true,view:"start",genres:new Set(),decades:new Set()};
+const dec=d=>d.start?String(Math.floor(d.start/10)*10):"?";
+const DL=k=>k==="?"?"Unknown":k+"s";
 let CL_=[];
 $("repo").href=REPO;
 
@@ -210,7 +252,7 @@ function animateTo(k,cx,cy,ms=300){cancelAnimationFrame(anim);const k0=st.k,x0=s
 function zoomTo(X,Y,f){const u=ux(X),v=uy(Y),k=Math.max(1,Math.min(KMAX,st.k*f)),U=P/20*k;animateTo(k,u-(X-M-P/2)/U,v+(Y-M-P/2)/U)}
 function panBy(dx,dy){const U=UU();st.cx-=dx/U;st.cy+=dy/U;clamp();req()}
 
-const pass=d=>(st.view==="all"||d.starter||(st.q&&hit(d)))&&(!st.genre||d.genre===st.genre)&&(!st.sourced||d.sources.length>0);
+const pass=d=>(st.view==="all"||d.starter||(st.q&&hit(d)))&&(!st.genres.size||st.genres.has(d.genre))&&(!st.decades.size||st.decades.has(dec(d)))&&(!st.sourced||d.sources.length>0);
 const hit=d=>st.q&&(d.name+" "+d.band).toLowerCase().includes(st.q);
 
 fetch("data.json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(init).catch(()=>{$("err").hidden=false});
@@ -236,10 +278,19 @@ function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.fi
  $("vS").setAttribute("aria-pressed",st.view==="start");$("vA").setAttribute("aria-pressed",st.view==="all");$("vA").textContent=`All ${D.length}`;
  $("vNote").textContent=st.view==="start"?"popular names plus the political outliers":`everyone, up to a cap of 200`;
  $("prog").innerHTML=`<span class="bar"><i style="width:${(100*n/base.length).toFixed(1)}%"></i></span><span><b>${n}</b> of ${base.length} ${st.view==="start"?"starting placements":"placements"} sourced so far</span>`;
- const cnt={};base.forEach(d=>cnt[d.genre]=(cnt[d.genre]||0)+1);
- $("chips").innerHTML=`<button type="button" data-g="" aria-pressed="${!st.genre}">All <span class="n">${base.length}</span></button>`+[...GO].filter(k=>cnt[k]).map(k=>`<button type="button" data-g="${k}" aria-pressed="${st.genre===k}">${icon(k)}${GN[k]} <span class="n">${cnt[k]}</span></button>`).join("");
- if(st.genre&&!cnt[st.genre])st.genre=null}
-function setView(v){st.view=v;syncView();refresh()}
+ const cnt={},dc={};base.forEach(d=>{cnt[d.genre]=(cnt[d.genre]||0)+1;dc[dec(d)]=(dc[dec(d)]||0)+1});
+ $("chips").innerHTML=`<button type="button" data-g="" aria-pressed="${!st.genres.size}">All</button>`+[...GO].filter(k=>cnt[k]).map(k=>`<button type="button" data-g="${k}" aria-pressed="${st.genres.has(k)}">${icon(k)}${GN[k]} <span class="n">${cnt[k]}</span></button>`).join("");
+ const ds=Object.keys(dc).filter(k=>k!=="?").sort();if(dc["?"])ds.push("?");
+ $("dchips").innerHTML=`<button type="button" data-d="" aria-pressed="${!st.decades.size}">All</button>`+ds.map(k=>`<button type="button" data-d="${k}" aria-pressed="${st.decades.has(k)}">${DL(k)} <span class="n">${dc[k]}</span></button>`).join("");
+ // active filters as removable pills (phone), count badge and the panel's "Show N" button
+ const pl=[...st.genres].map(g=>`<button class="pill" data-pg="${g}">${GN[g]}<i>&times;</i></button>`).concat([...st.decades].sort().map(k=>`<button class="pill" data-pd="${k}">${DL(k)}<i>&times;</i></button>`));
+ if(st.sourced)pl.push(`<button class="pill" data-ps="1">Sourced only<i>&times;</i></button>`);
+ if(st.view==="all")pl.unshift(`<button class="pill" data-pv="1">All ${D.length}<i>&times;</i></button>`);
+ if(pl.length>1)pl.push(`<button class="pill clr" data-pc="1">Clear all</button>`);
+ $("pills").innerHTML=pl.join("");
+ const nAct=st.genres.size+st.decades.size+(st.sourced?1:0)+(st.view==="all"?1:0);$("fCount").textContent=nAct||"";
+ const shown=D.filter(pass).length;$("fDone").textContent=`Show ${shown} ${shown===1?"person":"people"}`}
+function setView(v){st.view=v;refresh()}
 function resize(){const w=$("wrap").clientWidth;if(!w)return;S=w;M=w<520?24:30;P=S-2*M;$("sv").setAttribute("viewBox",`0 0 ${S} ${S}`);const r=$("cpr");r.setAttribute("x",M);r.setAttribute("y",M);r.setAttribute("width",P);r.setAttribute("height",P);draw()}
 
 let raf=0;function req(){if(!raf)raf=requestAnimationFrame(()=>{raf=0;draw()})}
@@ -355,7 +406,7 @@ $("mm").addEventListener("pointerdown",e=>{const r=e.currentTarget.getBoundingCl
 function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
  const s=src.length?`<span class="st y">&#10003; Sourced · checked ${new Date(d.checked+"T00:00:00").toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"})}</span>`:`<span class="st">Not yet sourced · placed from general knowledge, pending a check</span>`;
  const issue=`${REPO}/issues/new?template=placement.yml&title=${encodeURIComponent("Placement: "+d.name)}`;
- $("sh").style.transform="";$("sh").innerHTML=`<div class="grab" id="grab"></div><div class="sh-h"><div><h3 id="shName">${esc(d.name)}</h3><div class="meta">${esc(d.band==="solo"?"Solo":d.band)} · ${GN[d.genre]}</div></div><button class="x" aria-label="Close" id="shX">&times;</button></div>
+ $("sh").style.transform="";$("sh").innerHTML=`<div class="grab" id="grab"></div><div class="sh-h"><div><h3 id="shName">${esc(d.name)}</h3><div class="meta">${esc(d.band==="solo"?"Solo":d.band)} · ${GN[d.genre]}${d.start?` · career began ${d.start}`:""}</div></div><button class="x" aria-label="Close" id="shX">&times;</button></div>
  <div class="why">${d.starter?`In the starting 50: ${d.why}.`:"Shown under All."} ${d.views>=1e6?(d.views/1e6).toFixed(1)+"M":Math.round(d.views/1e3)+"k"} Wikipedia views in the past year.</div><div class="pos">Economic ${fmt(d.econ)} · Authority ${fmt(d.auth)} · ${CL[d.confidence]} confidence (&plusmn;${HR[d.confidence]})</div>${s}
  <p>${esc(d.basis)}</p>${d.shift?`<p><i>Earlier position (${esc(d.shift.label)}):</i> economic ${fmt(d.shift.econ)}, authority ${fmt(d.shift.auth)}.</p>`:""}
  <h4>Sources</h4>${src.length?`<ol>${src.map(x=>`<li>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`:esc(x.title)}</li>`).join("")}</ol>`:`<p style="color:var(--mut)">None yet.</p>`}
@@ -365,20 +416,20 @@ function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
  $("shL").onclick=e=>{const u=location.href.split("#")[0]+"#"+slug(d.name);try{navigator.clipboard.writeText(u).then(()=>e.target.textContent="Copied",()=>e.target.textContent=u)}catch(_){e.target.textContent=u}};
  req()}
 function closeSheet(){if(st.sel==null&&$("sheet").hidden)return;st.sel=null;$("sheet").hidden=true;req()}
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSheet()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeSheet();closeF()}});
 (()=>{const sh=$("sh");let y0=null,dy=0;
  sh.addEventListener("pointerdown",e=>{if(!e.target.closest(".grab,.sh-h")||e.target.closest("button"))return;y0=e.clientY;dy=0;sh.classList.add("drag");sh.setPointerCapture(e.pointerId)});
  sh.addEventListener("pointermove",e=>{if(y0==null)return;dy=Math.max(0,e.clientY-y0);sh.style.transform=`translateY(${dy}px)`});
  const up=()=>{if(y0==null)return;y0=null;sh.classList.remove("drag");if(dy>70)closeSheet();else sh.style.transform=""};
  sh.addEventListener("pointerup",up);sh.addEventListener("pointercancel",up)})();
-function focusOn(i){setMode("chart");const d=D[i];if(!pass(d)){st.genre=null;st.sourced=false;$("oV").checked=false;if(!d.starter)st.view="all";syncView()}openSheet(i);animateTo(Math.max(st.k,4),d.x,d.y,380);$("wrap").scrollIntoView({block:"nearest",behavior:"smooth"})}
+function focusOn(i){setMode("chart");const d=D[i];if(!pass(d)){st.genres.clear();st.decades.clear();st.sourced=false;$("oV").checked=false;if(!d.starter)st.view="all";syncView()}openSheet(i);animateTo(Math.max(st.k,4),d.x,d.y,380);$("wrap").scrollIntoView({block:"nearest",behavior:"smooth"})}
 
 // ---------- list ----------
 function drawList(){
  let a=D.map((d,i)=>i).filter(i=>pass(D[i])&&(!st.q||hit(D[i])));
- const c={name:(x,y)=>D[x].name.localeCompare(D[y].name),econ:(x,y)=>D[x].econ-D[y].econ,auth:(x,y)=>D[x].auth-D[y].auth,src:(x,y)=>(D[y].sources.length>0)-(D[x].sources.length>0)||D[x].name.localeCompare(D[y].name)}[st.sort];
+ const c={name:(x,y)=>D[x].name.localeCompare(D[y].name),econ:(x,y)=>D[x].econ-D[y].econ,auth:(x,y)=>D[x].auth-D[y].auth,src:(x,y)=>(D[y].sources.length>0)-(D[x].sources.length>0)||D[x].name.localeCompare(D[y].name),start:(x,y)=>(D[x].start||9999)-(D[y].start||9999)}[st.sort];
  a.sort(c);$("lc").textContent=`${a.length} ${a.length===1?"person":"people"}`;
- $("list").innerHTML=a.length?a.map(i=>{const d=D[i];return `<button class="row" data-i="${i}">${icon(d.genre,d.confidence)}<span class="t"><b>${esc(d.name)}</b><small>${esc(d.band==="solo"?GN[d.genre]:d.band+" · "+GN[d.genre])}</small></span><span class="p">${fmt(d.econ)}, ${fmt(d.auth)}<br>${d.sources.length?'<span class="ok">&#10003; sourced</span>':"unsourced"}</span></button>`}).join(""):`<div class="empty">Nobody matches.</div>`}
+ $("list").innerHTML=a.length?a.map(i=>{const d=D[i];return `<button class="row" data-i="${i}">${icon(d.genre,d.confidence)}<span class="t"><b>${esc(d.name)}</b><small>${esc(d.band==="solo"?GN[d.genre]:d.band+" · "+GN[d.genre])}${d.start?" · "+d.start:""}</small></span><span class="p">${fmt(d.econ)}, ${fmt(d.auth)}<br>${d.sources.length?'<span class="ok">&#10003; sourced</span>':"unsourced"}</span></button>`}).join(""):`<div class="empty">Nobody matches.</div>`}
 $("list").addEventListener("click",e=>{const r=e.target.closest(".row");if(r)openSheet(+r.dataset.i)});
 $("sort").onchange=e=>{st.sort=e.target.value;drawList()};
 
@@ -386,9 +437,16 @@ $("sort").onchange=e=>{st.sort=e.target.value;drawList()};
 function setMode(m){st.mode=m;$("tabC").setAttribute("aria-selected",m==="chart");$("tabL").setAttribute("aria-selected",m==="list");$("vChart").hidden=m!=="chart";$("vList").hidden=m!=="list";if(m==="list"){drawList();document.querySelector(".tabs").scrollIntoView({block:"start"})}else resize()}
 $("vS").onclick=()=>setView("start");$("vA").onclick=()=>setView("all");
 $("tabC").onclick=()=>setMode("chart");$("tabL").onclick=()=>setMode("list");
-function syncChips(){document.querySelectorAll("#chips button").forEach(b=>b.setAttribute("aria-pressed",(b.dataset.g||null)===st.genre))}
-$("chips").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const g=b.dataset.g||null;st.genre=st.genre===g?null:g;syncChips();refresh()});
-function refresh(){if(st.sel!=null&&!pass(D[st.sel]))closeSheet();req();if(st.mode==="list")drawList()}
+function toggle(set,k){if(k==null)set.clear();else set.has(k)?set.delete(k):set.add(k)}
+$("chips").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;toggle(st.genres,b.dataset.g||null);refresh()});
+$("dchips").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;toggle(st.decades,b.dataset.d||null);refresh()});
+$("pills").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const t=b.dataset;
+ if(t.pg)st.genres.delete(t.pg);if(t.pd)st.decades.delete(t.pd);if(t.ps){st.sourced=false;$("oV").checked=false}if(t.pv)st.view="start";
+ if(t.pc){st.genres.clear();st.decades.clear();st.sourced=false;$("oV").checked=false;st.view="start"}refresh()});
+const openF=()=>{$("filters").classList.add("open");$("scrim").hidden=false},closeF=()=>{$("filters").classList.remove("open");$("scrim").hidden=true};
+$("fOpen").onclick=openF;$("fClose").onclick=closeF;$("fDone").onclick=closeF;$("scrim").onclick=closeF;
+$("fReset").onclick=()=>{st.genres.clear();st.decades.clear();st.sourced=false;$("oV").checked=false;st.view="start";refresh()};
+function refresh(){syncView();if(st.sel!=null&&!pass(D[st.sel]))closeSheet();req();if(st.mode==="list")drawList()}
 $("q").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();refresh()});
 $("q").addEventListener("keydown",e=>{if(e.key!=="Enter")return;const i=D.findIndex(d=>pass(d)&&hit(d));if(i>=0){e.target.blur();focusOn(i)}});
 $("oC").onchange=e=>{st.cluster=e.target.checked;req()};

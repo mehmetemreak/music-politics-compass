@@ -10,7 +10,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Tom Morello",
-  "views": 1143851
+  "views": 1143851,
+  "start": 1979
  },
  {
   "name": "Zack de la Rocha",
@@ -23,7 +24,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Zack de la Rocha",
-  "views": 800783
+  "views": 800783,
+  "start": 1987
  },
  {
   "name": "Joe Strummer",
@@ -36,7 +38,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Joe Strummer",
-  "views": 566983
+  "views": 566983,
+  "start": 1970
  },
  {
   "name": "Billy Bragg",
@@ -49,7 +52,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Billy Bragg",
-  "views": 240704
+  "views": 240704,
+  "start": 1977
  },
  {
   "name": "Roger Waters",
@@ -75,7 +79,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Roger Waters",
-  "views": 1047439
+  "views": 1047439,
+  "start": 1960
  },
  {
   "name": "David Gilmour",
@@ -88,7 +93,8 @@
   "sources": [],
   "checked": null,
   "wiki": "David Gilmour",
-  "views": 978853
+  "views": 978853,
+  "start": 1963
  },
  {
   "name": "John Lennon",
@@ -101,7 +107,8 @@
   "sources": [],
   "checked": null,
   "wiki": "John Lennon",
-  "views": 3625374
+  "views": 3625374,
+  "start": 1956
  },
  {
   "name": "Paul McCartney",
@@ -114,7 +121,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Paul McCartney",
-  "views": 4634979
+  "views": 4634979,
+  "start": 1957
  },
  {
   "name": "George Harrison",
@@ -127,7 +135,8 @@
   "sources": [],
   "checked": null,
   "wiki": "George Harrison",
-  "views": 2995413
+  "views": 2995413,
+  "start": 1958
  },
  {
   "name": "Ringo Starr",
@@ -140,7 +149,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Ringo Starr",
-  "views": 2547998
+  "views": 2547998,
+  "start": 1957
  },
  {
   "name": "Bruce Springsteen",
@@ -153,7 +163,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Bruce Springsteen",
-  "views": 3333247
+  "views": 3333247,
+  "start": 1964
  },
  {
   "name": "Neil Young",
@@ -166,7 +177,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Neil Young",
-  "views": 2000437
+  "views": 2000437,
+  "start": 1963
  },
  {
   "name": "Eddie Vedder",
@@ -179,7 +191,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Eddie Vedder",
-  "views": 1374205
+  "views": 1374205,
+  "start": 1988
  },
  {
   "name": "Kurt Cobain",
@@ -192,7 +205,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Kurt Cobain",
-  "views": 2561139
+  "views": 2561139,
+  "start": 1985
  },
  {
   "name": "Krist Novoselic",
@@ -219,7 +233,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Krist Novoselic",
-  "views": 597193
+  "views": 597193,
+  "start": 1987
  },
  {
   "name": "Dave Grohl",
@@ -232,7 +247,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Dave Grohl",
-  "views": 1699229
+  "views": 1699229,
+  "start": 1982
  },
  {
   "name": "Thom Yorke",
@@ -245,7 +261,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Thom Yorke",
-  "views": 863196
+  "views": 863196,
+  "start": 1985
  },
  {
   "name": "Billie Joe Armstrong",
@@ -258,7 +275,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Billie Joe Armstrong",
-  "views": 1255148
+  "views": 1255148,
+  "start": 1977
  },
  {
   "name": "Flea",
@@ -271,7 +289,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Flea (musician)",
-  "views": 1471067
+  "views": 1471067,
+  "start": 1982
  },
  {
   "name": "John Fogerty",
@@ -284,7 +303,8 @@
   "sources": [],
   "checked": null,
   "wiki": "John Fogerty",
-  "views": 1089405
+  "views": 1089405,
+  "start": 1959
  },
  {
   "name": "Don Henley",
@@ -297,7 +317,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Don Henley",
-  "views": 1308044
+  "views": 1308044,
+  "start": 1970
  },
  {
   "name": "Axl Rose",
@@ -310,7 +331,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Axl Rose",
-  "views": 1213170
+  "views": 1213170,
+  "start": 1983
  },
  {
   "name": "Bono",
@@ -323,7 +345,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Bono",
-  "views": 1122529
+  "views": 1122529,
+  "start": 1976
  },
  {
   "name": "Brian May",
@@ -336,7 +359,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Brian May",
-  "views": 1328639
+  "views": 1328639,
+  "start": 1963
  },
  {
   "name": "Pete Townshend",
@@ -349,7 +373,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Pete Townshend",
-  "views": 761337
+  "views": 761337,
+  "start": 1960
  },
  {
   "name": "Roger Daltrey",
@@ -362,7 +387,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Roger Daltrey",
-  "views": 557403
+  "views": 557403,
+  "start": 1959
  },
  {
   "name": "Bob Dylan",
@@ -375,7 +401,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Bob Dylan",
-  "views": 3699808
+  "views": 3699808,
+  "start": 1957
  },
  {
   "name": "Mick Jagger",
@@ -388,7 +415,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Mick Jagger",
-  "views": 2413482
+  "views": 2413482,
+  "start": 1960
  },
  {
   "name": "David Bowie",
@@ -401,7 +429,8 @@
   "sources": [],
   "checked": null,
   "wiki": "David Bowie",
-  "views": 4080064
+  "views": 4080064,
+  "start": 1962
  },
  {
   "name": "Patti Smith",
@@ -414,7 +443,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Patti Smith",
-  "views": 1465273
+  "views": 1465273,
+  "start": 1967
  },
  {
   "name": "Jello Biafra",
@@ -427,7 +457,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Jello Biafra",
-  "views": 334969
+  "views": 334969,
+  "start": 1976
  },
  {
   "name": "Henry Rollins",
@@ -440,7 +471,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Henry Rollins",
-  "views": 908622
+  "views": 908622,
+  "start": 1980
  },
  {
   "name": "Ian MacKaye",
@@ -453,7 +485,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Ian MacKaye",
-  "views": 272649
+  "views": 272649,
+  "start": 1979
  },
  {
   "name": "Kathleen Hanna",
@@ -466,7 +499,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Kathleen Hanna",
-  "views": 364334
+  "views": 364334,
+  "start": 1989
  },
  {
   "name": "Serj Tankian",
@@ -479,7 +513,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Serj Tankian",
-  "views": 780865
+  "views": 780865,
+  "start": 1992
  },
  {
   "name": "John Dolmayan",
@@ -492,7 +527,8 @@
   "sources": [],
   "checked": null,
   "wiki": "John Dolmayan",
-  "views": 287078
+  "views": 287078,
+  "start": 1994
  },
  {
   "name": "Michael Stipe",
@@ -505,7 +541,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Michael Stipe",
-  "views": 691105
+  "views": 691105,
+  "start": 1980
  },
  {
   "name": "Chris Martin",
@@ -518,7 +555,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Chris Martin",
-  "views": 1935835
+  "views": 1935835,
+  "start": 1997
  },
  {
   "name": "Damon Albarn",
@@ -531,7 +569,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Damon Albarn",
-  "views": 1532470
+  "views": 1532470,
+  "start": 1988
  },
  {
   "name": "Noel Gallagher",
@@ -544,7 +583,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Noel Gallagher",
-  "views": 886469
+  "views": 886469,
+  "start": 1991
  },
  {
   "name": "Paul Weller",
@@ -562,7 +602,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Paul Weller",
-  "views": 474569
+  "views": 474569,
+  "start": 1972
  },
  {
   "name": "Morrissey",
@@ -589,7 +630,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Morrissey",
-  "views": 1268377
+  "views": 1268377,
+  "start": 1977
  },
  {
   "name": "Johnny Marr",
@@ -602,7 +644,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Johnny Marr",
-  "views": 684105
+  "views": 684105,
+  "start": 1982
  },
  {
   "name": "John Lydon",
@@ -633,7 +676,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "John Lydon",
-  "views": 836855
+  "views": 836855,
+  "start": 1975
  },
  {
   "name": "Eric Clapton",
@@ -646,7 +690,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Eric Clapton",
-  "views": 2193241
+  "views": 2193241,
+  "start": 1962
  },
  {
   "name": "Van Morrison",
@@ -659,7 +704,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Van Morrison",
-  "views": 930454
+  "views": 930454,
+  "start": 1958
  },
  {
   "name": "Ted Nugent",
@@ -672,7 +718,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Ted Nugent",
-  "views": 625679
+  "views": 625679,
+  "start": 1963
  },
  {
   "name": "Kid Rock",
@@ -685,7 +732,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Kid Rock",
-  "views": 2062574
+  "views": 2062574,
+  "start": 1988
  },
  {
   "name": "Dave Mustaine",
@@ -712,7 +760,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Dave Mustaine",
-  "views": 800900
+  "views": 800900,
+  "start": 1978
  },
  {
   "name": "Johnny Ramone",
@@ -725,7 +774,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Johnny Ramone",
-  "views": 360768
+  "views": 360768,
+  "start": 1965
  },
  {
   "name": "Joey Ramone",
@@ -738,7 +788,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Joey Ramone",
-  "views": 520389
+  "views": 520389,
+  "start": 1972
  },
  {
   "name": "Gene Simmons",
@@ -751,7 +802,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Gene Simmons",
-  "views": 1539067
+  "views": 1539067,
+  "start": 1970
  },
  {
   "name": "Frank Zappa",
@@ -764,7 +816,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Frank Zappa",
-  "views": 1350001
+  "views": 1350001,
+  "start": 1955
  },
  {
   "name": "Dee Snider",
@@ -777,7 +830,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Dee Snider",
-  "views": 444823
+  "views": 444823,
+  "start": 1976
  },
  {
   "name": "Neil Peart",
@@ -808,7 +862,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Neil Peart",
-  "views": 820905
+  "views": 820905,
+  "start": 1968
  },
  {
   "name": "Lemmy",
@@ -821,7 +876,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Lemmy",
-  "views": 730972
+  "views": 730972,
+  "start": 1960
  },
  {
   "name": "Bruce Dickinson",
@@ -834,7 +890,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Bruce Dickinson",
-  "views": 593159
+  "views": 593159,
+  "start": 1976
  },
  {
   "name": "James Hetfield",
@@ -847,7 +904,8 @@
   "sources": [],
   "checked": null,
   "wiki": "James Hetfield",
-  "views": 1155921
+  "views": 1155921,
+  "start": 1978
  },
  {
   "name": "Ian Curtis",
@@ -864,7 +922,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Ian Curtis",
-  "views": 841132
+  "views": 841132,
+  "start": 1976
  },
  {
   "name": "Sting",
@@ -877,7 +936,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Sting (musician)",
-  "views": 1716954
+  "views": 1716954,
+  "start": 1969
  },
  {
   "name": "Elvis Costello",
@@ -890,7 +950,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Elvis Costello",
-  "views": 729994
+  "views": 729994,
+  "start": 1970
  },
  {
   "name": "Elvis Presley",
@@ -903,7 +964,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Elvis Presley",
-  "views": 5303706
+  "views": 5303706,
+  "start": 1953
  },
  {
   "name": "Johnny Cash",
@@ -916,7 +978,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Johnny Cash",
-  "views": 2370466
+  "views": 2370466,
+  "start": 1954
  },
  {
   "name": "Mike Love",
@@ -929,7 +992,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Mike Love",
-  "views": 617440
+  "views": 617440,
+  "start": 1961
  },
  {
   "name": "Joe Perry",
@@ -942,7 +1006,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Joe Perry (musician)",
-  "views": 389948
+  "views": 389948,
+  "start": 1965
  },
  {
   "name": "Moe Tucker",
@@ -964,7 +1029,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Moe Tucker",
-  "views": 132135
+  "views": 132135,
+  "start": null
  },
  {
   "name": "Lou Reed",
@@ -977,7 +1043,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Lou Reed",
-  "views": 1031416
+  "views": 1031416,
+  "start": 1958
  },
  {
   "name": "Jon Bon Jovi",
@@ -990,7 +1057,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Jon Bon Jovi",
-  "views": 2286015
+  "views": 2286015,
+  "start": 1974
  },
  {
   "name": "Tom Petty",
@@ -1003,7 +1071,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Tom Petty",
-  "views": 1440909
+  "views": 1440909,
+  "start": 1967
  },
  {
   "name": "Nick Cave",
@@ -1016,7 +1085,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Nick Cave",
-  "views": 1178638
+  "views": 1178638,
+  "start": 1973
  },
  {
   "name": "Robert Smith",
@@ -1029,7 +1099,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Robert Smith (musician)",
-  "views": 1230457
+  "views": 1230457,
+  "start": 1972
  },
  {
   "name": "Bryan Ferry",
@@ -1042,7 +1113,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Bryan Ferry",
-  "views": 628279
+  "views": 628279,
+  "start": 1967
  },
  {
   "name": "Brian Eno",
@@ -1055,7 +1127,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Brian Eno",
-  "views": 836622
+  "views": 836622,
+  "start": 1969
  },
  {
   "name": "Peter Gabriel",
@@ -1068,7 +1141,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Peter Gabriel",
-  "views": 1125909
+  "views": 1125909,
+  "start": 1965
  },
  {
   "name": "Sinéad O'Connor",
@@ -1081,7 +1155,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Sinéad O'Connor",
-  "views": 1982369
+  "views": 1982369,
+  "start": 1984
  },
  {
   "name": "Bob Geldof",
@@ -1094,7 +1169,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Bob Geldof",
-  "views": 788821
+  "views": 788821,
+  "start": 1975
  },
  {
   "name": "Elton John",
@@ -1107,7 +1183,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Elton John",
-  "views": 2626218
+  "views": 2626218,
+  "start": 1962
  },
  {
   "name": "David Crosby",
@@ -1120,7 +1197,8 @@
   "sources": [],
   "checked": null,
   "wiki": "David Crosby",
-  "views": 728956
+  "views": 728956,
+  "start": 1963
  },
  {
   "name": "Stevie Nicks",
@@ -1133,7 +1211,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Stevie Nicks",
-  "views": 2758599
+  "views": 2758599,
+  "start": 1967
  },
  {
   "name": "Mike Shinoda",
@@ -1146,7 +1225,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Mike Shinoda",
-  "views": 797978
+  "views": 797978,
+  "start": 1994
  },
  {
   "name": "Corey Taylor",
@@ -1159,7 +1239,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Corey Taylor",
-  "views": 834075
+  "views": 834075,
+  "start": 1992
  },
  {
   "name": "Aaron Lewis",
@@ -1172,7 +1253,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Aaron Lewis",
-  "views": 389465
+  "views": 389465,
+  "start": 1990
  },
  {
   "name": "Charlie Daniels",
@@ -1185,7 +1267,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Charlie Daniels",
-  "views": 271730
+  "views": 271730,
+  "start": 1953
  },
  {
   "name": "Peter Garrett",
@@ -1198,7 +1281,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Peter Garrett",
-  "views": 148591
+  "views": 148591,
+  "start": null
  },
  {
   "name": "Nadya Tolokonnikova",
@@ -1211,7 +1295,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Nadya Tolokonnikova",
-  "views": 126274
+  "views": 126274,
+  "start": 2008
  },
  {
   "name": "Greg Graffin",
@@ -1224,7 +1309,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Greg Graffin",
-  "views": 112784
+  "views": 112784,
+  "start": 1980
  },
  {
   "name": "Fat Mike",
@@ -1237,7 +1323,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Fat Mike",
-  "views": 175507
+  "views": 175507,
+  "start": 1983
  },
  {
   "name": "Tim McIlrath",
@@ -1250,7 +1337,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Tim McIlrath",
-  "views": 83681
+  "views": 83681,
+  "start": 1995
  },
  {
   "name": "Jerry Dammers",
@@ -1263,7 +1351,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Jerry Dammers",
-  "views": 87556
+  "views": 87556,
+  "start": 1977
  },
  {
   "name": "John Mellencamp",
@@ -1276,7 +1365,8 @@
   "sources": [],
   "checked": null,
   "wiki": "John Mellencamp",
-  "views": 1188590
+  "views": 1188590,
+  "start": 1974
  },
  {
   "name": "Jackson Browne",
@@ -1289,7 +1379,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Jackson Browne",
-  "views": 948027
+  "views": 948027,
+  "start": 1964
  },
  {
   "name": "Steven Van Zandt",
@@ -1302,7 +1393,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Steven Van Zandt",
-  "views": 1100843
+  "views": 1100843,
+  "start": 1968
  },
  {
   "name": "Matt Bellamy",
@@ -1324,7 +1416,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Matt Bellamy",
-  "views": 788705
+  "views": 788705,
+  "start": 1991
  },
  {
   "name": "Joe Talbot",
@@ -1337,7 +1430,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Joe Talbot (singer)",
-  "views": 122361
+  "views": 122361,
+  "start": 2009
  },
  {
   "name": "Jarvis Cocker",
@@ -1350,7 +1444,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Jarvis Cocker",
-  "views": 372603
+  "views": 372603,
+  "start": 1978
  },
  {
   "name": "Brandon Flowers",
@@ -1363,7 +1458,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Brandon Flowers",
-  "views": 737200
+  "views": 737200,
+  "start": 2001
  },
  {
   "name": "Hayley Williams",
@@ -1376,7 +1472,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Hayley Williams",
-  "views": 2086734
+  "views": 2086734,
+  "start": 2003
  },
  {
   "name": "Rod Stewart",
@@ -1398,7 +1495,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Rod Stewart",
-  "views": 2275989
+  "views": 2275989,
+  "start": 1961
  },
  {
   "name": "Billy Corgan",
@@ -1416,7 +1514,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Billy Corgan",
-  "views": 1086847
+  "views": 1086847,
+  "start": 1985
  },
  {
   "name": "Nicky Wire",
@@ -1429,7 +1528,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Nicky Wire",
-  "views": 52701
+  "views": 52701,
+  "start": 1986
  },
  {
   "name": "Kanye West",
@@ -1442,7 +1542,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Kanye West",
-  "views": 3793317
+  "views": 3793317,
+  "start": 1993
  },
  {
   "name": "Kendrick Lamar",
@@ -1455,7 +1556,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Kendrick Lamar",
-  "views": 1891685
+  "views": 1891685,
+  "start": 2003
  },
  {
   "name": "Killer Mike",
@@ -1468,7 +1570,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Killer Mike",
-  "views": 250049
+  "views": 250049,
+  "start": 1995
  },
  {
   "name": "Chuck D",
@@ -1481,7 +1584,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Chuck D",
-  "views": 209651
+  "views": 209651,
+  "start": 1984
  },
  {
   "name": "Ice Cube",
@@ -1494,7 +1598,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Ice Cube",
-  "views": 1495283
+  "views": 1495283,
+  "start": 1986
  },
  {
   "name": "Jay-Z",
@@ -1507,7 +1612,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Jay-Z",
-  "views": 2062671
+  "views": 2062671,
+  "start": 1986
  },
  {
   "name": "Eminem",
@@ -1520,7 +1626,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Eminem",
-  "views": 3361560
+  "views": 3361560,
+  "start": 1988
  },
  {
   "name": "Tupac Shakur",
@@ -1533,7 +1640,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Tupac Shakur",
-  "views": 4132087
+  "views": 4132087,
+  "start": 1989
  },
  {
   "name": "Snoop Dogg",
@@ -1546,7 +1654,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Snoop Dogg",
-  "views": 2462956
+  "views": 2462956,
+  "start": 1991
  },
  {
   "name": "Boots Riley",
@@ -1559,7 +1668,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Boots Riley",
-  "views": 490232
+  "views": 490232,
+  "start": 1991
  },
  {
   "name": "Cardi B",
@@ -1572,7 +1682,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Cardi B",
-  "views": 2878894
+  "views": 2878894,
+  "start": 2015
  },
  {
   "name": "Nicki Minaj",
@@ -1599,7 +1710,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Nicki Minaj",
-  "views": 3981801
+  "views": 3981801,
+  "start": 2002
  },
  {
   "name": "Taylor Swift",
@@ -1612,7 +1724,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Taylor Swift",
-  "views": 6774412
+  "views": 6774412,
+  "start": 2003
  },
  {
   "name": "Beyoncé",
@@ -1625,7 +1738,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Beyoncé",
-  "views": 2625411
+  "views": 2625411,
+  "start": 1990
  },
  {
   "name": "Lady Gaga",
@@ -1638,7 +1752,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Lady Gaga",
-  "views": 4274261
+  "views": 4274261,
+  "start": 2000
  },
  {
   "name": "Madonna",
@@ -1651,7 +1766,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Madonna",
-  "views": 5259403
+  "views": 5259403,
+  "start": 1979
  },
  {
   "name": "Billie Eilish",
@@ -1664,7 +1780,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Billie Eilish",
-  "views": 3508329
+  "views": 3508329,
+  "start": 2015
  },
  {
   "name": "Olivia Rodrigo",
@@ -1677,7 +1794,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Olivia Rodrigo",
-  "views": 4389382
+  "views": 4389382,
+  "start": 2015
  },
  {
   "name": "Ariana Grande",
@@ -1690,7 +1808,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Ariana Grande",
-  "views": 6602678
+  "views": 6602678,
+  "start": 2008
  },
  {
   "name": "Cher",
@@ -1703,7 +1822,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Cher",
-  "views": 3667636
+  "views": 3667636,
+  "start": 1963
  },
  {
   "name": "Barbra Streisand",
@@ -1716,7 +1836,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Barbra Streisand",
-  "views": 2655053
+  "views": 2655053,
+  "start": 1960
  },
  {
   "name": "Chappell Roan",
@@ -1738,7 +1859,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Chappell Roan",
-  "views": 2678275
+  "views": 2678275,
+  "start": 2014
  },
  {
   "name": "Frank Sinatra",
@@ -1756,7 +1878,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Frank Sinatra",
-  "views": 3039593
+  "views": 3039593,
+  "start": 1935
  },
  {
   "name": "Willie Nelson",
@@ -1769,7 +1892,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Willie Nelson",
-  "views": 2173264
+  "views": 2173264,
+  "start": 1956
  },
  {
   "name": "Toby Keith",
@@ -1782,7 +1906,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Toby Keith",
-  "views": 1062966
+  "views": 1062966,
+  "start": 1993
  },
  {
   "name": "Natalie Maines",
@@ -1795,7 +1920,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Natalie Maines",
-  "views": 462104
+  "views": 462104,
+  "start": 1995
  },
  {
   "name": "Jason Aldean",
@@ -1808,7 +1934,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Jason Aldean",
-  "views": 468798
+  "views": 468798,
+  "start": 1998
  },
  {
   "name": "Merle Haggard",
@@ -1821,7 +1948,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Merle Haggard",
-  "views": 524609
+  "views": 524609,
+  "start": 1961
  },
  {
   "name": "Garth Brooks",
@@ -1834,7 +1962,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Garth Brooks",
-  "views": 791159
+  "views": 791159,
+  "start": null
  },
  {
   "name": "Lee Greenwood",
@@ -1847,7 +1976,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Lee Greenwood",
-  "views": 329916
+  "views": 329916,
+  "start": 1962
  },
  {
   "name": "Steve Earle",
@@ -1860,7 +1990,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Steve Earle",
-  "views": 400314
+  "views": 400314,
+  "start": 1968
  },
  {
   "name": "Oliver Anthony",
@@ -1873,7 +2004,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Oliver Anthony",
-  "views": 140800
+  "views": 140800,
+  "start": 2021
  },
  {
   "name": "Hank Williams Jr.",
@@ -1886,7 +2018,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Hank Williams Jr.",
-  "views": 618438
+  "views": 618438,
+  "start": 1957
  },
  {
   "name": "Dolly Parton",
@@ -1899,7 +2032,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Dolly Parton",
-  "views": 16878612
+  "views": 16878612,
+  "start": 1956
  },
  {
   "name": "Woody Guthrie",
@@ -1912,7 +2046,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Woody Guthrie",
-  "views": 980091
+  "views": 980091,
+  "start": 1930
  },
  {
   "name": "Pete Seeger",
@@ -1930,7 +2065,8 @@
    "label": "Seeger, 1940s"
   },
   "wiki": "Pete Seeger",
-  "views": 701383
+  "views": 701383,
+  "start": 1939
  },
  {
   "name": "Joan Baez",
@@ -1943,7 +2079,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Joan Baez",
-  "views": 1171279
+  "views": 1171279,
+  "start": 1958
  },
  {
   "name": "Nina Simone",
@@ -1956,7 +2093,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Nina Simone",
-  "views": 769110
+  "views": 769110,
+  "start": 1954
  },
  {
   "name": "Bob Marley",
@@ -1969,7 +2107,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Bob Marley",
-  "views": 2222196
+  "views": 2222196,
+  "start": 1962
  },
  {
   "name": "Fela Kuti",
@@ -1982,7 +2121,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Fela Kuti",
-  "views": 488535
+  "views": 488535,
+  "start": 1958
  },
  {
   "name": "Víctor Jara",
@@ -1995,7 +2135,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Víctor Jara",
-  "views": 116555
+  "views": 116555,
+  "start": 1946
  },
  {
   "name": "Marvin Gaye",
@@ -2008,7 +2149,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Marvin Gaye",
-  "views": 1738334
+  "views": 1738334,
+  "start": 1957
  },
  {
   "name": "James Brown",
@@ -2021,7 +2163,8 @@
   "sources": [],
   "checked": null,
   "wiki": "James Brown",
-  "views": 1215538
+  "views": 1215538,
+  "start": 1953
  },
  {
   "name": "Stevie Wonder",
@@ -2034,7 +2177,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Stevie Wonder",
-  "views": 2036045
+  "views": 2036045,
+  "start": 1961
  },
  {
   "name": "Aretha Franklin",
@@ -2047,7 +2191,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Aretha Franklin",
-  "views": 2033782
+  "views": 2033782,
+  "start": 1954
  },
  {
   "name": "Gil Scott-Heron",
@@ -2060,7 +2205,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Gil Scott-Heron",
-  "views": 350349
+  "views": 350349,
+  "start": 1969
  },
  {
   "name": "Robert Del Naja",
@@ -2073,7 +2219,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Robert Del Naja",
-  "views": 309108
+  "views": 309108,
+  "start": 1984
  },
  {
   "name": "Moby",
@@ -2086,7 +2233,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Moby",
-  "views": 647948
+  "views": 647948,
+  "start": 1983
  },
  {
   "name": "M.I.A.",
@@ -2099,7 +2247,8 @@
   "sources": [],
   "checked": null,
   "wiki": "M.I.A. (rapper)",
-  "views": 1006907
+  "views": 1006907,
+  "start": 2000
  },
  {
   "name": "Björk",
@@ -2112,7 +2261,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Björk",
-  "views": 1635776
+  "views": 1635776,
+  "start": 1977
  },
  {
   "name": "Paul Robeson",
@@ -2134,7 +2284,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Paul Robeson",
-  "views": 455690
+  "views": 455690,
+  "start": null
  },
  {
   "name": "Dean Reed",
@@ -2156,7 +2307,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Dean Reed",
-  "views": 33297
+  "views": 33297,
+  "start": 1958
  },
  {
   "name": "Ewan MacColl",
@@ -2178,7 +2330,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Ewan MacColl",
-  "views": 175693
+  "views": 175693,
+  "start": 1930
  },
  {
   "name": "Silvio Rodríguez",
@@ -2200,7 +2353,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Silvio Rodríguez",
-  "views": 39805
+  "views": 39805,
+  "start": 1967
  },
  {
   "name": "Mikis Theodorakis",
@@ -2227,7 +2381,8 @@
   ],
   "checked": "2026-11-11",
   "wiki": "Mikis Theodorakis",
-  "views": 59458
+  "views": 59458,
+  "start": 1943
  },
  {
   "name": "Carlos Puebla",
@@ -2240,7 +2395,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Carlos Puebla",
-  "views": 8955
+  "views": 8955,
+  "start": null
  },
  {
   "name": "Harry Belafonte",
@@ -2253,7 +2409,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Harry Belafonte",
-  "views": 701403
+  "views": 701403,
+  "start": 1948
  },
  {
   "name": "Ian Stuart Donaldson",
@@ -2266,7 +2423,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Ian Stuart Donaldson",
-  "views": 110588
+  "views": 110588,
+  "start": 1975
  },
  {
   "name": "Manu Chao",
@@ -2279,7 +2437,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Manu Chao",
-  "views": 216840
+  "views": 216840,
+  "start": 1984
  },
  {
   "name": "Bad Bunny",
@@ -2292,7 +2451,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Bad Bunny",
-  "views": 7593119
+  "views": 7593119,
+  "start": 2013
  },
  {
   "name": "George Michael",
@@ -2305,7 +2465,8 @@
   "sources": [],
   "checked": null,
   "wiki": "George Michael",
-  "views": 3377568
+  "views": 3377568,
+  "start": 1981
  },
  {
   "name": "Annie Lennox",
@@ -2318,7 +2479,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Annie Lennox",
-  "views": 984996
+  "views": 984996,
+  "start": 1976
  },
  {
   "name": "Lily Allen",
@@ -2331,7 +2493,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Lily Allen",
-  "views": 2643931
+  "views": 2643931,
+  "start": 1988
  },
  {
   "name": "Andrew Lloyd Webber",
@@ -2344,7 +2507,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Andrew Lloyd Webber",
-  "views": 1001963
+  "views": 1001963,
+  "start": 1965
  },
  {
   "name": "Phil Collins",
@@ -2357,7 +2521,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Phil Collins",
-  "views": 3448992
+  "views": 3448992,
+  "start": null
  },
  {
   "name": "Pat Boone",
@@ -2370,7 +2535,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Pat Boone",
-  "views": 529530
+  "views": 529530,
+  "start": 1953
  },
  {
   "name": "Stormzy",
@@ -2383,7 +2549,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Stormzy",
-  "views": 346610
+  "views": 346610,
+  "start": 2010
  },
  {
   "name": "Akala",
@@ -2396,7 +2563,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Akala (rapper)",
-  "views": 57057
+  "views": 57057,
+  "start": 2003
  },
  {
   "name": "Mo Chara",
@@ -2409,7 +2577,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Mo Chara",
-  "views": 212668
+  "views": 212668,
+  "start": 2017
  },
  {
   "name": "Lupe Fiasco",
@@ -2422,7 +2591,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Lupe Fiasco",
-  "views": 306251
+  "views": 306251,
+  "start": 2000
  },
  {
   "name": "Macklemore",
@@ -2435,7 +2605,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Macklemore",
-  "views": 1515794
+  "views": 1515794,
+  "start": 2000
  },
  {
   "name": "Yasiin Bey",
@@ -2448,7 +2619,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Yasiin Bey",
-  "views": 531962
+  "views": 531962,
+  "start": 1987
  },
  {
   "name": "50 Cent",
@@ -2461,7 +2633,8 @@
   "sources": [],
   "checked": null,
   "wiki": "50 Cent",
-  "views": 2510776
+  "views": 2510776,
+  "start": 1996
  },
  {
   "name": "Lil Wayne",
@@ -2474,7 +2647,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Lil Wayne",
-  "views": 1372008
+  "views": 1372008,
+  "start": 1991
  },
  {
   "name": "Residente",
@@ -2487,7 +2661,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Residente",
-  "views": 89631
+  "views": 89631,
+  "start": 2004
  },
  {
   "name": "Kris Kristofferson",
@@ -2500,7 +2675,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Kris Kristofferson",
-  "views": 1740077
+  "views": 1740077,
+  "start": 1959
  },
  {
   "name": "John Rich",
@@ -2513,7 +2689,8 @@
   "sources": [],
   "checked": null,
   "wiki": "John Rich",
-  "views": 166119
+  "views": 166119,
+  "start": 1992
  },
  {
   "name": "Travis Tritt",
@@ -2526,7 +2703,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Travis Tritt",
-  "views": 226059
+  "views": 226059,
+  "start": 1987
  },
  {
   "name": "Jason Isbell",
@@ -2539,7 +2717,8 @@
   "sources": [],
   "checked": null,
   "wiki": "Jason Isbell",
-  "views": 359650
+  "views": 359650,
+  "start": 1995
  },
  {
   "name": "Zach Bryan",
@@ -2552,6 +2731,7 @@
   "sources": [],
   "checked": null,
   "wiki": "Zach Bryan",
-  "views": 1210255
+  "views": 1210255,
+  "start": 2017
  }
 ]

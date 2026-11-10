@@ -1,0 +1,1795 @@
+[
+ {
+  "name": "Tom Morello",
+  "band": "Rage Against the Machine",
+  "genre": "R",
+  "econ": -8.5,
+  "auth": -5,
+  "confidence": 3,
+  "basis": "Self-described socialist; co-founded Axis of Justice; a regular at union benefits.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Zack de la Rocha",
+  "band": "Rage Against the Machine",
+  "genre": "R",
+  "econ": -8.5,
+  "auth": -6.5,
+  "confidence": 3,
+  "basis": "Zapatista solidarity work; anti-capitalist activism throughout his career.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Joe Strummer",
+  "band": "The Clash",
+  "genre": "P",
+  "econ": -7,
+  "auth": -5,
+  "confidence": 3,
+  "basis": "Called himself a socialist; headlined Rock Against Racism in 1978.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Billy Bragg",
+  "band": "solo",
+  "genre": "F",
+  "econ": -7,
+  "auth": -4,
+  "confidence": 3,
+  "basis": "Red Wedge, miners' strike benefits, lifelong Labour-left campaigner.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Roger Waters",
+  "band": "Pink Floyd",
+  "genre": "R",
+  "econ": -8,
+  "auth": -0.5,
+  "confidence": 2,
+  "basis": "Socialist and BDS campaigner. His 2023 UN Security Council speech at Russia's invitation makes the vertical axis contested.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "David Gilmour",
+  "band": "Pink Floyd",
+  "genre": "R",
+  "econ": -4,
+  "auth": -4,
+  "confidence": 2,
+  "basis": "Gave the proceeds of a London house sale to the homeless charity Crisis (2003); pro-Ukraine single in 2022.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "John Lennon",
+  "band": "The Beatles",
+  "genre": "R",
+  "econ": -6,
+  "auth": -6.5,
+  "confidence": 2,
+  "basis": "New Left period in 1971-72 (\"Power to the People\"), though \"Revolution\" (1968) rejected Maoist militancy.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Paul McCartney",
+  "band": "The Beatles",
+  "genre": "R",
+  "econ": -2,
+  "auth": -3,
+  "confidence": 2,
+  "basis": "Animal-rights and vegetarian campaigning; \"Give Ireland Back to the Irish\" (1972); otherwise a mild liberal.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "George Harrison",
+  "band": "The Beatles",
+  "genre": "R",
+  "econ": 1,
+  "auth": -4,
+  "confidence": 2,
+  "basis": "\"Taxman\" against the 95% supertax; Concert for Bangladesh; spiritual more than political.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Ringo Starr",
+  "band": "The Beatles",
+  "genre": "R",
+  "econ": 1.5,
+  "auth": 0.5,
+  "confidence": 1,
+  "basis": "Said in 2017 that he would have voted for Brexit. Little else on record.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Bruce Springsteen",
+  "band": "solo",
+  "genre": "R",
+  "econ": -5,
+  "auth": -3,
+  "confidence": 3,
+  "basis": "Campaigned for Kerry, Obama, Biden and Harris; labour-centred songwriting.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Neil Young",
+  "band": "solo",
+  "genre": "R",
+  "econ": -5,
+  "auth": -4,
+  "confidence": 2,
+  "basis": "Farm Aid co-founder, \"Let's Impeach the President\", backed Sanders. But praised Reagan in 1984.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Eddie Vedder",
+  "band": "Pearl Jam",
+  "genre": "R",
+  "econ": -5.5,
+  "auth": -5,
+  "confidence": 3,
+  "basis": "Backed Nader in 2000, Vote for Change in 2004, pro-choice activism.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Kurt Cobain",
+  "band": "Nirvana",
+  "genre": "R",
+  "econ": -4,
+  "auth": -6,
+  "confidence": 2,
+  "basis": "Liner notes told bigots not to buy the records; played Rock for Choice. Thin economic record.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Krist Novoselic",
+  "band": "Nirvana",
+  "genre": "R",
+  "econ": 2,
+  "auth": -4,
+  "confidence": 3,
+  "basis": "Former county Democratic chair who led FairVote, backed Libertarian Gary Johnson in 2016 and is now building a centrist party.",
+  "shift": {
+   "econ": -3,
+   "auth": -5,
+   "label": "Novoselic, 2000s"
+  },
+  "sources": [
+   {
+    "title": "Rolling Stone: Novoselic on ranked-choice voting and Gary Johnson (2016)",
+    "url": "https://www.rollingstone.com/music/music-news/watch-krist-novoselic-rail-against-broken-congress-114876/"
+   },
+   {
+    "title": "Inlander: Novoselic forms the Cascade Party",
+    "url": "https://inlander.com/news/nirvana-co-founder-krist-novoselic-is-forming-a-moderate-political-party-in-washington-state-28264157"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Dave Grohl",
+  "band": "Foo Fighters",
+  "genre": "R",
+  "econ": -3,
+  "auth": -4,
+  "confidence": 2,
+  "basis": "Played for Kerry, Obama and Biden; objected to McCain using \"My Hero\".",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Thom Yorke",
+  "band": "Radiohead",
+  "genre": "R",
+  "econ": -5,
+  "auth": -4,
+  "confidence": 2,
+  "basis": "Climate campaigning with Friends of the Earth; anti-Brexit; refused the cultural boycott of Israel in 2017.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Billie Joe Armstrong",
+  "band": "Green Day",
+  "genre": "P",
+  "econ": -5,
+  "auth": -5,
+  "confidence": 3,
+  "basis": "American Idiot; persistent anti-Trump statements from the stage.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Flea",
+  "band": "Red Hot Chili Peppers",
+  "genre": "R",
+  "econ": -3.5,
+  "auth": -4,
+  "confidence": 2,
+  "basis": "The band played Bernie Sanders fundraisers in 2016.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "John Fogerty",
+  "band": "Creedence Clearwater Revival",
+  "genre": "R",
+  "econ": -3.5,
+  "auth": -4,
+  "confidence": 2,
+  "basis": "\"Fortunate Son\" as a class critique of the draft; cease-and-desist to the Trump campaign in 2020.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Don Henley",
+  "band": "Eagles",
+  "genre": "R",
+  "econ": -3,
+  "auth": -1.5,
+  "confidence": 2,
+  "basis": "Democratic donor and Walden Woods conservationist; hard-line copyright lobbyist.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Axl Rose",
+  "band": "Guns N' Roses",
+  "genre": "M",
+  "econ": -2,
+  "auth": -3.5,
+  "confidence": 2,
+  "basis": "Loud Trump critic since 2018; the earlier record is apolitical provocation.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Bono",
+  "band": "U2",
+  "genre": "R",
+  "econ": 0.5,
+  "auth": -1,
+  "confidence": 2,
+  "basis": "Debt-relief and AIDS campaigning with both parties; praises commerce as an anti-poverty tool; the band's 2006 tax move to the Netherlands.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Brian May",
+  "band": "Queen",
+  "genre": "R",
+  "econ": -2,
+  "auth": -3,
+  "confidence": 2,
+  "basis": "Animal-welfare campaigner (badger cull) and fierce critic of Conservative governments.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Pete Townshend",
+  "band": "The Who",
+  "genre": "R",
+  "econ": -3,
+  "auth": -2,
+  "confidence": 2,
+  "basis": "Labour-leaning and pro-Remain.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Roger Daltrey",
+  "band": "The Who",
+  "genre": "R",
+  "econ": 2,
+  "auth": 1.5,
+  "confidence": 3,
+  "basis": "Former Labour voter turned vocal Brexit supporter and critic of mass immigration.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Bob Dylan",
+  "band": "solo",
+  "genre": "F",
+  "econ": -2,
+  "auth": -5,
+  "confidence": 1,
+  "basis": "Civil-rights era protest, then decades of refusing the spokesman role.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Mick Jagger",
+  "band": "The Rolling Stones",
+  "genre": "R",
+  "econ": 1,
+  "auth": -3,
+  "confidence": 1,
+  "basis": "LSE student who accepted a knighthood; ambivalent even in \"Street Fighting Man\".",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "David Bowie",
+  "band": "solo",
+  "genre": "R",
+  "econ": 0,
+  "auth": -3,
+  "confidence": 1,
+  "basis": "Disowned his 1976 remarks on fascism; declined a CBE and a knighthood; \"Scotland, stay with us\" (2014).",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Patti Smith",
+  "band": "solo",
+  "genre": "P",
+  "econ": -6,
+  "auth": -6,
+  "confidence": 3,
+  "basis": "Campaigned for Nader in 2000; opposed the Iraq war; \"People Have the Power\".",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Jello Biafra",
+  "band": "Dead Kennedys",
+  "genre": "P",
+  "econ": -8,
+  "auth": -8,
+  "confidence": 3,
+  "basis": "Ran for mayor of San Francisco (1979) and sought the Green presidential nomination (2000).",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Henry Rollins",
+  "band": "Black Flag",
+  "genre": "P",
+  "econ": -5,
+  "auth": -6,
+  "confidence": 2,
+  "basis": "LGBT-rights advocacy; anti-war, but toured with the USO.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Ian MacKaye",
+  "band": "Fugazi",
+  "genre": "P",
+  "econ": -6,
+  "auth": -8,
+  "confidence": 3,
+  "basis": "DIY economics as practice: cheap all-ages shows, benefit gigs, no major labels.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Kathleen Hanna",
+  "band": "Bikini Kill",
+  "genre": "P",
+  "econ": -7,
+  "auth": -7,
+  "confidence": 3,
+  "basis": "Riot grrrl feminism; abortion-rights benefits.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Serj Tankian",
+  "band": "System of a Down",
+  "genre": "M",
+  "econ": -7,
+  "auth": -6,
+  "confidence": 3,
+  "basis": "Axis of Justice co-founder; Sanders supporter.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "John Dolmayan",
+  "band": "System of a Down",
+  "genre": "M",
+  "econ": 5,
+  "auth": 0,
+  "confidence": 3,
+  "basis": "Outspoken Trump supporter; his own band's public opposite number.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Michael Stipe",
+  "band": "R.E.M.",
+  "genre": "R",
+  "econ": -5,
+  "auth": -5,
+  "confidence": 3,
+  "basis": "Vote for Change in 2004; Sanders in 2016; environmental and LGBT causes.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Chris Martin",
+  "band": "Coldplay",
+  "genre": "R",
+  "econ": -3,
+  "auth": -3,
+  "confidence": 2,
+  "basis": "Make Trade Fair and Global Citizen campaigns.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Damon Albarn",
+  "band": "Blur",
+  "genre": "R",
+  "econ": -5,
+  "auth": -4,
+  "confidence": 2,
+  "basis": "Campaigned against the Iraq war; anti-Brexit.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Noel Gallagher",
+  "band": "Oasis",
+  "genre": "R",
+  "econ": 0.5,
+  "auth": -1,
+  "confidence": 2,
+  "basis": "New Labour's Downing Street guest in 1997; later scathing about Corbyn; said the Brexit vote had to be respected.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Paul Weller",
+  "band": "The Jam",
+  "genre": "P",
+  "econ": -6,
+  "auth": -4,
+  "confidence": 3,
+  "basis": "Red Wedge co-founder who played a Corbyn benefit in 2016. In 1977 he said he would vote Conservative.",
+  "shift": {
+   "econ": 2,
+   "auth": 0,
+   "label": "Weller, 1977"
+  },
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Morrissey",
+  "band": "The Smiths",
+  "genre": "R",
+  "econ": 1,
+  "auth": 5,
+  "confidence": 3,
+  "basis": "Backed the anti-Islam party For Britain (2018-19) and praised Farage. Still animal-rights and anti-monarchy, which keeps him off the economic right.",
+  "shift": {
+   "econ": -5,
+   "auth": -3.2,
+   "label": "Smiths era"
+  },
+  "sources": [
+   {
+    "title": "NME: For Britain leader thanks Morrissey (2019)",
+    "url": "https://www.nme.com/?p=2490645"
+   },
+   {
+    "title": "RTÉ: Morrissey says Farage would make a good prime minister (2019)",
+    "url": "https://www.rte.ie/entertainment/2019/0625/1057484-morrissey-farage-would-make-a-good-prime-minister"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Johnny Marr",
+  "band": "The Smiths",
+  "genre": "R",
+  "econ": -5,
+  "auth": -4,
+  "confidence": 3,
+  "basis": "Publicly \"forbade\" David Cameron from liking The Smiths; Labour left.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "John Lydon",
+  "band": "Sex Pistols",
+  "genre": "P",
+  "econ": 2,
+  "auth": 0.5,
+  "confidence": 3,
+  "basis": "Defended Brexit and Farage (2017) and voted for Trump (2020), while still talking up a borderless world.",
+  "shift": {
+   "econ": -3,
+   "auth": -7,
+   "label": "Pistols, 1977"
+  },
+  "sources": [
+   {
+    "title": "Wtop / AP: Punk legend Johnny Rotten supports Trump, Brexit vote (2017)",
+    "url": "https://wtop.com/news/2017/03/punk-legend-johnny-rotten-supports-trump-brexit-vote"
+   },
+   {
+    "title": "Dazed: Johnny Rotten defends Donald Trump, Brexit and Nigel Farage (2017)",
+    "url": "https://www.dazeddigital.com/music/article/35291/1/johnny-rotten-defends-donald-trump-brexit-and-nigel-farage"
+   },
+   {
+    "title": "Loudwire: Johnny Rotten reveals support for Brexit, defends Trump (2017)",
+    "url": "https://loudwire.com/sex-pistols-pil-johnny-rotten-support-brexit-defends-donald-trump/"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Eric Clapton",
+  "band": "solo",
+  "genre": "R",
+  "econ": 3,
+  "auth": 1,
+  "confidence": 2,
+  "basis": "1976 on-stage rant in support of Enoch Powell (later apologised); anti-lockdown songs in 2020-21; Countryside Alliance backer.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Van Morrison",
+  "band": "solo",
+  "genre": "R",
+  "econ": 2,
+  "auth": -5,
+  "confidence": 2,
+  "basis": "Anti-lockdown protest songs in 2020; a long-running anti-establishment grievance.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Ted Nugent",
+  "band": "solo",
+  "genre": "M",
+  "econ": 8,
+  "auth": 3,
+  "confidence": 3,
+  "basis": "Longtime NRA board member and Trump surrogate; hard line on drugs and immigration.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Kid Rock",
+  "band": "solo",
+  "genre": "R",
+  "econ": 7,
+  "auth": 2,
+  "confidence": 3,
+  "basis": "Trump rallies and the 2024 Republican convention stage; has described himself as moderate on some social issues.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Dave Mustaine",
+  "band": "Megadeth",
+  "genre": "M",
+  "econ": 5,
+  "auth": 4,
+  "confidence": 3,
+  "basis": "Wanted a Republican in 2012 and praised Santorum; opposes gay marriage. In 1992 he covered the Democratic convention for MTV.",
+  "shift": {
+   "econ": -1,
+   "auth": -2,
+   "label": "Mustaine, 1992"
+  },
+  "sources": [
+   {
+    "title": "Blabbermouth: Mustaine statement on Santorum (2012)",
+    "url": "https://blabbermouth.net/news/megadeth-s-dave-mustaine-not-ready-to-endorse-rick-santorum"
+   },
+   {
+    "title": "Loudwire: Mustaine on Santorum and gay marriage (2012)",
+    "url": "https://loudwire.com/dave-mustaine-denies-endorsing-presidential-candidate-rick-santorum-opposes-gay-marriage/"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Johnny Ramone",
+  "band": "Ramones",
+  "genre": "P",
+  "econ": 7,
+  "auth": 4,
+  "confidence": 3,
+  "basis": "\"God bless President Bush\" at the 2002 Rock Hall induction; Reagan admirer.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Joey Ramone",
+  "band": "Ramones",
+  "genre": "P",
+  "econ": -5,
+  "auth": -5.6,
+  "confidence": 3,
+  "basis": "Liberal; co-wrote \"Bonzo Goes to Bitburg\" against Reagan's 1985 cemetery visit.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Gene Simmons",
+  "band": "Kiss",
+  "genre": "M",
+  "econ": 5,
+  "auth": 1.5,
+  "confidence": 2,
+  "basis": "Backed Bush and the Iraq war; pro-business; later critical of Trump.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Frank Zappa",
+  "band": "solo",
+  "genre": "R",
+  "econ": 3,
+  "auth": -7,
+  "confidence": 3,
+  "basis": "Self-described \"practical conservative\"; testified against record labelling at the 1985 Senate hearing.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Dee Snider",
+  "band": "Twisted Sister",
+  "genre": "M",
+  "econ": 0,
+  "auth": -6.6,
+  "confidence": 3,
+  "basis": "Testified alongside Zappa in 1985; pro-choice, anti-censorship, calls himself a moderate.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Neil Peart",
+  "band": "Rush",
+  "genre": "R",
+  "econ": -1,
+  "auth": -5,
+  "confidence": 3,
+  "basis": "2112 credited \"the genius of Ayn Rand\". By 2012 he was a \"bleeding-heart libertarian\" who voted Democrat.",
+  "shift": {
+   "econ": 6,
+   "auth": -6,
+   "label": "Rush, 1976"
+  },
+  "sources": [
+   {
+    "title": "Rush Vault: Rolling Stone interview transcript (2012)",
+    "url": "https://rushvault.com/2012/06/14/neil-peart-recent-rush-attention-feels-like-a-vindication/"
+   },
+   {
+    "title": "Mediaite: Neil Peart calls himself a 'bleeding heart libertarian' (2012)",
+    "url": "https://www.mediaite.com/online/rush-drummer-neil-peart-denounces-ayn-rand-im-a-bleeding-heart-libertarian"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Lemmy",
+  "band": "Motörhead",
+  "genre": "M",
+  "econ": 0,
+  "auth": -8,
+  "confidence": 2,
+  "basis": "Called himself an anarchist; contempt for politicians and religion alike.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Bruce Dickinson",
+  "band": "Iron Maiden",
+  "genre": "M",
+  "econ": 3,
+  "auth": 0.6,
+  "confidence": 2,
+  "basis": "Voted Leave and defended Brexit.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "James Hetfield",
+  "band": "Metallica",
+  "genre": "M",
+  "econ": 3,
+  "auth": -3,
+  "confidence": 1,
+  "basis": "Hunter and NRA member who says he hates politics.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Ian Curtis",
+  "band": "Joy Division",
+  "genre": "P",
+  "econ": 3.6,
+  "auth": -0.2,
+  "confidence": 1,
+  "basis": "Voted Conservative in 1979, according to Deborah Curtis's memoir. A single data point.",
+  "sources": [
+   {
+    "title": "Deborah Curtis, Touching from a Distance (Faber, 1995)"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Sting",
+  "band": "The Police",
+  "genre": "R",
+  "econ": -4,
+  "auth": -2.4,
+  "confidence": 2,
+  "basis": "Amnesty International tours; Rainforest Foundation.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Elvis Costello",
+  "band": "solo",
+  "genre": "P",
+  "econ": -5.6,
+  "auth": -3.4,
+  "confidence": 2,
+  "basis": "\"Tramp the Dirt Down\"; Rock Against Racism.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Elvis Presley",
+  "band": "solo",
+  "genre": "R",
+  "econ": 4,
+  "auth": 5,
+  "confidence": 2,
+  "basis": "Asked Nixon for a federal narcotics badge in 1970 and denounced the drug culture.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Johnny Cash",
+  "band": "solo",
+  "genre": "C",
+  "econ": -2,
+  "auth": -2.2,
+  "confidence": 2,
+  "basis": "Senate testimony for prison reform (1972); Bitter Tears for Native American rights; friends in both parties.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Mike Love",
+  "band": "The Beach Boys",
+  "genre": "R",
+  "econ": 5,
+  "auth": 2.4,
+  "confidence": 2,
+  "basis": "Played Trump inaugural and fundraising events; Brian Wilson and Al Jardine publicly disavowed the 2020 one.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Joe Perry",
+  "band": "Aerosmith",
+  "genre": "M",
+  "econ": 4,
+  "auth": 0,
+  "confidence": 2,
+  "basis": "Self-described lifelong Republican; backed McCain in 2008.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Moe Tucker",
+  "band": "The Velvet Underground",
+  "genre": "R",
+  "econ": 6,
+  "auth": -1,
+  "confidence": 3,
+  "basis": "Appeared at a 2009 Tea Party rally, \"furious\" at being \"led towards socialism\".",
+  "sources": [
+   {
+    "title": "NME: Moe Tucker breaks her silence on Tea Party link (2010)",
+    "url": "https://www.nme.com/?p=1292358"
+   },
+   {
+    "title": "John Avlon / Daily Beast: Moe Tucker interview (2010)",
+    "url": "https://johnavlon.com/columns/moe-tucker-interview-velvet-underground-drummer-embraces-tea-party/"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Lou Reed",
+  "band": "The Velvet Underground",
+  "genre": "R",
+  "econ": -3,
+  "auth": -6,
+  "confidence": 2,
+  "basis": "New York (1989) as social critique; Sun City boycott; friend of Vaclav Havel.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Jon Bon Jovi",
+  "band": "Bon Jovi",
+  "genre": "R",
+  "econ": -3,
+  "auth": -0.8,
+  "confidence": 3,
+  "basis": "Democratic fundraiser; runs the pay-what-you-can JBJ Soul Kitchen.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Tom Petty",
+  "band": "solo",
+  "genre": "R",
+  "econ": -2.4,
+  "auth": -4.6,
+  "confidence": 2,
+  "basis": "Stopped the Bush campaign using \"I Won't Back Down\" (2000); later regretted using the Confederate flag.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Nick Cave",
+  "band": "The Bad Seeds",
+  "genre": "R",
+  "econ": 1,
+  "auth": -2.3,
+  "confidence": 2,
+  "basis": "Calls himself temperamentally conservative; criticises cancel culture; attended the 2023 coronation; opposes the cultural boycott of Israel.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Robert Smith",
+  "band": "The Cure",
+  "genre": "P",
+  "econ": -4.2,
+  "auth": -4.8,
+  "confidence": 2,
+  "basis": "Against the monarchy and the honours system; fought Ticketmaster fees in 2023.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Bryan Ferry",
+  "band": "Roxy Music",
+  "genre": "R",
+  "econ": 4,
+  "auth": 1.2,
+  "confidence": 2,
+  "basis": "Self-described conservative; Countryside Alliance supporter.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Brian Eno",
+  "band": "Roxy Music",
+  "genre": "E",
+  "econ": -7,
+  "auth": -3.2,
+  "confidence": 3,
+  "basis": "Stop the War, Corbyn backer, DiEM25, BDS.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Peter Gabriel",
+  "band": "Genesis",
+  "genre": "R",
+  "econ": -5.8,
+  "auth": -4.5,
+  "confidence": 3,
+  "basis": "\"Biko\"; Amnesty tours; founded the human-rights group Witness.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Sinéad O'Connor",
+  "band": "solo",
+  "genre": "R",
+  "econ": -6,
+  "auth": -5.2,
+  "confidence": 3,
+  "basis": "Tore up the Pope's photograph on live television in 1992 in protest at the Catholic Church.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Bob Geldof",
+  "band": "The Boomtown Rats",
+  "genre": "P",
+  "econ": -0.6,
+  "auth": -2.4,
+  "confidence": 3,
+  "basis": "Live Aid and Live 8; led the anti-Brexit flotilla against Farage on the Thames in 2016.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Elton John",
+  "band": "solo",
+  "genre": "O",
+  "econ": -1.4,
+  "auth": -3.8,
+  "confidence": 2,
+  "basis": "Elton John AIDS Foundation; decades of LGBT-rights advocacy; critic of Brexit.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "David Crosby",
+  "band": "Crosby, Stills, Nash & Young",
+  "genre": "R",
+  "econ": -6.5,
+  "auth": -5.6,
+  "confidence": 3,
+  "basis": "Anti-war and anti-nuclear activism from \"Ohio\" onwards; lifelong left-wing critic of both parties.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Stevie Nicks",
+  "band": "Fleetwood Mac",
+  "genre": "R",
+  "econ": -2.6,
+  "auth": -3.6,
+  "confidence": 2,
+  "basis": "Outspoken on abortion rights since 2022; endorsed Harris in 2024.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Mike Shinoda",
+  "band": "Linkin Park",
+  "genre": "M",
+  "econ": -4.4,
+  "auth": -3.3,
+  "confidence": 2,
+  "basis": "Band sent the Trump campaign a cease-and-desist in 2020; voter-registration and disaster-relief work.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Corey Taylor",
+  "band": "Slipknot",
+  "genre": "M",
+  "econ": -2.8,
+  "auth": -5.4,
+  "confidence": 2,
+  "basis": "Vocal Trump critic who also attacks the left's speech policing; calls himself a centrist with liberal instincts.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Aaron Lewis",
+  "band": "Staind",
+  "genre": "M",
+  "econ": 6.2,
+  "auth": 3,
+  "confidence": 3,
+  "basis": "\"Am I the Only One\" (2021) and on-stage tirades against Democrats; Trump supporter.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Charlie Daniels",
+  "band": "Charlie Daniels Band",
+  "genre": "C",
+  "econ": 7.8,
+  "auth": 4.4,
+  "confidence": 3,
+  "basis": "Moved from 1970s Carter supporter to hawkish conservative columnist and NRA spokesman.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Peter Garrett",
+  "band": "Midnight Oil",
+  "genre": "R",
+  "econ": -5.4,
+  "auth": -1.8,
+  "confidence": 3,
+  "basis": "Went from protest singer to Australian Labor MP and cabinet minister (2007-13).",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Nadya Tolokonnikova",
+  "band": "Pussy Riot",
+  "genre": "P",
+  "econ": -4.8,
+  "auth": -8.4,
+  "confidence": 3,
+  "basis": "Jailed in 2012 for the anti-Putin \"Punk Prayer\"; prisoners'-rights and feminist activism since.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Greg Graffin",
+  "band": "Bad Religion",
+  "genre": "P",
+  "econ": -4.6,
+  "auth": -6.6,
+  "confidence": 3,
+  "basis": "Secular humanist; The Empire Strikes First (2004) against the Iraq war and the religious right.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Fat Mike",
+  "band": "NOFX",
+  "genre": "P",
+  "econ": -4.4,
+  "auth": -7.4,
+  "confidence": 3,
+  "basis": "Founded Punkvoter and the Rock Against Bush compilations in 2004.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Tim McIlrath",
+  "band": "Rise Against",
+  "genre": "P",
+  "econ": -5.5,
+  "auth": -7.1,
+  "confidence": 3,
+  "basis": "Animal-rights, anti-war and labour causes run through the band's work and benefit record.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Jerry Dammers",
+  "band": "The Specials",
+  "genre": "P",
+  "econ": -6.2,
+  "auth": -2.5,
+  "confidence": 3,
+  "basis": "2 Tone as anti-racist project; wrote \"Free Nelson Mandela\" and founded Artists Against Apartheid.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "John Mellencamp",
+  "band": "solo",
+  "genre": "R",
+  "econ": -4.6,
+  "auth": -1.4,
+  "confidence": 3,
+  "basis": "Farm Aid co-founder; heartland populist and Democratic campaigner.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Jackson Browne",
+  "band": "solo",
+  "genre": "R",
+  "econ": -6.7,
+  "auth": -4.8,
+  "confidence": 3,
+  "basis": "Co-founded the No Nukes concerts (1979); critic of US policy in Central America.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Steven Van Zandt",
+  "band": "E Street Band",
+  "genre": "R",
+  "econ": -5.6,
+  "auth": -3,
+  "confidence": 3,
+  "basis": "Organised \"Sun City\" and Artists United Against Apartheid in 1985.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Matt Bellamy",
+  "band": "Muse",
+  "genre": "R",
+  "econ": -3,
+  "auth": -6,
+  "confidence": 2,
+  "basis": "Self-described \"left-leaning libertarian\" in the Chomsky mould; socialist on land and energy. Earlier flirted with conspiracy theories.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Muse criticise Glenn Beck (2012)",
+    "url": "https://www.rollingstone.com/politics/politics-news/muse-criticize-glenn-beck-rightwing-conspiracy-theory-subculture-123379/"
+   },
+   {
+    "title": "Loudwire: Bellamy on a 'third way' politics",
+    "url": "https://wgrd.com/muse-matt-bellamy-warns-modern-civilization-end-replaced-new-form-politics/"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Joe Talbot",
+  "band": "Idles",
+  "genre": "P",
+  "econ": -7,
+  "auth": -5.6,
+  "confidence": 3,
+  "basis": "Pro-immigration \"Danny Nedelko\", NHS tributes, anti-Tory from the stage.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Jarvis Cocker",
+  "band": "Pulp",
+  "genre": "R",
+  "econ": -5,
+  "auth": -5.6,
+  "confidence": 2,
+  "basis": "\"Common People\" on class tourism; \"Running the World\"; anti-Brexit.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Brandon Flowers",
+  "band": "The Killers",
+  "genre": "R",
+  "econ": -1.5,
+  "auth": -1.5,
+  "confidence": 2,
+  "basis": "\"Land of the Free\" (2019) on gun violence and the border wall; otherwise guarded.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Hayley Williams",
+  "band": "Paramore",
+  "genre": "R",
+  "econ": -4,
+  "auth": -5.4,
+  "confidence": 3,
+  "basis": "Campaigns in Tennessee politics; told DeSantis voters they were dead to her (2023).",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Rod Stewart",
+  "band": "Faces",
+  "genre": "R",
+  "econ": 3,
+  "auth": 0.5,
+  "confidence": 2,
+  "basis": "Told Britain to \"give Farage a chance\" in 2025, a year after attacking Farage over Ukraine; critical of Trump's turn from Europe.",
+  "sources": [
+   {
+    "title": "LBC: Rod Stewart says Britain should give Farage a chance (2025)",
+    "url": "https://www.lbc.co.uk/news/entertainment/rod-stewart-britain-should-give-farage-a-chance/"
+   },
+   {
+    "title": "The Independent via AOL: Stewart on Farage, and his 2024 criticism (2025)",
+    "url": "https://www.aol.com/news/rod-stewart-tells-people-farage-200210265.html"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Billy Corgan",
+  "band": "The Smashing Pumpkins",
+  "genre": "R",
+  "econ": 4,
+  "auth": -5,
+  "confidence": 2,
+  "basis": "Calls himself a \"free-market libertarian capitalist\"; says he has not voted since 1992; several Infowars appearances.",
+  "sources": [
+   {
+    "title": "Stereogum on the New York Times interview (2018)",
+    "url": "https://stereogum.com/1988191/billy-corgan-talks-free-market-libertarian-politics-darcy-and-cat-magazines-in-new-interview/news"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Nicky Wire",
+  "band": "Manic Street Preachers",
+  "genre": "R",
+  "econ": -7,
+  "auth": -1.4,
+  "confidence": 2,
+  "basis": "Welsh socialist; the band played Havana in 2001 with Fidel Castro in the audience.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Kanye West",
+  "band": "solo",
+  "genre": "H",
+  "econ": 4.0,
+  "auth": 5.0,
+  "confidence": 3,
+  "basis": "Wore the MAGA hat in 2018 and ran for president in 2020; antisemitic statements from 2022 ended his major business deals.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Kendrick Lamar",
+  "band": "solo",
+  "genre": "H",
+  "econ": -4.0,
+  "auth": -4.0,
+  "confidence": 2,
+  "basis": "\"Alright\" became a Black Lives Matter anthem; critiques of policing and prisons; avoids endorsements.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Killer Mike",
+  "band": "Run the Jewels",
+  "genre": "H",
+  "econ": -5.0,
+  "auth": -7.0,
+  "confidence": 3,
+  "basis": "Bernie Sanders surrogate who also defends gun ownership and Black-owned banking.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Chuck D",
+  "band": "Public Enemy",
+  "genre": "H",
+  "econ": -7.0,
+  "auth": -4.0,
+  "confidence": 3,
+  "basis": "\"Fight the Power\"; decades of Black-nationalist-inflected left activism; Sanders supporter.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Ice Cube",
+  "band": "N.W.A",
+  "genre": "H",
+  "econ": 0.5,
+  "auth": -3.0,
+  "confidence": 2,
+  "basis": "Wrote a Contract with Black America in 2020 and discussed it with the Trump campaign; says he endorses nobody.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Jay-Z",
+  "band": "solo",
+  "genre": "H",
+  "econ": 1.0,
+  "auth": -3.2,
+  "confidence": 2,
+  "basis": "Campaigned for Obama and Clinton; criminal-justice reform through the REFORM Alliance; unapologetic billionaire capitalism.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Eminem",
+  "band": "solo",
+  "genre": "H",
+  "econ": -3.0,
+  "auth": -4.4,
+  "confidence": 3,
+  "basis": "\"Mosh\" against Bush (2004), anti-Trump freestyle (2017), introduced Obama at a Harris rally (2024).",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Tupac Shakur",
+  "band": "solo",
+  "genre": "H",
+  "econ": -6.0,
+  "auth": -5.0,
+  "confidence": 2,
+  "basis": "Raised by Black Panthers; lyrics on police, prisons and poverty; no party politics.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Snoop Dogg",
+  "band": "solo",
+  "genre": "H",
+  "econ": 0.0,
+  "auth": -5.0,
+  "confidence": 1,
+  "basis": "Years of anti-Trump statements, then played an inauguration-weekend crypto ball in 2025.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Boots Riley",
+  "band": "The Coup",
+  "genre": "H",
+  "econ": -9.0,
+  "auth": -5.0,
+  "confidence": 3,
+  "basis": "Self-described communist; an organiser before and during his music career.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Cardi B",
+  "band": "solo",
+  "genre": "H",
+  "econ": -5.0,
+  "auth": -3.6,
+  "confidence": 2,
+  "basis": "Interviewed Bernie Sanders in 2019; campaigned for Harris in 2024; talks about taxes and public services.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Nicki Minaj",
+  "band": "solo",
+  "genre": "H",
+  "econ": 3.0,
+  "auth": 3.0,
+  "confidence": 2,
+  "basis": "Criticised Trump's family-separation policy in 2018; in December 2025 praised Trump and Vance on stage at Turning Point USA.",
+  "shift": {
+   "econ": -2.0,
+   "auth": -3.0,
+   "label": "Minaj, 2018"
+  },
+  "sources": [
+   {
+    "title": "Boston Globe / AP: Minaj praises Trump at Turning Point (2025)",
+    "url": "https://www.bostonglobe.com/2025/12/22/nation/nicki-minaj-turning-point-trump/"
+   },
+   {
+    "title": "theGrio: Minaj at AmericaFest (2025)",
+    "url": "https://thegrio.com/2025/12/21/nicki-minaj-praises-trump-during-surprise-appearance-at-turning-point-usa-conference"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Taylor Swift",
+  "band": "solo",
+  "genre": "O",
+  "econ": -3.0,
+  "auth": -4.0,
+  "confidence": 3,
+  "basis": "Stayed silent until 2018, then endorsed Tennessee Democrats, Biden and Harris; LGBT-rights advocacy.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Beyoncé",
+  "band": "solo",
+  "genre": "O",
+  "econ": -3.4,
+  "auth": -3.6,
+  "confidence": 3,
+  "basis": "Black Panther imagery at the 2016 Super Bowl; campaigned for Clinton and Harris.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Lady Gaga",
+  "band": "solo",
+  "genre": "O",
+  "econ": -3.0,
+  "auth": -5.0,
+  "confidence": 3,
+  "basis": "Campaigned to repeal Don't Ask, Don't Tell; sang at Biden's inauguration.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Madonna",
+  "band": "solo",
+  "genre": "O",
+  "econ": -3.0,
+  "auth": -6.0,
+  "confidence": 3,
+  "basis": "AIDS activism since the 1980s; spoke at the 2017 Women's March.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Billie Eilish",
+  "band": "solo",
+  "genre": "O",
+  "econ": -4.0,
+  "auth": -5.0,
+  "confidence": 3,
+  "basis": "Performed at the 2020 Democratic convention; climate and abortion-rights advocacy.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Olivia Rodrigo",
+  "band": "solo",
+  "genre": "O",
+  "econ": -4.0,
+  "auth": -4.4,
+  "confidence": 2,
+  "basis": "Raised money for abortion funds on tour; White House vaccine campaign in 2021.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Ariana Grande",
+  "band": "solo",
+  "genre": "O",
+  "econ": -4.4,
+  "auth": -4.0,
+  "confidence": 2,
+  "basis": "March for Our Lives; publicly praised Bernie Sanders in 2019.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Cher",
+  "band": "solo",
+  "genre": "O",
+  "econ": -4.0,
+  "auth": -3.4,
+  "confidence": 3,
+  "basis": "Democratic campaigner since the Carter years; relentless Trump critic.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Barbra Streisand",
+  "band": "solo",
+  "genre": "O",
+  "econ": -4.2,
+  "auth": -3.0,
+  "confidence": 3,
+  "basis": "Major Democratic fundraiser for decades.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Chappell Roan",
+  "band": "solo",
+  "genre": "O",
+  "econ": -6.0,
+  "auth": -6.0,
+  "confidence": 2,
+  "basis": "Declined to endorse Harris in 2024, criticising both parties from the left, though she said she would vote for her.",
+  "sources": [
+   {
+    "title": "TIME: Roan declines to endorse, cites 'problems on both sides' (2024)",
+    "url": "https://time.com/7023308/chappell-roan-kamala-harris-endorse-trump-problems-both-sides-reactions"
+   },
+   {
+    "title": "NBC News: Roan says she will vote for Harris (2024)",
+    "url": "https://www.nbcnews.com/nbc-out/out-pop-culture/chappell-roan-voting-kamala-harris-online-backlash-rcna172697"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Frank Sinatra",
+  "band": "solo",
+  "genre": "O",
+  "econ": 4.0,
+  "auth": 2.0,
+  "confidence": 3,
+  "basis": "Campaigned for Kennedy in 1960, then for Reagan in 1980.",
+  "shift": {
+   "econ": -3.0,
+   "auth": -2.0,
+   "label": "Sinatra, 1960"
+  },
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Willie Nelson",
+  "band": "solo",
+  "genre": "C",
+  "econ": -4.0,
+  "auth": -7.0,
+  "confidence": 3,
+  "basis": "Farm Aid co-founder; marijuana legalisation; played for Beto O'Rourke in 2018.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Toby Keith",
+  "band": "solo",
+  "genre": "C",
+  "econ": 3.0,
+  "auth": 3.0,
+  "confidence": 2,
+  "basis": "\"Courtesy of the Red, White and Blue\"; called himself a conservative Democrat, later independent; played Trump's 2017 inauguration.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Natalie Maines",
+  "band": "The Chicks",
+  "genre": "C",
+  "econ": -4.0,
+  "auth": -4.8,
+  "confidence": 3,
+  "basis": "Told a London crowd in 2003 she was ashamed Bush was from Texas; the band was dropped by country radio.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Jason Aldean",
+  "band": "solo",
+  "genre": "C",
+  "econ": 6.0,
+  "auth": 4.0,
+  "confidence": 3,
+  "basis": "\"Try That in a Small Town\" (2023); Trump supporter.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Merle Haggard",
+  "band": "solo",
+  "genre": "C",
+  "econ": 0.0,
+  "auth": 1.0,
+  "confidence": 2,
+  "basis": "\"Okie from Muskogee\" (1969) became a conservative anthem; later wrote against the Iraq war and praised Obama.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Garth Brooks",
+  "band": "solo",
+  "genre": "C",
+  "econ": -1.0,
+  "auth": -2.0,
+  "confidence": 2,
+  "basis": "\"We Shall Be Free\" (1992); played Biden's inauguration and called it non-political.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Lee Greenwood",
+  "band": "solo",
+  "genre": "C",
+  "econ": 6.0,
+  "auth": 4.6,
+  "confidence": 3,
+  "basis": "\"God Bless the USA\"; a fixture at Trump rallies.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Steve Earle",
+  "band": "solo",
+  "genre": "C",
+  "econ": -8.0,
+  "auth": -5.0,
+  "confidence": 3,
+  "basis": "Self-described socialist; anti-death-penalty campaigner.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Oliver Anthony",
+  "band": "solo",
+  "genre": "C",
+  "econ": 2.0,
+  "auth": -4.0,
+  "confidence": 1,
+  "basis": "\"Rich Men North of Richmond\" (2023); says he sits in the middle and rejected Republican attempts to claim the song.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Hank Williams Jr.",
+  "band": "solo",
+  "genre": "C",
+  "econ": 7.0,
+  "auth": 4.0,
+  "confidence": 3,
+  "basis": "Dropped from Monday Night Football in 2011 after an Obama-Hitler comparison; Trump supporter.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Dolly Parton",
+  "band": "solo",
+  "genre": "C",
+  "econ": 0.0,
+  "auth": -2.0,
+  "confidence": 2,
+  "basis": "Refuses partisan labels on principle; funded Covid vaccine research and children's literacy; said \"of course Black lives matter\".",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Woody Guthrie",
+  "band": "solo",
+  "genre": "F",
+  "econ": -9.0,
+  "auth": -4.0,
+  "confidence": 3,
+  "basis": "\"This machine kills fascists\"; wrote for Communist Party papers; union songs.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Pete Seeger",
+  "band": "solo",
+  "genre": "F",
+  "econ": -9.0,
+  "auth": -2.4,
+  "confidence": 3,
+  "basis": "Communist Party member in the 1940s; convicted of contempt of Congress after defying HUAC (overturned 1962); later regretted not denouncing Stalin sooner.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Joan Baez",
+  "band": "solo",
+  "genre": "F",
+  "econ": -6.0,
+  "auth": -7.0,
+  "confidence": 3,
+  "basis": "Civil-rights marches, draft resistance, lifelong nonviolence; criticised Vietnam's communist government in 1979.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Nina Simone",
+  "band": "solo",
+  "genre": "F",
+  "econ": -7.0,
+  "auth": -4.0,
+  "confidence": 3,
+  "basis": "\"Mississippi Goddam\"; civil-rights movement mainstay who came to favour militancy.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Bob Marley",
+  "band": "The Wailers",
+  "genre": "F",
+  "econ": -5.0,
+  "auth": -5.4,
+  "confidence": 2,
+  "basis": "Pan-Africanism; joined rival party leaders' hands at the 1978 One Love Peace Concert.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Fela Kuti",
+  "band": "solo",
+  "genre": "F",
+  "econ": -6.0,
+  "auth": -7.6,
+  "confidence": 3,
+  "basis": "Founded his own party and was jailed and beaten under Nigeria's military governments.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Víctor Jara",
+  "band": "solo",
+  "genre": "F",
+  "econ": -9.0,
+  "auth": -3.0,
+  "confidence": 3,
+  "basis": "Communist and Allende campaigner; killed by the military days after Chile's 1973 coup.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Marvin Gaye",
+  "band": "solo",
+  "genre": "F",
+  "econ": -4.0,
+  "auth": -3.8,
+  "confidence": 2,
+  "basis": "What's Going On (1971) on war, poverty and the environment.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "James Brown",
+  "band": "solo",
+  "genre": "F",
+  "econ": 2.0,
+  "auth": 0.0,
+  "confidence": 2,
+  "basis": "\"Say It Loud\" (1968), then endorsed Nixon in 1972; preached Black capitalism and self-help.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Stevie Wonder",
+  "band": "solo",
+  "genre": "F",
+  "econ": -4.0,
+  "auth": -2.6,
+  "confidence": 3,
+  "basis": "Led the campaign for Martin Luther King Day; Democratic campaigner.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Aretha Franklin",
+  "band": "solo",
+  "genre": "F",
+  "econ": -5.0,
+  "auth": -4.0,
+  "confidence": 3,
+  "basis": "Funded civil-rights work; offered to post bail for Angela Davis in 1970.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Gil Scott-Heron",
+  "band": "solo",
+  "genre": "F",
+  "econ": -7.0,
+  "auth": -6.0,
+  "confidence": 3,
+  "basis": "\"The Revolution Will Not Be Televised\"; anti-apartheid \"Johannesburg\".",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Robert Del Naja",
+  "band": "Massive Attack",
+  "genre": "E",
+  "econ": -7.0,
+  "auth": -5.0,
+  "confidence": 3,
+  "basis": "Anti-war and Palestinian-solidarity campaigning; commissioned climate research into touring emissions.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Moby",
+  "band": "solo",
+  "genre": "E",
+  "econ": -5.0,
+  "auth": -5.0,
+  "confidence": 3,
+  "basis": "Animal-rights vegan activist; Democratic campaigner.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "M.I.A.",
+  "band": "solo",
+  "genre": "E",
+  "econ": -3.0,
+  "auth": -7.0,
+  "confidence": 2,
+  "basis": "Tamil advocacy and refugee politics; Assange supporter; vaccine scepticism in 2022.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Björk",
+  "band": "solo",
+  "genre": "E",
+  "econ": -5.0,
+  "auth": -6.0,
+  "confidence": 3,
+  "basis": "\"Declare Independence\" for Greenland, Kosovo and Tibet; Icelandic environmental campaigns.",
+  "sources": [],
+  "checked": null
+ }
+]

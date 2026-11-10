@@ -1,0 +1,31 @@
+name: Placement dispute
+description: Think someone is placed in the wrong spot? Show the evidence.
+title: "Placement: "
+labels: ["placement"]
+body:
+  - type: input
+    id: who
+    attributes:
+      label: Who
+      description: The musician's name as it appears on the chart.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: Which axis, and roughly where you think they belong.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      description: An interview, endorsement, donation record or similar. Disputes without a source are closed.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

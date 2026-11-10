@@ -37,6 +37,7 @@ h1{font:600 24px/1.2 Georgia,"Times New Roman",serif;margin:0 0 4px}
 .layout{display:block}
 .topbar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 10px}
 .topbar .tabs{margin:0}
+.topbar .tv{margin:0 auto 0 0}.topbar .tv .seg button{padding:6px 12px;min-height:34px;white-space:nowrap}
 .fbtn{font:600 14px system-ui,sans-serif;padding:7px 14px;border:1px solid var(--grid2);border-radius:8px;background:var(--panel);color:var(--ink);cursor:pointer;display:flex;align-items:center;gap:6px}
 .fbtn span{background:var(--ink);color:var(--panel);border-radius:999px;font-size:12px;min-width:20px;padding:0 6px;text-align:center}
 .fbtn span:empty{display:none}
@@ -173,7 +174,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 </aside>
 <div id="scrim" hidden></div>
 <div class="mainc">
-<div class="topbar"><div class="tabs" role="tablist"><button role="tab" id="tabC" aria-selected="true">Chart</button><button role="tab" id="tabL" aria-selected="false">List</button></div><button type="button" id="fOpen" class="fbtn">Filters<span id="fCount"></span></button></div>
+<div class="topbar"><div class="tabs" role="tablist"><button role="tab" id="tabC" aria-selected="true">Chart</button><button role="tab" id="tabL" aria-selected="false">List</button></div><span class="vsel tv"><span class="seg" role="group" aria-label="How many people to show"><button type="button" id="vS2" aria-pressed="true" title="The starting 50" aria-label="Show the starting 50">50</button><button type="button" id="vA2" aria-pressed="false" title="Everyone">All</button></span></span><button type="button" id="fOpen" class="fbtn">Filters<span id="fCount"></span></button></div>
 <div class="bar2"><input id="q" type="search" placeholder="Find a name or band" aria-label="Find a name or band" enterkeyhint="search" autocomplete="off"></div>
 <div class="pills" id="pills"></div>
 <section id="vChart">
@@ -275,7 +276,7 @@ function init(data){
 const slug=s=>s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 
 function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.filter(d=>d.sources.length).length;
- $("vS").setAttribute("aria-pressed",st.view==="start");$("vA").setAttribute("aria-pressed",st.view==="all");$("vA").textContent=`All ${D.length}`;
+ $("vS").setAttribute("aria-pressed",st.view==="start");$("vA").setAttribute("aria-pressed",st.view==="all");$("vA").textContent=`All ${D.length}`;$("vS2").setAttribute("aria-pressed",st.view==="start");$("vA2").setAttribute("aria-pressed",st.view==="all");$("vA2").textContent=D.length;$("vA2").setAttribute("aria-label",`Show all ${D.length}`);
  $("vNote").textContent=st.view==="start"?"popular names plus the political outliers":`everyone, up to a cap of 200`;
  $("prog").innerHTML=`<span class="bar"><i style="width:${(100*n/base.length).toFixed(1)}%"></i></span><span><b>${n}</b> of ${base.length} ${st.view==="start"?"starting placements":"placements"} sourced so far</span>`;
  const cnt={},dc={};base.forEach(d=>{cnt[d.genre]=(cnt[d.genre]||0)+1;dc[dec(d)]=(dc[dec(d)]||0)+1});
@@ -285,10 +286,10 @@ function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.fi
  // active filters as removable pills (phone), count badge and the panel's "Show N" button
  const pl=[...st.genres].map(g=>`<button class="pill" data-pg="${g}">${GN[g]}<i>&times;</i></button>`).concat([...st.decades].sort().map(k=>`<button class="pill" data-pd="${k}">${DL(k)}<i>&times;</i></button>`));
  if(st.sourced)pl.push(`<button class="pill" data-ps="1">Sourced only<i>&times;</i></button>`);
- if(st.view==="all")pl.unshift(`<button class="pill" data-pv="1">All ${D.length}<i>&times;</i></button>`);
+
  if(pl.length>1)pl.push(`<button class="pill clr" data-pc="1">Clear all</button>`);
  $("pills").innerHTML=pl.join("");
- const nAct=st.genres.size+st.decades.size+(st.sourced?1:0)+(st.view==="all"?1:0);$("fCount").textContent=nAct||"";
+ const nAct=st.genres.size+st.decades.size+(st.sourced?1:0);$("fCount").textContent=nAct||"";
  const shown=D.filter(pass).length;$("fDone").textContent=`Show ${shown} ${shown===1?"person":"people"}`}
 function setView(v){st.view=v;refresh()}
 function resize(){const w=$("wrap").clientWidth;if(!w)return;S=w;M=w<520?24:30;P=S-2*M;$("sv").setAttribute("viewBox",`0 0 ${S} ${S}`);const r=$("cpr");r.setAttribute("x",M);r.setAttribute("y",M);r.setAttribute("width",P);r.setAttribute("height",P);draw()}
@@ -435,7 +436,7 @@ $("sort").onchange=e=>{st.sort=e.target.value;drawList()};
 
 // ---------- controls ----------
 function setMode(m){st.mode=m;$("tabC").setAttribute("aria-selected",m==="chart");$("tabL").setAttribute("aria-selected",m==="list");$("vChart").hidden=m!=="chart";$("vList").hidden=m!=="list";if(m==="list"){drawList();document.querySelector(".tabs").scrollIntoView({block:"start"})}else resize()}
-$("vS").onclick=()=>setView("start");$("vA").onclick=()=>setView("all");
+$("vS").onclick=()=>setView("start");$("vS2").onclick=()=>setView("start");$("vA2").onclick=()=>setView("all");$("vA").onclick=()=>setView("all");
 $("tabC").onclick=()=>setMode("chart");$("tabL").onclick=()=>setMode("list");
 function toggle(set,k){if(k==null)set.clear();else set.has(k)?set.delete(k):set.add(k)}
 $("chips").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;toggle(st.genres,b.dataset.g||null);refresh()});

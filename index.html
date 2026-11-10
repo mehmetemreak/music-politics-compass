@@ -46,10 +46,16 @@ details.opt[open] summary{border-color:var(--ink)}
 .d{stroke:var(--c);stroke-width:1.8;stroke-linejoin:round}
 .c3 .d{fill:var(--c)}.c2 .d{fill:var(--panel)}.c1 .d{fill:var(--panel);stroke-dasharray:2.4 2}
 .pt .h{fill:var(--hal)}
+.pt .ld{stroke:var(--mut);stroke-width:1}.pt .tp{fill:var(--mut)}
 .pt .ring{fill:none;stroke:var(--ink);stroke-width:1.5}
 .pt text{font:12px system-ui,sans-serif;fill:var(--ink);paint-order:stroke;stroke:var(--panel);stroke-width:3px;stroke-linejoin:round}
 .pt.sel text{font-weight:700}
 .dm{opacity:.13}
+.cl circle{fill:var(--panel);stroke:var(--ink2);stroke-width:1.5}
+.cl text{font:700 12px system-ui,sans-serif;fill:var(--ink);text-anchor:middle;dominant-baseline:central;pointer-events:none}
+.cl .cg{fill:none;stroke:var(--c);stroke-width:3}
+.cl{cursor:pointer}
+.ql{font:600 9.5px ui-monospace,Menlo,Consolas,monospace;letter-spacing:.1em;fill:var(--mut);opacity:.75}
 .tr line{stroke:var(--acc);stroke-width:1.4;stroke-dasharray:5 4}
 .tr circle{fill:var(--panel);stroke:var(--acc);stroke-width:1.4;stroke-dasharray:2.5 2.5}
 .tr text{font:italic 11.5px Georgia,serif;fill:var(--ink2);paint-order:stroke;stroke:var(--panel);stroke-width:3px}
@@ -78,7 +84,10 @@ details.opt[open] summary{border-color:var(--ink)}
 .empty{padding:18px;color:var(--mut);font-size:14px}
 #sheet{position:fixed;left:0;right:0;bottom:0;z-index:10;display:flex;justify-content:center;pointer-events:none}
 #sheet[hidden]{display:none}
-.sh{pointer-events:auto;width:100%;max-width:600px;max-height:62vh;overflow:auto;background:var(--bg);border:1px solid var(--grid2);border-bottom:0;border-radius:14px 14px 0 0;box-shadow:0 -8px 28px rgba(0,0,0,.2);padding:14px 16px calc(18px + env(safe-area-inset-bottom))}
+.sh{transition:transform .18s ease;pointer-events:auto;width:100%;max-width:600px;max-height:62vh;overflow:auto;background:var(--bg);border:1px solid var(--grid2);border-bottom:0;border-radius:14px 14px 0 0;box-shadow:0 -8px 28px rgba(0,0,0,.2);padding:14px 16px calc(18px + env(safe-area-inset-bottom))}
+.grab{width:40px;height:5px;border-radius:3px;background:var(--grid2);margin:-4px auto 10px;touch-action:none}
+.sh{touch-action:pan-y}
+.sh.drag{transition:none}
 .sh-h{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
 .sh h3{margin:0;font:600 19px/1.25 Georgia,serif}
 .sh .meta{color:var(--mut);font-size:13px}
@@ -94,6 +103,7 @@ details.opt[open] summary{border-color:var(--ink)}
 .acts a,.acts button{font:600 13px system-ui,sans-serif;padding:7px 12px;border-radius:8px;border:1px solid var(--grid2);background:var(--panel);color:var(--ink);text-decoration:none;cursor:pointer}
 h2{font:600 18px Georgia,serif;margin:28px 0 8px}
 .note{color:var(--ink2);font-size:14px;padding-left:18px}.note li{margin:4px 0}
+.sub a,.note a{color:var(--ink);text-decoration-color:var(--mut)}
 footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2)}
 #err{padding:14px;border:1px solid var(--gE);border-radius:8px;color:var(--ink)}
 </style>
@@ -101,7 +111,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <body>
 <main>
 <h1>Music politics compass</h1>
-<p class="sub">Musicians placed by what they have said, funded and campaigned for. People, not bands. Every mark is an estimate; tap it for the evidence.</p>
+<p class="sub">180 musicians placed by what they have done, endorsed and said, on the axes of <a href="https://www.politicalcompass.org" target="_blank" rel="noopener">the Political Compass</a>. People, not bands. Every mark is an estimate; tap it for the evidence.</p>
 <div class="prog" id="prog"></div>
 <p id="err" hidden>The data file did not load. If you opened this page straight from disk, serve it over http instead.</p>
 
@@ -113,6 +123,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <input id="q" type="search" placeholder="Find a name or band" aria-label="Find a name or band" enterkeyhint="search" autocomplete="off">
 <details class="opt"><summary>Options</summary>
 <div class="optbox">
+<label><input type="checkbox" id="oC" checked> Group crowded areas</label>
 <label><input type="checkbox" id="oT" checked> Shifts over time</label>
 <label><input type="checkbox" id="oS"> Same-band splits</label>
 <label><input type="checkbox" id="oH"> Uncertainty for all</label>
@@ -133,6 +144,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <span><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6"/></svg>Hollow: medium</span>
 <span><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6" stroke-dasharray="2.4 2"/></svg>Dashed: low</span>
 <span><svg viewBox="0 0 16 16"><line x1="1" y1="8" x2="15" y2="8" stroke="var(--acc)" stroke-width="1.5" stroke-dasharray="4 3"/></svg>Documented shift</span>
+<span><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.4"/><text x="8" y="8.5" font-size="7" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="var(--ink)">5</text></svg>Crowded group: tap to open</span>
 </div>
 </section>
 
@@ -143,13 +155,13 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 
 <h2>How to read it</h2>
 <ul class="note">
-<li><b>Horizontal</b> is economics: redistribution, unions and public provision on the left; markets, low tax and business on the right.</li>
-<li><b>Vertical</b> is authority: nationalism, immigration restriction, moral regulation and state power at the top; civil liberties, anti-censorship and anti-state positions at the bottom. Being offensive is not the same as being authoritarian.</li>
-<li><b>Genre</b> is shown by colour and shape together, so it survives colour-blindness and print. It is a filing decision per person, not a claim.</li>
-<li><b>Evidence:</b> self-description counts most, then endorsements and donations, then sustained activism, then interviews. Lyrics count least.</li>
-<li><b>Precision:</b> high-confidence marks are good to about &plusmn;1 unit, medium &plusmn;1.5, low &plusmn;2.5. Marks that would sit on top of each other are nudged apart by less than that.</li>
+<li><b>The axes follow <a href="https://www.politicalcompass.org" target="_blank" rel="noopener">the Political Compass</a>.</b> Horizontal is economics: state ownership, redistribution and public provision on the left; free markets and private enterprise on the right. Vertical is authority, kept separate from economics: one-party rule, censorship, the death penalty, nationalism and enforced moral codes at the top; civil liberties and limits on state power at the bottom.</li>
+<li><b>Authority has no side.</b> Backing the Soviet Union or Castro's Cuba counts as authoritarian exactly as backing an ethno-nationalist party does. A big public sector on its own does not: Nordic-style social democrats sit lib-left.</li>
+<li><b>Actions outweigh words.</b> Endorsements, donations, votes and offices held count most, then sustained activism, then self-description, then interviews. Lyrics count least. Being offensive is not the same as being authoritarian.</li>
+<li><b>Who is included:</b> people who are either widely known or have a substantial political record, up to 200. Genre is shown by colour and shape together, and is a filing decision, not a claim.</li>
+<li><b>Precision:</b> high-confidence marks are good to about &plusmn;1 unit, medium &plusmn;1.5, low &plusmn;2.5. Crowded areas collapse into numbered groups; tap one to open it.</li>
 <li><b>Sourcing:</b> placements marked <i>not yet sourced</i> come from general knowledge and are being checked one by one. Anything that cannot be sourced will be removed.</li>
-<li><b>Sample:</b> hand-picked and mostly Anglo-American. An American Democratic endorsement lands centre-left here, which is why so much pop clusters in one place.</li>
+<li><b>Limits:</b> the sample is hand-picked and mostly Anglo-American. The Political Compass itself is <a href="https://en.wikipedia.org/wiki/The_Political_Compass" target="_blank" rel="noopener">criticised</a> for its method and some placements; this chart borrows its axes, not its test or its rankings.</li>
 </ul>
 <footer>Code and data: <a id="repo" href="#" target="_blank" rel="noopener">GitHub</a>. Think a placement is wrong? Open the person and use <i>Dispute this placement</i>.</footer>
 </main>
@@ -164,7 +176,8 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
 const fmt=n=>(n>0?"+":"")+n;
 let D=[],S=600,M=26,P=548;
-const st={k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:false,sourced:false,sel:null,mode:"chart",sort:"name"};
+const st={k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:false,sourced:false,sel:null,mode:"chart",sort:"name",cluster:true};
+let CL_=[];
 $("repo").href=REPO;
 
 // shapes, drawn at screen position in px
@@ -182,6 +195,11 @@ const sx=x=>M+P/2+(x-st.cx)*UU(), sy=y=>M+P/2-(y-st.cy)*UU();
 const ux=X=>st.cx+(X-M-P/2)/UU(), uy=Y=>st.cy-(Y-M-P/2)/UU();
 function clamp(){const h=10/st.k;st.cx=Math.max(-10+h,Math.min(10-h,st.cx));st.cy=Math.max(-10+h,Math.min(10-h,st.cy))}
 function zoomAt(X,Y,f){const u=ux(X),v=uy(Y);st.k=Math.max(1,Math.min(KMAX,st.k*f));const U=UU();st.cx=u-(X-M-P/2)/U;st.cy=v+(Y-M-P/2)/U;clamp();req()}
+let anim=0;
+function animateTo(k,cx,cy,ms=300){cancelAnimationFrame(anim);const k0=st.k,x0=st.cx,y0=st.cy,t0=performance.now();k=Math.max(1,Math.min(KMAX,k));
+ const h=10/k;cx=Math.max(-10+h,Math.min(10-h,cx));cy=Math.max(-10+h,Math.min(10-h,cy));
+ const step=t=>{const p=Math.min(1,(t-t0)/ms),e=1-Math.pow(1-p,3);st.k=Math.exp(Math.log(k0)+(Math.log(k)-Math.log(k0))*e);st.cx=x0+(cx-x0)*e;st.cy=y0+(cy-y0)*e;clamp();draw();if(p<1)anim=requestAnimationFrame(step)};anim=requestAnimationFrame(step)}
+function zoomTo(X,Y,f){const u=ux(X),v=uy(Y),k=Math.max(1,Math.min(KMAX,st.k*f)),U=P/20*k;animateTo(k,u-(X-M-P/2)/U,v+(Y-M-P/2)/U)}
 function panBy(dx,dy){const U=UU();st.cx-=dx/U;st.cy+=dy/U;clamp();req()}
 
 const pass=d=>(!st.genre||d.genre===st.genre)&&(!st.sourced||d.sources.length>0);
@@ -217,17 +235,34 @@ function draw(){
  for(let i=Math.ceil(y0);i<=Math.floor(y1);i++){const Y=sy(i).toFixed(1);g+=`<line class="${i===0?"ax":i%5?"g1":"g5"}" x1="${M}" y1="${Y}" x2="${S-M}" y2="${Y}"/>`;if(i%ts===0)g+=`<text class="tk" x="${M-4}" y="${(+Y+3.5).toFixed(1)}" text-anchor="end">${fmt(i)}</text>`}
  g+=`<rect class="frame" x="${M}" y="${M}" width="${P}" height="${P}"/>`;
  $("gBg").innerHTML=g;
- $("gAx").innerHTML=st.k>1?"":`<text class="axl" x="${S/2}" y="${M+14}" text-anchor="middle">AUTHORITARIAN</text><text class="axl" x="${S/2}" y="${S-M-7}" text-anchor="middle">LIBERTARIAN</text><text class="axl" x="${M+6}" y="${S/2-6}">LEFT</text><text class="axl" x="${S-M-6}" y="${S/2-6}" text-anchor="end">RIGHT</text>`;
+ $("gAx").innerHTML=st.k>1?"":`<text class="ql" x="${M+6}" y="${M+13}">AUTH-LEFT</text><text class="ql" x="${S-M-6}" y="${M+13}" text-anchor="end">AUTH-RIGHT</text><text class="ql" x="${M+6}" y="${S-M-6}">LIB-LEFT</text><text class="ql" x="${S-M-6}" y="${S-M-6}" text-anchor="end">LIB-RIGHT</text><text class="axl" x="${S/2}" y="${M+26}" text-anchor="middle">AUTHORITARIAN</text><text class="axl" x="${S/2}" y="${S-M-19}" text-anchor="middle">LIBERTARIAN</text><text class="axl" x="${M+6}" y="${S/2-6}">LEFT</text><text class="axl" x="${S-M-6}" y="${S/2-6}" text-anchor="end">RIGHT</text>`;
  const vis=[];D.forEach((d,i)=>{if(!pass(d))return;d.X=sx(d.x);d.Y=sy(d.y);if(d.X>M-12&&d.X<S-M+12&&d.Y>M-12&&d.Y<S-M+12)vis.push(i)});
- const vs=new Set(vis),q=!!st.q;
+ const q=!!st.q;
+ // group crowded marks into numbered bubbles (never the selected mark or search hits)
+ CL_=[];const inCl=new Set();
+ if(st.cluster&&!q){const R0=20,cand=vis.filter(i=>i!==st.sel),nb={};
+  cand.forEach(i=>{nb[i]=cand.filter(j=>Math.hypot(D[i].X-D[j].X,D[i].Y-D[j].Y)<R0)});
+  cand.slice().sort((a,b)=>nb[b].length-nb[a].length).forEach(i=>{if(inCl.has(i))return;const m=nb[i].filter(j=>!inCl.has(j));if(m.length<4)return;m.forEach(j=>inCl.add(j));CL_.push({m})});
+  const fit=c=>{c.X=c.m.reduce((s,j)=>s+D[j].X,0)/c.m.length;c.Y=c.m.reduce((s,j)=>s+D[j].Y,0)/c.m.length;c.r=11+Math.sqrt(c.m.length)*2.6};CL_.forEach(fit);
+  // merge overlapping bubbles and swallow marks hidden underneath, until stable
+  for(let it=0,ch=true;ch&&it<20;it++){ch=false;
+   for(let a=0;a<CL_.length;a++)for(let b=a+1;b<CL_.length;b++){const A=CL_[a],B=CL_[b];if(Math.hypot(A.X-B.X,A.Y-B.Y)<A.r+B.r+4){A.m=A.m.concat(B.m);CL_.splice(b,1);fit(A);ch=true;b--}}
+   CL_.forEach(c=>cand.forEach(i=>{if(!inCl.has(i)&&Math.hypot(D[i].X-c.X,D[i].Y-c.Y)<c.r+6){c.m.push(i);inCl.add(i);fit(c);ch=true}}))}}
+ const fan=new Set();
+ CL_=CL_.filter(c=>{if(c.m.length>6)return true;const n=c.m.length,rr=Math.max(16,n*5.5);
+  c.m.forEach((j,t)=>{const a=-Math.PI/2+t*2*Math.PI/n;D[j].tX=D[j].X;D[j].tY=D[j].Y;D[j].X=Math.max(M+8,Math.min(S-M-8,c.X+rr*Math.cos(a)));D[j].Y=Math.max(M+8,Math.min(S-M-8,c.Y+rr*Math.sin(a)));inCl.delete(j);fan.add(j)});return false});
+ const solo=vis.filter(i=>!inCl.has(i)),vs=new Set(solo);
  // same-band splits
  let sp="";if(st.splits){const b={};vis.forEach(i=>{const d=D[i];if(d.band!=="solo")(b[d.band]=b[d.band]||[]).push(d)});for(const k in b){const a=b[k];for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++)sp+=`<line x1="${a[i].X.toFixed(1)}" y1="${a[i].Y.toFixed(1)}" x2="${a[j].X.toFixed(1)}" y2="${a[j].Y.toFixed(1)}"/>`}}
  $("gSp").innerHTML=sp;
  // labels: selected, then search hits, then by confidence
- const own={},boxes=[];vis.forEach(i=>{own[i]={x:D[i].X-8,y:D[i].Y-8,w:16,h:16};boxes.push(own[i])});
+ const own={},boxes=[];solo.forEach(i=>{own[i]={x:D[i].X-8,y:D[i].Y-8,w:16,h:16};boxes.push(own[i])});CL_.forEach(c=>boxes.push({x:c.X-c.r-3,y:c.Y-c.r-3,w:2*c.r+6,h:2*c.r+6}));
+ if(st.k===1){const tb=(x,y,w,a)=>boxes.push({x:a==="middle"?x-w/2:a==="end"?x-w:x,y:y-11,w,h:14});
+  tb(S/2,M+26,108,"middle");tb(S/2,S-M-19,96,"middle");tb(M+6,S/2-6,34,"start");tb(S-M-6,S/2-6,40,"end");
+  tb(M+6,M+13,70,"start");tb(S-M-6,M+13,74,"end");tb(M+6,S-M-6,66,"start");tb(S-M-6,S-M-6,70,"end")}
  const pri=i=>(i===st.sel?100:0)+(q&&hit(D[i])?50:0)+D[i].confidence;
  const lab={};let hidden=0;
- vis.slice().sort((a,b)=>pri(b)-pri(a)).forEach(i=>{const d=D[i];if(q&&!hit(d)&&i!==st.sel){return}
+ solo.slice().sort((a,b)=>pri(b)-pri(a)).forEach(i=>{const d=D[i];if(q&&!hit(d)&&i!==st.sel){return}
   const w=d.name.length*6.6+4,h=15,x=d.X,y=d.Y,c=[{x:x+11,y:y-8,a:"start",tx:x+11},{x:x-11-w,y:y-8,a:"end",tx:x-11},{x:x-w/2,y:y-26,a:"middle",tx:x},{x:x-w/2,y:y+11,a:"middle",tx:x},{x:x+9,y:y-1,a:"start",tx:x+9},{x:x-9-w,y:y-1,a:"end",tx:x-9},{x:x+8,y:y-21,a:"start",tx:x+8},{x:x-8-w,y:y-21,a:"end",tx:x-8}];
   for(const k of c){const bx={x:k.x,y:k.y,w,h};if(bx.x<M+2||bx.x+w>S-M-2||bx.y<M+2||bx.y+h>S-M-2)continue;if(i!==st.sel&&boxes.some(o=>o!==own[i]&&ov(bx,o)))continue;boxes.push(bx);lab[i]={tx:k.tx,ty:k.y+11.5,a:k.a};return}
   hidden++});
@@ -238,13 +273,17 @@ function draw(){
   tr+=`<g${dm}><line x1="${(x1+ux_*8).toFixed(1)}" y1="${(y1+uy_*8).toFixed(1)}" x2="${(x2-ux_*13).toFixed(1)}" y2="${(y2-uy_*13).toFixed(1)}" marker-end="url(#ah)"/><circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="6"/>${cap}</g>`});
  $("gTr").innerHTML=tr;
  let pts="";
- const order=vis.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
+const order=solo.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
  order.forEach(i=>{const d=D[i],X=d.X,Y=d.Y,l=lab[i],dm=q&&!hit(d)&&i!==st.sel;
-  pts+=`<g class="pt g${d.genre} c${d.confidence}${i===st.sel?" sel":""}${dm?" dm":""}" data-i="${i}">`+
-  ((st.halos||i===st.sel)?`<circle class="h" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="${(HR[d.confidence]*U).toFixed(1)}"/>`:"")+
+  pts+=`<g class="pt g${d.genre} c${d.confidence}${i===st.sel?" sel":""}${dm?" dm":""}" data-i="${i}">`+(fan.has(i)?`<line class="ld" x1="${d.tX.toFixed(1)}" y1="${d.tY.toFixed(1)}" x2="${X.toFixed(1)}" y2="${Y.toFixed(1)}"/><circle class="tp" cx="${d.tX.toFixed(1)}" cy="${d.tY.toFixed(1)}" r="1.8"/>`:"")+
+  ((st.halos||i===st.sel)?`<circle class="h" cx="${(fan.has(i)?d.tX:X).toFixed(1)}" cy="${(fan.has(i)?d.tY:Y).toFixed(1)}" r="${(HR[d.confidence]*U).toFixed(1)}"/>`:"")+
   `<circle cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="16" fill="transparent"/>`+
   (i===st.sel?`<circle class="ring" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="11"/>`:"")+SH[d.genre](X,Y)+
   (l?`<text x="${l.tx.toFixed(1)}" y="${l.ty.toFixed(1)}" text-anchor="${l.a}">${esc(d.name)}</text>`:"")+`</g>`});
+ CL_.forEach((c,ci)=>{const cnt={};c.m.forEach(j=>cnt[D[j].genre]=(cnt[D[j].genre]||0)+1);
+  // thin genre ring around the bubble, segment length by count
+  let a0=-Math.PI/2,ring="";const C=2*Math.PI*(c.r+3);[...GO].forEach(g=>{if(!cnt[g])return;const f=cnt[g]/c.m.length;ring+=`<circle class="cg g${g}" cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${(c.r+3).toFixed(1)}" stroke="var(--c)" stroke-dasharray="${(f*C).toFixed(1)} ${C.toFixed(1)}" transform="rotate(${(a0*180/Math.PI).toFixed(1)} ${c.X.toFixed(1)} ${c.Y.toFixed(1)})"/>`;a0+=f*2*Math.PI});
+  pts+=`<g class="cl" data-c="${ci}" role="button" aria-label="${c.m.length} people; tap to zoom in">${ring}<circle cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${c.r.toFixed(1)}"/><text x="${c.X.toFixed(1)}" y="${c.Y.toFixed(1)}">${c.m.length}</text></g>`});
  $("gPt").innerHTML=pts;
  // chrome
  $("zIn").disabled=st.k>=KMAX;$("zOut").disabled=st.k<=1;$("zR").disabled=st.k<=1;
@@ -253,7 +292,10 @@ function draw(){
  if(st.k>1){mm.style.display="block";const h=10/st.k;let m="";D.forEach(d=>{if(pass(d))m+=`<circle class="md" cx="${(d.x+10).toFixed(2)}" cy="${(10-d.y).toFixed(2)}" r=".28"/>`});
   m+=`<rect class="vp" x="${(st.cx-h+10).toFixed(2)}" y="${(10-st.cy-h).toFixed(2)}" width="${(2*h).toFixed(2)}" height="${(2*h).toFixed(2)}"/>`;mm.innerHTML=m}else mm.style.display="none";
  const hn=$("hint");
- if(hidden&&st.k<KMAX){hn.textContent=`${hidden} names hidden at this zoom · ${matchMedia("(pointer:coarse)").matches?"pinch or double-tap":"scroll or double-click"} to see more`}else hn.textContent=st.k>1?"Drag to move around":"";
+ const grouped=CL_.reduce((s,c)=>s+c.m.length,0),coarse=matchMedia("(pointer:coarse)").matches;
+ if(grouped)hn.textContent=`${grouped} people in ${CL_.length} crowded group${CL_.length>1?"s":""} · tap a number to open it`;
+ else if(hidden&&st.k<KMAX)hn.textContent=`${hidden} names hidden at this zoom · ${coarse?"pinch or double-tap":"scroll or double-click"} to see more`;
+ else hn.textContent=st.k>1?(coarse?"Drag to move around":"Drag to move around · scroll to zoom"):"";
 }
 
 // ---------- gestures ----------
@@ -261,7 +303,7 @@ const sv=$("sv"),tip=$("tip");
 const pt=e=>{const r=sv.getBoundingClientRect();return{x:(e.clientX-r.left)*S/r.width,y:(e.clientY-r.top)*S/r.height}};
 const ptrs=new Map();let g0=null,pinch=null,lastTap=null;
 sv.addEventListener("pointerdown",e=>{if(e.button>0)return;sv.setPointerCapture(e.pointerId);const p=pt(e);ptrs.set(e.pointerId,p);tip.style.display="none";
- if(ptrs.size===1){const t=e.target.closest&&e.target.closest(".pt");g0={x:p.x,y:p.y,moved:false,i:t?+t.dataset.i:null}}
+ if(ptrs.size===1){const t=e.target.closest&&e.target.closest(".pt"),c=e.target.closest&&e.target.closest(".cl");g0={x:p.x,y:p.y,moved:false,i:t?+t.dataset.i:null,c:c?+c.dataset.c:null}}
  else if(ptrs.size===2){const[a,b]=[...ptrs.values()];pinch={d:Math.hypot(a.x-b.x,a.y-b.y)||1,mx:(a.x+b.x)/2,my:(a.y+b.y)/2};if(g0)g0.moved=true}});
 sv.addEventListener("pointermove",e=>{const p=pt(e);
  if(!ptrs.has(e.pointerId)){if(e.pointerType==="mouse")hover(e,p);return}
@@ -274,22 +316,28 @@ sv.addEventListener("pointerup",endP);sv.addEventListener("pointercancel",endP);
 sv.addEventListener("pointerleave",()=>tip.style.display="none");
 function tap(g,p){
  if(g.i!=null){openSheet(g.i);lastTap=null;return}
+ if(g.c!=null&&CL_[g.c]){openCluster(CL_[g.c]);lastTap=null;return}
  const now=Date.now();
- if(lastTap&&now-lastTap.t<350&&Math.hypot(p.x-lastTap.x,p.y-lastTap.y)<30){zoomAt(p.x,p.y,st.k>=KMAX-.01?1/st.k:2);lastTap=null;return}
+ if(lastTap&&now-lastTap.t<350&&Math.hypot(p.x-lastTap.x,p.y-lastTap.y)<30){zoomTo(p.x,p.y,st.k>=KMAX-.01?1/st.k:2);lastTap=null;return}
  lastTap={t:now,x:p.x,y:p.y};closeSheet()}
 sv.addEventListener("wheel",e=>{const dy=e.deltaY*(e.deltaMode===1?30:1),f=Math.exp(-dy*.0015);if(st.k<=1&&f<1)return;e.preventDefault();const p=pt(e);zoomAt(p.x,p.y,f)},{passive:false});
 sv.addEventListener("dblclick",e=>e.preventDefault());
 function hover(e,p){const t=e.target.closest&&e.target.closest(".pt");if(!t){tip.style.display="none";return}const d=D[+t.dataset.i];
  tip.innerHTML=`<b>${esc(d.name)}</b> <span>${esc(d.band==="solo"?GN[d.genre]:d.band)}</span>`;tip.style.display="block";
  const r=$("wrap").getBoundingClientRect(),k=r.width/S,x=p.x*k,y=p.y*k,tw=tip.offsetWidth;tip.style.left=Math.max(4,Math.min(r.width-tw-4,x+14))+"px";tip.style.top=Math.max(4,y-34)+"px"}
-$("zIn").onclick=()=>zoomAt(S/2,S/2,1.8);$("zOut").onclick=()=>zoomAt(S/2,S/2,1/1.8);$("zR").onclick=()=>{st.k=1;st.cx=0;st.cy=0;req()};
-$("mm").addEventListener("pointerdown",e=>{const r=e.currentTarget.getBoundingClientRect();st.cx=(e.clientX-r.left)/r.width*20-10;st.cy=10-(e.clientY-r.top)/r.height*20;clamp();req();e.stopPropagation()});
+$("zIn").onclick=()=>zoomTo(S/2,S/2,1.8);$("zOut").onclick=()=>zoomTo(S/2,S/2,1/1.8);$("zR").onclick=()=>animateTo(1,0,0);
+function openCluster(c){const m=c.m,xs=m.map(j=>D[j].x),ys=m.map(j=>D[j].y);
+ // zoom until a typical member is about 22px from its nearest neighbour, so most of the group splits up
+ const nn=m.map(i=>Math.min(...m.filter(j=>j!==i).map(j=>Math.hypot(D[i].x-D[j].x,D[i].y-D[j].y)))).sort((a,b)=>a-b),med=nn[Math.floor(nn.length/2)]||.5;
+ const k=Math.min(KMAX,Math.max(st.k*1.6,22/(Math.max(med,.05)*P/20)));
+ animateTo(k,(Math.max(...xs)+Math.min(...xs))/2,(Math.max(...ys)+Math.min(...ys))/2,380)}
+$("mm").addEventListener("pointerdown",e=>{const r=e.currentTarget.getBoundingClientRect();animateTo(st.k,(e.clientX-r.left)/r.width*20-10,10-(e.clientY-r.top)/r.height*20,220);e.stopPropagation()});
 
 // ---------- sheet ----------
 function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
  const s=src.length?`<span class="st y">&#10003; Sourced · checked ${new Date(d.checked+"T00:00:00").toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"})}</span>`:`<span class="st">Not yet sourced · placed from general knowledge, pending a check</span>`;
  const issue=`${REPO}/issues/new?template=placement.yml&title=${encodeURIComponent("Placement: "+d.name)}`;
- $("sh").innerHTML=`<div class="sh-h"><div><h3 id="shName">${esc(d.name)}</h3><div class="meta">${esc(d.band==="solo"?"Solo":d.band)} · ${GN[d.genre]}</div></div><button class="x" aria-label="Close" id="shX">&times;</button></div>
+ $("sh").style.transform="";$("sh").innerHTML=`<div class="grab" id="grab"></div><div class="sh-h"><div><h3 id="shName">${esc(d.name)}</h3><div class="meta">${esc(d.band==="solo"?"Solo":d.band)} · ${GN[d.genre]}</div></div><button class="x" aria-label="Close" id="shX">&times;</button></div>
  <div class="pos">Economic ${fmt(d.econ)} · Authority ${fmt(d.auth)} · ${CL[d.confidence]} confidence (&plusmn;${HR[d.confidence]})</div>${s}
  <p>${esc(d.basis)}</p>${d.shift?`<p><i>Earlier position (${esc(d.shift.label)}):</i> economic ${fmt(d.shift.econ)}, authority ${fmt(d.shift.auth)}.</p>`:""}
  <h4>Sources</h4>${src.length?`<ol>${src.map(x=>`<li>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`:esc(x.title)}</li>`).join("")}</ol>`:`<p style="color:var(--mut)">None yet.</p>`}
@@ -300,7 +348,12 @@ function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
  req()}
 function closeSheet(){if(st.sel==null&&$("sheet").hidden)return;st.sel=null;$("sheet").hidden=true;req()}
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSheet()});
-function focusOn(i){setMode("chart");const d=D[i];if(!pass(d)){st.genre=null;st.sourced=false;$("oV").checked=false;syncChips()}st.k=Math.max(st.k,4);st.cx=d.x;st.cy=d.y;clamp();openSheet(i);$("wrap").scrollIntoView({block:"nearest",behavior:"smooth"})}
+(()=>{const sh=$("sh");let y0=null,dy=0;
+ sh.addEventListener("pointerdown",e=>{if(!e.target.closest(".grab,.sh-h")||e.target.closest("button"))return;y0=e.clientY;dy=0;sh.classList.add("drag");sh.setPointerCapture(e.pointerId)});
+ sh.addEventListener("pointermove",e=>{if(y0==null)return;dy=Math.max(0,e.clientY-y0);sh.style.transform=`translateY(${dy}px)`});
+ const up=()=>{if(y0==null)return;y0=null;sh.classList.remove("drag");if(dy>70)closeSheet();else sh.style.transform=""};
+ sh.addEventListener("pointerup",up);sh.addEventListener("pointercancel",up)})();
+function focusOn(i){setMode("chart");const d=D[i];if(!pass(d)){st.genre=null;st.sourced=false;$("oV").checked=false;syncChips()}openSheet(i);animateTo(Math.max(st.k,4),d.x,d.y,380);$("wrap").scrollIntoView({block:"nearest",behavior:"smooth"})}
 
 // ---------- list ----------
 function drawList(){
@@ -319,6 +372,7 @@ $("chips").addEventListener("click",e=>{const b=e.target.closest("button");if(!b
 function refresh(){if(st.sel!=null&&!pass(D[st.sel]))closeSheet();req();if(st.mode==="list")drawList()}
 $("q").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();refresh()});
 $("q").addEventListener("keydown",e=>{if(e.key!=="Enter")return;const i=D.findIndex(d=>pass(d)&&hit(d));if(i>=0){e.target.blur();focusOn(i)}});
+$("oC").onchange=e=>{st.cluster=e.target.checked;req()};
 $("oT").onchange=e=>{st.shifts=e.target.checked;req()};
 $("oS").onchange=e=>{st.splits=e.target.checked;req()};
 $("oH").onchange=e=>{st.halos=e.target.checked;req()};

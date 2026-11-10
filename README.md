@@ -6,9 +6,12 @@ A phone-first political compass of musicians, placed by what they have said, fun
 
 ## How placements work
 
-- **Economic axis (left/right):** redistribution, unions and public provision against markets, low tax and business.
-- **Authority axis (up/down):** nationalism, immigration restriction, moral regulation and state power against civil liberties, anti-censorship and anti-state positions. Being offensive is not the same as being authoritarian.
-- **Evidence order:** self-description, then endorsements and donations, then sustained activism, then interviews. Lyrics count least.
+The axes follow [the Political Compass](https://www.politicalcompass.org) ([background and criticism](https://en.wikipedia.org/wiki/The_Political_Compass)). The chart borrows its axes, not its test or its placements.
+
+- **Economic axis (left/right):** state ownership, redistribution and public provision against free markets and private enterprise.
+- **Authority axis (up/down), separate from economics:** one-party rule, censorship, the death penalty, nationalism and enforced moral codes against civil liberties and limits on state power. Backing the Soviet Union counts the same as backing an ethno-nationalist party. A big public sector on its own is not authoritarian. Being offensive is not the same as being authoritarian.
+- **Evidence order:** endorsements, donations, votes and offices held, then sustained activism, then self-description, then interviews. Lyrics count least.
+- **Inclusion:** widely known, or a substantial political record. Cap of 200.
 - **Confidence:** high (about ±1 unit), medium (±1.5), low (±2.5). The page draws that uncertainty.
 - **Sourcing:** every placement needs at least one link. Placements without one are marked *not yet sourced* and are either sourced or removed before the site goes public.
 

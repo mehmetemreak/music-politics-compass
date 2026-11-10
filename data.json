@@ -48,11 +48,24 @@
   "band": "Pink Floyd",
   "genre": "R",
   "econ": -8,
-  "auth": -0.5,
+  "auth": 1.5,
   "confidence": 2,
-  "basis": "Socialist and BDS campaigner. His 2023 UN Security Council speech at Russia's invitation makes the vertical axis contested.",
-  "sources": [],
-  "checked": null
+  "basis": "Socialist and BDS campaigner. Addressed the UN Security Council at Russia's invitation in 2023, calling the invasion illegal but \"not unprovoked\", and said in 2022 that Taiwan is part of China.",
+  "sources": [
+   {
+    "title": "The National: Waters tells the UN Security Council the invasion was 'not unprovoked' (2023)",
+    "url": "https://www.thenationalnews.com/world/us-news/2023/02/08/pink-floyds-roger-waters-criticised-by-ukraine-after-calling-war-not-unprovoked"
+   },
+   {
+    "title": "RFE/RL: Ukraine's UN envoy on Waters's Security Council remarks (2023)",
+    "url": "https://www.rferl.org/amp/ukraine-waters-pink-floyd-un-security-council-russia-disinformation/32262503.html"
+   },
+   {
+    "title": "SPIN: Waters on CNN, 'Taiwan is part of China' (2022)",
+    "url": "https://www.spinmagazine.com/2022/08/roger-waters-russian-china-ukraine-joe-biden-cnn-interview/"
+   }
+  ],
+  "checked": "2026-11-11"
  },
  {
   "name": "David Gilmour",
@@ -1621,9 +1634,9 @@
   "band": "solo",
   "genre": "F",
   "econ": -9.0,
-  "auth": -4.0,
+  "auth": -1,
   "confidence": 3,
-  "basis": "\"This machine kills fascists\"; wrote for Communist Party papers; union songs.",
+  "basis": "\"This machine kills fascists\"; wrote a column for the Communist Daily Worker and followed the party line during the Hitler–Stalin pact; union songs throughout.",
   "sources": [],
   "checked": null
  },
@@ -1631,12 +1644,17 @@
   "name": "Pete Seeger",
   "band": "solo",
   "genre": "F",
-  "econ": -9.0,
-  "auth": -2.4,
+  "econ": -8,
+  "auth": -3,
   "confidence": 3,
-  "basis": "Communist Party member in the 1940s; convicted of contempt of Congress after defying HUAC (overturned 1962); later regretted not denouncing Stalin sooner.",
+  "basis": "Communist Party member in the 1940s, when the Almanac Singers followed the party line; later blacklisted, defied HUAC, and in 2007 wrote \"Big Joe Blues\" regretting he had not condemned Stalin sooner.",
   "sources": [],
-  "checked": null
+  "checked": null,
+  "shift": {
+   "econ": -9,
+   "auth": 2,
+   "label": "Seeger, 1940s"
+  }
  },
  {
   "name": "Joan Baez",
@@ -1789,6 +1807,386 @@
   "auth": -6.0,
   "confidence": 3,
   "basis": "\"Declare Independence\" for Greenland, Kosovo and Tibet; Icelandic environmental campaigns.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Paul Robeson",
+  "band": "solo",
+  "genre": "F",
+  "econ": -9,
+  "auth": 5.5,
+  "confidence": 3,
+  "basis": "Accepted the Stalin Peace Prize (1952) and wrote the eulogy \"To You Beloved Comrade\" when Stalin died in 1953; never publicly broke with the USSR.",
+  "sources": [
+   {
+    "title": "Robeson, 'To You Beloved Comrade', New World Review (1953)",
+    "url": "https://www.marxists.org/reference/archive/stalin/biographies/1953/04/x01.htm"
+   },
+   {
+    "title": "BBC Music Magazine: how Robeson fell under the spell of Stalinism",
+    "url": "https://www.classical-music.com/features/artists/how-paul-robeson-fell-under-the-spell-of-stalinism"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Dean Reed",
+  "band": "solo",
+  "genre": "R",
+  "econ": -8,
+  "auth": 5,
+  "confidence": 3,
+  "basis": "American singer who settled in East Germany; on 60 Minutes in 1986 he defended the Berlin Wall and the Soviet war in Afghanistan.",
+  "sources": [
+   {
+    "title": "Wikipedia: Dean Reed",
+    "url": "https://en.wikipedia.org/wiki/Dean_Reed"
+   },
+   {
+    "title": "NPR: Dean Reed, the man who rocked the Iron Curtain",
+    "url": "https://www.npr.org/transcripts/5482076"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Ewan MacColl",
+  "band": "solo",
+  "genre": "F",
+  "econ": -9,
+  "auth": 4,
+  "confidence": 3,
+  "basis": "Lifelong communist who wrote \"The Ballad of Stalin\" and \"The Ballad of Ho Chi Minh\" for the British Communist Party; later defended the Stalin song.",
+  "sources": [
+   {
+    "title": "Far Out: the British folk singer who wrote for the Communist Party",
+    "url": "https://faroutmagazine.co.uk/british-folk-singer-communist-party/"
+   },
+   {
+    "title": "Salford Now: Salford heroes, Ewan MacColl (2026)",
+    "url": "https://www.salfordnow.co.uk/2026/02/26/salford-heroes-ewan-maccoll/"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Silvio Rodríguez",
+  "band": "solo",
+  "genre": "F",
+  "econ": -7,
+  "auth": 3,
+  "confidence": 3,
+  "basis": "Sat in Cuba's National Assembly for 15 years from 1993 and still defends the revolution, while criticising officials and censorship; said in 2026 he would take up arms against a US intervention.",
+  "sources": [
+   {
+    "title": "A24: Silvio Rodríguez says he will take up arms if the US intervenes (2026)",
+    "url": "https://www.a24.com/mundo/silvio-rodriguez-advierte-que-tomara-las-armas-si-estados-unidos-interviene-cuba-n1537833/amp"
+   },
+   {
+    "title": "CubaNet: Rodríguez tells Rolling Stone he has not lost faith in the revolution (2025)",
+    "url": "https://www.cubanet.org/silvio-rodriguez-no-esta-desilusionado-de-la-revolucion-cubana-solo-de-algunos-tipos/"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Mikis Theodorakis",
+  "band": "solo",
+  "genre": "F",
+  "econ": -3,
+  "auth": 1.5,
+  "confidence": 2,
+  "basis": "Communist MP and Lenin Peace Prize winner who was jailed by the junta, then served as a minister in Mitsotakis's centre-right government (1990–93).",
+  "shift": {
+   "econ": -8,
+   "auth": 2,
+   "label": "KKE years"
+  },
+  "sources": [
+   {
+    "title": "Wikipedia: Mikis Theodorakis",
+    "url": "https://en.wikipedia.org/wiki/Mikis_Theodorakis"
+   },
+   {
+    "title": "Encyclopedia.com: Theodorakis, Mikis",
+    "url": "https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/theodorakis-mikis-actually-michael-george"
+   }
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "name": "Carlos Puebla",
+  "band": "solo",
+  "genre": "F",
+  "econ": -9,
+  "auth": 4,
+  "confidence": 2,
+  "basis": "Cuban troubadour of the revolution; wrote \"Hasta siempre, comandante\" (1965) and sang for Castro's government for decades.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Harry Belafonte",
+  "band": "solo",
+  "genre": "F",
+  "econ": -8,
+  "auth": 0.5,
+  "confidence": 2,
+  "basis": "Civil-rights organiser who praised Hugo Chávez and called George W. Bush \"the greatest terrorist in the world\" in Caracas in 2006.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Ian Stuart Donaldson",
+  "band": "Skrewdriver",
+  "genre": "P",
+  "econ": 3,
+  "auth": 9,
+  "confidence": 3,
+  "basis": "Turned Skrewdriver into a neo-Nazi band and founded the Blood & Honour network.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Manu Chao",
+  "band": "Mano Negra",
+  "genre": "P",
+  "econ": -7,
+  "auth": -7,
+  "confidence": 2,
+  "basis": "Alter-globalisation figure who has supported the Zapatistas and anti-border causes.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Bad Bunny",
+  "band": "solo",
+  "genre": "O",
+  "econ": -4,
+  "auth": -5,
+  "confidence": 2,
+  "basis": "Backed Kamala Harris in 2024; songs and statements against displacement in Puerto Rico; kept the US mainland off a 2025 tour over fears of ICE raids at shows.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "George Michael",
+  "band": "solo",
+  "genre": "O",
+  "econ": -3,
+  "auth": -5,
+  "confidence": 2,
+  "basis": "\"Shoot the Dog\" (2002) mocked Blair's support for Bush; long-time LGBT-rights advocate.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Annie Lennox",
+  "band": "Eurythmics",
+  "genre": "O",
+  "econ": -5,
+  "auth": -4,
+  "confidence": 2,
+  "basis": "HIV campaigning through her SING campaign; feminist activism; called for a Gaza ceasefire at the 2024 Grammys.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Lily Allen",
+  "band": "solo",
+  "genre": "O",
+  "econ": -5,
+  "auth": -4,
+  "confidence": 2,
+  "basis": "Refugee advocacy, including a 2016 visit to the Calais camp; Labour-leaning.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Andrew Lloyd Webber",
+  "band": "solo",
+  "genre": "O",
+  "econ": 4,
+  "auth": 1,
+  "confidence": 3,
+  "basis": "Sat in the House of Lords as a Conservative peer; flew in to vote for the 2015 tax-credit cuts.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Phil Collins",
+  "band": "Genesis",
+  "genre": "R",
+  "econ": 3,
+  "auth": 0,
+  "confidence": 1,
+  "basis": "Widely reported to have said he would leave Britain if Labour won; moved to Switzerland.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Pat Boone",
+  "band": "solo",
+  "genre": "O",
+  "econ": 6,
+  "auth": 4,
+  "confidence": 3,
+  "basis": "Long-time conservative columnist and campaigner; Trump supporter.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Stormzy",
+  "band": "solo",
+  "genre": "H",
+  "econ": -7,
+  "auth": -4,
+  "confidence": 3,
+  "basis": "Endorsed Jeremy Corbyn in 2017 and 2019; campaigned after Grenfell; funds scholarships for Black students.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Akala",
+  "band": "solo",
+  "genre": "H",
+  "econ": -8,
+  "auth": -4,
+  "confidence": 3,
+  "basis": "Socialist author of Natives (2018) and a prominent Corbyn supporter.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Mo Chara",
+  "band": "Kneecap",
+  "genre": "H",
+  "econ": -8,
+  "auth": -5,
+  "confidence": 2,
+  "basis": "Irish-language rapper whose band's republican and pro-Palestinian politics drew UK government criticism in 2024–25.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Lupe Fiasco",
+  "band": "solo",
+  "genre": "H",
+  "econ": -5,
+  "auth": -6,
+  "confidence": 2,
+  "basis": "Called Obama \"the biggest terrorist\" over drone strikes (2011); anti-war and anti-corporate.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Macklemore",
+  "band": "solo",
+  "genre": "H",
+  "econ": -5,
+  "auth": -5,
+  "confidence": 2,
+  "basis": "\"Same Love\" (2012) for marriage equality; \"Hind's Hall\" (2024) for Palestinian student protesters.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Yasiin Bey",
+  "band": "solo",
+  "genre": "H",
+  "econ": -6,
+  "auth": -6,
+  "confidence": 2,
+  "basis": "Filmed himself undergoing Guantánamo force-feeding procedure in 2013 to protest it.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "50 Cent",
+  "band": "solo",
+  "genre": "H",
+  "econ": 3,
+  "auth": 0,
+  "confidence": 1,
+  "basis": "Said in 2020 he would vote Trump over Biden's tax plan, then retracted within days.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Lil Wayne",
+  "band": "solo",
+  "genre": "H",
+  "econ": 1,
+  "auth": 0,
+  "confidence": 1,
+  "basis": "Met Trump in 2020 to praise his Platinum Plan for Black Americans; pardoned by Trump in 2021.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Residente",
+  "band": "Calle 13",
+  "genre": "H",
+  "econ": -7,
+  "auth": -5,
+  "confidence": 2,
+  "basis": "Led the 2019 protests that forced Puerto Rico's governor to resign; anti-colonial politics throughout.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Kris Kristofferson",
+  "band": "solo",
+  "genre": "C",
+  "econ": -7,
+  "auth": -5,
+  "confidence": 2,
+  "basis": "Sang for the Sandinistas and Leonard Peltier; outspoken on the left from the 1980s on.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "John Rich",
+  "band": "Big & Rich",
+  "genre": "C",
+  "econ": 6,
+  "auth": 3,
+  "confidence": 2,
+  "basis": "Outspoken conservative and Trump supporter.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Travis Tritt",
+  "band": "solo",
+  "genre": "C",
+  "econ": 5,
+  "auth": 0,
+  "confidence": 2,
+  "basis": "Trump supporter who cancelled shows at venues requiring Covid vaccination (2021).",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Jason Isbell",
+  "band": "solo",
+  "genre": "C",
+  "econ": -4,
+  "auth": -4,
+  "confidence": 2,
+  "basis": "Democratic campaigner in Georgia and Tennessee; gun-control advocate.",
+  "sources": [],
+  "checked": null
+ },
+ {
+  "name": "Zach Bryan",
+  "band": "solo",
+  "genre": "C",
+  "econ": -3,
+  "auth": -4,
+  "confidence": 1,
+  "basis": "\"Bad News\" (2025) criticised ICE raids and drew a rebuke from the Department of Homeland Security.",
   "sources": [],
   "checked": null
  }

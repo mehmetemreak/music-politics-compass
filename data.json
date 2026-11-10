@@ -103,9 +103,18 @@
   "econ": -6,
   "auth": -6.5,
   "confidence": 2,
-  "basis": "New Left period in 1971-72 (\"Power to the People\"), though \"Revolution\" (1968) rejected Maoist militancy.",
-  "sources": [],
-  "checked": null,
+  "basis": "Gave a 1971 interview to the Trotskyist Red Mole and wrote \"Power to the People\" the next day; anti-war campaigning throughout. \"Revolution\" (1968) had rejected militancy.",
+  "sources": [
+   {
+    "title": "CounterPunch: the Red Mole interview with Tariq Ali and Robin Blackburn (1971)",
+    "url": "https://www.counterpunch.org/2005/12/08/the-lost-john-lennon-interview/"
+   },
+   {
+    "title": "The Beatles Bible: Power To The People",
+    "url": "https://beatlesbible.com/people/john-lennon/songs/power-to-the-people"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "John Lennon",
   "views": 3625374,
   "start": 1956
@@ -118,8 +127,17 @@
   "auth": -3,
   "confidence": 2,
   "basis": "Animal-rights and vegetarian campaigning; \"Give Ireland Back to the Irish\" (1972); otherwise a mild liberal.",
-  "sources": [],
-  "checked": null,
+  "sources": [
+   {
+    "title": "Wikipedia: Give Ireland Back to the Irish",
+    "url": "https://wikipedia.com/wiki/Give_Ireland_Back_to_the_Irish"
+   },
+   {
+    "title": "Beatles Story: Paul McCartney's activism",
+    "url": "https://www.beatlesstory.com/blog/paul-mccartneys-activism/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Paul McCartney",
   "views": 4634979,
   "start": 1957
@@ -132,8 +150,17 @@
   "auth": -4,
   "confidence": 2,
   "basis": "\"Taxman\" against the 95% supertax; Concert for Bangladesh; spiritual more than political.",
-  "sources": [],
-  "checked": null,
+  "sources": [
+   {
+    "title": "Wikipedia: Taxman",
+    "url": "https://en.wikipedia.org/wiki/Taxman"
+   },
+   {
+    "title": "Salon: George Harrison and the Concert for Bangladesh",
+    "url": "https://www.salon.com/people/feature/2001/12/01/harrison_concert"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "George Harrison",
   "views": 2995413,
   "start": 1958
@@ -145,9 +172,18 @@
   "econ": 1.5,
   "auth": 0.5,
   "confidence": 1,
-  "basis": "Said in 2017 that he would have voted for Brexit. Little else on record.",
-  "sources": [],
-  "checked": null,
+  "basis": "Told BBC Newsnight in 2017 he would have voted Leave because \"to be in control of your own country is a good move\", though he did not vote. Little else on record.",
+  "sources": [
+   {
+    "title": "The Daily Beast: Ringo Starr says he would have voted for Brexit (2017)",
+    "url": "https://www.thedailybeast.com/beatles-drummer-ringo-starr-says-he-would-have-voted-for-brexit/"
+   },
+   {
+    "title": "NPR: Ringo Starr on Brexit (2017)",
+    "url": "https://www.wnyc.org/story/ringo-starr-on-brexit-beatlemania-and-give-more-love/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Ringo Starr",
   "views": 2547998,
   "start": 1957
@@ -159,9 +195,22 @@
   "econ": -5,
   "auth": -3,
   "confidence": 3,
-  "basis": "Campaigned for Kerry, Obama, Biden and Harris; labour-centred songwriting.",
-  "sources": [],
-  "checked": null,
+  "basis": "Campaigned for every Democratic nominee since Kerry in 2004 (Vote for Change tour), including Obama, Clinton, Biden and Harris rallies with Obama in 2024; labour-centred songwriting.",
+  "sources": [
+   {
+    "title": "PBS NewsHour: Springsteen joins Harris and Obama in Atlanta (2024)",
+    "url": "https://www.pbs.org/newshour/politics/watch-live-bruce-springsteen-joins-harris-and-obama-for-campaign-rally-in-atlanta"
+   },
+   {
+    "title": "Philadelphia Inquirer: Springsteen and Obama rally for Harris; 2016 and 2020 endorsements",
+    "url": "https://www.inquirer.com/politics/bruce-springsteen-barack-obama-philadelphia-rally-kamala-harris-20241028.html"
+   },
+   {
+    "title": "KOMO/TNND: Springsteen has campaigned for nominees since Kerry 2004",
+    "url": "https://komonews.com/news/politics/beyond-the-podium/shes-the-one-bruce-springsteen-set-to-campaign-for-kamala-harris-in-swing-states-tim-walz-the-river-born-to-run-born-in-the-usa-donald-trump-constitution-election-2024-barack-obama"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Bruce Springsteen",
   "views": 3333247,
   "start": 1964
@@ -201,9 +250,22 @@
   "econ": -4,
   "auth": -6,
   "confidence": 2,
-  "basis": "Liner notes told bigots not to buy the records; played Rock for Choice. Thin economic record.",
-  "sources": [],
-  "checked": null,
+  "basis": "Incesticide liner notes told homophobes, racists and sexists not to buy the records; Nirvana headlined the first Rock for Choice and played against Oregon's anti-gay Measure 9. Thin economic record.",
+  "sources": [
+   {
+    "title": "The Advocate: Cobain's 1993 interview and the Incesticide notes",
+    "url": "https://www.advocate.com/music/2019/4/05/kurt-cobains-1993-advocate-cover-story-im-gay-spirit"
+   },
+   {
+    "title": "Wikipedia: Incesticide (liner notes)",
+    "url": "https://en.wikipedia.org/wiki/Incesticide"
+   },
+   {
+    "title": "Lancer Spirit: Rock for Choice and Measure 9",
+    "url": "https://lancerspiritonline.com/27042/a-e/come-as-you-are-nirvana-cleanses-prejudice-with-grunge"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Kurt Cobain",
   "views": 2561139,
   "start": 1985
@@ -397,9 +459,22 @@
   "econ": -2,
   "auth": -5,
   "confidence": 1,
-  "basis": "Civil-rights era protest, then decades of refusing the spokesman role.",
-  "sources": [],
-  "checked": null,
+  "basis": "Sang at the 1963 March on Washington and wrote civil-rights and anti-war anthems, then spent decades refusing the \"spokesman\" role.",
+  "sources": [
+   {
+    "title": "Time: Dylan at the 1963 March on Washington",
+    "url": "https://content.time.com/time/arts/article/0,8599,1197784-3,00.html"
+   },
+   {
+    "title": "University of Rochester: Dylan resists the spokesman label",
+    "url": "https://www.rochester.edu/newscenter/6-stops-on-bob-dylans-rise-to-the-top/"
+   },
+   {
+    "title": "Green, Bob Dylan at the March on Washington (Rock Music Studies, 2019)",
+    "url": "https://www.polisci.upenn.edu/sites/default/files/Green_%20Bob%20Dylan.pdf"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Bob Dylan",
   "views": 3699808,
   "start": 1957
@@ -408,12 +483,21 @@
   "name": "Mick Jagger",
   "band": "The Rolling Stones",
   "genre": "R",
-  "econ": 1,
-  "auth": -3,
+  "econ": 2,
+  "auth": -2.5,
   "confidence": 1,
-  "basis": "LSE student who accepted a knighthood; ambivalent even in \"Street Fighting Man\".",
-  "sources": [],
-  "checked": null,
+  "basis": "Accepted a knighthood (2003); said in 2013 he had met Thatcher and disliked the reaction to her death; mother a Conservative activist. Keeps politics out of his shows.",
+  "sources": [
+   {
+    "title": "Gulf News: Jagger reveals he enjoyed meeting Thatcher (2013)",
+    "url": "https://gulfnews.com/life-style/celebrity/mick-jagger-enjoyed-meeting-maggie-thatcher-1.1196163"
+   },
+   {
+    "title": "Guitar.com: why Jagger leaves politics out of his concerts (2026)",
+    "url": "https://guitar.com/news/music-news/mick-jagger-politics-concerts/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Mick Jagger",
   "views": 2413482,
   "start": 1960
@@ -425,9 +509,18 @@
   "econ": 0,
   "auth": -3,
   "confidence": 1,
-  "basis": "Disowned his 1976 remarks on fascism; declined a CBE and a knighthood; \"Scotland, stay with us\" (2014).",
-  "sources": [],
-  "checked": null,
+  "basis": "Said in 1976 that Britain \"could benefit from a fascist leader\", then renounced it, blaming his drug use; turned down a CBE (2000) and a knighthood (2003); \"Scotland, stay with us\" (2014).",
+  "sources": [
+   {
+    "title": "Bowie Bible: the 1976 Stockholm remarks, later renounced",
+    "url": "https://bowiebible.com/1976/04/26/david-bowie-britain-could-benefit-from-a-fascist-leader"
+   },
+   {
+    "title": "Mental Floss: Bowie turned down a knighthood",
+    "url": "https://www.mentalfloss.com/history/royalty/10-famous-people-who-turned-down-knighthood"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "David Bowie",
   "views": 4080064,
   "start": 1962
@@ -453,9 +546,18 @@
   "econ": -8,
   "auth": -8,
   "confidence": 3,
-  "basis": "Ran for mayor of San Francisco (1979) and sought the Green presidential nomination (2000).",
-  "sources": [],
-  "checked": null,
+  "basis": "Ran for mayor of San Francisco (1979); came second to Nader for the Green presidential nomination (2000) on a platform including a maximum wage and drug decriminalisation; Green Party member.",
+  "sources": [
+   {
+    "title": "Wikipedia: Jello Biafra",
+    "url": "https://en.wikipedia.org/wiki/Jello_Biafra"
+   },
+   {
+    "title": "Far Out: Biafra's 1979 mayoral run and 2000 Green bid",
+    "url": "https://faroutmagazine.co.uk/jello-biafra-for-mayor-the-dead-kennedys-bid-for-power/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Jello Biafra",
   "views": 334969,
   "start": 1976
@@ -593,14 +695,23 @@
   "econ": -6,
   "auth": -4,
   "confidence": 3,
-  "basis": "Red Wedge co-founder who played a Corbyn benefit in 2016. In 1977 he said he would vote Conservative.",
+  "basis": "Told NME in 1977 he would vote for Thatcher; co-founded Labour's Red Wedge in 1985; played a Momentum concert for Corbyn in 2016.",
   "shift": {
    "econ": 2,
    "auth": 0,
    "label": "Weller, 1977"
   },
-  "sources": [],
-  "checked": null,
+  "sources": [
+   {
+    "title": "Prospect: Weller told NME in 1977 he would vote for Thatcher",
+    "url": "https://prospectmagazine.co.uk/culture/39542/caught-beneath-a-landslide-why-pop-and-politicians-have-always-had-a-rocky-relationship"
+   },
+   {
+    "title": "NME: Weller to play a concert for Corbyn (2016)",
+    "url": "https://www.nme.com/news/music/paul-weller-257-1189852"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Paul Weller",
   "views": 474569,
   "start": 1972
@@ -812,9 +923,18 @@
   "econ": 3,
   "auth": -7,
   "confidence": 3,
-  "basis": "Self-described \"practical conservative\"; testified against record labelling at the 1985 Senate hearing.",
-  "sources": [],
-  "checked": null,
+  "basis": "Called himself a \"practical conservative\" and wanted to tax the churches; testified against record labelling at the 1985 Senate hearing as a step towards censorship.",
+  "sources": [
+   {
+    "title": "BBC Music Magazine: Zappa vs. the Senate (1985)",
+    "url": "https://www.classical-music.com/articles/frank-zappa-pmrc-hearings-1985"
+   },
+   {
+    "title": "RationalWiki: Frank Zappa, 'practical conservative'",
+    "url": "https://kiwix.lema.org/rationalwiki_en_all_maxi_2021-03/A/Frank_Zappa"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Frank Zappa",
   "views": 1350001,
   "start": 1955
@@ -960,9 +1080,18 @@
   "econ": 4,
   "auth": 5,
   "confidence": 2,
-  "basis": "Asked Nixon for a federal narcotics badge in 1970 and denounced the drug culture.",
-  "sources": [],
-  "checked": null,
+  "basis": "Asked Nixon in 1970 to make him a \"federal agent at large\" against the drug culture and got a narcotics badge; told Nixon the Beatles promoted anti-American themes.",
+  "sources": [
+   {
+    "title": "White House Historical Association: Nixon meets Presley (1970)",
+    "url": "https://library.whitehousehistory.org/fotoweb/archives/5017-Digital-Library/Main%20Index/Events/1136045.tif.info"
+   },
+   {
+    "title": "Biography.com: Elvis asked Nixon to make him a federal agent",
+    "url": "https://www.biography.com/history-culture/a65656732/elvis-nixon-white-house-meeting"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Elvis Presley",
   "views": 5303706,
   "start": 1953
@@ -974,9 +1103,18 @@
   "econ": -2,
   "auth": -2.2,
   "confidence": 2,
-  "basis": "Senate testimony for prison reform (1972); Bitter Tears for Native American rights; friends in both parties.",
-  "sources": [],
-  "checked": null,
+  "basis": "Testified to a Senate subcommittee for prison reform in 1972 and met Nixon the same day; recorded Bitter Tears (1964) on Native American rights; friendly with presidents of both parties.",
+  "sources": [
+   {
+    "title": "Smithsonian: Remembering Johnny Cash's activism",
+    "url": "https://www.smithsonianmag.com/blogs/smithsonian-books/2023/09/14/remembering-johnny-cashs-activism-20-years-after-his-death/"
+   },
+   {
+    "title": "Nixon Foundation: Cash testifies on prison reform and meets Nixon (1972)",
+    "url": "https://www.nixonfoundation.org/?p=58860"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Johnny Cash",
   "views": 2370466,
   "start": 1954
@@ -1053,9 +1191,18 @@
   "econ": -3,
   "auth": -0.8,
   "confidence": 3,
-  "basis": "Democratic fundraiser; runs the pay-what-you-can JBJ Soul Kitchen.",
-  "sources": [],
-  "checked": null,
+  "basis": "Registered unaffiliated but has campaigned and fundraised for Kerry, Clinton and other Democrats; runs pay-what-you-can JBJ Soul Kitchen restaurants.",
+  "sources": [
+   {
+    "title": "AP via Washington Times: Bon Jovi's pay-what-you-can restaurant opens (2011)",
+    "url": "https://www.washingtontimes.com/news/2011/oct/19/jon-bon-jovis-charity-restaurant-opens-in-nj/"
+   },
+   {
+    "title": "Red Bank Green: Bon Jovi hosts a Hillary Clinton fundraiser",
+    "url": "https://www.redbankgreen.com/?p=98914"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Jon Bon Jovi",
   "views": 2286015,
   "start": 1974
@@ -1179,9 +1326,18 @@
   "econ": -1.4,
   "auth": -3.8,
   "confidence": 2,
-  "basis": "Elton John AIDS Foundation; decades of LGBT-rights advocacy; critic of Brexit.",
-  "sources": [],
-  "checked": null,
+  "basis": "Founded the Elton John AIDS Foundation (1992); attacked Brexit as built on \"completely ridiculous\" promises; condemned Braverman's 2023 asylum remarks and Russia's anti-gay laws.",
+  "sources": [
+   {
+    "title": "The New European: Elton John on Brexit (2019)",
+    "url": "https://theneweuropean.co.uk/brexit-news-elton-john-is-sick-of-brexit-48586"
+   },
+   {
+    "title": "PinkNews: Elton John calls for compassion for LGBTQ+ refugees (2023)",
+    "url": "https://thepinknews.com/2023/09/27/elton-john-suella-braverman-lgbtq-refugees"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Elton John",
   "views": 2626218,
   "start": 1962
@@ -1207,9 +1363,18 @@
   "econ": -2.6,
   "auth": -3.6,
   "confidence": 2,
-  "basis": "Outspoken on abortion rights since 2022; endorsed Harris in 2024.",
-  "sources": [],
-  "checked": null,
+  "basis": "Released \"The Lighthouse\" (2024) about the end of Roe v. Wade and backed Harris; first voted at 70.",
+  "sources": [
+   {
+    "title": "Far Out: Nicks calls Harris \"the lighthouse\" (2024)",
+    "url": "https://faroutmagazine.co.uk/stevie-nicks-perform-the-lighthouse-jimmy-kimmel/"
+   },
+   {
+    "title": "Salon: Nicks's single on the end of Roe v. Wade (2024)",
+    "url": "https://www.salon.com/2024/09/27/this-is-an-anthem-stevie-nicks-new-feminist-is-tied-to-overturning-of-roe-v-wade"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Stevie Nicks",
   "views": 2758599,
   "start": 1967
@@ -1539,8 +1704,17 @@
   "auth": 5.0,
   "confidence": 3,
   "basis": "Wore the MAGA hat in 2018 and ran for president in 2020; antisemitic statements from 2022 ended his major business deals.",
-  "sources": [],
-  "checked": null,
+  "sources": [
+   {
+    "title": "theGrio: Kanye West's signed MAGA hat (2018)",
+    "url": "https://thegrio.com/2018/04/25/kanye-west-maga-hat-trump/"
+   },
+   {
+    "title": "PBS NewsHour: Adidas ends its partnership with Ye over antisemitic remarks (2022)",
+    "url": "https://www.pbs.org/newshour/tag/ye"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Kanye West",
   "views": 3793317,
   "start": 1993
@@ -1623,8 +1797,17 @@
   "auth": -4.4,
   "confidence": 3,
   "basis": "\"Mosh\" against Bush (2004), anti-Trump freestyle (2017), introduced Obama at a Harris rally (2024).",
-  "sources": [],
-  "checked": null,
+  "sources": [
+   {
+    "title": "AP via PBS: Eminem and Obama rally voters for Harris in Detroit (2024)",
+    "url": "https://www.pbs.org/newshour/politics/watch-live-eminem-will-reportedly-introduce-obama-at-harris-campaign-rally-in-detroit"
+   },
+   {
+    "title": "Fortune / AP: Eminem's Detroit speech (2024)",
+    "url": "https://fortune.com/2024/10/24/eminem-speech-kamala-harris-rally-barack-obama/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Eminem",
   "views": 3361560,
   "start": 1988
@@ -1636,9 +1819,18 @@
   "econ": -6.0,
   "auth": -5.0,
   "confidence": 2,
-  "basis": "Raised by Black Panthers; lyrics on police, prisons and poverty; no party politics.",
-  "sources": [],
-  "checked": null,
+  "basis": "Born to Black Panther parents and called \"a child of the Black Panther Party\" by his mother; lyrics on police, prisons and poverty; no party politics.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Afeni Shakur, Black Panther and Tupac's mother, dies (2016)",
+    "url": "https://www.rollingstone.com/music/news/afeni-shakur-mother-of-tupac-shakur-and-activist-dead-at-69-20160503"
+   },
+   {
+    "title": "KQED: Davey D on Afeni Shakur and the Panthers",
+    "url": "https://kqed.org/pop/23762/you-cant-kill-the-revolution-davey-d-on-tupacs-mother-afeni-shakur"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Tupac Shakur",
   "views": 4132087,
   "start": 1989
@@ -1650,9 +1842,18 @@
   "econ": 0.0,
   "auth": -5.0,
   "confidence": 1,
-  "basis": "Years of anti-Trump statements, then played an inauguration-weekend crypto ball in 2025.",
-  "sources": [],
-  "checked": null,
+  "basis": "In 2017 vowed to \"roast\" anyone who played Trump's inauguration; in 2024 said he had \"nothing but love and respect\" for Trump and played a 2025 inauguration crypto ball. Long-time cannabis legalisation advocate.",
+  "sources": [
+   {
+    "title": "NPR: Snoop Dogg faces heat for performing at Trump's pre-inauguration ball (2025)",
+    "url": "https://npr.org/2025/01/20/g-s1-43733/snoop-dogg-trump-perform-inauguration"
+   },
+   {
+    "title": "Lawyer Monthly: Snoop's 2017 threat and 2024 praise of Trump",
+    "url": "https://www.lawyer-monthly.com/?p=57999"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Snoop Dogg",
   "views": 2462956,
   "start": 1991
@@ -1678,9 +1879,18 @@
   "econ": -5.0,
   "auth": -3.6,
   "confidence": 2,
-  "basis": "Interviewed Bernie Sanders in 2019; campaigned for Harris in 2024; talks about taxes and public services.",
-  "sources": [],
-  "checked": null,
+  "basis": "Backed Bernie Sanders in 2016 and 2020 and interviewed him on wages, health care and student debt; praises the New Deal; rallied for Harris in 2024.",
+  "sources": [
+   {
+    "title": "The FADER: Cardi B's full conversation with Bernie Sanders (2019)",
+    "url": "https://thefader.com/2019/08/15/cardi-b-bernie-sanders-full-interview"
+   },
+   {
+    "title": "Complex: Cardi B backs Harris at a Milwaukee rally (2024)",
+    "url": "https://www.complex.com/music/a/tracewilliamcowen/cardi-b-support-kamala-harris"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Cardi B",
   "views": 2878894,
   "start": 2015
@@ -1721,8 +1931,17 @@
   "auth": -4.0,
   "confidence": 3,
   "basis": "Stayed silent until 2018, then endorsed Tennessee Democrats, Biden and Harris; LGBT-rights advocacy.",
-  "sources": [],
-  "checked": null,
+  "sources": [
+   {
+    "title": "TIME: Taylor Swift's political endorsements, a timeline (2024)",
+    "url": "https://time.com/7020404/taylor-swift-endorsements-politics-timeline"
+   },
+   {
+    "title": "AP via Spokesman-Review: Swift endorses Harris (2024)",
+    "url": "https://spokesman.com/stories/2024/sep/10/taylor-swift-endorses-kamala-harris-for-president"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Taylor Swift",
   "views": 6774412,
   "start": 2003
@@ -1734,9 +1953,22 @@
   "econ": -3.4,
   "auth": -3.6,
   "confidence": 3,
-  "basis": "Black Panther imagery at the 2016 Super Bowl; campaigned for Clinton and Harris.",
-  "sources": [],
-  "checked": null,
+  "basis": "Performed \"Formation\" at the 2016 Super Bowl with Black Panther berets and raised fists; headlined a Clinton concert in 2016, endorsed Biden in 2020 and spoke at Harris's 2024 abortion-rights rally in Houston.",
+  "sources": [
+   {
+    "title": "AP via ABC News: Beyoncé endorses Kamala Harris at Houston rally (2024)",
+    "url": "https://abcnews.go.com/Entertainment/wireStory/beyonc-delivers-emotive-joyful-speech-kamala-harris-houston-115168906"
+   },
+   {
+    "title": "The 19th: Beyoncé endorses Harris; 2016 Clinton concert",
+    "url": "https://19thnews.org/2024/10/beyonce-endorses-kamala-harris-houston-rally"
+   },
+   {
+    "title": "Monroe, Beyoncé's Super Bowl spectacles and Black Power (Dance Research Journal)",
+    "url": "https://www.cambridge.org/core/journals/dance-research-journal/article/beyonces-super-bowl-spectacles-and-choreographies-of-black-power-in-the-movement-4-black-lives/C713817642EA9A8081D4F18112D10DCF"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Beyoncé",
   "views": 2625411,
   "start": 1990
@@ -1748,9 +1980,18 @@
   "econ": -3.0,
   "auth": -5.0,
   "confidence": 3,
-  "basis": "Campaigned to repeal Don't Ask, Don't Tell; sang at Biden's inauguration.",
-  "sources": [],
-  "checked": null,
+  "basis": "Campaigned for Biden, including his final 2020 rally in Pittsburgh; sang the anthem at his inauguration; worked with him on campus sexual-assault prevention.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Lady Gaga sings the anthem at Biden's inauguration",
+    "url": "https://www.rollingstone.com/music/music-news/lady-gaga-national-anthem-joe-biden-inauguration-video-1116782/"
+   },
+   {
+    "title": "ABC15: Gaga campaigned with Biden and worked with him on campus sexual assault",
+    "url": "https://www.abc15.com/news/national/watch-again-lady-gaga-performs-national-anthem-at-inauguration-ceremony"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Lady Gaga",
   "views": 4274261,
   "start": 2000
@@ -1762,9 +2003,22 @@
   "econ": -3.0,
   "auth": -6.0,
   "confidence": 3,
-  "basis": "AIDS activism since the 1980s; spoke at the 2017 Women's March.",
-  "sources": [],
-  "checked": null,
+  "basis": "Early safer-sex and AIDS advocate, honoured by GLAAD; campaigned for Clinton in 2016; gave a combative speech at the 2017 Women's March.",
+  "sources": [
+   {
+    "title": "Time: Madonna at the Women's March (2017)",
+    "url": "https://time.com/4642440/madonna-womens-march/"
+   },
+   {
+    "title": "Rolling Stone: Madonna's GLAAD speech on AIDS activism",
+    "url": "https://www.rollingstone.com/music/music-news/glaad-media-awards-madonna-andy-cohen-831408/"
+   },
+   {
+    "title": "Metro Weekly: Madonna's LGBTQ advocacy record",
+    "url": "https://www.metroweekly.com/?p=152245"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Madonna",
   "views": 5259403,
   "start": 1979
@@ -1776,9 +2030,18 @@
   "econ": -4.0,
   "auth": -5.0,
   "confidence": 3,
-  "basis": "Performed at the 2020 Democratic convention; climate and abortion-rights advocacy.",
-  "sources": [],
-  "checked": null,
+  "basis": "Endorsed Biden at the 2020 Democratic convention, citing climate change; climate campaigning alongside Greta Thunberg; registered voters at her concerts.",
+  "sources": [
+   {
+    "title": "The Hill: Billie Eilish at the 2020 Democratic convention",
+    "url": "https://thehill.com/blogs/in-the-know/in-the-know/512849-billie-eilish-appears-at-convention-you-dont-need-me-to-tell-you-things-are-a-mess/"
+   },
+   {
+    "title": "Washington Examiner: Eilish urges vote against Trump; climate activism",
+    "url": "https://www.washingtonexaminer.com/?p=2603361"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Billie Eilish",
   "views": 3508329,
   "start": 2015
@@ -1790,9 +2053,22 @@
   "econ": -4.0,
   "auth": -4.4,
   "confidence": 2,
-  "basis": "Raised money for abortion funds on tour; White House vaccine campaign in 2021.",
-  "sources": [],
-  "checked": null,
+  "basis": "Fund 4 Good sends tour proceeds to abortion funds; handed out emergency contraception at a Missouri show; accepted a Planned Parenthood award; promoted Covid vaccination at the White House in 2021.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Abortion funds applaud Rodrigo's Fund 4 Good",
+    "url": "https://qc.rollingstone.com/en/music/abortion-funds-applaud-olivia-rodrigos-support-it-takes-guts"
+   },
+   {
+    "title": "Rolling Stone: Rodrigo accepts Planned Parenthood award",
+    "url": "https://www.rollingstone.com/music/music-news/olivia-rodrigo-planned-parenthood-catalyst-change-award-1235324908/"
+   },
+   {
+    "title": "Washington Times: Rodrigo's 2026 benefit festival for Planned Parenthood",
+    "url": "https://www.washingtontimes.com/news/2026/aug/6/olivia-rodrigo-teams-planned-parenthood-abortion-pill-faces-fda/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Olivia Rodrigo",
   "views": 4389382,
   "start": 2015
@@ -1804,9 +2080,22 @@
   "econ": -4.4,
   "auth": -4.0,
   "confidence": 2,
-  "basis": "March for Our Lives; publicly praised Bernie Sanders in 2019.",
-  "sources": [],
-  "checked": null,
+  "basis": "Attended March for Our Lives (2018); called Bernie Sanders \"my guy\" in 2019 and registered voters at her shows; gave the maximum to Kamala Harris's primary campaign that year.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Which musicians backed whom in the 2020 primary",
+    "url": "https://www.rollingstone.com/music/music-features/2020-election-democratic-primary-musicans-947137/"
+   },
+   {
+    "title": "Common Dreams: Grande backs Sanders (2019)",
+    "url": "https://commondreams.org/news/2019/11/20/my-guy-ariana-grande-gives-big-hug-bernie-sanders-her-massive-social-media-platforms"
+   },
+   {
+    "title": "CBS News: March for Our Lives photos, Washington 2018",
+    "url": "https://www.cbsnews.com/baltimore/pictures/march-for-our-lives-rallies-held-across-the-us/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Ariana Grande",
   "views": 6602678,
   "start": 2008
@@ -1818,9 +2107,18 @@
   "econ": -4.0,
   "auth": -3.4,
   "confidence": 3,
-  "basis": "Democratic campaigner since the Carter years; relentless Trump critic.",
-  "sources": [],
-  "checked": null,
+  "basis": "Raised money and campaigned for Clinton in 2016 and Biden in 2020; endorsed Harris in 2024; long-running Trump critic.",
+  "sources": [
+   {
+    "title": "Independent via Yahoo: Cher to campaign for Biden after raising millions",
+    "url": "https://news.yahoo.com/cher-hit-campaign-trail-joe-165038214.html"
+   },
+   {
+    "title": "Rolling Stone AU: Cher backs Kamala Harris",
+    "url": "https://au.rollingstone.com/?p=68036"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Cher",
   "views": 3667636,
   "start": 1963
@@ -1832,9 +2130,22 @@
   "econ": -4.2,
   "auth": -3.0,
   "confidence": 3,
-  "basis": "Major Democratic fundraiser for decades.",
-  "sources": [],
-  "checked": null,
+  "basis": "Democratic fundraiser for four decades: Senate benefits in 1986 and 2007, Obama, Clinton, Biden and Harris events; FEC records show continuing donations to Democrats.",
+  "sources": [
+   {
+    "title": "The Advocate: Streisand fundraiser brings $1.3 million for Democrats (2007)",
+    "url": "https://advocate.com/arts-entertainment/entertainment-news/2007/04/14/streisand-fund-raiser-brings-13-million-democrats"
+   },
+   {
+    "title": "Forward: Streisand at Jewish Women for Kamala fundraiser (2024)",
+    "url": "https://forward.com/news/644406/kamala-harris-barbra-streisand-jewish-women-fundraiser"
+   },
+   {
+    "title": "Newsweek: celebrities donating in Senate races (FEC)",
+    "url": "https://www.newsweek.com/celebrities-donating-to-politicians-in-key-senate-races-12147589"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Barbra Streisand",
   "views": 2655053,
   "start": 1960
@@ -1869,14 +2180,23 @@
   "econ": 4.0,
   "auth": 2.0,
   "confidence": 3,
-  "basis": "Campaigned for Kennedy in 1960, then for Reagan in 1980.",
+  "basis": "New Deal Democrat who campaigned for Truman, Stevenson and Kennedy; switched to the Republicans around 1970, backed Nixon and raised millions for Reagan in 1980.",
   "shift": {
    "econ": -3.0,
    "auth": -2.0,
    "label": "Sinatra, 1960"
   },
-  "sources": [],
-  "checked": null,
+  "sources": [
+   {
+    "title": "Wikipedia: Political life of Frank Sinatra",
+    "url": "https://en.wikipedia.org/wiki/Political_life_of_Frank_Sinatra"
+   },
+   {
+    "title": "Daily Beast: Sinatra, from Kennedy man to Reaganite",
+    "url": "https://www.thedailybeast.com/sinatra-from-kennedy-man-to-reaganite"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Frank Sinatra",
   "views": 3039593,
   "start": 1935
@@ -2028,9 +2348,18 @@
   "econ": 0.0,
   "auth": -2.0,
   "confidence": 2,
-  "basis": "Refuses partisan labels on principle; funded Covid vaccine research and children's literacy; said \"of course Black lives matter\".",
-  "sources": [],
-  "checked": null,
+  "basis": "Avoids party politics and declined the Medal of Freedom so as not to be \"doing politics\"; gave $1 million to the research behind the Moderna vaccine; said \"of course Black lives matter\" in 2020.",
+  "sources": [
+   {
+    "title": "New Statesman: Parton avoids party politics; Black Lives Matter remark",
+    "url": "https://newstatesman.com/?p=38675"
+   },
+   {
+    "title": "Spectrum News: Parton declined the Medal of Freedom twice",
+    "url": "https://spectrumlocalnews.com/news/2021/02/02/dolly-parton-medal-of-freedom-twice-trump"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Dolly Parton",
   "views": 16878612,
   "start": 1956
@@ -2056,9 +2385,22 @@
   "econ": -8,
   "auth": -3,
   "confidence": 3,
-  "basis": "Communist Party member in the 1940s, when the Almanac Singers followed the party line; later blacklisted, defied HUAC, and in 2007 wrote \"Big Joe Blues\" regretting he had not condemned Stalin sooner.",
-  "sources": [],
-  "checked": null,
+  "basis": "Joined the Communist Party in 1942 and followed its line with the Almanac Singers; left around 1949–50; refused to answer HUAC in 1955 and was cited for contempt; later played a Solidarity benefit (1982) and condemned Stalin in print.",
+  "sources": [
+   {
+    "title": "East Carolina University: Seeger before HUAC, later break with communism",
+    "url": "https://sites.ecu.edu/cwis/?p=132"
+   },
+   {
+    "title": "Jacobin: Seeger and the blacklist",
+    "url": "https://jacobin.com/2014/01/the-beauty-of-the-blacklist"
+   },
+   {
+    "title": "Foreign Policy: Seeger and the Second Red Scare",
+    "url": "https://foreignpolicy.com/2025/10/06/pete-seeger-second-red-scare/"
+   }
+  ],
+  "checked": "2026-11-11",
   "shift": {
    "econ": -9,
    "auth": 2,
@@ -2419,9 +2761,22 @@
   "econ": 3,
   "auth": 9,
   "confidence": 3,
-  "basis": "Turned Skrewdriver into a neo-Nazi band and founded the Blood & Honour network.",
-  "sources": [],
-  "checked": null,
+  "basis": "Turned Skrewdriver into a white-power band that raised money for the National Front; founded the neo-Nazi Blood & Honour network in 1987.",
+  "sources": [
+   {
+    "title": "Wikipedia: Ian Stuart Donaldson",
+    "url": "https://en.wikipedia.org/wiki/Ian_Stuart_Donaldson"
+   },
+   {
+    "title": "SPLC: Blood & Honour",
+    "url": "https://splcenter.org/fighting-hate/extremist-files/group/blood-honour"
+   },
+   {
+    "title": "Counter Extremism Project: Blood & Honour",
+    "url": "https://www.counterextremism.com/supremacy/blood-honour-bh"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Ian Stuart Donaldson",
   "views": 110588,
   "start": 1975
@@ -2447,9 +2802,22 @@
   "econ": -4,
   "auth": -5,
   "confidence": 2,
-  "basis": "Backed Kamala Harris in 2024; songs and statements against displacement in Puerto Rico; kept the US mainland off a 2025 tour over fears of ICE raids at shows.",
-  "sources": [],
-  "checked": null,
+  "basis": "Paused his 2019 tour to join the protests that ousted Puerto Rico's governor; endorsed Kamala Harris in 2024; left the US mainland off his 2025–26 tour over fears of ICE raids at shows.",
+  "sources": [
+   {
+    "title": "CNN via ABC7: Bad Bunny skipped the US over ICE raid fears",
+    "url": "https://abc7.com/17808030"
+   },
+   {
+    "title": "Fox News: no US dates; Harris endorsement",
+    "url": "https://www.foxnews.com/media/latin-music-star-bad-bunny-reveals-canceled-u-s-tour-prevent-ice-raids-concerts"
+   },
+   {
+    "title": "SAN: 2019 Rosselló protests and Harris endorsement",
+    "url": "https://san.com/cc/bad-bunny-on-skipping-us-in-upcoming-tour-its-unnecessary/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Bad Bunny",
   "views": 7593119,
   "start": 2013
@@ -2461,9 +2829,18 @@
   "econ": -3,
   "auth": -5,
   "confidence": 2,
-  "basis": "\"Shoot the Dog\" (2002) mocked Blair's support for Bush; long-time LGBT-rights advocate.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Shoot the Dog\" (2002) cast Blair as Bush's poodle before the Iraq War; kept campaigning against the war in 2003.",
+  "sources": [
+   {
+    "title": "Tribune: When George Michael came for Blair",
+    "url": "https://tribunemag.co.uk/2024/03/when-george-michael-came-for-blair"
+   },
+   {
+    "title": "The Advocate: Michael brings his anti-war protest to TV (2003)",
+    "url": "https://www.advocate.com/arts-entertainment/entertainment-news/2003/03/08/george-michael-brings-his-antiwar-protest-ltigttop"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "George Michael",
   "views": 3377568,
   "start": 1981
@@ -2489,9 +2866,18 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
-  "basis": "Refugee advocacy, including a 2016 visit to the Calais camp; Labour-leaning.",
-  "sources": [],
-  "checked": null,
+  "basis": "Visited the Calais camp in 2016 and apologised to a child refugee \"on behalf of my country\"; offered to take in an unaccompanied child; called the press coverage xenophobic.",
+  "sources": [
+   {
+    "title": "AP via Washington Times: Lily Allen apologizes to refugees in Calais",
+    "url": "https://m.washingtontimes.com/news/2016/oct/12/singer-lily-allen-apologizes-to-refugees-in-calais/"
+   },
+   {
+    "title": "HuffPost UK: Allen hits back at xenophobic coverage",
+    "url": "https://huffingtonpost.co.uk/entry/lily-allen-hits-back-at-xenophobic-attacks-on-her-after-calais-visit_uk_57ff93d0e4b0e982146c22b9"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Lily Allen",
   "views": 2643931,
   "start": 1988
@@ -2514,12 +2900,21 @@
   "name": "Phil Collins",
   "band": "Genesis",
   "genre": "R",
-  "econ": 3,
+  "econ": 2,
   "auth": 0,
   "confidence": 1,
-  "basis": "Widely reported to have said he would leave Britain if Labour won; moved to Switzerland.",
-  "sources": [],
-  "checked": null,
+  "basis": "Widely reported in 1997 to have threatened to leave Britain if Labour won, then moved to Switzerland; he later called it a misunderstood quote and said he is not a Conservative. Weak evidence either way.",
+  "sources": [
+   {
+    "title": "Rock Celebrities: Collins on the 'misunderstood quote'",
+    "url": "https://rockcelebrities.net/phil-collins-response-to-noel-gallaghers-public-diss/"
+   },
+   {
+    "title": "Gigwise: Collins hits back at the Gallaghers (2005)",
+    "url": "https://gigwise.com/news/7597"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Phil Collins",
   "views": 3448992,
   "start": 1963
@@ -2626,12 +3021,21 @@
   "name": "50 Cent",
   "band": "solo",
   "genre": "H",
-  "econ": 3,
+  "econ": 2,
   "auth": 0,
   "confidence": 1,
-  "basis": "Said in 2020 he would vote Trump over Biden's tax plan, then retracted within days.",
-  "sources": [],
-  "checked": null,
+  "basis": "Told fans to vote Trump over Biden's top-rate tax plan in October 2020, then retracted within a week (\"I never liked him\"). Only the tax objection is consistent.",
+  "sources": [
+   {
+    "title": "CBS News: 50 Cent says vote for Trump over Biden's tax plan",
+    "url": "https://www.cbsnews.com/amp/news/50-trump-biden-tax-plan"
+   },
+   {
+    "title": "Revolt: 50 Cent retracts his Trump endorsement",
+    "url": "https://www.revolt.tv/article/2020-10-25/67380/50-cent-retracts-donald-trump-endorsement"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "50 Cent",
   "views": 2510776,
   "start": 1996

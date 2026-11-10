@@ -112,7 +112,7 @@ details.opt[open] summary{border-color:var(--ink)}
 #tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--grid2);border-radius:7px;padding:5px 9px;font-size:13px;box-shadow:0 4px 14px rgba(0,0,0,.16);display:none;white-space:nowrap;z-index:2}
 #tip span{color:var(--mut);font-size:12px}
 .leg{display:flex;flex-wrap:wrap;gap:6px 16px;color:var(--ink2);font-size:13px;margin:10px 0 0}
-.leg span{display:flex;align-items:center;gap:6px}.leg svg{width:15px;height:15px}
+.leg button{display:flex;align-items:center;gap:6px;font:inherit;color:inherit;background:none;border:1px solid transparent;border-radius:999px;padding:5px 10px 5px 7px;margin:-2px -4px;cursor:pointer;min-height:32px}.leg button:hover{border-color:var(--grid2)}.leg button[aria-pressed=true]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink);color:var(--ink)}.leg button.off{opacity:.45;text-decoration:line-through}.leg svg{width:15px;height:15px}
 #list{display:flex;flex-direction:column;border:1px solid var(--grid2);border-radius:10px;overflow:hidden;background:var(--panel)}
 .lh{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;color:var(--mut);margin:0 0 8px}
 .lh select{font:inherit;font-size:14px;padding:4px 6px;border:1px solid var(--grid2);border-radius:6px;background:var(--panel);color:var(--ink)}
@@ -164,6 +164,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <div class="fsec"><h3>Show</h3><div class="vsel"><span class="seg"><button type="button" id="vS" aria-pressed="true">50 to start</button><button type="button" id="vA" aria-pressed="false">All</button></span></div><p class="fnote" id="vNote"></p></div>
 <div class="fsec"><h3>Genre</h3><div class="chips" id="chips"></div></div>
 <div class="fsec"><h3>Career began</h3><div class="chips" id="dchips"></div><p class="fnote">From the start of "years active" on Wikipedia (or the article text where there is no such field), not when they became famous.</p></div>
+<div class="fsec"><h3>Confidence</h3><div class="chips" id="cchips"></div><p class="fnote">How firmly the evidence pins the placement: high is about &plusmn;1 unit, medium &plusmn;1.5, low &plusmn;2.5.</p></div>
 <div class="fsec"><h3>Evidence</h3><label class="chk"><input type="checkbox" id="oV"> Sourced placements only</label></div>
 <div class="fsec"><h3>On the chart</h3>
 <label class="chk"><input type="checkbox" id="oC" checked> Group crowded areas</label>
@@ -185,13 +186,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <div id="tip"></div>
 </div>
 <div class="ctl"><div class="zb"><button id="zOut" aria-label="Zoom out">&minus;</button><button id="zIn" aria-label="Zoom in">+</button><button id="zR" aria-label="Reset view">&#8634;</button></div><span class="hint" id="hint"></span></div>
-<div class="leg">
-<span><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--ink2)" stroke="var(--ink2)" stroke-width="1.6"/></svg>Filled: high confidence</span>
-<span><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6"/></svg>Hollow: medium</span>
-<span><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6" stroke-dasharray="2.4 2"/></svg>Dashed: low</span>
-<span><svg viewBox="0 0 16 16"><line x1="1" y1="8" x2="15" y2="8" stroke="var(--acc)" stroke-width="1.5" stroke-dasharray="4 3"/></svg>Documented shift</span>
-<span><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.4"/><text x="8" y="8.5" font-size="7" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="var(--ink)">5</text></svg>Crowded group: tap to open</span>
-</div>
+<div class="leg" id="leg"></div>
 </section>
 
 <section id="vList" hidden>
@@ -225,7 +220,7 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
 const fmt=n=>(n>0?"+":"")+n;
 let D=[],S=600,M=26,P=548;
-const st={k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:false,sourced:false,sel:null,mode:"chart",sort:"name",cluster:true,view:"start",genres:new Set(),decades:new Set()};
+const st={k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:false,sourced:false,sel:null,mode:"chart",sort:"name",cluster:true,view:"start",genres:new Set(),decades:new Set(),conf:new Set()};
 const dec=d=>d.start?String(Math.floor(d.start/10)*10):"?";
 const DL=k=>k==="?"?"Unknown":k+"s";
 let CL_=[];
@@ -253,7 +248,7 @@ function animateTo(k,cx,cy,ms=300){cancelAnimationFrame(anim);const k0=st.k,x0=s
 function zoomTo(X,Y,f){const u=ux(X),v=uy(Y),k=Math.max(1,Math.min(KMAX,st.k*f)),U=P/20*k;animateTo(k,u-(X-M-P/2)/U,v+(Y-M-P/2)/U)}
 function panBy(dx,dy){const U=UU();st.cx-=dx/U;st.cy+=dy/U;clamp();req()}
 
-const pass=d=>(st.view==="all"||d.starter||(st.q&&hit(d)))&&(!st.genres.size||st.genres.has(d.genre))&&(!st.decades.size||st.decades.has(dec(d)))&&(!st.sourced||d.sources.length>0);
+const pass=d=>(st.view==="all"||d.starter||(st.q&&hit(d)))&&(!st.genres.size||st.genres.has(d.genre))&&(!st.decades.size||st.decades.has(dec(d)))&&(!st.conf.size||st.conf.has(d.confidence))&&(!st.sourced||d.sources.length>0);
 const hit=d=>st.q&&(d.name+" "+d.band).toLowerCase().includes(st.q);
 
 fetch("data.json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(init).catch(()=>{$("err").hidden=false});
@@ -275,6 +270,7 @@ function init(data){
 }
 const slug=s=>s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 
+const CI={3:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--ink2)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',2:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',1:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6" stroke-dasharray="2.4 2"/></svg>'},CLG={3:"Filled: high confidence",2:"Hollow: medium",1:"Dashed: low"};
 function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.filter(d=>d.sources.length).length;
  $("vS").setAttribute("aria-pressed",st.view==="start");$("vA").setAttribute("aria-pressed",st.view==="all");$("vA").textContent=`All ${D.length}`;$("vS2").setAttribute("aria-pressed",st.view==="start");$("vA2").setAttribute("aria-pressed",st.view==="all");$("vA2").textContent=D.length;$("vA2").setAttribute("aria-label",`Show all ${D.length}`);
  $("vNote").textContent=st.view==="start"?"popular names plus the political outliers":`everyone, up to a cap of 200`;
@@ -283,13 +279,19 @@ function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.fi
  $("chips").innerHTML=`<button type="button" data-g="" aria-pressed="${!st.genres.size}">All</button>`+[...GO].filter(k=>cnt[k]).map(k=>`<button type="button" data-g="${k}" aria-pressed="${st.genres.has(k)}">${icon(k)}${GN[k]} <span class="n">${cnt[k]}</span></button>`).join("");
  const ds=Object.keys(dc).filter(k=>k!=="?").sort();if(dc["?"])ds.push("?");
  $("dchips").innerHTML=`<button type="button" data-d="" aria-pressed="${!st.decades.size}">All</button>`+ds.map(k=>`<button type="button" data-d="${k}" aria-pressed="${st.decades.has(k)}">${DL(k)} <span class="n">${dc[k]}</span></button>`).join("");
+ const cc={};base.forEach(d=>{cc[d.confidence]=(cc[d.confidence]||0)+1});
+ $("cchips").innerHTML=`<button type="button" data-c="" aria-pressed="${!st.conf.size}">All</button>`+[3,2,1].map(k=>`<button type="button" data-c="${k}" aria-pressed="${st.conf.has(k)}">${CI[k]}${CL[k]} <span class="n">${cc[k]||0}</span></button>`).join("");
+ $("leg").innerHTML=[3,2,1].map(k=>`<button type="button" data-c="${k}" aria-pressed="${st.conf.has(k)}" title="Show only ${CL[k].toLowerCase()}-confidence placements">${CI[k]}${CLG[k]}</button>`).join("")+
+  `<button type="button" data-o="oT" class="${st.shifts?"":"off"}" title="Show or hide shifts over time"><svg viewBox="0 0 16 16"><line x1="1" y1="8" x2="15" y2="8" stroke="var(--acc)" stroke-width="1.5" stroke-dasharray="4 3"/></svg>Documented shift</button>`+
+  `<button type="button" data-o="oC" class="${st.cluster?"":"off"}" title="Group or ungroup crowded areas"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.4"/><text x="8" y="8.5" font-size="7" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="var(--ink)">5</text></svg>Crowded group: tap to open</button>`;
  // active filters as removable pills (phone), count badge and the panel's "Show N" button
  const pl=[...st.genres].map(g=>`<button class="pill" data-pg="${g}">${GN[g]}<i>&times;</i></button>`).concat([...st.decades].sort().map(k=>`<button class="pill" data-pd="${k}">${DL(k)}<i>&times;</i></button>`));
+ [3,2,1].forEach(k=>{if(st.conf.has(k))pl.push(`<button class="pill" data-pk="${k}">${CL[k]} confidence<i>&times;</i></button>`)});
  if(st.sourced)pl.push(`<button class="pill" data-ps="1">Sourced only<i>&times;</i></button>`);
 
  if(pl.length>1)pl.push(`<button class="pill clr" data-pc="1">Clear all</button>`);
  $("pills").innerHTML=pl.join("");
- const nAct=st.genres.size+st.decades.size+(st.sourced?1:0);$("fCount").textContent=nAct||"";
+ const nAct=st.genres.size+st.decades.size+st.conf.size+(st.sourced?1:0);$("fCount").textContent=nAct||"";
  const shown=D.filter(pass).length;$("fDone").textContent=`Show ${shown} ${shown===1?"person":"people"}`}
 function setView(v){st.view=v;refresh()}
 function resize(){const w=$("wrap").clientWidth;if(!w)return;S=w;M=w<520?24:30;P=S-2*M;$("sv").setAttribute("viewBox",`0 0 ${S} ${S}`);const r=$("cpr");r.setAttribute("x",M);r.setAttribute("y",M);r.setAttribute("width",P);r.setAttribute("height",P);draw()}
@@ -423,7 +425,7 @@ document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeSheet();closeF
  sh.addEventListener("pointermove",e=>{if(y0==null)return;dy=Math.max(0,e.clientY-y0);sh.style.transform=`translateY(${dy}px)`});
  const up=()=>{if(y0==null)return;y0=null;sh.classList.remove("drag");if(dy>70)closeSheet();else sh.style.transform=""};
  sh.addEventListener("pointerup",up);sh.addEventListener("pointercancel",up)})();
-function focusOn(i){setMode("chart");const d=D[i];if(!pass(d)){st.genres.clear();st.decades.clear();st.sourced=false;$("oV").checked=false;if(!d.starter)st.view="all";syncView()}openSheet(i);animateTo(Math.max(st.k,4),d.x,d.y,380);$("wrap").scrollIntoView({block:"nearest",behavior:"smooth"})}
+function focusOn(i){setMode("chart");const d=D[i];if(!pass(d)){st.genres.clear();st.decades.clear();st.conf.clear();st.sourced=false;$("oV").checked=false;if(!d.starter)st.view="all";syncView()}openSheet(i);animateTo(Math.max(st.k,4),d.x,d.y,380);$("wrap").scrollIntoView({block:"nearest",behavior:"smooth"})}
 
 // ---------- list ----------
 function drawList(){
@@ -441,12 +443,14 @@ $("tabC").onclick=()=>setMode("chart");$("tabL").onclick=()=>setMode("list");
 function toggle(set,k){if(k==null)set.clear();else set.has(k)?set.delete(k):set.add(k)}
 $("chips").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;toggle(st.genres,b.dataset.g||null);refresh()});
 $("dchips").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;toggle(st.decades,b.dataset.d||null);refresh()});
+const confClick=e=>{const b=e.target.closest("button");if(!b)return;if(b.dataset.o){$(b.dataset.o).click();syncView();return}toggle(st.conf,b.dataset.c?+b.dataset.c:null);refresh()};
+$("cchips").addEventListener("click",confClick);$("leg").addEventListener("click",confClick);
 $("pills").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const t=b.dataset;
- if(t.pg)st.genres.delete(t.pg);if(t.pd)st.decades.delete(t.pd);if(t.ps){st.sourced=false;$("oV").checked=false}if(t.pv)st.view="start";
- if(t.pc){st.genres.clear();st.decades.clear();st.sourced=false;$("oV").checked=false;st.view="start"}refresh()});
+ if(t.pg)st.genres.delete(t.pg);if(t.pd)st.decades.delete(t.pd);if(t.pk)st.conf.delete(+t.pk);if(t.ps){st.sourced=false;$("oV").checked=false}if(t.pv)st.view="start";
+ if(t.pc){st.genres.clear();st.decades.clear();st.conf.clear();st.sourced=false;$("oV").checked=false;st.view="start"}refresh()});
 const openF=()=>{$("filters").classList.add("open");$("scrim").hidden=false},closeF=()=>{$("filters").classList.remove("open");$("scrim").hidden=true};
 $("fOpen").onclick=openF;$("fClose").onclick=closeF;$("fDone").onclick=closeF;$("scrim").onclick=closeF;
-$("fReset").onclick=()=>{st.genres.clear();st.decades.clear();st.sourced=false;$("oV").checked=false;st.view="start";refresh()};
+$("fReset").onclick=()=>{st.genres.clear();st.decades.clear();st.conf.clear();st.sourced=false;$("oV").checked=false;st.view="start";refresh()};
 function refresh(){syncView();if(st.sel!=null&&!pass(D[st.sel]))closeSheet();req();if(st.mode==="list")drawList()}
 $("q").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();refresh()});
 $("q").addEventListener("keydown",e=>{if(e.key!=="Enter")return;const i=D.findIndex(d=>pass(d)&&hit(d));if(i>=0){e.target.blur();focusOn(i)}});

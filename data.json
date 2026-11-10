@@ -222,9 +222,18 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
-  "basis": "Farm Aid co-founder, \"Let's Impeach the President\", backed Sanders. But praised Reagan in 1984.",
-  "sources": [],
-  "checked": null,
+  "basis": "Living with War (2006) with \"Let's Impeach the President\"; endorsed Sanders in 2020 calling for higher taxes on the super-rich. But briefly supported Reagan in the early 1980s.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Neil Young endorses Bernie Sanders",
+    "url": "https://www.rollingstone.com/music/music-news/neil-young-bernie-sanders-endorsement-964573/"
+   },
+   {
+    "title": "Rolling Stone AU: Young and the presidents, including Reagan",
+    "url": "https://rs.thebrag.com/?p=7832"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Neil Young",
   "views": 2000437,
   "start": 1963
@@ -797,9 +806,18 @@
   "econ": 3,
   "auth": 1,
   "confidence": 2,
-  "basis": "1976 on-stage rant in support of Enoch Powell (later apologised); anti-lockdown songs in 2020-21; Countryside Alliance backer.",
-  "sources": [],
-  "checked": null,
+  "basis": "1976 on-stage rant in Birmingham backing Enoch Powell; still called Powell a prophet in 1978, apologised later; anti-lockdown songs with Van Morrison in 2020-21.",
+  "sources": [
+   {
+    "title": "Snopes: Clapton's 1976 rant and his later responses",
+    "url": "https://www.snopes.com/fact-check/eric-clapton-racist-rant/"
+   },
+   {
+    "title": "Rolling Stone: Clapton, vaccines and lockdown",
+    "url": "https://www.rollingstone.com/music/music-features/eric-clapton-vaccine-lockdown-racist-comments-1239027/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Eric Clapton",
   "views": 2193241,
   "start": 1962
@@ -837,11 +855,20 @@
   "band": "solo",
   "genre": "R",
   "econ": 7,
-  "auth": 2,
+  "auth": 1,
   "confidence": 3,
-  "basis": "Trump rallies and the 2024 Republican convention stage; has described himself as moderate on some social issues.",
-  "sources": [],
-  "checked": null,
+  "basis": "Performed at the 2024 Republican convention on the night Trump accepted the nomination; calls himself libertarian and supports abortion rights and same-sex marriage.",
+  "sources": [
+   {
+    "title": "Fox News: Kid Rock rallies Trump supporters at the RNC",
+    "url": "https://www.foxnews.com/entertainment/kid-rock-rallies-trump-supporters-rnc-rocker-leans-politics"
+   },
+   {
+    "title": "The Spectator: Trump's Rock",
+    "url": "https://spectator.com/article/trumps-rock/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Kid Rock",
   "views": 2062574,
   "start": 1988
@@ -1298,9 +1325,18 @@
   "econ": -6,
   "auth": -5.2,
   "confidence": 3,
-  "basis": "Tore up the Pope's photograph on live television in 1992 in protest at the Catholic Church.",
-  "sources": [],
-  "checked": null,
+  "basis": "Tore up the Pope's photograph on Saturday Night Live in 1992 to protest child abuse in the Catholic Church, and never withdrew the point.",
+  "sources": [
+   {
+    "title": "Harvard Gazette: Taking a second look at Sinéad O'Connor",
+    "url": "https://news.harvard.edu/gazette/story/2023/08/taking-a-second-look-at-sinead-oconnor"
+   },
+   {
+    "title": "History.com: O'Connor tears up a photo of the Pope on SNL",
+    "url": "https://www.history.com/this-day-in-history/october-3/sinead-oconnor-tears-up-photo-of-pope-john-paul-snl"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Sinéad O'Connor",
   "views": 1982369,
   "start": 1984
@@ -1633,9 +1669,18 @@
   "econ": -4,
   "auth": -5.4,
   "confidence": 3,
-  "basis": "Campaigns in Tennessee politics; told DeSantis voters they were dead to her (2023).",
-  "sources": [],
-  "checked": null,
+  "basis": "Told DeSantis voters they were dead to her (2023); played the Love Rising benefit against Tennessee's drag and trans-care laws; urged a vote against Trump from the stage in 2024.",
+  "sources": [
+   {
+    "title": "Loudwire: Williams on DeSantis voters; Love Rising benefit",
+    "url": "https://loudwire.com/paramore-hayley-williams-ron-desantis-vote-dead-video/"
+   },
+   {
+    "title": "Independent via Yahoo: Williams on DeSantis and the Tennessee bills",
+    "url": "https://uk.news.yahoo.com/paramore-hayley-williams-says-anyone-070756338.html"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Hayley Williams",
   "views": 2086734,
   "start": 2003
@@ -1782,9 +1827,18 @@
   "econ": 1.0,
   "auth": -3.2,
   "confidence": 2,
-  "basis": "Campaigned for Obama and Clinton; criminal-justice reform through the REFORM Alliance; unapologetic billionaire capitalism.",
-  "sources": [],
-  "checked": null,
+  "basis": "Campaigned and raised money for Obama (2008, 2012); headlined a Clinton concert in 2016; co-founded a probation and parole reform group with Meek Mill; unapologetic billionaire capitalism.",
+  "sources": [
+   {
+    "title": "XXL: Jay-Z's biggest political moves",
+    "url": "https://www.xxlmag.com/jay-z-biggest-political-moves/"
+   },
+   {
+    "title": "NBC Los Angeles: Beyoncé and Jay-Z perform for Clinton in Cleveland",
+    "url": "https://www.nbclosangeles.com/news/national-international/beyonce-jay-z-perform-cleveland-concert-for-hillary-clinton/2018164/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Jay-Z",
   "views": 2062671,
   "start": 1986
@@ -2208,9 +2262,22 @@
   "econ": -4.0,
   "auth": -7.0,
   "confidence": 3,
-  "basis": "Farm Aid co-founder; marijuana legalisation; played for Beto O'Rourke in 2018.",
-  "sources": [],
-  "checked": null,
+  "basis": "Farm Aid co-founder; backs marijuana decriminalisation; headlined rallies for Beto O'Rourke in 2018 and 2022 and wrote \"Vote 'Em Out\" for the first.",
+  "sources": [
+   {
+    "title": "Salon/Rolling Stone: Nelson to headline O'Rourke rally (2018)",
+    "url": "https://salon.com/2018/09/13/willie-nelson-will-headline-a-rally-for-beto-orourke_partner"
+   },
+   {
+    "title": "WMAR: Nelson debuts Vote 'Em Out at the O'Rourke rally",
+    "url": "https://www.wmar2news.com/news/national/democracy-2018/willie-nelson-vote-em-out-listen-beto-o-rourke"
+   },
+   {
+    "title": "KXRB: Nelson's politics, Farm Aid",
+    "url": "https://kxrb.com/willie-nelson-beto-orourke-rally-concert-liberal-politics/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Willie Nelson",
   "views": 2173264,
   "start": 1956
@@ -2445,9 +2512,22 @@
   "econ": -5.0,
   "auth": -5.4,
   "confidence": 2,
-  "basis": "Pan-Africanism; joined rival party leaders' hands at the 1978 One Love Peace Concert.",
-  "sources": [],
-  "checked": null,
+  "basis": "Joined the hands of rival party leaders Manley and Seaga at the 1978 One Love Peace Concert; played Zimbabwe's independence celebrations in 1980; Pan-Africanist songwriting.",
+  "sources": [
+   {
+    "title": "Wikipedia: One Love Peace Concert",
+    "url": "https://en.wikipedia.org/wiki/One_Love_Peace_Concert"
+   },
+   {
+    "title": "History.com: Marley headlines the One Love Peace Concert",
+    "url": "https://www.history.com/this-day-in-history/april-22/bob-marley-one-love-peace-concert-1978"
+   },
+   {
+    "title": "Andscape: One Love and the Zimbabwe independence show",
+    "url": "https://andscape.com/features/bob-marley-jamaica-one-love-peace-concert/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Bob Marley",
   "views": 2222196,
   "start": 1962
@@ -2515,9 +2595,18 @@
   "econ": -4.0,
   "auth": -2.6,
   "confidence": 3,
-  "basis": "Led the campaign for Martin Luther King Day; Democratic campaigner.",
-  "sources": [],
-  "checked": null,
+  "basis": "Led the three-year campaign for Martin Luther King Day (\"Happy Birthday\", 1981 Washington rally, testimony to Congress); campaigned for Clinton in 2016.",
+  "sources": [
+   {
+    "title": "Library of Congress: Song stories, Stevie Wonder's Happy Birthday",
+    "url": "https://blogs.loc.gov/nls-music-notes/2023/02/song-stories-stevie-wonders-happy-birthday/"
+   },
+   {
+    "title": "Time via AOL: How Stevie Wonder helped make MLK Day official",
+    "url": "https://www.aol.com/entertainment/stevie-wonder-helped-mlk-day-195845590.html"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Stevie Wonder",
   "views": 2036045,
   "start": 1961
@@ -2529,9 +2618,18 @@
   "econ": -5.0,
   "auth": -4.0,
   "confidence": 3,
-  "basis": "Funded civil-rights work; offered to post bail for Angela Davis in 1970.",
-  "sources": [],
-  "checked": null,
+  "basis": "Quietly funded civil-rights work for decades (per Jesse Jackson); in 1970 publicly offered to post bail for Angela Davis.",
+  "sources": [
+   {
+    "title": "Quartz: When Aretha Franklin offered to post bail for Angela Davis",
+    "url": "https://qz.com/quartzy/1356841/when-aretha-franklin-offered-to-post-bail-for-angela-davis"
+   },
+   {
+    "title": "Atlanta Journal-Constitution: Franklin and social justice",
+    "url": "https://www.ajc.com/news/aretha-franklin-used-her-voice-deliver-music-for-social-justice/5yr4uEf2f4jYhAbPOtHBLN"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Aretha Franklin",
   "views": 2033782,
   "start": 1954

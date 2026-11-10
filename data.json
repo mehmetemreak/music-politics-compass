@@ -806,7 +806,7 @@
   "econ": 3,
   "auth": 1,
   "confidence": 2,
-  "basis": "1976 on-stage rant in Birmingham backing Enoch Powell; still called Powell a prophet in 1978, apologised later; anti-lockdown songs with Van Morrison in 2020-21.",
+  "basis": "1976 on-stage rant in Birmingham backing Enoch Powell; still called Powell a prophet in 1978, apologised later; headlined Countryside Alliance benefits against the hunting ban (2006-07); anti-lockdown songs with Van Morrison in 2020-21.",
   "sources": [
    {
     "title": "Snopes: Clapton's 1976 rant and his later responses",
@@ -815,6 +815,14 @@
    {
     "title": "Rolling Stone: Clapton, vaccines and lockdown",
     "url": "https://www.rollingstone.com/music/music-features/eric-clapton-vaccine-lockdown-racist-comments-1239027/"
+   },
+   {
+    "title": "Contactmusic: Clapton headlines pro-hunt concert, spokesperson quote (2006)",
+    "url": "https://admin.contactmusic.com/eric-clapton/news/clapton-headlines-pro-hunt-concert_30_04_2006"
+   },
+   {
+    "title": "Farmers Weekly: Countryside Alliance concert with Clapton and Ferry",
+    "url": "https://www.fwi.co.uk/farm-life/countryside-alliance-plans-rock-concert-featuring-eric-clapton-and-bryan-ferry"
    }
   ],
   "checked": "2026-11-11",
@@ -2034,7 +2042,7 @@
   "econ": -3.0,
   "auth": -5.0,
   "confidence": 3,
-  "basis": "Campaigned for Biden, including his final 2020 rally in Pittsburgh; sang the anthem at his inauguration; worked with him on campus sexual-assault prevention.",
+  "basis": "Headlined a 2010 rally in Maine pressing senators to repeal Don't Ask, Don't Tell; campaigned for Biden, including his final 2020 rally; sang the anthem at his inauguration.",
   "sources": [
    {
     "title": "Rolling Stone: Lady Gaga sings the anthem at Biden's inauguration",
@@ -2043,6 +2051,14 @@
    {
     "title": "ABC15: Gaga campaigned with Biden and worked with him on campus sexual assault",
     "url": "https://www.abc15.com/news/national/watch-again-lady-gaga-performs-national-anthem-at-inauguration-ceremony"
+   },
+   {
+    "title": "Bangor Daily News: Gaga calls for end to Don't Ask policy (2010)",
+    "url": "https://www.bangordailynews.com/2010/09/20/news/in-portland-gaga-calls-for-end-to-dont-ask-policy/"
+   },
+   {
+    "title": "AP via Sun Journal: Lady Gaga fights Don't Ask, Don't Tell in Maine",
+    "url": "https://www.sunjournal.com/2010/09/21/lady-gaga-fights-dont-ask-tell-maine/"
    }
   ],
   "checked": "2026-11-11",
@@ -2161,7 +2177,7 @@
   "econ": -4.0,
   "auth": -3.4,
   "confidence": 3,
-  "basis": "Raised money and campaigned for Clinton in 2016 and Biden in 2020; endorsed Harris in 2024; long-running Trump critic.",
+  "basis": "Democratic campaigner since the Carter years: backed Carter in 1976, raised money and campaigned for Clinton in 2016 and Biden in 2020, endorsed Harris in 2024; long-running Trump critic.",
   "sources": [
    {
     "title": "Independent via Yahoo: Cher to campaign for Biden after raising millions",
@@ -2170,6 +2186,10 @@
    {
     "title": "Rolling Stone AU: Cher backs Kamala Harris",
     "url": "https://au.rollingstone.com/?p=68036"
+   },
+   {
+    "title": "Breana Kate: Cher and the White House, a history (secondary source)",
+    "url": "https://breanakate.substack.com/p/cher-and-the-white-house-a-history"
    }
   ],
   "checked": "2026-11-11",

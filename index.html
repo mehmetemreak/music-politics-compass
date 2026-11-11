@@ -207,6 +207,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <div class="fhead"><b>Filters</b><button class="x" id="fClose" aria-label="Close filters">&times;</button></div>
 <div class="fsec"><h3>Show</h3><div class="vsel"><span class="seg"><button type="button" id="vS" aria-pressed="true">50 to start</button><button type="button" id="vA" aria-pressed="false">All</button></span></div><p class="fnote" id="vNote"></p></div>
 <div class="fsec"><h3>Genre</h3><div class="chips" id="chips"></div></div>
+<div class="fsec"><h3>Quadrant</h3><div class="chips" id="qchips"></div><p class="fnote">On the chart this zooms to the quadrant and fades everyone else; in the list it filters. People within 0.6 of an axis count on both sides.</p></div>
 <div class="fsec"><h3>Career began</h3><div class="chips" id="dchips"></div><p class="fnote">From the start of "years active" on Wikipedia (or the article text where there is no such field), not when they became famous.</p></div>
 <div class="fsec"><h3>Confidence</h3><div class="chips" id="cchips"></div><p class="fnote">How firmly the evidence pins the placement: high is about &plusmn;1 unit, medium &plusmn;1.5, low &plusmn;2.5.</p></div>
 <div class="fsec"><h3>Evidence</h3><label class="chk"><input type="checkbox" id="oV"> Sourced placements only</label></div>
@@ -272,7 +273,7 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
 const fmt=n=>(n>0?"+":"")+n;
 let D=[],S=600,M=26,P=548;
-const st={hov:null,k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:false,sourced:false,sel:null,mode:"chart",sort:"name",cluster:true,view:"start",genres:new Set(),decades:new Set(),conf:new Set()};
+const st={quad:null,hov:null,k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:false,sourced:false,sel:null,mode:"chart",sort:"name",cluster:true,view:"start",genres:new Set(),decades:new Set(),conf:new Set()};
 const dec=d=>d.start?String(Math.floor(d.start/10)*10):"?";
 const DL=k=>k==="?"?"Unknown":k+"s";
 let CL_=[];
@@ -300,7 +301,8 @@ function animateTo(k,cx,cy,ms=300){cancelAnimationFrame(anim);const k0=st.k,x0=s
 function zoomTo(X,Y,f){const u=ux(X),v=uy(Y),k=Math.max(1,Math.min(KMAX,st.k*f)),U=P/20*k;animateTo(k,u-(X-M-P/2)/U,v+(Y-M-P/2)/U)}
 function panBy(dx,dy){const U=UU();st.cx-=dx/U;st.cy+=dy/U;clamp();req()}
 
-const pass=d=>(st.view==="all"||d.starter||(st.q&&hit(d)))&&(!st.genres.size||st.genres.has(d.genre))&&(!st.decades.size||st.decades.has(dec(d)))&&(!st.conf.size||st.conf.has(d.confidence))&&(!st.sourced||d.sources.length>0);
+const QD={AL:"Auth-left",AR:"Auth-right",LL:"Lib-left",LR:"Lib-right"},inQ=(d,q)=>(q[1]==="L"?d.econ<=0.6:d.econ>=-0.6)&&(q[0]==="A"?d.auth>=-0.6:d.auth<=0.6);
+const pass=d=>(!st.quad||st.mode!=="list"||inQ(d,st.quad))&&(st.view==="all"||d.starter||(st.q&&hit(d)))&&(!st.genres.size||st.genres.has(d.genre))&&(!st.decades.size||st.decades.has(dec(d)))&&(!st.conf.size||st.conf.has(d.confidence))&&(!st.sourced||d.sources.length>0);
 const hit=d=>st.q&&(d.name+" "+d.band).toLowerCase().includes(st.q);
 
 fetch("data.json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(init).catch(()=>{$("err").hidden=false});
@@ -337,19 +339,21 @@ function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.fi
  $("chips").innerHTML=`<button type="button" data-g="" aria-pressed="${!st.genres.size}">All</button>`+[...GO].filter(k=>cnt[k]).map(k=>`<button type="button" data-g="${k}" aria-pressed="${st.genres.has(k)}">${icon(k)}${GN[k]} <span class="n">${cnt[k]}</span></button>`).join("");
  const ds=Object.keys(dc).filter(k=>k!=="?").sort();if(dc["?"])ds.push("?");
  $("dchips").innerHTML=`<button type="button" data-d="" aria-pressed="${!st.decades.size}">All</button>`+ds.map(k=>`<button type="button" data-d="${k}" aria-pressed="${st.decades.has(k)}">${DL(k)} <span class="n">${dc[k]}</span></button>`).join("");
+ const qc={};Object.keys(QD).forEach(k=>qc[k]=base.filter(d=>inQ(d,k)).length);
+ $("qchips").innerHTML=`<button type="button" data-q="" aria-pressed="${!st.quad}">All</button>`+Object.keys(QD).map(k=>`<button type="button" data-q="${k}" aria-pressed="${st.quad===k}">${QD[k]} <span class="n">${qc[k]}</span></button>`).join("");
  const cc={};base.forEach(d=>{cc[d.confidence]=(cc[d.confidence]||0)+1});
  $("cchips").innerHTML=`<button type="button" data-c="" aria-pressed="${!st.conf.size}">All</button>`+[3,2,1].map(k=>`<button type="button" data-c="${k}" aria-pressed="${st.conf.has(k)}">${CI[k]}${CL[k]} <span class="n">${cc[k]||0}</span></button>`).join("");
  $("leg").innerHTML=[3,2,1].map(k=>`<button type="button" data-c="${k}" aria-pressed="${st.conf.has(k)}" title="Show only ${CL[k].toLowerCase()}-confidence placements">${CI[k]}${CLG[k]}</button>`).join("")+
   `<button type="button" data-o="oT" class="${st.shifts?"":"off"}" title="Show or hide shifts over time. Solid: both ends well sourced. Dashed: one end rests on a single signal."><svg viewBox="0 0 16 16"><line x1="1" y1="8" x2="15" y2="8" stroke="var(--acc)" stroke-width="1.6"/></svg>Documented shift</button>`+
   `<button type="button" data-o="oC" class="${st.cluster?"":"off"}" title="Group or ungroup crowded areas"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.4"/><text x="8" y="8.5" font-size="7" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="var(--ink)">5</text></svg>Crowded group: tap to open</button>`;
  // active filters as removable pills (phone), count badge and the panel's "Show N" button
- const pl=[...st.genres].map(g=>`<button class="pill" data-pg="${g}">${GN[g]}<i>&times;</i></button>`).concat([...st.decades].sort().map(k=>`<button class="pill" data-pd="${k}">${DL(k)}<i>&times;</i></button>`));
+ const pl=(st.quad?[`<button class="pill" data-pq="1">${QD[st.quad]}<i>&times;</i></button>`]:[]).concat([...st.genres].map(g=>`<button class="pill" data-pg="${g}">${GN[g]}<i>&times;</i></button>`).concat([...st.decades].sort().map(k=>`<button class="pill" data-pd="${k}">${DL(k)}<i>&times;</i></button>`)));
  [3,2,1].forEach(k=>{if(st.conf.has(k))pl.push(`<button class="pill" data-pk="${k}">${CL[k]} confidence<i>&times;</i></button>`)});
  if(st.sourced)pl.push(`<button class="pill" data-ps="1">Sourced only<i>&times;</i></button>`);
 
  if(pl.length>1)pl.push(`<button class="pill clr" data-pc="1">Clear all</button>`);
  $("pills").innerHTML=pl.join("");
- const nAct=st.genres.size+st.decades.size+st.conf.size+(st.sourced?1:0);$("fCount").textContent=nAct||"";
+ const nAct=(st.quad?1:0)+st.genres.size+st.decades.size+st.conf.size+(st.sourced?1:0);$("fCount").textContent=nAct||"";
  const shown=D.filter(pass).length;$("fDone").textContent=`Show ${shown} ${shown===1?"person":"people"}`}
 function setView(v){st.view=v;refresh()}
 function resize(){const w=$("wrap").clientWidth;if(!w)return;S=w;M=w<520?24:30;P=S-2*M;$("sv").setAttribute("viewBox",`0 0 ${S} ${S}`);const r=$("cpr");r.setAttribute("x",M);r.setAttribute("y",M);r.setAttribute("width",P);r.setAttribute("height",P);draw()}
@@ -369,10 +373,10 @@ function draw(){
  $("gBg").innerHTML=g;
  $("gAx").innerHTML=st.k>1?"":`<text class="ql" x="${M+6}" y="${M+13}">AUTH-LEFT</text><text class="ql" x="${S-M-6}" y="${M+13}" text-anchor="end">AUTH-RIGHT</text><text class="ql" x="${M+6}" y="${S-M-6}">LIB-LEFT</text><text class="ql" x="${S-M-6}" y="${S-M-6}" text-anchor="end">LIB-RIGHT</text>`;
  const vis=[];D.forEach((d,i)=>{if(!pass(d))return;d.X=sx(d.x);d.Y=sy(d.y);if(d.X>M-12&&d.X<S-M+12&&d.Y>M-12&&d.Y<S-M+12)vis.push(i)});
- const q=!!st.q,tq=!!st.taste,q2=q||tq,on=i=>(!q||hit(D[i]))&&(!tq||st.taste.w.has(i));
+ const q=!!st.q,tq=!!st.taste,qq=!!st.quad&&st.mode!=="list",q2=q||tq||qq,on=i=>(!q||hit(D[i]))&&(!tq||st.taste.w.has(i))&&(!qq||inQ(D[i],st.quad));
  // group crowded marks into numbered bubbles (never the selected mark or search hits)
  CL_=[];const inCl=new Set();
- if(st.cluster&&!q2){const R0=20,cand=vis.filter(i=>i!==st.sel),nb={};
+ if(st.cluster&&!q&&!tq){const R0=20,cand=vis.filter(i=>i!==st.sel),nb={};
   cand.forEach(i=>{nb[i]=cand.filter(j=>Math.hypot(D[i].X-D[j].X,D[i].Y-D[j].Y)<R0)});
   cand.slice().sort((a,b)=>nb[b].length-nb[a].length).forEach(i=>{if(inCl.has(i))return;const m=nb[i].filter(j=>!inCl.has(j));if(m.length<4)return;m.forEach(j=>inCl.add(j));CL_.push({m})});
   const fit=c=>{c.X=c.m.reduce((s,j)=>s+D[j].X,0)/c.m.length;c.Y=c.m.reduce((s,j)=>s+D[j].Y,0)/c.m.length;c.r=11+Math.sqrt(c.m.length)*2.6};CL_.forEach(fit);
@@ -533,8 +537,8 @@ $("dchips").addEventListener("click",e=>{const b=e.target.closest("button");if(!
 const confClick=e=>{const b=e.target.closest("button");if(!b)return;if(b.dataset.o){$(b.dataset.o).click();syncView();return}toggle(st.conf,b.dataset.c?+b.dataset.c:null);refresh()};
 $("cchips").addEventListener("click",confClick);$("leg").addEventListener("click",confClick);
 $("pills").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const t=b.dataset;
- if(t.pg)st.genres.delete(t.pg);if(t.pd)st.decades.delete(t.pd);if(t.pk)st.conf.delete(+t.pk);if(t.ps){st.sourced=false;$("oV").checked=false}if(t.pv)st.view="start";
- if(t.pc){st.genres.clear();st.decades.clear();st.conf.clear();st.sourced=false;$("oV").checked=false;st.view="start"}refresh()});
+ if(t.pg)st.genres.delete(t.pg);if(t.pd)st.decades.delete(t.pd);if(t.pk)st.conf.delete(+t.pk);if(t.ps){st.sourced=false;$("oV").checked=false}if(t.pv)st.view="start";if(t.pq){setQuad(null);return}
+ if(t.pc){if(st.quad){st.quad=null;animateTo(1,0,0)}st.genres.clear();st.decades.clear();st.conf.clear();st.sourced=false;$("oV").checked=false;st.view="start"}refresh()});
 const openF=()=>{$("filters").classList.add("open");$("scrim").hidden=false},closeF=()=>{$("filters").classList.remove("open");$("scrim").hidden=true};
 $("fOpen").onclick=openF;$("fClose").onclick=closeF;$("fDone").onclick=closeF;$("scrim").onclick=closeF;
 $("fReset").onclick=()=>{st.genres.clear();st.decades.clear();st.conf.clear();st.sourced=false;$("oV").checked=false;st.view="start";refresh()};
@@ -583,6 +587,10 @@ $("tF").onsubmit=async e=>{e.preventDefault();const user=$("tU").value.trim();if
  catch(err){o.innerHTML='<p class="terr">Could not reach Last.fm. Check your connection and try again.</p>'}
  finally{b.disabled=false}};
 try{const u=localStorage.getItem("lfu");if(u)$("tU").value=u}catch(_){}
+
+// ---------- quadrant chips ----------
+function setQuad(q){st.quad=q||null;if(st.quad){const x=st.quad[1]==="L"?-4.7:4.7,y=st.quad[0]==="A"?4.7:-4.7;animateTo(10/5.3,x,y,380)}else animateTo(1,0,0,300);refresh()}
+$("qchips").addEventListener("click",e=>{const b=e.target.closest("button[data-q]");if(!b)return;setQuad(b.dataset.q===st.quad?null:b.dataset.q)});
 </script>
 </body>
 </html>

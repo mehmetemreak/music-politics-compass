@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Off Key: a political compass of musicians</title>
-<meta name="description" content="191 musicians, from Woody Guthrie to Kneecap, placed by sourced statements, endorsements and activism. Tap anyone for the evidence.">
+<title id="docTitle">Off Key: a political compass of musicians</title>
+<meta name="description" id="docDesc" content="191 musicians, from Woody Guthrie to Kneecap, placed by sourced statements, endorsements and activism. Tap anyone for the evidence.">
 <meta property="og:title" content="Off Key: a political compass of musicians">
 <meta property="og:description" content="191 musicians, from Woody Guthrie to Kneecap, placed by sourced statements, endorsements and activism. Tap anyone for the evidence.">
 <meta property="og:type" content="website">
@@ -24,7 +24,7 @@
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
 main{max-width:860px;margin:0 auto;padding:18px 12px 120px}
-h1{font:600 24px/1.2 Georgia,"Times New Roman",serif;margin:0 0 4px}.hrow{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}.thm{font:13px system-ui,sans-serif;display:flex;align-items:center;gap:5px;padding:6px 10px;min-height:36px;border:1px solid var(--grid2);border-radius:999px;background:var(--panel);color:var(--ink2);cursor:pointer;flex:none}.thm svg{width:15px;height:15px}
+h1{font:600 24px/1.2 Georgia,"Times New Roman",serif;margin:0 0 4px}.hrow{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}.hacts{display:flex;align-items:center;gap:6px}.thm,.lang-btn{font:13px system-ui,sans-serif;display:flex;align-items:center;gap:5px;padding:6px 10px;min-height:36px;border:1px solid var(--grid2);border-radius:999px;background:var(--panel);color:var(--ink2);cursor:pointer;flex:none}.thm svg{width:15px;height:15px}
 .sub{margin:0 0 10px;color:var(--ink2);font-size:14px}
 .prog{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--ink2);margin:0 0 12px}
 .prog .bar{flex:0 0 110px;height:6px;border-radius:3px;background:var(--grid2);overflow:hidden}
@@ -156,7 +156,6 @@ h2{font:600 18px Georgia,serif;margin:28px 0 8px}
 footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2)}
 #err{padding:14px;border:1px solid var(--gE);border-radius:8px;color:var(--ink)}
 .wk{font-size:.92em;margin:10px 0 0}
-/* layouts: <900 phone (bottom drawers) · 900–1023 filters|chart · 1024–1279 chart|panel, filters in a drawer · 1280+ filters|chart|panel */
 @media (max-width:899px),(min-width:1024px) and (max-width:1279px){
  #filters{position:fixed;left:0;right:0;bottom:0;z-index:20;max-height:82vh;overflow:auto;background:var(--bg);border-top:1px solid var(--grid2);border-radius:14px 14px 0 0;box-shadow:0 -8px 28px rgba(0,0,0,.22);padding:14px 16px 0;transform:translateY(105%);transition:transform .22s ease;visibility:hidden}
  #filters.open{transform:none;visibility:visible}
@@ -188,7 +187,6 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
  .layout{grid-template-columns:250px minmax(0,calc(100vh - 230px)) 340px}
  #filters{max-width:none;margin:0}
 }
-/* hover (mouse only): dim everyone else, show the hovered person's halo and shift */
 #sv.hovering #gPt>g:not(.hov):not(.sel){opacity:.3}
 #sv.hovering #gTr>g:not(.hv){opacity:.15}
 #gTr>g.hv line{stroke:var(--ink)}
@@ -197,38 +195,44 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 </head>
 <body>
 <main>
-<div class="hrow"><h1>Off Key</h1><button type="button" id="thm" class="thm" aria-label="Theme"></button></div>
-<p class="sub"><b>A political compass of musicians</b>, placed by what they have said and done, with the uncertainty drawn in. It borrows the axes of <a href="https://www.politicalcompass.org" target="_blank" rel="noopener">the Political Compass</a>, not its test. People, not bands; tap anyone for the evidence.</p>
+<div class="hrow">
+  <h1>Off Key</h1>
+  <div class="hacts">
+    <button type="button" id="langToggle" class="lang-btn" aria-label="Switch language">🇹🇷 TR</button>
+    <button type="button" id="thm" class="thm" aria-label="Theme"></button>
+  </div>
+</div>
+<p class="sub" id="pSub"></p>
 <div class="prog" id="prog"></div>
-<p id="err" hidden>The data file did not load. If you opened this page straight from disk, serve it over http instead.</p>
+<p id="err" hidden></p>
 
 <div class="layout">
 <aside id="filters" aria-label="Filters">
-<div class="fhead"><b>Filters</b><button class="x" id="fClose" aria-label="Close filters">&times;</button></div>
-<div class="fsec"><h3>Show</h3><div class="vsel"><span class="seg"><button type="button" id="vS" aria-pressed="true">50 to start</button><button type="button" id="vA" aria-pressed="false">All</button></span></div><p class="fnote" id="vNote"></p></div>
-<div class="fsec"><h3>Genre</h3><div class="chips" id="chips"></div></div>
-<div class="fsec"><h3>Quadrant</h3><div class="chips" id="qchips"></div><p class="fnote">On the chart this zooms to the quadrant and fades everyone else; in the list it filters. People within 0.6 of an axis count on both sides.</p></div>
-<div class="fsec"><h3>Career began</h3><div class="chips" id="dchips"></div><p class="fnote">From the start of "years active" on Wikipedia (or the article text where there is no such field), not when they became famous.</p></div>
-<div class="fsec"><h3>Confidence</h3><div class="chips" id="cchips"></div><p class="fnote">How firmly the evidence pins the placement: high is about &plusmn;1 unit, medium &plusmn;1.5, low &plusmn;2.5.</p></div>
-<div class="fsec"><h3>Evidence</h3><label class="chk"><input type="checkbox" id="oV"> Sourced placements only</label></div>
-<div class="fsec"><h3>On the chart</h3>
-<label class="chk"><input type="checkbox" id="oC" checked> Group crowded areas</label>
-<label class="chk"><input type="checkbox" id="oT" checked> Shifts over time</label>
-<label class="chk"><input type="checkbox" id="oS"> Same-band splits</label>
-<label class="chk"><input type="checkbox" id="oH"> Uncertainty for all</label></div>
-<div class="ffoot"><button type="button" id="fReset">Clear filters</button><button type="button" id="fDone" class="pri">Show</button></div>
+<div class="fhead"><b id="txtFilters">Filters</b><button class="x" id="fClose" aria-label="Close filters">&times;</button></div>
+<div class="fsec"><h3 id="txtSecShow">Show</h3><div class="vsel"><span class="seg"><button type="button" id="vS" aria-pressed="true"></button><button type="button" id="vA" aria-pressed="false"></button></span></div><p class="fnote" id="vNote"></p></div>
+<div class="fsec"><h3 id="txtSecGenre">Genre</h3><div class="chips" id="chips"></div></div>
+<div class="fsec"><h3 id="txtSecQuad">Quadrant</h3><div class="chips" id="qchips"></div><p class="fnote" id="txtQuadNote"></p></div>
+<div class="fsec"><h3 id="txtSecCareer">Career began</h3><div class="chips" id="dchips"></div><p class="fnote" id="txtCareerNote"></p></div>
+<div class="fsec"><h3 id="txtSecConf">Confidence</h3><div class="chips" id="cchips"></div><p class="fnote" id="txtConfNote"></p></div>
+<div class="fsec"><h3 id="txtSecEvid">Evidence</h3><label class="chk"><input type="checkbox" id="oV"> <span id="txtSourcedOnly"></span></label></div>
+<div class="fsec"><h3 id="txtSecOnChart">On the chart</h3>
+<label class="chk"><input type="checkbox" id="oC" checked> <span id="txtOptCluster"></span></label>
+<label class="chk"><input type="checkbox" id="oT" checked> <span id="txtOptShifts"></span></label>
+<label class="chk"><input type="checkbox" id="oS"> <span id="txtOptSplits"></span></label>
+<label class="chk"><input type="checkbox" id="oH"> <span id="txtOptHalos"></span></label></div>
+<div class="ffoot"><button type="button" id="fReset"></button><button type="button" id="fDone" class="pri"></button></div>
 </aside>
 <div id="scrim" hidden></div>
 <div class="mainc">
-<div class="topbar"><div class="tabs" role="tablist"><button role="tab" id="tabC" aria-selected="true">Chart</button><button role="tab" id="tabL" aria-selected="false">List</button></div><span class="vsel tv"><span class="seg" role="group" aria-label="How many people to show"><button type="button" id="vS2" aria-pressed="true" title="The starting 50" aria-label="Show the starting 50">50</button><button type="button" id="vA2" aria-pressed="false" title="Everyone">All</button></span></span><button type="button" id="fOpen" class="fbtn">Filters<span id="fCount"></span></button></div>
-<div class="bar2"><input id="q" type="search" placeholder="Find a name or band" aria-label="Find a name or band" enterkeyhint="search" autocomplete="off"></div>
+<div class="topbar"><div class="tabs" role="tablist"><button role="tab" id="tabC" aria-selected="true"></button><button role="tab" id="tabL" aria-selected="false"></button></div><span class="vsel tv"><span class="seg" role="group" id="vselSeg" aria-label="How many people to show"><button type="button" id="vS2" aria-pressed="true" title="50" aria-label="50">50</button><button type="button" id="vA2" aria-pressed="false" title="All">All</button></span></span><button type="button" id="fOpen" class="fbtn"><span id="txtFOpen"></span><span id="fCount"></span></button></div>
+<div class="bar2"><input id="q" type="search" placeholder="" aria-label="" enterkeyhint="search" autocomplete="off"></div>
 <div class="pills" id="pills"></div>
 <section id="vChart">
-<a class="skip" href="#tabL" id="skipL">Skip to the list view</a>
+<a class="skip" href="#tabL" id="skipL"></a>
 <div class="wrap" id="wrap">
-<svg id="sv" tabindex="0" role="group" aria-roledescription="chart" aria-label="Political compass of musicians. Arrow keys move between people, Enter opens one, plus and minus zoom. The List tab has the same data as a table."><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--acc)"/></marker><clipPath id="cp"><rect id="cpr"/></clipPath></defs>
+<svg id="sv" tabindex="0" role="group" aria-roledescription="chart"><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--acc)"/></marker><clipPath id="cp"><rect id="cpr"/></clipPath></defs>
 <g id="gBg"></g><g id="gIn" clip-path="url(#cp)"><g id="gSp" class="sp"></g><g id="gTr" class="tr"></g><g id="gPt"></g></g><g id="gAx"></g></svg>
-<svg id="mm" viewBox="0 0 20 20" aria-label="Overview map; tap to move there"></svg>
+<svg id="mm" viewBox="0 0 20 20" aria-label=""></svg>
 <div id="tip"></div><div class="wh" id="wh"></div><div id="live" class="vh" aria-live="polite"></div>
 </div>
 <div class="ctl"><div class="zb"><button id="zOut" aria-label="Zoom out">&minus;</button><button id="zIn" aria-label="Zoom in">+</button><button id="zR" aria-label="Reset view">&#8634;</button></div><span class="hint" id="hint"></span></div>
@@ -236,48 +240,344 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 </section>
 
 <section id="vList" hidden>
-<div class="lh"><span id="lc"></span><span class="srt"><button type="button" id="sdir" class="sdir" aria-label="Reverse order" title="Reverse order"></button><label>Sort <select id="sort"><option value="name">Name</option><option value="econ">Left to right</option><option value="auth">Libertarian to authoritarian</option><option value="src">Sourced first</option><option value="start">Career began</option><option value="read">Most languages on Wikipedia</option><option value="heard">Most listened (Last.fm)</option></select></label></span></div>
+<div class="lh"><span id="lc"></span><span class="srt"><button type="button" id="sdir" class="sdir" aria-label="" title=""></button><label><span id="txtSortLabel">Sort</span> <select id="sort"></select></label></span></div>
 <div id="list"></div>
 </section>
-<section class="taste" id="taste"><h3>Your taste</h3><p class="fnote">Enter a Last.fm username to see which of your top 1,000 artists are on the chart, and where your listening sits on average.</p><form id="tF" class="tf" autocomplete="off"><input id="tU" type="text" placeholder="Last.fm username" aria-label="Last.fm username" autocapitalize="off" spellcheck="false"><button type="submit" id="tGo">Match</button></form><div id="tOut" aria-live="polite"></div><p class="tcr">Listening data from <a href="https://www.last.fm" target="_blank" rel="noopener">Last.fm</a>. Nothing is stored except the username, in your own browser.</p></section>
+<section class="taste" id="taste"><h3 id="txtTasteTitle">Your taste</h3><p class="fnote" id="txtTasteSub"></p><form id="tF" class="tf" autocomplete="off"><input id="tU" type="text" placeholder="" aria-label="" autocapitalize="off" spellcheck="false"><button type="submit" id="tGo"></button></form><div id="tOut" aria-live="polite"></div><p class="tcr" id="txtTasteCredits"></p></section>
 
 </div>
 <div id="sheet" hidden><div class="sh" id="sh" role="dialog" aria-modal="false" aria-labelledby="shName"></div></div>
-<div id="insp0">Pick a point, or a row in the list, to see the placement, its sources and the Wikipedia section on their politics.</div>
+<div id="insp0"></div>
 </div>
 
-<h2>How to read it</h2><p class="fnote">Missing someone? <a id="sugg" href="#" target="_blank" rel="noopener">Suggest a musician</a> with a sourced statement or record.</p>
-<ul class="note">
-<li><b>The axes follow <a href="https://www.politicalcompass.org" target="_blank" rel="noopener">the Political Compass</a>.</b> Horizontal is economics: state ownership, redistribution and public provision on the left; free markets and private enterprise on the right. Vertical is authority, kept separate from economics: one-party rule, censorship, the death penalty, nationalism and enforced moral codes at the top; civil liberties and limits on state power at the bottom.</li>
-<li><b>Authority has no side.</b> Backing the Soviet Union or Castro's Cuba counts as authoritarian exactly as backing an ethno-nationalist party does. A big public sector on its own does not: Nordic-style social democrats sit lib-left. Being offensive is not the same as being authoritarian, and being cancelled is not the same as being libertarian.</li>
-<li><b>Pressure outside the state counts, narrowly.</b> Calling for someone to lose a job, a platform, a venue or a contract over what they said or who they are counts towards authority, weighted below state power. Criticism does not, refusing to work with someone does not, and boycotting a state or a company over its policies does not (Sun City, BDS). The same test applies whichever side is calling for it.</li>
-<li><b>Shifts are drawn only from evidence that passes the same tests.</b> A solid arrow means both ends are at least medium confidence; a dashed one means one end rests on a single signal. The arrow says where someone stood then and stands now, not why they moved: the axes measure fixed positions, not whether someone is against whoever is in power.</li>
-<li><b>Two tests for every piece of evidence.</b> First: is the person speaking as themselves? Lyrics count only when the artist owns them, by saying the song is their view, taking it to rallies or picket lines, giving its money to the cause, or writing in that line across their whole work. Characters, irony and stage personas do not count. Second: what did it cost them? Office, prison, exile, bans, years of organising and money given up count most. Sustained activism and political work they stand behind come next, then what they call themselves. A single vote, endorsement or small donation shows only a direction: a mark resting on nothing stronger stays within 4 units of the centre, at low confidence. A stray interview line never moves a mark on its own.</li>
-<li><b>Thin evidence widens the halo; it does not pull anyone to the centre.</b> Someone who never voted but spent decades on political work they stand behind can sit far out. How famous a song became does not count either: the chart measures belief, not influence.</li>
-<li><b>The starting 50:</b> everyone with a documented shift in position, the person furthest from the centre in each quadrant, ten people with a costly political record (office held, prison, charges, violence, exile, bans or blacklists), then the most popular until there are 50. Popularity blends two ranks: how many language editions of Wikipedia have an article on the person (English views break ties) and Last.fm listeners, counting a band's listeners for someone known through their band. Low-confidence placements do not get in on popularity alone. The list can be sorted by either measure. <i>All</i> shows everyone. A search always looks through everyone.</li>
-<li><b>Who is included:</b> people who are either widely known or have a substantial political record, up to 200. Genre is shown by colour and shape together, and is a filing decision, not a claim.</li>
-<li><b>Precision, axis by axis:</b> each axis has its own confidence: high is good to about &plusmn;1 unit, medium &plusmn;1.5, low &plusmn;2.5. Many musicians have a clear record on authority but none on economics, so their halo is an ellipse, wide from side to side; with no economic record at all it spans &plusmn;5. Charity is not economic evidence, and neither is defending their own copyright. Crowded areas collapse into numbered groups; tap one to open it.</li>
-<li><b>Sourcing:</b> placements marked <i>not yet sourced</i> come from general knowledge and are being checked one by one. Anything that cannot be sourced will be removed.</li>
-<li><b>Limits:</b> the sample is hand-picked and mostly Anglo-American. The Political Compass itself is <a href="https://en.wikipedia.org/wiki/The_Political_Compass" target="_blank" rel="noopener">criticised</a> for its method and some placements; this chart borrows its axes, not its test or its rankings.</li>
-</ul>
-<footer>Follow me on <a href="https://www.instagram.com/mehmetemre.ak/" target="_blank" rel="noopener">Instagram</a></footer>
-<footer>Code and data on <a id="repo" href="#" target="_blank" rel="noopener">GitHub</a> (code MIT, data CC BY 4.0). Think a placement is wrong? Open the person and use <i>Dispute this placement</i>. Inspired by <a href="https://www.instagram.com/p/DfkCZ8VRQhA" target="_blank" rel="noopener">a reel</a> by @mcantuzer. Visits counted without cookies. <a id="fund" href="#" target="_blank" rel="noopener">Help cover costs</a>.</footer>
+<h2 id="txtHowToTitle">How to read it</h2><p class="fnote" id="txtSuggestLine"></p>
+<ul class="note" id="guideNotes"></ul>
+<footer><span id="txtFollowMe"></span> <a href="https://www.instagram.com/mehmetemre.ak/" target="_blank" rel="noopener">Instagram</a></footer>
+<footer id="footerCredits"></footer>
 </main>
 
-
 <script>
+const I18N = {
+  en: {
+    docTitle: "Off Key: a political compass of musicians",
+    docDesc: "191 musicians, from Woody Guthrie to Kneecap, placed by sourced statements, endorsements and activism. Tap anyone for the evidence.",
+    langBtn: "🇹🇷 TR",
+    sub: `<b>A political compass of musicians</b>, placed by what they have said and done, with the uncertainty drawn in. It borrows the axes of <a href="https://www.politicalcompass.org" target="_blank" rel="noopener">the Political Compass</a>, not its test. People, not bands; tap anyone for the evidence.`,
+    errDisk: "The data file did not load. If you opened this page straight from disk, serve it over http instead.",
+    filters: "Filters",
+    secShow: "Show",
+    btnStart: "50 to start",
+    btnAll: "All",
+    vNoteStart: "popular names plus the political outliers",
+    vNoteAll: "everyone, up to a cap of 200",
+    secGenre: "Genre",
+    secQuad: "Quadrant",
+    quadNote: "On the chart this zooms to the quadrant and fades everyone else; in the list it filters. People within 0.6 of an axis count on both sides.",
+    secCareer: "Career began",
+    careerNote: `From the start of "years active" on Wikipedia (or the article text where there is no such field), not when they became famous.`,
+    secConf: "Confidence",
+    confNote: "How firmly the evidence pins the placement: high is about ±1 unit, medium ±1.5, low ±2.5.",
+    secEvid: "Evidence",
+    sourcedOnly: "Sourced placements only",
+    secOnChart: "On the chart",
+    optCluster: "Group crowded areas",
+    optShifts: "Shifts over time",
+    optSplits: "Same-band splits",
+    optHalos: "Uncertainty for all",
+    clearFilters: "Clear filters",
+    showN: (n, s) => `Show ${n} ${s ? "person" : "people"}`,
+    tabChart: "Chart",
+    tabList: "List",
+    btnFilter: "Filters",
+    findPlaceholder: "Find a name or band",
+    skipToList: "Skip to the list view",
+    chartAria: "Political compass of musicians. Arrow keys move between people, Enter opens one, plus and minus zoom. The List tab has the same data as a table.",
+    mmAria: "Overview map; tap to move there",
+    revOrder: "Reverse order",
+    sortLabel: "Sort",
+    sortOpts: [
+      { v: "name", t: "Name" }, { v: "econ", t: "Left to right" }, { v: "auth", t: "Libertarian to authoritarian" },
+      { v: "src", t: "Sourced first" }, { v: "start", t: "Career began" }, { v: "read", t: "Most languages on Wikipedia" },
+      { v: "heard", t: "Most listened (Last.fm)" }
+    ],
+    tasteTitle: "Your taste",
+    tasteSub: "Enter a Last.fm username to see which of your top 1,000 artists are on the chart, and where your listening sits on average.",
+    tasteInput: "Last.fm username",
+    tasteBtn: "Match",
+    tasteCredits: `Listening data from <a href="https://www.last.fm" target="_blank" rel="noopener">Last.fm</a>. Nothing is stored except the username, in your own browser.`,
+    insp0: "Pick a point, or a row in the list, to see the placement, its sources and the Wikipedia section on their politics.",
+    howToTitle: "How to read it",
+    suggestLine: `Missing someone? <a id="sugg" href="#" target="_blank" rel="noopener">Suggest a musician</a> with a sourced statement or record.`,
+    followMe: "Follow me on",
+    footerCredits: `Code and data on <a id="repo" href="#" target="_blank" rel="noopener">GitHub</a> (code MIT, data CC BY 4.0). Think a placement is wrong? Open the person and use <i>Dispute this placement</i>. Inspired by <a href="https://www.instagram.com/p/DfkCZ8VRQhA" target="_blank" rel="noopener">a reel</a> by @mcantuzer. Visits counted without cookies. <a id="fund" href="#" target="_blank" rel="noopener">Help cover costs</a>.`,
+    quadLabels: { AL: "AUTH-LEFT", AR: "AUTH-RIGHT", LL: "LIB-LEFT", LR: "LIB-RIGHT" },
+    genres: { R: "Rock", P: "Punk & new wave", M: "Metal & hard rock", O: "Pop", H: "Hip-hop", C: "Country", F: "Folk, soul & reggae", E: "Electronic" },
+    confLevels: { 3: "High", 2: "Medium", 1: "Low" },
+    confLeg: { 3: "Filled: high confidence", 2: "Hollow: medium", 1: "Dashed: low" },
+    legShift: "Documented shift",
+    legCluster: "Crowded group: tap to open",
+    all: "All",
+    clearAll: "Clear all",
+    languages: s => s ? "language" : "languages",
+    engViews: "English views in the past year",
+    lastFmListeners: "Last.fm listeners",
+    asBand: b => `(as ${b})`,
+    economic: "Economic",
+    authority: "Authority",
+    left: "Left",
+    right: "Right",
+    libertarian: "Libertarian",
+    authoritarian: "Authoritarian",
+    noEconRecord: "no economic record",
+    sourcedBadge: (d) => `&#10003; Sourced · checked ${d}`,
+    unsourcedBadge: "Not yet sourced · placed from general knowledge, pending a check",
+    earlierPos: "Earlier position",
+    weakShift: "weak shift: one end rests on a single signal, so the arrow is dashed",
+    sourcesH4: "Sources",
+    noneYet: "None yet.",
+    showOnChart: "Show on chart",
+    disputePlacement: "Dispute this placement",
+    copyLink: "Copy link",
+    copied: "Copied",
+    solo: "Solo",
+    unknown: "Unknown",
+    nobodyMatches: "Nobody matches.",
+    peopleCount: (n, s) => `${n} ${s ? "person" : "people"}`,
+    crowdedNote: (p, g) => `${p} people in ${g} crowded group${g > 1 ? "s" : ""} · tap a number to open it`,
+    hiddenNote: (h, c) => `${h} names hidden at this zoom · ${c ? "pinch or double-tap" : (MAC ? "\u2318" : "Ctrl") + " + scroll or double-click"} to see more`,
+    dragNote: (c) => c ? "Drag to move around" : `Drag to move around · ${MAC ? "\u2318" : "Ctrl"} + scroll to zoom`,
+    wheelMsg: `Hold ${MAC ? "\u2318" : "Ctrl"} and scroll to zoom`,
+    livePerson: (d) => `${d.name}. Economic ${fmt(d.econ)}, authority ${fmt(d.auth)}. Enter to open.`,
+    liveGroup: (n) => `Group of ${n} people. Enter to zoom in.`,
+    tasteFetching: "Fetching your top artists…",
+    tasteNoUser: "No Last.fm user by that name.",
+    tastePrivate: "That profile keeps its listening private.",
+    tasteError: (m) => `Last.fm said: ${m}`,
+    tasteNetworkErr: "Could not reach Last.fm. Check your connection and try again.",
+    tasteNone: (u, t) => `None of ${u}'s top ${t} artists are on the chart yet.`,
+    tasteCen: (x, y) => `<b>Centre of your listening:</b> economic ${fmt(x)}, authority ${fmt(y)}.<br><small>This is where the musicians you play sit on average, weighted by plays. It is not where you sit.</small>`,
+    tasteCenFew: "Fewer than three matches, so no centre is drawn.",
+    tasteSummary: (na, u, tot, n) => `<b>${na}</b> of ${u}'s top ${tot} artists ${na === 1 ? "matches" : "match"} <b>${n}</b> ${n === 1 ? "person" : "people"} on the chart; everyone else is faded.`,
+    tasteClearBtn: "Clear",
+    playsVia: (v, h) => `${v} plays${h.length ? " via " + h.join(", ") : ""}`,
+    guideList: [
+      `<b>The axes follow <a href="https://www.politicalcompass.org" target="_blank" rel="noopener">the Political Compass</a>.</b> Horizontal is economics: state ownership, redistribution and public provision on the left; free markets and private enterprise on the right. Vertical is authority, kept separate from economics: one-party rule, censorship, the death penalty, nationalism and enforced moral codes at the top; civil liberties and limits on state power at the bottom.`,
+      `<b>Authority has no side.</b> Backing the Soviet Union or Castro's Cuba counts as authoritarian exactly as backing an ethno-nationalist party does. A big public sector on its own does not: Nordic-style social democrats sit lib-left. Being offensive is not the same as being authoritarian, and being cancelled is not the same as being libertarian.`,
+      `<b>Pressure outside the state counts, narrowly.</b> Calling for someone to lose a job, a platform, a venue or a contract over what they said or who they are counts towards authority, weighted below state power. Criticism does not, refusing to work with someone does not, and boycotting a state or a company over its policies does not (Sun City, BDS). The same test applies whichever side is calling for it.`,
+      `<b>Shifts are drawn only from evidence that passes the same tests.</b> A solid arrow means both ends are at least medium confidence; a dashed one means one end rests on a single signal. The arrow says where someone stood then and stands now, not why they moved: the axes measure fixed positions, not whether someone is against whoever is in power.`,
+      `<b>Two tests for every piece of evidence.</b> First: is the person speaking as themselves? Lyrics count only when the artist owns them, by saying the song is their view, taking it to rallies or picket lines, giving its money to the cause, or writing in that line across their whole work. Characters, irony and stage personas do not count. Second: what did it cost them? Office, prison, exile, bans, years of organising and money given up count most. Sustained activism and political work they stand behind come next, then what they call themselves. A single vote, endorsement or small donation shows only a direction: a mark resting on nothing stronger stays within 4 units of the centre, at low confidence. A stray interview line never moves a mark on its own.`,
+      `<b>Thin evidence widens the halo; it does not pull anyone to the centre.</b> Someone who never voted but spent decades on political work they stand behind can sit far out. How famous a song became does not count either: the chart measures belief, not influence.`,
+      `<b>The starting 50:</b> everyone with a documented shift in position, the person furthest from the centre in each quadrant, ten people with a costly political record (office held, prison, charges, violence, exile, bans or blacklists), then the most popular until there are 50. Popularity blends two ranks: how many language editions of Wikipedia have an article on the person (English views break ties) and Last.fm listeners, counting a band's listeners for someone known through their band. Low-confidence placements do not get in on popularity alone. The list can be sorted by either measure. <i>All</i> shows everyone. A search always looks through everyone.`,
+      `<b>Who is included:</b> people who are either widely known or have a substantial political record, up to 200. Genre is shown by colour and shape together, and is a filing decision, not a claim.`,
+      `<b>Precision, axis by axis:</b> each axis has its own confidence: high is good to about ±1 unit, medium ±1.5, low ±2.5. Many musicians have a clear record on authority but none on economics, so their halo is an ellipse, wide from side to side; with no economic record at all it spans ±5. Charity is not economic evidence, and neither is defending their own copyright. Crowded areas collapse into numbered groups; tap one to open it.`,
+      `<b>Sourcing:</b> placements marked <i>not yet sourced</i> come from general knowledge and are being checked one by one. Anything that cannot be sourced will be removed.`,
+      `<b>Limits:</b> the sample is hand-picked and mostly Anglo-American. The Political Compass itself is <a href="https://en.wikipedia.org/wiki/The_Political_Compass" target="_blank" rel="noopener">criticised</a> for its method and some placements; this chart borrows its axes, not its test or its rankings.`
+    ]
+  },
+  tr: {
+    docTitle: "Off Key: Müzisyenlerin Politik Pusulası",
+    docDesc: "Woody Guthrie'den Kneecap'e 191 müzisyen; kaynaklı beyanlar, destekler ve aktivizmle konumlandırılmış. Kanıtlar için bir isme tıklayın.",
+    langBtn: "🇬🇧 EN",
+    sub: `<b>Müzisyenlerin politik pusulası</b>; söyledikleri ve yaptıkları üzerinden konumlandırılmış, belirsizlik payları ise grafiğe doğrudan işlenmiştir. Testini değil, yalnızca <a href="https://www.politicalcompass.org" target="_blank" rel="noopener">Political Compass</a>'ın eksenlerini ödünç alır. Gruplar değil, kişiler; kanıtlar için herhangi birine tıklayın.`,
+    errDisk: "Veri dosyası yüklenemedi. Eğer sayfayı doğrudan yerel diskten açtıysanız bir yerel HTTP sunucusu üzerinden çalıştırın.",
+    filters: "Filtreler",
+    secShow: "Göster",
+    btnStart: "Başlangıç 50",
+    btnAll: "Tümü",
+    vNoteStart: "popüler isimler ve siyasi uç noktalar",
+    vNoteAll: "en fazla 200 kişiye kadar herkes",
+    secGenre: "Tür",
+    secQuad: "Kadran",
+    quadNote: "Grafikte seçilen kadrana odaklanır ve diğerlerini soluklaştırır; listede ise filtreler. Bir eksene 0.6 birimden yakın olanlar her iki tarafa da sayılır.",
+    secCareer: "Kariyer Başlangıcı",
+    careerNote: "Meşhur oldukları tarih değil, Wikipedia'daki aktif yılların başlangıcı (veya bu alan yoksa madde metni) esas alınmıştır.",
+    secConf: "Güvenilirlik Seviyesi",
+    confNote: "Kanıtların konumu ne kadar kesin belirlediği: yüksek yaklaşık ±1 birim, orta ±1.5, düşük ±2.5.",
+    secEvid: "Kanıt Durumu",
+    sourcedOnly: "Yalnızca kaynaklı konumlar",
+    secOnChart: "Grafik Üzerinde",
+    optCluster: "Yoğun alanları grupla",
+    optShifts: "Zaman içindeki değişimler",
+    optSplits: "Aynı grup içi ayrışmalar",
+    optHalos: "Herkes için belirsizlik haresi",
+    clearFilters: "Filtreleri temizle",
+    showN: (n, s) => `${n} ${s ? "kişi" : "kişiyi"} göster`,
+    tabChart: "Grafik",
+    tabList: "Liste",
+    btnFilter: "Filtreler",
+    findPlaceholder: "İsim veya grup ara...",
+    skipToList: "Liste görünümüne atla",
+    chartAria: "Müzisyenlerin politik pusulası. Ok tuşları kişiler arasında dolaşır, Enter detay açar, artı/eksi yakınlaştırır. Liste sekmesinde tüm veriler tablo olarak mevcuttur.",
+    mmAria: "Genel bakış haritası; gitmek için tıklayın",
+    revOrder: "Sıralamayı tersine çevir",
+    sortLabel: "Sırala",
+    sortOpts: [
+      { v: "name", t: "İsim" }, { v: "econ", t: "Soldan sağa" }, { v: "auth", t: "Özgürlükçüden otoritere" },
+      { v: "src", t: "Önce kaynaklı olanlar" }, { v: "start", t: "Kariyer başlangıcı" }, { v: "read", t: "En çok Wikipedia dili olanlar" },
+      { v: "heard", t: "En çok dinlenenler (Last.fm)" }
+    ],
+    tasteTitle: "Müzik Zevkiniz",
+    tasteSub: "En çok dinlediğiniz 1.000 sanatçıdan hangilerinin pusulada olduğunu ve dinleme geçmişinizin ortalama nerede durduğunu görmek için Last.fm kullanıcı adınızı girin.",
+    tasteInput: "Last.fm kullanıcı adı",
+    tasteBtn: "Eşleştir",
+    tasteCredits: `Dinleme verileri <a href="https://www.last.fm" target="_blank" rel="noopener">Last.fm</a> servisinden alınır. Kullanıcı adınız yalnızca kendi tarayıcınızda tutulur.`,
+    insp0: "Konumlandırmayı, kaynakları ve Wikipedia siyaset bölümünü görmek için grafikten bir noktaya veya listeden bir satıra tıklayın.",
+    howToTitle: "Nasıl Okunmalı?",
+    suggestLine: `Eksik biri mi var? Kaynaklı bir demeç veya kayıt ile <a id="sugg" href="#" target="_blank" rel="noopener">bir müzisyen önerin</a>.`,
+    followMe: "Beni takip edin:",
+    footerCredits: `Kod ve veri <a id="repo" href="#" target="_blank" rel="noopener">GitHub</a> üzerinde (kod MIT, veri CC BY 4.0). Bir konumun hatalı olduğunu mu düşünüyorsunuz? Sanatçıyı açıp <i>Bir konuma itiraz et</i> seçeneğini kullanın. @mcantuzer'in <a href="https://www.instagram.com/p/DfkCZ8VRQhA" target="_blank" rel="noopener">bir içeriğinden</a> esinlenilmiştir. Ziyaretler çerezsiz sayılır. <a id="fund" href="#" target="_blank" rel="noopener">Masraflara destek olun</a>.`,
+    quadLabels: { AL: "OTORİTER-SOL", AR: "OTORİTER-SAĞ", LL: "ÖZGÜRLÜKÇÜ-SOL", LR: "ÖZGÜRLÜKÇÜ-SAĞ" },
+    genres: { R: "Rock", P: "Punk & new wave", M: "Metal & hard rock", O: "Pop", H: "Hip-hop", C: "Country", F: "Folk, soul & reggae", E: "Elektronik" },
+    confLevels: { 3: "Yüksek", 2: "Orta", 1: "Düşük" },
+    confLeg: { 3: "Dolu: yüksek güvenilirlik", 2: "İçi boş: orta", 1: "Kesikli: düşük" },
+    legShift: "Belgelenmiş değişim",
+    legCluster: "Yoğun grup: açmak için tıkla",
+    all: "Tümü",
+    clearAll: "Temizle",
+    languages: s => "dil",
+    engViews: "son bir yılda İngilizce okunma",
+    lastFmListeners: "Last.fm dinleyicisi",
+    asBand: b => `(${b} üyesi olarak)`,
+    economic: "Ekonomik",
+    authority: "Otorite",
+    left: "Sol",
+    right: "Sağ",
+    libertarian: "Özgürlükçü",
+    authoritarian: "Otoriter",
+    noEconRecord: "ekonomik veri yok",
+    sourcedBadge: (d) => `&#10003; Kaynaklı · denetim: ${d}`,
+    unsourcedBadge: "Henüz kaynaklanmadı · genel bilgiye göre yerleştirildi, kontrol bekliyor",
+    earlierPos: "Önceki konum",
+    weakShift: "zayıf değişim: bir uç tekil bir sinyale dayanır, bu yüzden ok kesiklidir",
+    sourcesH4: "Kaynaklar",
+    noneYet: "Henüz kaynak yok.",
+    showOnChart: "Grafikte göster",
+    disputePlacement: "Bu konuma itiraz et",
+    copyLink: "Bağlantıyı kopyala",
+    copied: "Kopyalandı",
+    solo: "Solo",
+    unknown: "Bilinmiyor",
+    nobodyMatches: "Eşleşen kimse bulunamadı.",
+    peopleCount: (n, s) => `${n} kişi`,
+    crowdedNote: (p, g) => `${p} kişi ${g} yoğun grupta · açmak için bir rakama dokunun`,
+    hiddenNote: (h, c) => `Bu yakınlaştırmada ${h} isim gizlendi · daha fazlası için ${c ? "çift dokunun veya sıkıştırın" : (MAC ? "\u2318" : "Ctrl") + " + kaydırın veya çift tıklayın"}`,
+    dragNote: (c) => c ? "Gezinmek için sürükleyin" : `Gezinmek için sürükleyin · Yakınlaştırma için ${MAC ? "\u2318" : "Ctrl"} + kaydırın`,
+    wheelMsg: `Yakınlaştırmak için ${MAC ? "\u2318" : "Ctrl"} tuşuna basıp kaydırın`,
+    livePerson: (d) => `${d.name}. Ekonomik ${fmt(d.econ)}, otorite ${fmt(d.auth)}. Açmak için Enter'a basın.`,
+    liveGroup: (n) => `${n} kişilik grup. Yakınlaşmak için Enter'a basın.`,
+    tasteFetching: "En çok dinlediğiniz sanatçılar Last.fm'den alınıyor…",
+    tasteNoUser: "Bu isimde bir Last.fm kullanıcısı bulunamadı.",
+    tastePrivate: "Bu profil dinleme geçmişini gizli tutuyor.",
+    tasteError: (m) => `Last.fm hatası: ${m}`,
+    tasteNetworkErr: "Last.fm'e erişilemedi. Bağlantınızı kontrol edip tekrar deneyin.",
+    tasteNone: (u, t) => `${u} kullanıcısının en çok dinlediği ${t} sanatçıdan hiçbiri henüz pusulada yer almıyor.`,
+    tasteCen: (x, y) => `<b>Dinleme geçmişinizin merkezi:</b> ekonomik ${fmt(x)}, otorite ${fmt(y)}.<br><small>Bu nokta sizin değil; dinlediğiniz müzisyenlerin dinlenme sayılarıyla ağırlıklandırılmış ortalamasıdır.</small>`,
+    tasteCenFew: "Üçten az eşleşme olduğu için merkez noktası çizilmedi.",
+    tasteSummary: (na, u, tot, n) => `${u} adlı kullanıcının en çok dinlediği ${tot} sanatçıdan <b>${na}</b> tanesi pusuladaki <b>${n}</b> kişiyle eşleşti; diğerleri soluklaştırıldı.`,
+    tasteClearBtn: "Temizle",
+    playsVia: (v, h) => `${v} dinleme${h.length ? " (" + h.join(", ") + " üzerinden)" : ""}`,
+    guideList: [
+      `<b>Eksenler <a href="https://www.politicalcompass.org" target="_blank" rel="noopener">Political Compass</a> modelini temel alır.</b> Yatay eksen ekonomidir: solda devlet mülkiyeti, yeniden dağıtım ve kamu hizmetleri; sağda serbest piyasa ve özel girişim. Dikey eksen ise ekonomiden bağımsız otoritedir: üstte tek parti yönetimi, sansür, idam cezası, milliyetçilik ve zorunlu ahlaki kurallar; altta sivil özgürlükler ve devlet gücünün sınırlandırılması yer alır.`,
+      `<b>Otoriterliğin sağı ya da solu yoktur.</b> Sovyetler Birliği'ni veya Castro Küba'sını desteklemek, etno-milliyetçi bir partiyi desteklemekle aynı şekilde otoriter sayılır. Tek başına büyük bir kamu sektörü otoriterlik anlamına gelmez: İskandinav tarzı sosyal demokratlar özgürlükçü-solda (lib-left) yer alır. Rahatsız edici/ofansif olmak otoriter olmakla aynı şey değildir; "iptal edilmek" (cancelled) de kişiyi özgürlükçü yapmaz.`,
+      `<b>Devlet dışı baskılar dar bir çerçevede dikkate alınır.</b> Bir kişinin söyledikleri veya kimliği nedeniyle işini, platformunu, sahnesini veya sözleşmesini kaybetmesi yönünde çağrıda bulunmak (devlet gücünden daha düşük ağırlıkla da olsa) otorite lehine sayılır. Eleştiri yapmak, biriyle çalışmayı reddetmek veya politikaları nedeniyle bir devleti/şirketi boykot etmek (Sun City, BDS) otoriterlik sayılmaz. Aynı kural her iki tarafın çağrıları için de geçerlidir.`,
+      `<b>Değişim okları yalnızca aynı testleri geçen kanıtlarla çizilir.</b> Düz ok, her iki ucun da en az orta güvenilirlikte olduğunu; kesikli ok ise bir ucun tekil bir sinyale dayandığını gösterir. Ok kişinin neden değiştiğini değil, o zaman ve şimdi nerede durduğunu belirtir: Eksenler sabit pozisyonları ölçer, kim iktidardaysa ona muhalif olmayı değil.`,
+      `<b>Her kanıt için iki aşamalı test uygulanır.</b> Birincisi: Sanatçı kendisi olarak mı konuşuyor? Şarkı sözleri yalnızca sanatçı onları bizzat sahiplendiğinde (şarkının kendi fikri olduğunu söyleyerek, mitinglere taşıyarak, gelirini davaya bağışlayarak veya tüm külliyatında bu çizgiyi sürdürerek) geçerli sayılır. Kurgusal karakterler, ironi ve sahne personaları sayılmaz. İkincisi: Bu duruş kişiye neye mâl oldu? Resmi makam, hapis, sürgün, yasaklar, yıllar süren örgütlenme ve vazgeçilen gelirler en yüksek ağırlığa sahiptir. Arkasında durulan sürekli aktivizm ve siyasi üretim bunu takip eder; kişinin kendine taktığı etiketler ise daha sonra gelir. Tekil bir oy veya küçük bir bağış yalnızca yön gösterir; daha güçlü bir temeli olmayan bir işaret merkezden en fazla 4 birim uzaklaşabilir ve düşük güvenilirlikte kalır.`,
+      `<b>Zayıf kanıt belirsizlik haresini genişletir; kişiyi merkeze çekmez.</b> Hiç oy kullanmamış ancak yıllarca arkasında durduğu siyasi mücadele vermiş biri merkezden çok uzakta yer alabilir. Bir şarkının ne kadar meşhur olduğu da hesaba katılmaz: Grafik etkiyi değil, inancı ölçer.`,
+      `<b>Başlangıç 50'si:</b> Belgelenmiş bir değişimi olan herkes, her kadranda merkezden en uzaktaki kişi, bedeli ödenmiş siyasi geçmişi olan (makam, hapis, dava, sürgün, yasak, kara liste) 10 kişi ve ardından 50'ye tamamlanana kadar en popüler isimler. Popülerlik iki sıralamanın harmanıdır: Sanatçının Wikipedia'da kaç dilde maddesi olduğu ve Last.fm dinleyici sayısı. Düşük güvenilirlikli konumlar yalnızca popülerlikle bu listeye giremez. <i>Tümü</i> herkesi gösterir; arama kutusu ise her zaman tüm veri tabanında arama yapar.`,
+      `<b>Kimler dahil edilir:</b> Geniş kitlelerce tanınan ya da kayda değer bir siyasi geçmişi olan en fazla 200 isim. Türler hem renk hem de şekille gösterilir ve bir iddia değil, yalnızca bir sınıflandırma tercihidir.`,
+      `<b>Eksen bazında hassasiyet:</b> Her eksenin kendi güvenilirlik seviyesi vardır: yüksek ±1 birim, orta ±1.5, düşük ±2.5. Birçok müzisyenin otorite konusunda net bir duruşu varken ekonomi konusunda hiçbir kaydı yoktur; bu nedenle haresi iki yana doğru genişleyen bir elipstir (ekonomik kayıt yoksa ±5 birim genişler). Hayır işleri ekonomik kanıt sayılmaz, kendi telif hakkını savunmak da öyle. Yoğun alanlar numaralı gruplar halinde toplanır; açmak için dokunabilirsiniz.`,
+      `<b>Kaynaklandırma:</b> <i>Henüz kaynaklanmadı</i> olarak işaretlenen konumlar genel bilgilere dayanır ve tek tek teyit edilmektedir. Kaynaklandırılamayan kayıtlar kaldırılacaktır.`,
+      `<b>Sınırlar:</b> Örneklem el ile seçilmiştir ve ağırlıklı olarak Anglo-Amerikan dünyasını kapsar. Political Compass modelinin kendisi de yöntemi ve kimi konumlandırmaları nedeniyle <a href="https://en.wikipedia.org/wiki/The_Political_Compass" target="_blank" rel="noopener">eleştirilmektedir</a>; bu grafik modelin testini veya sıralamalarını değil, yalnızca iki eksenini ödünç alır.`
+    ]
+  }
+};
+
+let currentLang = localStorage.getItem("pref_lang") || (navigator.language.startsWith("tr") ? "tr" : "en");
+const t = (k) => I18N[currentLang][k];
+
 const REPO="https://github.com/mehmetemreak/offkey-politics-compass";
-const GN={R:"Rock",P:"Punk & new wave",M:"Metal & hard rock",O:"Pop",H:"Hip-hop",C:"Country",F:"Folk, soul & reggae",E:"Electronic"},GO="RPMOHCFE";
-const CL={3:"High",2:"Medium",1:"Low"},HR={3:1,2:1.5,1:2.5},HX={3:1,2:1.5,1:2.5,0:5},KMAX=8;
+const GO="RPMOHCFE";
+const HR={3:1,2:1.5,1:2.5},HX={3:1,2:1.5,1:2.5,0:5},KMAX=8;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
 const fmt=n=>(n>0?"+":"")+n;
 let D=[],S=600,M=26,P=548;
 const st={quad:null,hov:null,k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:false,sourced:false,sel:null,mode:"chart",sort:"name",cluster:true,view:"start",genres:new Set(),decades:new Set(),conf:new Set()};
 const dec=d=>d.start?String(Math.floor(d.start/10)*10):"?";
-const DL=k=>k==="?"?"Unknown":k+"s";
+const DL=k=>k==="?"?t("unknown"):k+"s";
 let CL_=[];
 $("repo").href=REPO;$("sugg").href=REPO+"/issues/new?template=suggest.yml";$("fund").href="https://github.com/sponsors/mehmetemreak";
+
+function applyStaticI18n(){
+  document.documentElement.lang = currentLang;
+  $("langToggle").textContent = t("langBtn");
+  $("docTitle").textContent = t("docTitle");
+  $("docDesc").setAttribute("content", t("docDesc"));
+  $("pSub").innerHTML = t("sub");
+  $("err").textContent = t("errDisk");
+  $("txtFilters").textContent = t("filters");
+  $("txtSecShow").textContent = t("secShow");
+  $("vS").textContent = t("btnStart");
+  $("vA").textContent = t("btnAll");
+  $("txtSecGenre").textContent = t("secGenre");
+  $("txtSecQuad").textContent = t("secQuad");
+  $("txtQuadNote").textContent = t("quadNote");
+  $("txtSecCareer").textContent = t("secCareer");
+  $("txtCareerNote").textContent = t("careerNote");
+  $("txtSecConf").textContent = t("secConf");
+  $("txtConfNote").textContent = t("confNote");
+  $("txtSecEvid").textContent = t("secEvid");
+  $("txtSourcedOnly").textContent = t("sourcedOnly");
+  $("txtSecOnChart").textContent = t("secOnChart");
+  $("txtOptCluster").textContent = t("optCluster");
+  $("txtOptShifts").textContent = t("optShifts");
+  $("txtOptSplits").textContent = t("optSplits");
+  $("txtOptHalos").textContent = t("optHalos");
+  $("fReset").textContent = t("clearFilters");
+  $("tabC").textContent = t("tabChart");
+  $("tabL").textContent = t("tabList");
+  $("txtFOpen").textContent = t("btnFilter");
+  $("q").placeholder = t("findPlaceholder");
+  $("q").setAttribute("aria-label", t("findPlaceholder"));
+  $("skipL").textContent = t("skipToList");
+  $("sv").setAttribute("aria-label", t("chartAria"));
+  $("mm").setAttribute("aria-label", t("mmAria"));
+  $("sdir").title = t("revOrder");
+  $("sdir").setAttribute("aria-label", t("revOrder"));
+  $("txtSortLabel").textContent = t("sortLabel");
+  
+  const sortSel = $("sort");
+  const prevSort = sortSel.value || st.sort;
+  sortSel.innerHTML = t("sortOpts").map(o=>`<option value="${o.v}">${o.t}</option>`).join("");
+  sortSel.value = prevSort;
+
+  $("txtTasteTitle").textContent = t("tasteTitle");
+  $("txtTasteSub").textContent = t("tasteSub");
+  $("tU").placeholder = t("tasteInput");
+  $("tU").setAttribute("aria-label", t("tasteInput"));
+  $("tGo").textContent = t("tasteBtn");
+  $("txtTasteCredits").innerHTML = t("tasteCredits");
+  $("insp0").textContent = t("insp0");
+  $("txtHowToTitle").textContent = t("howToTitle");
+  $("txtSuggestLine").innerHTML = t("suggestLine");
+  $("txtFollowMe").textContent = t("followMe");
+  $("footerCredits").innerHTML = t("footerCredits");
+  $("guideNotes").innerHTML = t("guideList").map(li=>`<li>${li}</li>`).join("");
+
+  $("repo").href=REPO;
+  $("sugg").href=REPO+"/issues/new?template=suggest.yml";
+  $("fund").href="https://github.com/sponsors/mehmetemreak";
+}
+
+$("langToggle").onclick = () => {
+  currentLang = currentLang === "en" ? "tr" : "en";
+  try{ localStorage.setItem("pref_lang", currentLang); }catch(_){}
+  applyStaticI18n();
+  syncView();
+  req();
+  if(st.mode==="list") drawList();
+  if(st.sel!=null) openSheet(st.sel);
+};
 
 // shapes, drawn at screen position in px
 function poly(x,y,pts){return `<polygon class="d" points="${pts.map(p=>(x+p[0]).toFixed(1)+","+(y+p[1]).toFixed(1)).join(" ")}"/>`}
@@ -301,16 +601,16 @@ function animateTo(k,cx,cy,ms=300){cancelAnimationFrame(anim);const k0=st.k,x0=s
 function zoomTo(X,Y,f){const u=ux(X),v=uy(Y),k=Math.max(1,Math.min(KMAX,st.k*f)),U=P/20*k;animateTo(k,u-(X-M-P/2)/U,v+(Y-M-P/2)/U)}
 function panBy(dx,dy){const U=UU();st.cx-=dx/U;st.cy+=dy/U;clamp();req()}
 
-const QD={AL:"Auth-left",AR:"Auth-right",LL:"Lib-left",LR:"Lib-right"},inQ=(d,q)=>(q[1]==="L"?d.econ<=0.6:d.econ>=-0.6)&&(q[0]==="A"?d.auth>=-0.6:d.auth<=0.6);
+const inQ=(d,q)=>(q[1]==="L"?d.econ<=0.6:d.econ>=-0.6)&&(q[0]==="A"?d.auth>=-0.6:d.auth<=0.6);
 const pass=d=>(!st.quad||st.mode!=="list"||inQ(d,st.quad))&&(st.view==="all"||d.starter||(st.q&&hit(d)))&&(!st.genres.size||st.genres.has(d.genre))&&(!st.decades.size||st.decades.has(dec(d)))&&(!st.conf.size||st.conf.has(d.confidence))&&(!st.sourced||d.sources.length>0);
 const hit=d=>st.q&&(d.name+" "+d.band).toLowerCase().includes(st.q);
+
+applyStaticI18n();
 
 fetch("data.json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(init).catch(()=>{$("err").hidden=false});
 
 function init(data){
  D=data;D.forEach(d=>{d.x=d.econ;d.y=d.auth});
- // the starting 50: everyone with a documented shift, the person furthest from the centre in each quadrant,
- // ten with a costly political record, then the most popular by a blend of reading and listening
  const rk=f=>{const r={};D.slice().sort(f).forEach((d,i)=>r[d.name]=i);return r},R1=rk((a,b)=>(b.langs||0)-(a.langs||0)||(b.views||0)-(a.views||0)),R2=rk((a,b)=>(b.lfm||0)-(a.lfm||0));
  D.forEach(d=>d.pop=d.lfm?(R1[d.name]+R2[d.name])/2:R1[d.name]);const byPop=D.slice().sort((a,b)=>a.pop-b.pop);
  const far={};D.forEach(d=>{if(!d.econ||!d.auth)return;const k=(d.auth>0?"auth":"lib")+"-"+(d.econ>0?"right":"left");if(!far[k]||Math.hypot(d.econ,d.auth)>Math.hypot(far[k].econ,far[k].auth))far[k]=d});
@@ -318,7 +618,7 @@ function init(data){
  Object.entries(far).forEach(([k,d])=>{if(!d.starter){d.starter=1;d.why=`furthest from the centre in the ${k} quadrant`}});
  let nc=0;byPop.forEach(d=>{if(nc<10&&d.cost===1&&!d.starter){d.starter=1;nc++;d.why="a costly political record: "+d.costWhy}});
  const n=()=>D.filter(e=>e.starter).length;byPop.forEach(d=>{if(n()<50&&!d.starter&&d.confidence>1){d.starter=1;d.why="among the most widely known (Wikipedia languages and Last.fm listeners)"}});
- // nudge overlapping marks apart (data units; always well inside the uncertainty)
+ 
  const MIN=.31;
  for(let it=0;it<120;it++)for(let i=0;i<D.length;i++)for(let j=i+1;j<D.length;j++){let dx=D[j].x-D[i].x,dy=D[j].y-D[i].y,r=Math.hypot(dx,dy);if(r>=MIN)continue;if(r<1e-4){dx=Math.cos(i*2.4+j);dy=Math.sin(i*2.4+j);r=1}const p=(MIN-r)/2/r;D[i].x-=dx*p;D[i].y-=dy*p;D[j].x+=dx*p;D[j].y+=dy*p}
  syncView();
@@ -327,34 +627,40 @@ function init(data){
 }
 const slug=s=>s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 
-// a shift is firm only if both ends are at least medium confidence on every axis it moves along
 const shWeak=d=>{const h=d.shift,a=Math.abs(h.econ-d.econ)>=1&&Math.min(h.ce??1,d.ce??1)<2,b=Math.abs(h.auth-d.auth)>=1&&Math.min(h.ca??1,d.ca??1)<2;return a||b};
 const big=v=>!v?"0":v>=1e6?(v/1e6).toFixed(1)+"M":v>=1e3?Math.round(v/1e3)+"k":String(v);
-const CI={3:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--ink2)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',2:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',1:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6" stroke-dasharray="2.4 2"/></svg>'},CLG={3:"Filled: high confidence",2:"Hollow: medium",1:"Dashed: low"};
-function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.filter(d=>d.sources.length).length;
- $("vS").setAttribute("aria-pressed",st.view==="start");$("vA").setAttribute("aria-pressed",st.view==="all");$("vA").textContent="All";$("vS2").setAttribute("aria-pressed",st.view==="start");$("vA2").setAttribute("aria-pressed",st.view==="all");$("vA2").textContent="All";$("vA2").setAttribute("aria-label",`Show all ${D.length}`);
- $("vNote").textContent=st.view==="start"?"popular names plus the political outliers":`everyone, up to a cap of 200`;
- $("prog").innerHTML=`<span class="bar"><i style="width:${(100*n/base.length).toFixed(1)}%"></i></span><span><b>${n}</b> of ${base.length} ${st.view==="start"?"starting placements":"placements"} sourced so far</span>`;
- const cnt={},dc={};base.forEach(d=>{cnt[d.genre]=(cnt[d.genre]||0)+1;dc[dec(d)]=(dc[dec(d)]||0)+1});
- $("chips").innerHTML=`<button type="button" data-g="" aria-pressed="${!st.genres.size}">All</button>`+[...GO].filter(k=>cnt[k]).map(k=>`<button type="button" data-g="${k}" aria-pressed="${st.genres.has(k)}">${icon(k)}${GN[k]} <span class="n">${cnt[k]}</span></button>`).join("");
- const ds=Object.keys(dc).filter(k=>k!=="?").sort();if(dc["?"])ds.push("?");
- $("dchips").innerHTML=`<button type="button" data-d="" aria-pressed="${!st.decades.size}">All</button>`+ds.map(k=>`<button type="button" data-d="${k}" aria-pressed="${st.decades.has(k)}">${DL(k)} <span class="n">${dc[k]}</span></button>`).join("");
- const qc={};Object.keys(QD).forEach(k=>qc[k]=base.filter(d=>inQ(d,k)).length);
- $("qchips").innerHTML=`<button type="button" data-q="" aria-pressed="${!st.quad}">All</button>`+Object.keys(QD).map(k=>`<button type="button" data-q="${k}" aria-pressed="${st.quad===k}">${QD[k]} <span class="n">${qc[k]}</span></button>`).join("");
- const cc={};base.forEach(d=>{cc[d.confidence]=(cc[d.confidence]||0)+1});
- $("cchips").innerHTML=`<button type="button" data-c="" aria-pressed="${!st.conf.size}">All</button>`+[3,2,1].map(k=>`<button type="button" data-c="${k}" aria-pressed="${st.conf.has(k)}">${CI[k]}${CL[k]} <span class="n">${cc[k]||0}</span></button>`).join("");
- $("leg").innerHTML=[3,2,1].map(k=>`<button type="button" data-c="${k}" aria-pressed="${st.conf.has(k)}" title="Show only ${CL[k].toLowerCase()}-confidence placements">${CI[k]}${CLG[k]}</button>`).join("")+
-  `<button type="button" data-o="oT" class="${st.shifts?"":"off"}" title="Show or hide shifts over time. Solid: both ends well sourced. Dashed: one end rests on a single signal."><svg viewBox="0 0 16 16"><line x1="1" y1="8" x2="15" y2="8" stroke="var(--acc)" stroke-width="1.6"/></svg>Documented shift</button>`+
-  `<button type="button" data-o="oC" class="${st.cluster?"":"off"}" title="Group or ungroup crowded areas"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.4"/><text x="8" y="8.5" font-size="7" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="var(--ink)">5</text></svg>Crowded group: tap to open</button>`;
- // active filters as removable pills (phone), count badge and the panel's "Show N" button
- const pl=(st.quad?[`<button class="pill" data-pq="1">${QD[st.quad]}<i>&times;</i></button>`]:[]).concat([...st.genres].map(g=>`<button class="pill" data-pg="${g}">${GN[g]}<i>&times;</i></button>`).concat([...st.decades].sort().map(k=>`<button class="pill" data-pd="${k}">${DL(k)}<i>&times;</i></button>`)));
- [3,2,1].forEach(k=>{if(st.conf.has(k))pl.push(`<button class="pill" data-pk="${k}">${CL[k]} confidence<i>&times;</i></button>`)});
- if(st.sourced)pl.push(`<button class="pill" data-ps="1">Sourced only<i>&times;</i></button>`);
+const CI={3:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--ink2)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',2:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',1:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6" stroke-dasharray="2.4 2"/></svg>'};
 
- if(pl.length>1)pl.push(`<button class="pill clr" data-pc="1">Clear all</button>`);
+function syncView(){
+ const base=D.filter(d=>st.view==="all"||d.starter),n=base.filter(d=>d.sources.length).length;
+ $("vS").setAttribute("aria-pressed",st.view==="start");$("vA").setAttribute("aria-pressed",st.view==="all");
+ $("vS2").setAttribute("aria-pressed",st.view==="start");$("vA2").setAttribute("aria-pressed",st.view==="all");
+ $("vA2").setAttribute("aria-label", t("showN")(D.length, false));
+ $("vNote").textContent = st.view==="start"? t("vNoteStart") : t("vNoteAll");
+ 
+ $("prog").innerHTML=`<span class="bar"><i style="width:${(100*n/base.length).toFixed(1)}%"></i></span><span><b>${n}</b> / ${base.length} ${st.view==="start" ? (currentLang==="tr" ? "başlangıç konumu kaynaklandı" : "starting placements sourced") : (currentLang==="tr" ? "konum kaynaklandı" : "placements sourced")}</span>`;
+ const cnt={},dc={};base.forEach(d=>{cnt[d.genre]=(cnt[d.genre]||0)+1;dc[dec(d)]=(dc[dec(d)]||0)+1});
+ $("chips").innerHTML=`<button type="button" data-g="" aria-pressed="${!st.genres.size}">${t("all")}</button>`+[...GO].filter(k=>cnt[k]).map(k=>`<button type="button" data-g="${k}" aria-pressed="${st.genres.has(k)}">${icon(k)}${t("genres")[k]} <span class="n">${cnt[k]}</span></button>`).join("");
+ const ds=Object.keys(dc).filter(k=>k!=="?").sort();if(dc["?"])ds.push("?");
+ $("dchips").innerHTML=`<button type="button" data-d="" aria-pressed="${!st.decades.size}">${t("all")}</button>`+ds.map(k=>`<button type="button" data-d="${k}" aria-pressed="${st.decades.has(k)}">${DL(k)} <span class="n">${dc[k]}</span></button>`).join("");
+ const qc={};Object.keys(t("quadLabels")).forEach(k=>qc[k]=base.filter(d=>inQ(d,k)).length);
+ $("qchips").innerHTML=`<button type="button" data-q="" aria-pressed="${!st.quad}">${t("all")}</button>`+Object.keys(t("quadLabels")).map(k=>`<button type="button" data-q="${k}" aria-pressed="${st.quad===k}">${t("quadLabels")[k]} <span class="n">${qc[k]}</span></button>`).join("");
+ const cc={};base.forEach(d=>{cc[d.confidence]=(cc[d.confidence]||0)+1});
+ $("cchips").innerHTML=`<button type="button" data-c="" aria-pressed="${!st.conf.size}">${t("all")}</button>`+[3,2,1].map(k=>`<button type="button" data-c="${k}" aria-pressed="${st.conf.has(k)}">${CI[k]}${t("confLevels")[k]} <span class="n">${cc[k]||0}</span></button>`).join("");
+ $("leg").innerHTML=[3,2,1].map(k=>`<button type="button" data-c="${k}" aria-pressed="${st.conf.has(k)}" title="${t("confLevels")[k]}">${CI[k]}${t("confLeg")[k]}</button>`).join("")+
+  `<button type="button" data-o="oT" class="${st.shifts?"":"off"}"><svg viewBox="0 0 16 16"><line x1="1" y1="8" x2="15" y2="8" stroke="var(--acc)" stroke-width="1.6"/></svg>${t("legShift")}</button>`+
+  `<button type="button" data-o="oC" class="${st.cluster?"":"off"}"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.4"/><text x="8" y="8.5" font-size="7" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="var(--ink)">5</text></svg>${t("legCluster")}</button>`;
+ 
+ const pl=(st.quad?[`<button class="pill" data-pq="1">${t("quadLabels")[st.quad]}<i>&times;</i></button>`]:[]).concat([...st.genres].map(g=>`<button class="pill" data-pg="${g}">${t("genres")[g]}<i>&times;</i></button>`).concat([...st.decades].sort().map(k=>`<button class="pill" data-pd="${k}">${DL(k)}<i>&times;</i></button>`)));
+ [3,2,1].forEach(k=>{if(st.conf.has(k))pl.push(`<button class="pill" data-pk="${k}">${t("confLevels")[k]}<i>&times;</i></button>`)});
+ if(st.sourced)pl.push(`<button class="pill" data-ps="1">${t("sourcedOnly")}<i>&times;</i></button>`);
+
+ if(pl.length>1)pl.push(`<button class="pill clr" data-pc="1">${t("clearAll")}</button>`);
  $("pills").innerHTML=pl.join("");
  const nAct=(st.quad?1:0)+st.genres.size+st.decades.size+st.conf.size+(st.sourced?1:0);$("fCount").textContent=nAct||"";
- const shown=D.filter(pass).length;$("fDone").textContent=`Show ${shown} ${shown===1?"person":"people"}`}
+ const shown=D.filter(pass).length;$("fDone").textContent=t("showN")(shown, shown===1);
+}
+
 function setView(v){st.view=v;refresh()}
 function resize(){const w=$("wrap").clientWidth;if(!w)return;S=w;M=w<520?24:30;P=S-2*M;$("sv").setAttribute("viewBox",`0 0 ${S} ${S}`);const r=$("cpr");r.setAttribute("x",M);r.setAttribute("y",M);r.setAttribute("width",P);r.setAttribute("height",P);draw()}
 
@@ -365,33 +671,32 @@ const ov=(a,b)=>a.x<b.x+b.w&&a.x+a.w>b.x&&a.y<b.y+b.h&&a.y+a.h>b.y;
 function draw(){
  if(!D.length)return;
  const U=UU(),x0=ux(M),x1=ux(S-M),y0=uy(S-M),y1=uy(M),ts=st.k>=2.5?1:5;
- // grid and ticks
  let g="";
  for(let i=Math.ceil(x0);i<=Math.floor(x1);i++){const X=sx(i).toFixed(1);g+=`<line class="${i===0?"ax":i%5?"g1":"g5"}" x1="${X}" y1="${M}" x2="${X}" y2="${S-M}"/>`;if(i%ts===0)g+=`<text class="tk" x="${X}" y="${S-M+14}" text-anchor="middle">${fmt(i)}</text>`}
  for(let i=Math.ceil(y0);i<=Math.floor(y1);i++){const Y=sy(i).toFixed(1);g+=`<line class="${i===0?"ax":i%5?"g1":"g5"}" x1="${M}" y1="${Y}" x2="${S-M}" y2="${Y}"/>`;if(i%ts===0)g+=`<text class="tk" x="${M-4}" y="${(+Y+3.5).toFixed(1)}" text-anchor="end">${fmt(i)}</text>`}
  g+=`<rect class="frame" x="${M}" y="${M}" width="${P}" height="${P}"/>`;
  $("gBg").innerHTML=g;
- $("gAx").innerHTML=st.k>1?"":`<text class="ql" x="${M+6}" y="${M+13}">AUTH-LEFT</text><text class="ql" x="${S-M-6}" y="${M+13}" text-anchor="end">AUTH-RIGHT</text><text class="ql" x="${M+6}" y="${S-M-6}">LIB-LEFT</text><text class="ql" x="${S-M-6}" y="${S-M-6}" text-anchor="end">LIB-RIGHT</text>`;
+ const qL = t("quadLabels");
+ $("gAx").innerHTML=st.k>1?"":`<text class="ql" x="${M+6}" y="${M+13}">${qL.AL}</text><text class="ql" x="${S-M-6}" y="${M+13}" text-anchor="end">${qL.AR}</text><text class="ql" x="${M+6}" y="${S-M-6}">${qL.LL}</text><text class="ql" x="${S-M-6}" y="${S-M-6}" text-anchor="end">${qL.LR}</text>`;
  const vis=[];D.forEach((d,i)=>{if(!pass(d))return;d.X=sx(d.x);d.Y=sy(d.y);if(d.X>M-12&&d.X<S-M+12&&d.Y>M-12&&d.Y<S-M+12)vis.push(i)});
  const q=!!st.q,tq=!!st.taste,qq=!!st.quad&&st.mode!=="list",q2=q||tq||qq,on=i=>(!q||hit(D[i]))&&(!tq||st.taste.w.has(i))&&(!qq||inQ(D[i],st.quad));
- // group crowded marks into numbered bubbles (never the selected mark or search hits)
+ 
  CL_=[];const inCl=new Set();
  if(st.cluster&&!q&&!tq){const R0=20,cand=vis.filter(i=>i!==st.sel),nb={};
   cand.forEach(i=>{nb[i]=cand.filter(j=>Math.hypot(D[i].X-D[j].X,D[i].Y-D[j].Y)<R0)});
   cand.slice().sort((a,b)=>nb[b].length-nb[a].length).forEach(i=>{if(inCl.has(i))return;const m=nb[i].filter(j=>!inCl.has(j));if(m.length<4)return;m.forEach(j=>inCl.add(j));CL_.push({m})});
   const fit=c=>{c.X=c.m.reduce((s,j)=>s+D[j].X,0)/c.m.length;c.Y=c.m.reduce((s,j)=>s+D[j].Y,0)/c.m.length;c.r=11+Math.sqrt(c.m.length)*2.6};CL_.forEach(fit);
-  // merge overlapping bubbles and swallow marks hidden underneath, until stable
   for(let it=0,ch=true;ch&&it<20;it++){ch=false;
    for(let a=0;a<CL_.length;a++)for(let b=a+1;b<CL_.length;b++){const A=CL_[a],B=CL_[b];if(Math.hypot(A.X-B.X,A.Y-B.Y)<A.r+B.r+4){A.m=A.m.concat(B.m);CL_.splice(b,1);fit(A);ch=true;b--}}
    CL_.forEach(c=>cand.forEach(i=>{if(!inCl.has(i)&&Math.hypot(D[i].X-c.X,D[i].Y-c.Y)<c.r+6){c.m.push(i);inCl.add(i);fit(c);ch=true}}))}}
  const fan=new Set();
  CL_=CL_.filter(c=>{if(c.m.length>6)return true;const n=c.m.length,rr=Math.max(16,n*5.5);
   c.m.forEach((j,t)=>{const a=-Math.PI/2+t*2*Math.PI/n;D[j].tX=D[j].X;D[j].tY=D[j].Y;D[j].X=Math.max(M+8,Math.min(S-M-8,c.X+rr*Math.cos(a)));D[j].Y=Math.max(M+8,Math.min(S-M-8,c.Y+rr*Math.sin(a)));inCl.delete(j);fan.add(j)});return false});
- const solo=vis.filter(i=>!inCl.has(i)),vs=new Set(solo);
- // same-band splits
+ const solo=vis.filter(i=>!inCl.has(i));
+ 
  let sp="";if(st.splits){const b={};vis.forEach(i=>{const d=D[i];if(d.band!=="solo")(b[d.band]=b[d.band]||[]).push(d)});for(const k in b){const a=b[k];for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++)sp+=`<line x1="${a[i].X.toFixed(1)}" y1="${a[i].Y.toFixed(1)}" x2="${a[j].X.toFixed(1)}" y2="${a[j].Y.toFixed(1)}"/>`}}
  $("gSp").innerHTML=sp;
- // labels: selected, then search hits, then by confidence
+ 
  const own={},boxes=[];solo.forEach(i=>{own[i]={x:D[i].X-8,y:D[i].Y-8,w:16,h:16};if(!tq||on(i)||i===st.sel)boxes.push(own[i])});CL_.forEach(c=>boxes.push({x:c.X-c.r-3,y:c.Y-c.r-3,w:2*c.r+6,h:2*c.r+6}));
  if(st.k===1){const tb=(x,y,w,a)=>boxes.push({x:a==="middle"?x-w/2:a==="end"?x-w:x,y:y-11,w,h:14});
     tb(M+6,M+13,70,"start");tb(S-M-6,M+13,74,"end");tb(M+6,S-M-6,66,"start");tb(S-M-6,S-M-6,70,"end")}
@@ -402,37 +707,40 @@ function draw(){
   const w=d.name.length*6.6+4,h=15,x=d.X,y=d.Y,c=[{x:x+11,y:y-8,a:"start",tx:x+11},{x:x-11-w,y:y-8,a:"end",tx:x-11},{x:x-w/2,y:y-26,a:"middle",tx:x},{x:x-w/2,y:y+11,a:"middle",tx:x},{x:x+9,y:y-1,a:"start",tx:x+9},{x:x-9-w,y:y-1,a:"end",tx:x-9},{x:x+8,y:y-21,a:"start",tx:x+8},{x:x-8-w,y:y-21,a:"end",tx:x-8}];
   for(const k of c){const bx={x:k.x,y:k.y,w,h};if(bx.x<M+2||bx.x+w>S-M-2||bx.y<M+2||bx.y+h>S-M-2)continue;if(i!==st.sel&&boxes.some(o=>o!==own[i]&&ov(bx,o)))continue;boxes.push(bx);lab[i]={tx:k.tx,ty:k.y+11.5,a:k.a};return}
   hidden++});
- // shifts (caption only where it fits)
- let tr="";if(st.shifts||st.hov!=null)vis.forEach(i=>{const d=D[i];if(!d.shift||(!st.shifts&&i!==st.hov)||(tq&&!on(i)&&i!==st.hov))return;const x1=sx(d.shift.econ),y1=sy(d.shift.auth),x2=d.X,y2=d.Y,L=Math.hypot(x2-x1,y2-y1);if(L<20)return;const ux_=(x2-x1)/L,uy_=(y2-y1)/L,dm=q2&&!on(i)?' class="dm"':"";
+
+ let tr="";if(st.shifts||st.hov!=null)vis.forEach(i=>{const d=D[i];if(!d.shift||(!st.shifts&&i!==st.hov)||(tq&&!on(i)&&i!==st.hov))return;const x1=sx(d.shift.econ),y1=sy(d.shift.auth),x2=d.X,y2=d.Y,L=Math.hypot(x2-x1,y2-y1);if(L<20)return;const ux_=(x2-x1)/L,uy_=(y2-y1)/L;
   const right=d.shift.econ>0,tx=x1+(right?-10:10),ty=y1+(d.shift.auth<-6?19:-10),w=d.shift.label.length*6.2+4,bx={x:right?tx-w:tx,y:ty-11,w,h:14};
   let cap="";if(bx.x>M&&bx.x+w<S-M&&bx.y>M&&bx.y+14<S-M&&!boxes.some(o=>ov(bx,o))){boxes.push(bx);cap=`<text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" text-anchor="${right?"end":"start"}">${esc(d.shift.label)}</text>`}
   tr+=`<g class="${shWeak(d)?"wk":""}${i===st.hov?" hv":(q2&&!on(i)?" dm":"")}"><line x1="${(x1+ux_*8).toFixed(1)}" y1="${(y1+uy_*8).toFixed(1)}" x2="${(x2-ux_*13).toFixed(1)}" y2="${(y2-uy_*13).toFixed(1)}" marker-end="url(#ah)"/><circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="6"/>${cap}</g>`});
  $("gTr").innerHTML=tr;
+ 
  let pts="";PV=[];
-const order=solo.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
+ const order=solo.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
  order.forEach(i=>{const d=D[i],X=d.X,Y=d.Y,l=lab[i],dm=q2&&!on(i)&&i!==st.sel;PV.push({i,X,Y});
   pts+=`<g class="pt g${d.genre} c${d.confidence}${i===st.sel?" sel":""}${i===st.hov?" hov":""}${dm?" dm":""}" data-i="${i}">`+(fan.has(i)?`<line class="ld" x1="${d.tX.toFixed(1)}" y1="${d.tY.toFixed(1)}" x2="${X.toFixed(1)}" y2="${Y.toFixed(1)}"/><circle class="tp" cx="${d.tX.toFixed(1)}" cy="${d.tY.toFixed(1)}" r="1.8"/>`:"")+
   ((st.halos||i===st.sel||i===st.hov)?`<ellipse class="h" cx="${(fan.has(i)?d.tX:X).toFixed(1)}" cy="${(fan.has(i)?d.tY:Y).toFixed(1)}" rx="${(HX[d.ce??d.confidence]*U).toFixed(1)}" ry="${(HR[d.ca??d.confidence]*U).toFixed(1)}"/>`:"")+
   `<circle cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="16" fill="transparent"/>`+
   (i===st.sel?`<circle class="ring" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="11"/>`:"")+(KF&&KF.i===i?`<circle class="kf" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="14"/>`:"")+SH[d.genre](X,Y)+
   (l?`<text x="${l.tx.toFixed(1)}" y="${l.ty.toFixed(1)}" text-anchor="${l.a}">${esc(d.name)}</text>`:"")+`</g>`});
+ 
  CL_.forEach((c,ci)=>{const cnt={};c.m.forEach(j=>cnt[D[j].genre]=(cnt[D[j].genre]||0)+1);
-  // thin genre ring around the bubble, segment length by count
   let a0=-Math.PI/2,ring="";const C=2*Math.PI*(c.r+3);[...GO].forEach(g=>{if(!cnt[g])return;const f=cnt[g]/c.m.length;ring+=`<circle class="cg g${g}" cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${(c.r+3).toFixed(1)}" stroke="var(--c)" stroke-dasharray="${(f*C).toFixed(1)} ${C.toFixed(1)}" transform="rotate(${(a0*180/Math.PI).toFixed(1)} ${c.X.toFixed(1)} ${c.Y.toFixed(1)})"/>`;a0+=f*2*Math.PI});
   PV.push({c:ci,X:c.X,Y:c.Y});pts+=`<g class="cl" data-c="${ci}" role="button" aria-label="${c.m.length} people; tap to zoom in">${ring}${KF&&KF.c===ci?`<circle class="kf" cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${(c.r+7).toFixed(1)}"/>`:""}<circle cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${c.r.toFixed(1)}"/><text x="${c.X.toFixed(1)}" y="${c.Y.toFixed(1)}">${c.m.length}</text></g>`});
+ 
  if(tq&&st.taste.n>=3){const X=sx(st.taste.cx),Y=sy(st.taste.cy);if(X>M&&X<S-M&&Y>M&&Y<S-M)pts+=`<g class="cen" aria-label="Centre of your listening"><circle cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="9"/><circle class="c2" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="15"/><line x1="${(X-5).toFixed(1)}" y1="${Y.toFixed(1)}" x2="${(X+5).toFixed(1)}" y2="${Y.toFixed(1)}"/><line x1="${X.toFixed(1)}" y1="${(Y-5).toFixed(1)}" x2="${X.toFixed(1)}" y2="${(Y+5).toFixed(1)}"/><text x="${X.toFixed(1)}" y="${(Y+29).toFixed(1)}" text-anchor="middle">your listening</text></g>`}
  $("gPt").innerHTML=pts;$("sv").classList.toggle("hovering",st.hov!=null);
- // chrome
+ 
  $("zIn").disabled=st.k>=KMAX;$("zOut").disabled=st.k<=1;$("zR").disabled=st.k<=1;
  $("sv").style.touchAction=st.k>1?"none":"pan-y";
  const mm=$("mm");
  if(st.k>1){mm.style.display="block";const h=10/st.k;let m="";D.forEach(d=>{if(pass(d))m+=`<circle class="md" cx="${(d.x+10).toFixed(2)}" cy="${(10-d.y).toFixed(2)}" r=".28"/>`});
   m+=`<rect class="vp" x="${(st.cx-h+10).toFixed(2)}" y="${(10-st.cy-h).toFixed(2)}" width="${(2*h).toFixed(2)}" height="${(2*h).toFixed(2)}"/>`;mm.innerHTML=m}else mm.style.display="none";
+ 
  const hn=$("hint");
  const grouped=CL_.reduce((s,c)=>s+c.m.length,0),coarse=matchMedia("(pointer:coarse)").matches;
- if(grouped)hn.textContent=`${grouped} people in ${CL_.length} crowded group${CL_.length>1?"s":""} · tap a number to open it`;
- else if(hidden&&st.k<KMAX)hn.textContent=`${hidden} names hidden at this zoom · ${coarse?"pinch or double-tap":(MAC?"\u2318":"Ctrl")+" + scroll or double-click"} to see more`;
- else hn.textContent=st.k>1?(coarse?"Drag to move around":`Drag to move around · ${MAC?"\u2318":"Ctrl"} + scroll to zoom`):"";
+ if(grouped)hn.textContent=t("crowdedNote")(grouped, CL_.length);
+ else if(hidden&&st.k<KMAX)hn.textContent=t("hiddenNote")(hidden, coarse);
+ else hn.textContent=st.k>1?t("dragNote")(coarse):"";
 }
 
 // ---------- gestures ----------
@@ -452,7 +760,7 @@ function endP(e){if(!ptrs.has(e.pointerId))return;ptrs.delete(e.pointerId);
  if(ptrs.size===0){if(g0&&!g0.moved&&e.type==="pointerup")tap(g0,pt(e));g0=null;pinch=null}else pinch=null}
 sv.addEventListener("pointerup",endP);sv.addEventListener("pointercancel",endP);
 sv.addEventListener("pointerleave",()=>{tip.style.display="none";setHov(null)});
-// the nearest drawn person to p within r (svg units); hit circles overlap in crowded areas, so the DOM target can be a neighbour
+
 function nearest(p,r){let b=null,bd=r;PV.forEach(v=>{if(v.i==null)return;const dd=Math.hypot(v.X-p.x,v.Y-p.y);if(dd<bd){bd=dd;b=v}});return b}
 function tap(g,p){
  if(g.i!=null){openSheet(g.i);lastTap=null;return}
@@ -461,10 +769,10 @@ function tap(g,p){
  if(lastTap&&now-lastTap.t<350&&Math.hypot(p.x-lastTap.x,p.y-lastTap.y)<30){zoomTo(p.x,p.y,st.k>=KMAX-.01?1/st.k:2);lastTap=null;return}
  lastTap={t:now,x:p.x,y:p.y};closeSheet()}
 const MAC=/Mac|iP(hone|ad)/.test(navigator.platform||navigator.userAgent);let whT=0;
-sv.addEventListener("wheel",e=>{if(!(e.ctrlKey||e.metaKey)){if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){const w=$("wh");w.textContent=`Hold ${MAC?"\u2318":"Ctrl"} and scroll to zoom`;w.classList.add("on");clearTimeout(whT);whT=setTimeout(()=>w.classList.remove("on"),1200)}return}
+sv.addEventListener("wheel",e=>{if(!(e.ctrlKey||e.metaKey)){if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){const w=$("wh");w.textContent=t("wheelMsg");w.classList.add("on");clearTimeout(whT);whT=setTimeout(()=>w.classList.remove("on"),1200)}return}
  const dy=e.deltaY*(e.deltaMode===1?30:1),f=Math.exp(-dy*(e.ctrlKey&&!e.metaKey&&Math.abs(dy)<50?.01:.0015));e.preventDefault();if(st.k<=1&&f<1)return;const p=pt(e);zoomAt(p.x,p.y,f)},{passive:false});
-// keyboard: one tab stop for the whole chart, arrow keys move between drawn people and groups
-function kfSay(){const v=KF;if(!v)return;$("live").textContent=v.i!=null?`${D[v.i].name}. Economic ${fmt(D[v.i].econ)}, authority ${fmt(D[v.i].auth)}. Enter to open.`:`Group of ${CL_[v.c].m.length} people. Enter to zoom in.`}
+
+function kfSay(){const v=KF;if(!v)return;$("live").textContent=v.i!=null?t("livePerson")(D[v.i]):t("liveGroup")(CL_[v.c].m.length)}
 function kfFind(v){return v&&PV.find(w=>v.i!=null?w.i===v.i:w.c===v.c)}
 sv.addEventListener("keydown",e=>{const k=e.key;
  if(k==="+"||k==="="){zoomAt(S/2,S/2,1.5);e.preventDefault();return}
@@ -479,35 +787,44 @@ sv.addEventListener("keydown",e=>{const k=e.key;
 sv.addEventListener("blur",()=>{if(KF){KF=null;req()}});
 sv.addEventListener("dblclick",e=>e.preventDefault());
 function setHov(i){if(st.hov!==i){st.hov=i;req()}}
-function hover(e,p){const t=e.target.closest&&e.target.closest(".pt");if(!t){tip.style.display="none";setHov(null);return}const d=D[+t.dataset.i];setHov(+t.dataset.i);
- tip.innerHTML=`<b>${esc(d.name)}</b> <span>${esc(d.band==="solo"?GN[d.genre]:d.band)}</span>`;tip.style.display="block";
+function hover(e,p){const tNode=e.target.closest&&e.target.closest(".pt");if(!tNode){tip.style.display="none";setHov(null);return}const d=D[+tNode.dataset.i];setHov(+tNode.dataset.i);
+ tip.innerHTML=`<b>${esc(d.name)}</b> <span>${esc(d.band==="solo"?t("genres")[d.genre]:d.band)}</span>`;tip.style.display="block";
  const r=$("wrap").getBoundingClientRect(),k=r.width/S,x=p.x*k,y=p.y*k,tw=tip.offsetWidth;tip.style.left=Math.max(4,Math.min(r.width-tw-4,x+14))+"px";tip.style.top=Math.max(4,y-34)+"px"}
 $("zIn").onclick=()=>zoomTo(S/2,S/2,1.8);$("zOut").onclick=()=>zoomTo(S/2,S/2,1/1.8);$("zR").onclick=()=>animateTo(1,0,0);
 function openCluster(c){const m=c.m,xs=m.map(j=>D[j].x),ys=m.map(j=>D[j].y);
- // zoom until a typical member is about 22px from its nearest neighbour, so most of the group splits up
  const nn=m.map(i=>Math.min(...m.filter(j=>j!==i).map(j=>Math.hypot(D[i].x-D[j].x,D[i].y-D[j].y)))).sort((a,b)=>a-b),med=nn[Math.floor(nn.length/2)]||.5;
  const k=Math.min(KMAX,Math.max(st.k*1.6,22/(Math.max(med,.05)*P/20)));
  animateTo(k,(Math.max(...xs)+Math.min(...xs))/2,(Math.max(...ys)+Math.min(...ys))/2,380)}
 $("mm").addEventListener("pointerdown",e=>{const r=e.currentTarget.getBoundingClientRect();animateTo(st.k,(e.clientX-r.left)/r.width*20-10,10-(e.clientY-r.top)/r.height*20,220);e.stopPropagation()});
 
-// ---------- Wikipedia politics section ----------
-// wsec = the politics heading of the person's Wikipedia article, read from the Wikipedia API on 11 Nov 2026 ("" = article has none)
 const wkUrl=(t,a)=>"https://en.wikipedia.org/wiki/"+encodeURIComponent(t.replace(/ /g,"_"))+(a?"#"+encodeURIComponent(a):"");
 function wkLink(d){if(!d.wiki)return"";if(d.wsec)return `Wikipedia: <a href="${esc(wkUrl(d.wiki,d.wsec))}" target="_blank" rel="noopener">${esc(d.wsec.replace(/_/g," "))}</a>`;
- return `<a href="${esc(wkUrl(d.wiki))}" target="_blank" rel="noopener">Wikipedia article</a>${d.wsec===""?" (no section on politics)":""}`}
+ return `<a href="${esc(wkUrl(d.wiki))}" target="_blank" rel="noopener">Wikipedia article</a>${d.wsec===""?(currentLang==="tr"?" (siyaset bölümü yok)":" (no section on politics)"):""}`}
+
 // ---------- sheet ----------
-function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
- const s=src.length?`<span class="st y">&#10003; Sourced · checked ${new Date(d.checked+"T00:00:00").toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"})}</span>`:`<span class="st">Not yet sourced · placed from general knowledge, pending a check</span>`;
+function openSheet(i){
+ st.sel=i;const d=D[i],src=d.sources;
+ const sDate = new Date(d.checked+"T00:00:00").toLocaleDateString(currentLang==='tr'?'tr-TR':'en-US',{day:"numeric",month:"short",year:"numeric"});
+ const s=src.length?`<span class="st y">${t("sourcedBadge")(sDate)}</span>`:`<span class="st">${t("unsourcedBadge")}</span>`;
  const issue=`${REPO}/issues/new?template=placement.yml&title=${encodeURIComponent("Placement: "+d.name)}`;
- $("sh").style.transform="";$("sh").innerHTML=`<div class="grab" id="grab"></div><div class="sh-h"><div><h3 id="shName">${esc(d.name)}</h3><div class="meta">${esc(d.band==="solo"?"Solo":d.band)} · ${GN[d.genre]}${d.start?` · career began ${d.start}`:""}</div></div><button class="x" aria-label="Close" id="shX">&times;</button></div>
- <div class="why">${d.starter?`In the starting 50: ${d.why}.`:"Shown under All."} Wikipedia article in ${d.langs} ${d.langs===1?"language":"languages"}, ${big(d.views)} English views in the past year${d.lfm?` · ${big(d.lfm)} Last.fm listeners${d.lfmAct&&d.lfmAct!==d.name?` (as ${esc(d.lfmAct)})`:""}`:""}.</div><div class="pos">${gauge("Economic",d.econ,(d.ce??d.confidence)===0?5:HX[d.ce??d.confidence],"Left","Right","e")}${gauge("Authority",d.auth,HR[d.ca??d.confidence],"Libertarian","Authoritarian","a")}<div class="pcf">${CL[d.confidence]} confidence${(d.ce??d.confidence)===0?" · no economic record":""}</div></div>${s}
- <p>${esc(d.basis)}</p>${d.shift?`<p><i>Earlier position (${esc(d.shift.label)}):</i> economic ${fmt(d.shift.econ)} (&plusmn;${HX[d.shift.ce??1]}), authority ${fmt(d.shift.auth)} (&plusmn;${HR[d.shift.ca??1]})${shWeak(d)?" · <b>weak shift</b>: one end rests on a single signal, so the arrow is dashed":""}. ${esc(d.shift.basis||"")}${(d.shift.sources||[]).length?" "+d.shift.sources.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join("; "):""}</p>`:""}
- <h4>Sources</h4>${src.length?`<ol>${src.map(x=>`<li>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`:esc(x.title)}</li>`).join("")}</ol>`:`<p style="color:var(--mut)">None yet.</p>`}
- <p class="wk" id="shW">${wkLink(d)}</p><div class="acts">${st.mode==="list"?`<button id="shGo">Show on chart</button>`:""}<a href="${issue}" target="_blank" rel="noopener">Dispute this placement</a><button id="shL">Copy link</button></div>`;
+ 
+ const basisText = (currentLang === "tr" && d.basis_tr) ? d.basis_tr : d.basis;
+ const shiftBasis = (d.shift && currentLang === "tr" && d.shift.basis_tr) ? d.shift.basis_tr : (d.shift ? d.shift.basis : "");
+
+ $("sh").style.transform="";
+ $("sh").innerHTML=`<div class="grab" id="grab"></div><div class="sh-h"><div><h3 id="shName">${esc(d.name)}</h3><div class="meta">${esc(d.band==="solo"?t("solo"):d.band)} · ${t("genres")[d.genre]}${d.start?` · ${currentLang==='tr'?'kariyer: ':'career began '}${d.start}`:""}</div></div><button class="x" aria-label="Close" id="shX">&times;</button></div>
+ <div class="why">${d.starter? (currentLang==='tr' ? `Başlangıç 50'sinde: ${d.why}.` : `In the starting 50: ${d.why}.`) : (currentLang==='tr' ? "Tümü altında gösteriliyor." : "Shown under All.")} ${d.langs} ${t("languages")(d.langs===1)}, ${big(d.views)} ${t("engViews")}${d.lfm?` · ${big(d.lfm)} ${t("lastFmListeners")}${d.lfmAct&&d.lfmAct!==d.name?` ${t("asBand")(esc(d.lfmAct))}`:""}`:""}.</div>
+ <div class="pos">${gauge(t("economic"),d.econ,(d.ce??d.confidence)===0?5:HX[d.ce??d.confidence],t("left"),t("right"),"e")}${gauge(t("authority"),d.auth,HR[d.ca??d.confidence],t("libertarian"),t("authoritarian"),"a")}<div class="pcf">${t("confLevels")[d.confidence]} ${currentLang==='tr'?'güvenilirlik':'confidence'}${(d.ce??d.confidence)===0?" · "+t("noEconRecord"):""}</div></div>${s}
+ <p>${esc(basisText)}</p>${d.shift?`<p><i>${t("earlierPos")} (${esc(d.shift.label)}):</i> ${t("economic").toLowerCase()} ${fmt(d.shift.econ)} (&plusmn;${HX[d.shift.ce??1]}), ${t("authority").toLowerCase()} ${fmt(d.shift.auth)} (&plusmn;${HR[d.shift.ca??1]})${shWeak(d)?` · <b>${t("weakShift")}</b>`:""}. ${esc(shiftBasis)}${(d.shift.sources||[]).length?" "+d.shift.sources.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join("; "):""}</p>`:""}
+ <h4>${t("sourcesH4")}</h4>${src.length?`<ol>${src.map(x=>`<li>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`:esc(x.title)}</li>`).join("")}</ol>`:`<p style="color:var(--mut)">${t("noneYet")}</p>`}
+ <p class="wk" id="shW">${wkLink(d)}</p><div class="acts">${st.mode==="list"?`<button id="shGo">${t("showOnChart")}</button>`:""}<a href="${issue}" target="_blank" rel="noopener">${t("disputePlacement")}</a><button id="shL">${t("copyLink")}</button></div>`;
+ 
  $("sheet").hidden=false;$("shX").onclick=closeSheet;
  if($("shGo"))$("shGo").onclick=()=>focusOn(i);
- $("shL").onclick=e=>{const u=location.href.split("#")[0]+"#"+slug(d.name);try{navigator.clipboard.writeText(u).then(()=>e.target.textContent="Copied",()=>e.target.textContent=u)}catch(_){e.target.textContent=u}};
- req()}
+ $("shL").onclick=e=>{const u=location.href.split("#")[0]+"#"+slug(d.name);try{navigator.clipboard.writeText(u).then(()=>e.target.textContent=t("copied"),()=>e.target.textContent=u)}catch(_){e.target.textContent=u}};
+ req();
+}
+
 function closeSheet(){if(st.sel==null&&$("sheet").hidden)return;st.sel=null;$("sheet").hidden=true;req()}
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeSheet();closeF()}});
 (()=>{const sh=$("sh");let y0=null,dy=0;
@@ -521,8 +838,9 @@ function focusOn(i){setMode("chart");const d=D[i];if(!pass(d)){st.genres.clear()
 function drawList(){
  let a=D.map((d,i)=>i).filter(i=>pass(D[i])&&(!st.q||hit(D[i])));
  const c={name:(x,y)=>D[x].name.localeCompare(D[y].name),econ:(x,y)=>D[x].econ-D[y].econ,auth:(x,y)=>D[x].auth-D[y].auth,src:(x,y)=>(D[y].sources.length>0)-(D[x].sources.length>0)||D[x].name.localeCompare(D[y].name),start:(x,y)=>(D[x].start||9999)-(D[y].start||9999),read:(x,y)=>(D[y].langs||0)-(D[x].langs||0)||(D[y].views||0)-(D[x].views||0),heard:(x,y)=>(D[y].lfm||0)-(D[x].lfm||0)}[st.sort];
- a.sort(c);if(st.rev)a.reverse();$("sdir").textContent=st.rev?"\u2191":"\u2193";$("sdir").setAttribute("aria-pressed",!!st.rev);$("lc").textContent=`${a.length} ${a.length===1?"person":"people"}`;
- $("list").innerHTML=a.length?a.map(i=>{const d=D[i];return `<button class="row" data-i="${i}">${icon(d.genre,d.confidence)}<span class="t"><b>${esc(d.name)}</b><small>${esc(d.band==="solo"?GN[d.genre]:d.band+" · "+GN[d.genre])}${d.start?" · "+d.start:""}</small></span><span class="p">${fmt(d.econ)}, ${fmt(d.auth)}<br>${st.sort==="read"?d.langs+" languages":st.sort==="heard"?big(d.lfm)+" listeners":d.sources.length?'<span class="ok">&#10003; sourced</span>':"unsourced"}</span></button>`}).join(""):`<div class="empty">Nobody matches.</div>`}
+ a.sort(c);if(st.rev)a.reverse();$("sdir").textContent=st.rev?"\u2191":"\u2193";$("sdir").setAttribute("aria-pressed",!!st.rev);
+ $("lc").textContent=t("peopleCount")(a.length, a.length===1);
+ $("list").innerHTML=a.length?a.map(i=>{const d=D[i];return `<button class="row" data-i="${i}">${icon(d.genre,d.confidence)}<span class="t"><b>${esc(d.name)}</b><small>${esc(d.band==="solo"?t("genres")[d.genre]:d.band+" · "+t("genres")[d.genre])}${d.start?" · "+d.start:""}</small></span><span class="p">${fmt(d.econ)}, ${fmt(d.auth)}<br>${st.sort==="read"?d.langs+" "+t("languages")(d.langs===1):st.sort==="heard"?big(d.lfm)+" "+t("lastFmListeners"):d.sources.length?`<span class="ok">&#10003; ${currentLang==='tr'?'kaynaklı':'sourced'}</span>`:(currentLang==='tr'?'kaynaksız':'unsourced')}</span></button>`}).join(""):`<div class="empty">${t("nobodyMatches")}</div>`}
 $("list").addEventListener("click",e=>{const r=e.target.closest(".row");if(r)openSheet(+r.dataset.i)});
 $("sort").onchange=e=>{st.sort=e.target.value;st.rev=false;drawList()};$("sdir").onclick=()=>{st.rev=!st.rev;drawList()};
 
@@ -536,9 +854,9 @@ $("chips").addEventListener("click",e=>{const b=e.target.closest("button");if(!b
 $("dchips").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;toggle(st.decades,b.dataset.d||null);refresh()});
 const confClick=e=>{const b=e.target.closest("button");if(!b)return;if(b.dataset.o){$(b.dataset.o).click();syncView();return}toggle(st.conf,b.dataset.c?+b.dataset.c:null);refresh()};
 $("cchips").addEventListener("click",confClick);$("leg").addEventListener("click",confClick);
-$("pills").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const t=b.dataset;
- if(t.pg)st.genres.delete(t.pg);if(t.pd)st.decades.delete(t.pd);if(t.pk)st.conf.delete(+t.pk);if(t.ps){st.sourced=false;$("oV").checked=false}if(t.pv)st.view="start";if(t.pq){setQuad(null);return}
- if(t.pc){if(st.quad){st.quad=null;animateTo(1,0,0)}st.genres.clear();st.decades.clear();st.conf.clear();st.sourced=false;$("oV").checked=false;st.view="start"}refresh()});
+$("pills").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const tData=b.dataset;
+ if(tData.pg)st.genres.delete(tData.pg);if(tData.pd)st.decades.delete(tData.pd);if(tData.pk)st.conf.delete(+tData.pk);if(tData.ps){st.sourced=false;$("oV").checked=false}if(tData.pv)st.view="start";if(tData.pq){setQuad(null);return}
+ if(tData.pc){if(st.quad){st.quad=null;animateTo(1,0,0)}st.genres.clear();st.decades.clear();st.conf.clear();st.sourced=false;$("oV").checked=false;st.view="start"}refresh()});
 const openF=()=>{$("filters").classList.add("open");$("scrim").hidden=false},closeF=()=>{$("filters").classList.remove("open");$("scrim").hidden=true};
 $("fOpen").onclick=openF;$("fClose").onclick=closeF;$("fDone").onclick=closeF;$("scrim").onclick=closeF;
 $("fReset").onclick=()=>{st.genres.clear();st.decades.clear();st.conf.clear();st.sourced=false;$("oV").checked=false;st.view="start";refresh()};
@@ -553,7 +871,7 @@ $("oV").onchange=e=>{st.sourced=e.target.checked;refresh()};
 
 function gauge(lab,v,r,lo,hi,c){const p=x=>Math.max(0,Math.min(100,(x+10)*5));return `<div class="gr ${c}"><b>${lab}</b><span class="gv">${fmt(v)} <small style="font-weight:400;color:var(--mut)">&plusmn;${r}</small></span><div class="gt" aria-hidden="true"><i></i><em></em><u style="left:${p(v-r)}%;width:${p(v+r)-p(v-r)}%"></u><s style="left:${p(v)}%"></s></div><div class="gl"><span>${lo}</span><span>${hi}</span></div></div>`}
 const THM=["auto","light","dark"],TI={auto:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 2a6 6 0 0 1 0 12z" fill="currentColor"/></svg>Auto',light:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="3" fill="currentColor"/><g stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3 3l1.4 1.4M11.6 11.6 13 13M3 13l1.4-1.4M11.6 4.4 13 3"/></g></svg>Light',dark:'<svg viewBox="0 0 16 16"><path d="M13 10A6 6 0 0 1 6 3a6 6 0 1 0 7 7z" fill="currentColor"/></svg>Dark'};
-function setTheme(t){if(t==="auto")document.documentElement.removeAttribute("data-theme");else document.documentElement.setAttribute("data-theme",t);$("thm").innerHTML=TI[t];$("thm").title="Theme: "+t+" (tap to change)";try{localStorage.setItem("thm",t)}catch(e){}}
+function setTheme(themeMode){if(themeMode==="auto")document.documentElement.removeAttribute("data-theme");else document.documentElement.setAttribute("data-theme",themeMode);$("thm").innerHTML=TI[themeMode];$("thm").title="Theme: "+themeMode+" (tap to change)";try{localStorage.setItem("thm",themeMode)}catch(e){}}
 let thm="auto";try{thm=localStorage.getItem("thm")||"auto"}catch(e){}
 setTheme(THM.includes(thm)?thm:"auto");$("thm").onclick=()=>{thm=THM[(THM.indexOf(thm)+1)%3];setTheme(thm)};
 
@@ -570,21 +888,25 @@ function tasteFrom(arts){const P={};arts.forEach(a=>{P[nrm(a.name)]=(P[nrm(a.nam
  const hitA=new Set();D.forEach(d=>[d.name,d.lfmAct,d.band].forEach(s=>{if(s&&s!=="solo"&&P[nrm(s)])hitA.add(nrm(s))}));
  let W=0,cx=0,cy=0;w.forEach((v,i)=>{W+=v;cx+=v*D[i].econ;cy+=v*D[i].auth});
  return{w,how,n:w.size,na:hitA.size,cx:W?cx/W:0,cy:W?cy/W:0}}
-function tasteShow(user,t,total){const o=$("tOut");
- if(!t.n){o.innerHTML=`<div class="tres">None of ${esc(user)}'s top ${total.toLocaleString("en")} artists are on the chart yet. <button type="button" class="tclr" id="tClr">Clear</button></div>`;$("tClr").onclick=tasteClear;return}
- const top=[...t.w.entries()].sort((a,b)=>b[1]-a[1]).slice(0,10);
- const cen=t.n>=3?`<div class="tcen"><b>Centre of your listening:</b> economic ${fmt(+t.cx.toFixed(1))}, authority ${fmt(+t.cy.toFixed(1))}.<br><small>This is where the musicians you play sit on average, weighted by plays. It is not where you sit.</small></div>`:`<p class="fnote">Fewer than three matches, so no centre is drawn.</p>`;
- o.innerHTML=`<div class="tres"><b>${t.na}</b> of ${esc(user)}'s top ${total.toLocaleString("en")} artists ${t.na===1?"matches":"match"} <b>${t.n}</b> ${t.n===1?"person":"people"} on the chart; everyone else is faded. ${cen}<ol>${top.map(([i,v])=>`<li><a href="#" data-i="${i}">${esc(D[i].name)}</a> <small>${Math.round(v).toLocaleString("en")} plays${t.how[i].some(s=>s!==D[i].name)?" via "+esc(t.how[i].filter(s=>s!==D[i].name).join(", ")):""}</small></li>`).join("")}</ol><button type="button" class="tclr" id="tClr">Clear</button></div>`;
- $("tClr").onclick=tasteClear;o.querySelectorAll("a[data-i]").forEach(a=>a.onclick=e=>{e.preventDefault();focusOn(+a.dataset.i)})}
+
+function tasteShow(user,tData,total){
+ const o=$("tOut");
+ if(!tData.n){o.innerHTML=`<div class="tres">${t("tasteNone")(esc(user), total.toLocaleString(currentLang==='tr'?'tr-TR':'en-US'))} <button type="button" class="tclr" id="tClr">${t("tasteClearBtn")}</button></div>`;$("tClr").onclick=tasteClear;return}
+ const top=[...tData.w.entries()].sort((a,b)=>b[1]-a[1]).slice(0,10);
+ const cen=tData.n>=3?`<div class="tcen">${t("tasteCen")(+tData.cx.toFixed(1), +tData.cy.toFixed(1))}</div>`:`<p class="fnote">${t("tasteCenFew")}</p>`;
+ o.innerHTML=`<div class="tres">${t("tasteSummary")(tData.na, esc(user), total.toLocaleString(currentLang==='tr'?'tr-TR':'en-US'), tData.n)} ${cen}<ol>${top.map(([i,v])=>`<li><a href="#" data-i="${i}">${esc(D[i].name)}</a> <small>${t("playsVia")(Math.round(v).toLocaleString(currentLang==='tr'?'tr-TR':'en-US'), tData.how[i].filter(s=>s!==D[i].name))}</small></li>`).join("")}</ol><button type="button" class="tclr" id="tClr">${t("tasteClearBtn")}</button></div>`;
+ $("tClr").onclick=tasteClear;o.querySelectorAll("a[data-i]").forEach(a=>a.onclick=e=>{e.preventDefault();focusOn(+a.dataset.i)});
+}
 function tasteClear(){st.taste=null;$("tOut").innerHTML="";refresh()}
-$("tF").onsubmit=async e=>{e.preventDefault();const user=$("tU").value.trim();if(!user)return;const o=$("tOut"),b=$("tGo");b.disabled=true;o.innerHTML='<p class="fnote">Fetching your top artists…</p>';
+
+$("tF").onsubmit=async e=>{e.preventDefault();const user=$("tU").value.trim();if(!user)return;const o=$("tOut"),b=$("tGo");b.disabled=true;o.innerHTML=`<p class="fnote">${t("tasteFetching")}</p>`;
  try{const r=await fetch(`https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=${encodeURIComponent(user)}&period=overall&limit=1000&api_key=${LFK}&format=json`);const j=await r.json();
-  if(j.error){o.innerHTML=`<p class="terr">${j.error===6?"No Last.fm user by that name.":j.error===17?"That profile keeps its listening private.":"Last.fm said: "+esc(j.message||"error")}</p>`;return}
-  const arts=(j.topartists&&j.topartists.artist)||[];const t=tasteFrom(arts);st.taste=t.n?t:null;
+  if(j.error){o.innerHTML=`<p class="terr">${j.error===6?t("tasteNoUser"):j.error===17?t("tastePrivate"):t("tasteError")(esc(j.message||"error"))}</p>`;return}
+  const arts=(j.topartists&&j.topartists.artist)||[];const tData=tasteFrom(arts);st.taste=tData.n?tData:null;
   try{localStorage.setItem("lfu",user)}catch(_){}
-  if(t.n&&st.view!=="all")setView("all");else refresh();tasteShow(user,t,arts.length);
+  if(tData.n&&st.view!=="all")setView("all");else refresh();tasteShow(user,tData,arts.length);
   try{window.goatcounter&&goatcounter.count&&goatcounter.count({path:"taste-match",title:"Your taste",event:true})}catch(_){}}
- catch(err){o.innerHTML='<p class="terr">Could not reach Last.fm. Check your connection and try again.</p>'}
+ catch(err){o.innerHTML=`<p class="terr">${t("tasteNetworkErr")}</p>`}
  finally{b.disabled=false}};
 try{const u=localStorage.getItem("lfu");if(u)$("tU").value=u}catch(_){}
 

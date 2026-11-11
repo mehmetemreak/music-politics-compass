@@ -245,9 +245,22 @@
   "econ": -5.5,
   "auth": -5,
   "confidence": 3,
-  "basis": "Backed Nader in 2000, Vote for Change in 2004, pro-choice activism.",
-  "sources": [],
-  "checked": null,
+  "basis": "Played Ralph Nader's rallies in 2000; joined the Vote for Change tour against Bush in 2004; pro-choice activism since 1992, including Rock for Choice benefits.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Pearl Jam's voting initiative and political history",
+    "url": "https://www.rollingstone.com/music/music-news/pearl-jam-pj-votes-2020-1056700/"
+   },
+   {
+    "title": "Salon: Nader packs them in at the Garden (2000)",
+    "url": "https://www.salon.com/2000/10/14/nader_18/"
+   },
+   {
+    "title": "Five Horizons: Pearl Jam's political involvement",
+    "url": "https://fivehorizons.com/songs/may01/index.shtml"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Eddie Vedder",
   "views": 1374205,
   "start": 1988
@@ -314,9 +327,22 @@
   "econ": -3,
   "auth": -4,
   "confidence": 2,
-  "basis": "Played for Kerry, Obama and Biden; objected to McCain using \"My Hero\".",
-  "sources": [],
-  "checked": null,
+  "basis": "Played Kerry campaign stops in 2004 after Bush used \"Times Like These\"; objected to McCain using \"My Hero\" (2008); headlined an Obama fundraiser in 2012; played Biden's inauguration concert.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Grohl on Biden's inauguration and the Kerry trail",
+    "url": "https://www.rollingstone.com/music/music-news/dave-grohl-foo-fighters-zane-lowe-interview-1122277"
+   },
+   {
+    "title": "Blabbermouth: Grohl furious at Bush's use of his track (2004)",
+    "url": "https://blabbermouth.net/news/dave-grohl-furious-with-bush-s-use-of-his-track-at-campaign-rally"
+   },
+   {
+    "title": "Spin: Foo Fighters step up support for Obama (2012)",
+    "url": "https://www.spinmagazine.com/articles/foo-fighters-barack-obama-fundraiser-democratic-national-convention"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Dave Grohl",
   "views": 1699229,
   "start": 1982
@@ -342,9 +368,18 @@
   "econ": -5,
   "auth": -5,
   "confidence": 3,
-  "basis": "American Idiot; persistent anti-Trump statements from the stage.",
-  "sources": [],
-  "checked": null,
+  "basis": "American Idiot (2004) against the Bush era; chanted \"No Trump, no KKK, no fascist USA\" at the 2016 American Music Awards; has sung \"MAGA agenda\" in place of \"redneck agenda\" since 2019.",
+  "sources": [
+   {
+    "title": "Billboard: Green Day tweak American Idiot lyric on New Year's Rockin' Eve",
+    "url": "https://www.billboard.com/music/rock/green-day-tweak-donald-trump-american-idiot-lyric-new-years-rockin-eve-1235574448"
+   },
+   {
+    "title": "The Advocate: Green Day slams the MAGA agenda",
+    "url": "https://advocate.com/music/green-day-maga-agenda-nye"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Billie Joe Armstrong",
   "views": 1255148,
   "start": 1977
@@ -356,9 +391,18 @@
   "econ": -3.5,
   "auth": -4,
   "confidence": 2,
-  "basis": "The band played Bernie Sanders fundraisers in 2016.",
-  "sources": [],
-  "checked": null,
+  "basis": "Wrote a Rolling Stone op-ed backing Bernie Sanders and played the band's 2016 \"Feel the Bern\" fundraiser; all four members signed the endorsement letter.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Chili Peppers at Bernie Sanders fundraiser",
+    "url": "https://www.rollingstone.com/politics/politics-news/red-hot-chili-peppers-cover-david-bowie-at-bernie-sanders-fundraiser-78048/"
+   },
+   {
+    "title": "Rolling Stone: 25 musicians feeling the Bern",
+    "url": "https://www.rollingstone.com/music/music-lists/25-musicians-feeling-the-bern-for-bernie-sanders-18242/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Flea (musician)",
   "views": 1471067,
   "start": 1982
@@ -383,10 +427,23 @@
   "genre": "R",
   "econ": -3,
   "auth": -1.5,
-  "confidence": 2,
-  "basis": "Democratic donor and Walden Woods conservationist; hard-line copyright lobbyist.",
-  "sources": [],
-  "checked": null,
+  "confidence": 1,
+  "basis": "Founded the Walden Woods Project (1990) and the Caddo Lake Institute; told a Senate committee in 2020 that copyright law lets big tech profit from piracy. His party donations are widely reported but not yet sourced here.",
+  "sources": [
+   {
+    "title": "Walden Woods Project: mission and history",
+    "url": "https://www.walden.org/mission-and-history/"
+   },
+   {
+    "title": "Rolling Stone: Henley calls on Congress to bolster online copyright laws",
+    "url": "https://www.rollingstone.com/music/music-news/eagles-don-henley-dmca-copyright-law-congress-testimony-1009497/"
+   },
+   {
+    "title": "US Senate Judiciary Committee: Henley's testimony (2020)",
+    "url": "https://www.judiciary.senate.gov/download/henley-testimony?download=1"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Don Henley",
   "views": 1308044,
   "start": 1970
@@ -398,9 +455,22 @@
   "econ": -2,
   "auth": -3.5,
   "confidence": 2,
-  "basis": "Loud Trump critic since 2018; the earlier record is apolitical provocation.",
-  "sources": [],
-  "checked": null,
+  "basis": "Trump critic since 2018: demanded his music be kept out of rallies, urged fans to vote Democrat in the midterms, feuded with Treasury Secretary Mnuchin in 2020. The earlier record is apolitical provocation.",
+  "sources": [
+   {
+    "title": "CNN: Axl Rose and Steve Mnuchin's Twitter spat",
+    "url": "https://amp.cnn.com/cnn/2020/05/07/politics/axl-rose-steve-mnuchin"
+   },
+   {
+    "title": "Blabbermouth: Mnuchin fires back at Axl Rose; Rose's record on Trump",
+    "url": "https://blabbermouth.net/news/u-s-treasury-secretary-steven-mnuchin-fires-back-at-axl-rose-what-have-you-done-for-the-country-lately"
+   },
+   {
+    "title": "Fox News: Rose explains his disdain for the Trump administration",
+    "url": "https://www.foxnews.com/entertainment/axl-rose-disdain-trump-administration-twitter-feud-surgeon-general"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Axl Rose",
   "views": 1213170,
   "start": 1983
@@ -426,9 +496,22 @@
   "econ": -2,
   "auth": -3,
   "confidence": 2,
-  "basis": "Animal-welfare campaigner (badger cull) and fierce critic of Conservative governments.",
-  "sources": [],
-  "checked": null,
+  "basis": "Founded the Save Me Trust (2010) against fox hunting and the badger cull, taking the government to court over it; launched the cross-party Common Decency campaign in 2015; says he stopped voting Conservative over wildlife policy.",
+  "sources": [
+   {
+    "title": "Daily Mirror via brianmay.com: May blasts Cameron over hunting and the cull",
+    "url": "https://brianmay.com/brian-news/2015/05/brian-may-blasts-david-cameron/"
+   },
+   {
+    "title": "Western Morning News via brianmay.com: Common Decency launch",
+    "url": "https://brianmay.com/brian-news/2015/03/brian-may-rock-guitarist-and-anti-badger-cull-campaigner-launches-drive-for-decent-votes/"
+   },
+   {
+    "title": "Gulf News: May on why he stopped voting Conservative",
+    "url": "https://gulfnews.com/uae/environment/taking-a-stance-for-the--planets-furry-friends-1.812278"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Brian May",
   "views": 1328639,
   "start": 1963
@@ -541,9 +624,22 @@
   "econ": -6,
   "auth": -6,
   "confidence": 3,
-  "basis": "Campaigned for Nader in 2000; opposed the Iraq war; \"People Have the Power\".",
-  "sources": [],
-  "checked": null,
+  "basis": "Worked on Ralph Nader's 2000 campaign, whose rallies used \"People Have the Power\" as their theme, and toured with him afterwards; sang at the 2002 Washington protest against the Iraq war and wrote \"Radio Baghdad\".",
+  "sources": [
+   {
+    "title": "The Nation: Honoring our rock and roll Tom Paine",
+    "url": "https://www.thenation.com/?p=93382"
+   },
+   {
+    "title": "Wesleyan Argus: Nader and Smith call for end to Iraq War (2005)",
+    "url": "https://wesleyanargus.com/2005/02/01/nader-and-smith-call-for-end-to-iraq-war/"
+   },
+   {
+    "title": "CounterPunch: Smith on working for Nader in 2000",
+    "url": "https://www.counterpunch.org/2004/08/18/patti-smith-another-take/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Patti Smith",
   "views": 1465273,
   "start": 1967
@@ -662,9 +758,22 @@
   "econ": -3,
   "auth": -3,
   "confidence": 2,
-  "basis": "Make Trade Fair and Global Citizen campaigns.",
-  "sources": [],
-  "checked": null,
+  "basis": "Fronted Oxfam's Make Trade Fair campaign from 2002, travelling to Haiti and Ghana for it; curator of the anti-poverty Global Citizen Festival since 2015.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Coldplay fight for fair trade",
+    "url": "https://www.rollingstone.com/politics/politics-news/coldplay-fight-for-fair-trade-238579/"
+   },
+   {
+    "title": "Oxfam America: Coldplay campaigns to Make Trade Fair",
+    "url": "https://www.oxfamamerica.org/explore/stories/during-second-leg-of-us-tour-coldplay-campaigns-to-make-trade-fair/"
+   },
+   {
+    "title": "Billboard: Martin's 15-year role as Global Citizen Festival curator",
+    "url": "https://www.billboard.com/?p=6480012"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Chris Martin",
   "views": 1935835,
   "start": 1997
@@ -676,9 +785,22 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
-  "basis": "Campaigned against the Iraq war; anti-Brexit.",
-  "sources": [],
-  "checked": null,
+  "basis": "Fronted the Stop the War campaign against the Iraq invasion with Massive Attack's 3D (NME ads, Downing Street petition, the February 2003 march); marched for a second Brexit referendum in 2019.",
+  "sources": [
+   {
+    "title": "NME: one million march in London, Albarn and 3D among the leaders (2003)",
+    "url": "https://www.nme.com/news/music/blur-459-1377249"
+   },
+   {
+    "title": "New Statesman: Give music a chance (2003)",
+    "url": "https://www.newstatesman.com/long-reads/2003/02/give-music-a-chance"
+   },
+   {
+    "title": "The New European: Albarn on Rees-Mogg and Brexit",
+    "url": "https://www.thenewworld.co.uk/brexit-news-damon-albarn-on-jacob-rees-mogg-and-brexit-43448"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Damon Albarn",
   "views": 1532470,
   "start": 1988
@@ -944,9 +1066,22 @@
   "econ": 5,
   "auth": 1.5,
   "confidence": 2,
-  "basis": "Backed Bush and the Iraq war; pro-business; later critical of Trump.",
-  "sources": [],
-  "checked": null,
+  "basis": "Backed Bush's foreign policy and the Iraq invasion; endorsed Romney in 2012 saying the country should be run like a business; supported Trump's border wall, then attacked his 2020 fraud claims; on good terms with him again by 2025.",
+  "sources": [
+   {
+    "title": "The Blaze: who Gene Simmons supported in 2012",
+    "url": "https://www.theblaze.com/news/2011/08/17/so-whos-gene-simmons-supporting-in-2012-you-might-be-surprised"
+   },
+   {
+    "title": "AV Club: Simmons's political statements over the years",
+    "url": "https://www.avclub.com/music/kiss/shocker-gene-simmons-cant-stop-putting-his-foot-in-his-mouth"
+   },
+   {
+    "title": "People via AOL: Simmons once ripped Trump as out for himself",
+    "url": "https://www.aol.com/articles/gene-simmons-once-ripped-trump-200141647.html"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Gene Simmons",
   "views": 1539067,
   "start": 1970
@@ -1087,9 +1222,22 @@
   "econ": -4,
   "auth": -2.4,
   "confidence": 2,
-  "basis": "Amnesty International tours; Rainforest Foundation.",
-  "sources": [],
-  "checked": null,
+  "basis": "Amnesty International campaigner since 1981, including the 1988 Human Rights Now! world tour; co-founded the Rainforest Foundation in 1989 with Kayapó leader Raoni.",
+  "sources": [
+   {
+    "title": "Human Rights Concerts: background to the Amnesty tours",
+    "url": "https://humanrightsconcerts.com/background.html"
+   },
+   {
+    "title": "Ultimate Classic Rock: Springsteen and Sting begin Human Rights Now!",
+    "url": "https://ultimateclassicrock.com/bruce-springsteen-sting-human-rights-now-tour/"
+   },
+   {
+    "title": "The Times (1989) via sting.com: founding the Rainforest Foundation",
+    "url": "https://www.sting.com/news/title/Interview:%20THE%20TIMES%20(1989)"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Sting (musician)",
   "views": 1716954,
   "start": 1969
@@ -1249,9 +1397,22 @@
   "econ": -2.4,
   "auth": -4.6,
   "confidence": 2,
-  "basis": "Stopped the Bush campaign using \"I Won't Back Down\" (2000); later regretted using the Confederate flag.",
-  "sources": [],
-  "checked": null,
+  "basis": "Sent the Bush campaign a cease-and-desist over \"I Won't Back Down\" in 2000 and played Al Gore's concession-night party; did the same to Michele Bachmann in 2011; in 2015 called his 1985 use of the Confederate flag \"downright stupid\".",
+  "sources": [
+   {
+    "title": "Rolling Stone AU: Petty family vs Trump; the 2000 Bush cease-and-desist",
+    "url": "https://au.rollingstone.com/?p=13013"
+   },
+   {
+    "title": "Uproxx: Petty on his Confederate flag regret",
+    "url": "https://uproxx.com/music/tom-petty-confederate-flag-stupid"
+   },
+   {
+    "title": "Time: Bush and I Won't Back Down",
+    "url": "https://content.time.com/time/specials/packages/article/0,28804,1840981_1840998_1840937,00.html"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Tom Petty",
   "views": 1440909,
   "start": 1967
@@ -1277,9 +1438,22 @@
   "econ": -4.2,
   "auth": -4.8,
   "confidence": 2,
-  "basis": "Against the monarchy and the honours system; fought Ticketmaster fees in 2023.",
-  "sources": [],
-  "checked": null,
+  "basis": "Calls hereditary privilege \"inherently wrong\" and says he would never accept an honour; mocked the 2023 coronation; forced Ticketmaster to refund fees that year and blamed a system that \"values profit over people\".",
+  "sources": [
+   {
+    "title": "Clash: Robert Smith has no time for the monarchy",
+    "url": "https://www.clashmusic.com/news/the-cures-robert-smith-has-no-time-for-the-monarchy/"
+   },
+   {
+    "title": "NPR: Smith convinces Ticketmaster to give partial refunds",
+    "url": "https://www.npr.org/2023/03/17/1164171985/ticketmaster-the-cure-robert-smith"
+   },
+   {
+    "title": "Pollstar: Ticketmaster refunds fees that sickened The Cure",
+    "url": "https://news.pollstar.com/2023/03/28/ticketmaster-refunds-fees-that-sickened-the-cure/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Robert Smith (musician)",
   "views": 1230457,
   "start": 1972
@@ -1779,9 +1953,22 @@
   "econ": -4.0,
   "auth": -4.0,
   "confidence": 2,
-  "basis": "\"Alright\" became a Black Lives Matter anthem; critiques of policing and prisons; avoids endorsements.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Alright\" (2015) became the chant of Black Lives Matter protests against police violence, though his own relationship with the movement has been described as complicated; avoids endorsements.",
+  "sources": [
+   {
+    "title": "NPR: Kendrick Lamar's Alright, party and protest",
+    "url": "https://www.npr.org/transcripts/753511135"
+   },
+   {
+    "title": "Complex: the history of Alright as a protest song",
+    "url": "https://www.complex.com/music/a/j-mckinney/kendrick-lamar-alright-protest-song"
+   },
+   {
+    "title": "Slate: protesters chant Alright (2015)",
+    "url": "https://www.slate.com/articles/arts/culturebox/2015/08/black_lives_matter_protesters_chant_kendrick_lamar_s_alright_what_makes.html"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Kendrick Lamar",
   "views": 1891685,
   "start": 2003
@@ -1821,9 +2008,22 @@
   "econ": 0.5,
   "auth": -3.0,
   "confidence": 2,
-  "basis": "Wrote a Contract with Black America in 2020 and discussed it with the Trump campaign; says he endorses nobody.",
-  "sources": [],
-  "checked": null,
+  "basis": "Published a 13-point Contract with Black America in 2020 (police and prison reform, banking, home-ownership loans) and advised the Trump campaign on its Platinum Plan; insists he endorsed nobody and that both parties fall short.",
+  "sources": [
+   {
+    "title": "CNN: Ice Cube and the Trump campaign controversy (2020)",
+    "url": "https://amp.cnn.com/cnn/2020/10/15/us/ice-cube-trump-controversy-trnd/index.html"
+   },
+   {
+    "title": "CBS News: Ice Cube defends advising Trump on plan for Black Americans",
+    "url": "https://www.cbsnews.com/amp/news/ice-cube-responds-trump-platinum-plan-black-americans"
+   },
+   {
+    "title": "Atlanta Black Star: 'I'm not supporting Donald Trump'",
+    "url": "https://atlantablackstar.com/2020/10/23/im-not-supporting-donald-trump-ice-cube-offers-further-explanation-for-working-with-trump-administration-says-both-parties-are-lacking/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Ice Cube",
   "views": 1495283,
   "start": 1986
@@ -2587,9 +2787,18 @@
   "econ": -4.0,
   "auth": -3.8,
   "confidence": 2,
-  "basis": "What's Going On (1971) on war, poverty and the environment.",
-  "sources": [],
-  "checked": null,
+  "basis": "What's Going On (1971): a protest album on Vietnam, poverty, police violence and the environment, made over Motown's objections. Songs are the main evidence.",
+  "sources": [
+   {
+    "title": "Smithsonian: What's Going On is as relevant today as in 1971",
+    "url": "https://www.smithsonianmag.com/history/marvin-gayes-whats-going-relevant-today-it-was-1971-180977750/"
+   },
+   {
+    "title": "NPR: the story of What's Going On",
+    "url": "https://www.npr.org/2000/08/07/1080444/npr-100-"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Marvin Gaye",
   "views": 1738334,
   "start": 1957
@@ -2601,9 +2810,22 @@
   "econ": 2.0,
   "auth": 0.0,
   "confidence": 2,
-  "basis": "\"Say It Loud\" (1968), then endorsed Nixon in 1972; preached Black capitalism and self-help.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Say It Loud\" (1968) and an endorsement of Humphrey that year, then Nixon in 1972, drawn by \"Black capitalism\" and self-help; picketed as \"Nixon's clown\" for it.",
+  "sources": [
+   {
+    "title": "Slate: a brief history of James Brown's politics",
+    "url": "https://www.slate.com/blogs/browbeat/2014/08/01/james_brown_s_social_activism_a_brief_history_of_the_singer_s_politics_not.html"
+   },
+   {
+    "title": "Reason: Father of Funk",
+    "url": "https://reason.com/2007/03/01/father-of-funk/"
+   },
+   {
+    "title": "The Nation: James Brown, 1933-2006",
+    "url": "https://thenation.com/?p=93148"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "James Brown",
   "views": 1215538,
   "start": 1953
@@ -2717,9 +2939,22 @@
   "econ": -5.0,
   "auth": -6.0,
   "confidence": 3,
-  "basis": "\"Declare Independence\" for Greenland, Kosovo and Tibet; Icelandic environmental campaigns.",
-  "sources": [],
-  "checked": null,
+  "basis": "Dedicated \"Declare Independence\" to Greenland and the Faroes, Kosovo and Tibet (shouting \"Tibet!\" on stage in Shanghai, 2008); backed a Yes vote in Scotland (2014) and Greenlandic independence again in 2026.",
+  "sources": [
+   {
+    "title": "Wikipedia: Declare Independence",
+    "url": "https://en.wikipedia.org/wiki/Declare_Independence"
+   },
+   {
+    "title": "NZ Herald: Björk backs Tibet during Shanghai concert",
+    "url": "https://nzherald.co.nz/entertainment/bjork-backs-tibet-during-shanghai-concert/5S5JXKRKDHOVWYE5IY7XKEQPS4"
+   },
+   {
+    "title": "mxdwn: Björk urges Greenland to declare independence (2026)",
+    "url": "https://music.mxdwn.com/2026/01/05/news/bjork-wants-greenland-to-declare-independence-as-donald-trump-threatens-possibly-taking-over/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Björk",
   "views": 1635776,
   "start": 1977
@@ -3114,9 +3349,18 @@
   "econ": -5,
   "auth": -5,
   "confidence": 2,
-  "basis": "\"Same Love\" (2012) for marriage equality; \"Hind's Hall\" (2024) for Palestinian student protesters.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Same Love\" (2012) for marriage equality; \"Hind's Hall\" (2024) backing the Gaza campus protests, with proceeds to UNRWA and a line blaming Biden; joined Black Lives Matter protests.",
+  "sources": [
+   {
+    "title": "Guardian via Yahoo: Macklemore backs Palestine and campus protests",
+    "url": "https://uk.news.yahoo.com/blood-hands-biden-us-rapper-110516759.html"
+   },
+   {
+    "title": "The Conversation via Interaksyon: Hind's Hall as a protest anthem",
+    "url": "https://interaksyon.philstar.com/celebrities/2024/05/13/275411/hinds-hall-is-macklemores-bold-new-pro-palestine-anthem-what-might-it-actually-achieve/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Macklemore",
   "views": 1515794,
   "start": 2000
@@ -3165,9 +3409,18 @@
   "econ": 1,
   "auth": 0,
   "confidence": 1,
-  "basis": "Met Trump in 2020 to praise his Platinum Plan for Black Americans; pardoned by Trump in 2021.",
-  "sources": [],
-  "checked": null,
+  "basis": "Met Trump days before the 2020 election and praised his Platinum Plan and criminal-justice record; pardoned by Trump on a federal gun charge in January 2021. Little else on record.",
+  "sources": [
+   {
+    "title": "Washington Examiner: Trump pardons Lil Wayne",
+    "url": "https://www.washingtonexaminer.com/?p=2594323"
+   },
+   {
+    "title": "The Scotsman: why Trump pardoned Lil Wayne",
+    "url": "https://www.scotsman.com/news/crime/lil-wayne-pardon-why-has-donald-trump-pardoned-rapper-and-why-was-he-prison-3106660"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Lil Wayne",
   "views": 1372008,
   "start": 1991
@@ -3193,9 +3446,22 @@
   "econ": -7,
   "auth": -5,
   "confidence": 2,
-  "basis": "Sang for the Sandinistas and Leonard Peltier; outspoken on the left from the 1980s on.",
-  "sources": [],
-  "checked": null,
+  "basis": "Travelled to Nicaragua in support of the Sandinistas in the 1980s; played the 1987 benefit for Leonard Peltier and was banned by radio stations for it; early benefit for the United Farm Workers (1972).",
+  "sources": [
+   {
+    "title": "Common Dreams: Kristofferson obituary, Sandinistas and UFW",
+    "url": "https://www.commondreams.org/further/wearin-yesterday-s-misfortunes-like-a-smile"
+   },
+   {
+    "title": "Windspeaker: Willie and Kris banned from US radio after Peltier benefit",
+    "url": "https://ammsa.com/publications/windspeaker/willy-and-kris-banned-us-radio"
+   },
+   {
+    "title": "American Songwriter: Kristofferson on being a radical",
+    "url": "https://americansongwriter.com/kris-kristofferson-knew-hed-be-more-marketable-this-way-but-he-still-didnt-do-it"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Kris Kristofferson",
   "views": 1740077,
   "start": 1959

@@ -239,7 +239,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <li><b>Thin evidence widens the halo; it does not pull anyone to the centre.</b> Someone who never voted but spent decades on political work they stand behind can sit far out. How famous a song became does not count either: the chart measures belief, not influence.</li>
 <li><b>The starting 50:</b> everyone with a documented shift in position, the person furthest from the centre in each quadrant, then the most-viewed English Wikipedia articles from November 2025 to October 2026 until there are 50. <i>All</i> shows everyone. A search always looks through everyone.</li>
 <li><b>Who is included:</b> people who are either widely known or have a substantial political record, up to 200. Genre is shown by colour and shape together, and is a filing decision, not a claim.</li>
-<li><b>Precision:</b> high-confidence marks are good to about &plusmn;1 unit, medium &plusmn;1.5, low &plusmn;2.5. Crowded areas collapse into numbered groups; tap one to open it.</li>
+<li><b>Precision, axis by axis:</b> each axis has its own confidence: high is good to about &plusmn;1 unit, medium &plusmn;1.5, low &plusmn;2.5. Many musicians have a clear record on authority but none on economics, so their halo is an ellipse, wide from side to side; with no economic record at all it spans &plusmn;5. Charity is not economic evidence, and neither is defending their own copyright. Crowded areas collapse into numbered groups; tap one to open it.</li>
 <li><b>Sourcing:</b> placements marked <i>not yet sourced</i> come from general knowledge and are being checked one by one. Anything that cannot be sourced will be removed.</li>
 <li><b>Limits:</b> the sample is hand-picked and mostly Anglo-American. The Political Compass itself is <a href="https://en.wikipedia.org/wiki/The_Political_Compass" target="_blank" rel="noopener">criticised</a> for its method and some placements; this chart borrows its axes, not its test or its rankings.</li>
 </ul>
@@ -250,7 +250,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <script>
 const REPO="https://github.com/mehmetemreak/music-politics-compass";
 const GN={R:"Rock",P:"Punk & new wave",M:"Metal & hard rock",O:"Pop",H:"Hip-hop",C:"Country",F:"Folk, soul & reggae",E:"Electronic"},GO="RPMOHCFE";
-const CL={3:"High",2:"Medium",1:"Low"},HR={3:1,2:1.5,1:2.5},KMAX=8;
+const CL={3:"High",2:"Medium",1:"Low"},HR={3:1,2:1.5,1:2.5},HX={3:1,2:1.5,1:2.5,0:5},KMAX=8;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
 const fmt=n=>(n>0?"+":"")+n;
@@ -384,7 +384,7 @@ function draw(){
 const order=solo.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
  order.forEach(i=>{const d=D[i],X=d.X,Y=d.Y,l=lab[i],dm=q&&!hit(d)&&i!==st.sel;PV.push({i,X,Y});
   pts+=`<g class="pt g${d.genre} c${d.confidence}${i===st.sel?" sel":""}${i===st.hov?" hov":""}${dm?" dm":""}" data-i="${i}">`+(fan.has(i)?`<line class="ld" x1="${d.tX.toFixed(1)}" y1="${d.tY.toFixed(1)}" x2="${X.toFixed(1)}" y2="${Y.toFixed(1)}"/><circle class="tp" cx="${d.tX.toFixed(1)}" cy="${d.tY.toFixed(1)}" r="1.8"/>`:"")+
-  ((st.halos||i===st.sel||i===st.hov)?`<circle class="h" cx="${(fan.has(i)?d.tX:X).toFixed(1)}" cy="${(fan.has(i)?d.tY:Y).toFixed(1)}" r="${(HR[d.confidence]*U).toFixed(1)}"/>`:"")+
+  ((st.halos||i===st.sel||i===st.hov)?`<ellipse class="h" cx="${(fan.has(i)?d.tX:X).toFixed(1)}" cy="${(fan.has(i)?d.tY:Y).toFixed(1)}" rx="${(HX[d.ce??d.confidence]*U).toFixed(1)}" ry="${(HR[d.ca??d.confidence]*U).toFixed(1)}"/>`:"")+
   `<circle cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="16" fill="transparent"/>`+
   (i===st.sel?`<circle class="ring" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="11"/>`:"")+(KF&&KF.i===i?`<circle class="kf" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="14"/>`:"")+SH[d.genre](X,Y)+
   (l?`<text x="${l.tx.toFixed(1)}" y="${l.ty.toFixed(1)}" text-anchor="${l.a}">${esc(d.name)}</text>`:"")+`</g>`});
@@ -471,7 +471,7 @@ function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
  const s=src.length?`<span class="st y">&#10003; Sourced · checked ${new Date(d.checked+"T00:00:00").toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"})}</span>`:`<span class="st">Not yet sourced · placed from general knowledge, pending a check</span>`;
  const issue=`${REPO}/issues/new?template=placement.yml&title=${encodeURIComponent("Placement: "+d.name)}`;
  $("sh").style.transform="";$("sh").innerHTML=`<div class="grab" id="grab"></div><div class="sh-h"><div><h3 id="shName">${esc(d.name)}</h3><div class="meta">${esc(d.band==="solo"?"Solo":d.band)} · ${GN[d.genre]}${d.start?` · career began ${d.start}`:""}</div></div><button class="x" aria-label="Close" id="shX">&times;</button></div>
- <div class="why">${d.starter?`In the starting 50: ${d.why}.`:"Shown under All."} ${d.views>=1e6?(d.views/1e6).toFixed(1)+"M":Math.round(d.views/1e3)+"k"} Wikipedia views in the past year.</div><div class="pos">Economic ${fmt(d.econ)} · Authority ${fmt(d.auth)} · ${CL[d.confidence]} confidence (&plusmn;${HR[d.confidence]})</div>${s}
+ <div class="why">${d.starter?`In the starting 50: ${d.why}.`:"Shown under All."} ${d.views>=1e6?(d.views/1e6).toFixed(1)+"M":Math.round(d.views/1e3)+"k"} Wikipedia views in the past year.</div><div class="pos">Economic ${fmt(d.econ)} ${(d.ce??d.confidence)===0?"(no economic record: &plusmn;5)":`(&plusmn;${HX[d.ce??d.confidence]})`} · Authority ${fmt(d.auth)} (&plusmn;${HR[d.ca??d.confidence]}) · ${CL[d.confidence]} confidence</div>${s}
  <p>${esc(d.basis)}</p>${d.shift?`<p><i>Earlier position (${esc(d.shift.label)}):</i> economic ${fmt(d.shift.econ)}, authority ${fmt(d.shift.auth)}.</p>`:""}
  <h4>Sources</h4>${src.length?`<ol>${src.map(x=>`<li>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`:esc(x.title)}</li>`).join("")}</ol>`:`<p style="color:var(--mut)">None yet.</p>`}
  <p class="wk" id="shW">${wkLink(d)}</p><div class="acts">${st.mode==="list"?`<button id="shGo">Show on chart</button>`:""}<a href="${issue}" target="_blank" rel="noopener">Dispute this placement</a><button id="shL">Copy link</button></div>`;

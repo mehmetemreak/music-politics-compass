@@ -6,6 +6,8 @@
   "econ": -8.5,
   "auth": -5,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Identifies as a nonsectarian socialist; co-founded Axis of Justice (2002); played the 2011 Madison protests against Wisconsin's anti-union law and gave the Union Town proceeds to labour groups; played the 2023 Hollywood picket lines.",
   "sources": [
    {
@@ -38,6 +40,8 @@
   "econ": -8.5,
   "auth": -6.5,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Repeated trips to Chiapas since 1994 to work in Zapatista communities, including joining human-chain protection for EZLN negotiators; campaigns for Leonard Peltier and Mumia Abu-Jamal; anti-capitalist activism throughout his career.",
   "sources": [
    {
@@ -66,6 +70,8 @@
   "econ": -7,
   "auth": -5,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "\"I'm a socialist, not by persuasion but from my own experiences\" (1980); headlined the Rock Against Racism carnival at Victoria Park in 1978; last gig was a benefit for striking firefighters; drifted towards a looser humanism in the 1990s.",
   "sources": [
    {
@@ -94,6 +100,8 @@
   "econ": -7,
   "auth": -4,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Benefit gigs for the 1984–85 miners' strike and gave Between the Wars EP profits to the miners; co-founded Red Wedge to back Labour in 1987; calls himself a socialist but says he never advocated abolishing capitalism.",
   "sources": [
    {
@@ -122,6 +130,8 @@
   "econ": -8,
   "auth": 1.5,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Socialist and BDS campaigner. Addressed the UN Security Council at Russia's invitation in 2023, calling the invasion illegal but \"not unprovoked\", and said in 2022 that Taiwan is part of China.",
   "sources": [
    {
@@ -150,6 +160,8 @@
   "econ": -4,
   "auth": -4,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Gave the £3.6m proceeds of a London house sale to the homeless charity Crisis (announced 2003) and became its vice-president; pro-Ukraine single \"Hey Hey Rise Up\" in 2022; sold his guitars for the climate-law charity ClientEarth.",
   "sources": [
    {
@@ -178,6 +190,8 @@
   "econ": -6,
   "auth": -6.5,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Gave a 1971 interview to the Trotskyist Red Mole and wrote \"Power to the People\" the next day; anti-war campaigning throughout. \"Revolution\" (1968) had rejected militancy.",
   "sources": [
    {
@@ -202,6 +216,8 @@
   "econ": -2,
   "auth": -3,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Animal-rights and vegetarian campaigning; \"Give Ireland Back to the Irish\" (1972); otherwise a mild liberal.",
   "sources": [
    {
@@ -226,6 +242,8 @@
   "econ": 1,
   "auth": -4,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "\"Taxman\" against the 95% supertax; Concert for Bangladesh; spiritual more than political.",
   "sources": [
    {
@@ -250,6 +268,8 @@
   "econ": 1.5,
   "auth": 0.5,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "Told BBC Newsnight in 2017 he would have voted Leave because \"to be in control of your own country is a good move\", though he did not vote. Little else on record.",
   "sources": [
    {
@@ -274,6 +294,8 @@
   "econ": -5,
   "auth": -3,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Campaigned for every Democratic nominee since Kerry in 2004 (Vote for Change tour), including Obama, Clinton, Biden and Harris rallies with Obama in 2024; labour-centred songwriting.",
   "sources": [
    {
@@ -302,6 +324,8 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Living with War (2006) with \"Let's Impeach the President\"; endorsed Sanders in 2020 calling for higher taxes on the super-rich. But briefly supported Reagan in the early 1980s.",
   "sources": [
    {
@@ -326,6 +350,8 @@
   "econ": -5.5,
   "auth": -5,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Played Ralph Nader's rallies in 2000; joined the Vote for Change tour against Bush in 2004; pro-choice activism since 1992, including Rock for Choice benefits.",
   "sources": [
    {
@@ -354,6 +380,8 @@
   "econ": -4,
   "auth": -6,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Incesticide liner notes told homophobes, racists and sexists not to buy the records; Nirvana headlined the first Rock for Choice and played against Oregon's anti-gay Measure 9. Thin economic record.",
   "sources": [
    {
@@ -382,6 +410,8 @@
   "econ": 2,
   "auth": -4,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Former county Democratic chair who led FairVote, backed Libertarian Gary Johnson in 2016 and is now building a centrist party.",
   "shift": {
    "econ": -3,
@@ -411,6 +441,8 @@
   "econ": -3,
   "auth": -4,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Played Kerry campaign stops in 2004 after Bush used \"Times Like These\"; objected to McCain using \"My Hero\" (2008); headlined an Obama fundraiser in 2012; played Biden's inauguration concert.",
   "sources": [
    {
@@ -439,6 +471,8 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Friends of the Earth spokesman for the Big Ask climate campaign (2006); anti-Brexit; rejected the cultural boycott of Israel and played Tel Aviv in 2017, then said in 2025 he would not go near the Netanyahu government.",
   "sources": [
    {
@@ -467,6 +501,8 @@
   "econ": -5,
   "auth": -5,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "American Idiot (2004) against the Bush era; chanted \"No Trump, no KKK, no fascist USA\" at the 2016 American Music Awards; has sung \"MAGA agenda\" in place of \"redneck agenda\" since 2019.",
   "sources": [
    {
@@ -491,6 +527,8 @@
   "econ": -3.5,
   "auth": -4,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Wrote a Rolling Stone op-ed backing Bernie Sanders and played the band's 2016 \"Feel the Bern\" fundraiser; all four members signed the endorsement letter.",
   "sources": [
    {
@@ -515,6 +553,8 @@
   "econ": -3.5,
   "auth": -4,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Wrote \"Fortunate Son\" (1969) about the privileged dodging the draft while working-class men went to Vietnam; sent the Trump campaign a cease-and-desist in 2020 for using it.",
   "sources": [
    {
@@ -539,6 +579,8 @@
   "econ": -3,
   "auth": -1.5,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "Founded the Walden Woods Project (1990) and the Caddo Lake Institute; told a Senate committee in 2020 that copyright law lets big tech profit from piracy. His party donations are widely reported but not yet sourced here.",
   "sources": [
    {
@@ -567,6 +609,8 @@
   "econ": -2,
   "auth": -3.5,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Trump critic since 2018: demanded his music be kept out of rallies, urged fans to vote Democrat in the midterms, feuded with Treasury Secretary Mnuchin in 2020. The earlier record is apolitical provocation.",
   "sources": [
    {
@@ -595,6 +639,8 @@
   "econ": 0.5,
   "auth": -1,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Lobbied Bush and both parties on debt relief and AIDS funding; told Georgetown in 2012 that \"commerce [and] entrepreneurial capitalism take more people out of poverty than aid\"; U2 moved its royalty business to the Netherlands in 2006 to cut its tax bill.",
   "sources": [
    {
@@ -627,6 +673,8 @@
   "econ": -2,
   "auth": -3,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Founded the Save Me Trust (2010) against fox hunting and the badger cull, taking the government to court over it; launched the cross-party Common Decency campaign in 2015; says he stopped voting Conservative over wildlife policy.",
   "sources": [
    {
@@ -655,6 +703,8 @@
   "econ": -2,
   "auth": 0,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Voted Remain against bandmate Daltrey's Brexit; bitter critic of Thatcher and the Tories; but told ABC in 2012 he was \"a bit of a neocon\" who likes America as the world's police; calls \"Won't Get Fooled Again\" an anti-politics song.",
   "sources": [
    {
@@ -683,6 +733,8 @@
   "econ": 2,
   "auth": 1.5,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Lifelong Labour voter who said he would never forgive the party for mass immigration undercutting the working class (2011, 2013); vocal Brexit supporter who called the EU a \"gravy train\".",
   "sources": [
    {
@@ -711,6 +763,8 @@
   "econ": -2,
   "auth": -5,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "Sang at the 1963 March on Washington and wrote civil-rights and anti-war anthems, then spent decades refusing the \"spokesman\" role.",
   "sources": [
    {
@@ -739,6 +793,8 @@
   "econ": 2,
   "auth": -2.5,
   "confidence": 1,
+  "ce": 1,
+  "ca": 1,
   "basis": "Accepted a knighthood (2003); said in 2013 he had met Thatcher and disliked the reaction to her death; mother a Conservative activist. Keeps politics out of his shows.",
   "sources": [
    {
@@ -763,6 +819,8 @@
   "econ": 0,
   "auth": -3,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "Said in 1976 that Britain \"could benefit from a fascist leader\", then renounced it, blaming his drug use; turned down a CBE (2000) and a knighthood (2003); \"Scotland, stay with us\" (2014).",
   "sources": [
    {
@@ -787,6 +845,8 @@
   "econ": -6,
   "auth": -6,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Worked on Ralph Nader's 2000 campaign, whose rallies used \"People Have the Power\" as their theme, and toured with him afterwards; sang at the 2002 Washington protest against the Iraq war and wrote \"Radio Baghdad\".",
   "sources": [
    {
@@ -815,6 +875,8 @@
   "econ": -8,
   "auth": -8,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Ran for mayor of San Francisco (1979); came second to Nader for the Green presidential nomination (2000) on a platform including a maximum wage and drug decriminalisation; Green Party member.",
   "sources": [
    {
@@ -839,6 +901,8 @@
   "econ": -5,
   "auth": -6,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "LGBT-rights and marriage-equality advocacy; called the Iraq war illegal while doing several USO tours to Iraq and Afghanistan (\"my way of protesting the war\"); veterans' reintegration work with IAVA.",
   "sources": [
    {
@@ -867,6 +931,8 @@
   "econ": -6,
   "auth": -8,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Co-founded Dischord Records (1980) as a DIY label; Fugazi capped tickets at about $5, played all-ages and gave proceeds to benefits; refused major labels; says he \"always felt a kinship with Bernie\".",
   "sources": [
    {
@@ -895,6 +961,8 @@
   "econ": -7,
   "auth": -7,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Co-founded riot grrrl and its zines; Bikini Kill's feminist punk; played the 1993 Rock for Choice abortion-rights benefit; memoir Rebel Girl (2024) on abortion, assault and intersectional feminism.",
   "sources": [
    {
@@ -923,6 +991,8 @@
   "econ": -7,
   "auth": -6,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Co-founded Axis of Justice with Tom Morello (2002); endorsed Bernie Sanders in 2015; decades of campaigning for recognition of the Armenian genocide.",
   "sources": [
    {
@@ -951,6 +1021,8 @@
   "econ": 5,
   "auth": 0,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Called Trump \"the greatest friend to minorities\" (2020), Democrats \"the true fascists\", and \"defund the police\" the stupidest idea he'd heard; Tankian says he voted Obama before Trump and may have cooled on him since.",
   "sources": [
    {
@@ -979,6 +1051,8 @@
   "econ": -5,
   "auth": -5,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Vote for Change tour against Bush in 2004; introduced Bernie Sanders at rallies in 2016, citing LGBTQ rights, environmental justice and pay equity.",
   "sources": [
    {
@@ -1007,6 +1081,8 @@
   "econ": -3,
   "auth": -3,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Fronted Oxfam's Make Trade Fair campaign from 2002, travelling to Haiti and Ghana for it; curator of the anti-poverty Global Citizen Festival since 2015.",
   "sources": [
    {
@@ -1035,6 +1111,8 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Fronted the Stop the War campaign against the Iraq invasion with Massive Attack's 3D (NME ads, Downing Street petition, the February 2003 march); marched for a second Brexit referendum in 2019.",
   "sources": [
    {
@@ -1063,6 +1141,8 @@
   "econ": 0.5,
   "auth": -1,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Endorsed Blair at the 1996 Brits and was New Labour's Downing Street guest in 1997; later called Blair a let-down and Corbyn's politics \"communism\", while saying he could never vote Tory; said the Brexit vote was legal and had to be carried out.",
   "sources": [
    {
@@ -1091,6 +1171,8 @@
   "econ": -6,
   "auth": -4,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Told NME in 1977 he would vote for Thatcher; co-founded Labour's Red Wedge in 1985; played a Momentum concert for Corbyn in 2016.",
   "shift": {
    "econ": 2,
@@ -1120,6 +1202,8 @@
   "econ": 1,
   "auth": 5,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Backed the anti-Islam party For Britain (2018-19) and praised Farage. Still animal-rights and anti-monarchy, which keeps him off the economic right.",
   "shift": {
    "econ": -5,
@@ -1149,6 +1233,8 @@
   "econ": -5,
   "auth": -4,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Publicly \"forbade\" David Cameron from liking The Smiths (2010); said he would re-form the band if the coalition government stepped down; \"no one can tell me the Conservative Party have ever been about\" a fair shout for everyone.",
   "sources": [
    {
@@ -1177,6 +1263,8 @@
   "econ": 2,
   "auth": 0.5,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Defended Brexit and Farage (2017) and voted for Trump (2020), while still talking up a borderless world.",
   "shift": {
    "econ": -3,
@@ -1210,6 +1298,8 @@
   "econ": 3,
   "auth": 1,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "1976 on-stage rant in Birmingham backing Enoch Powell; still called Powell a prophet in 1978, apologised later; headlined Countryside Alliance benefits against the hunting ban (2006-07); anti-lockdown songs with Van Morrison in 2020-21.",
   "sources": [
    {
@@ -1242,6 +1332,8 @@
   "econ": 2,
   "auth": -5,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Three anti-lockdown protest songs in 2020 (\"No More Lockdown\", \"Born to Be Free\", \"As I Walked Out\"); a defamation fight with Northern Ireland's health minister Robin Swann, settled in 2024; a long-running anti-establishment grievance.",
   "sources": [
    {
@@ -1266,6 +1358,8 @@
   "econ": 8,
   "auth": 3,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "NRA board member from 1995 to 2021 and author of \"I Am the NRA\"; campaigned with Donald Trump Jr. in 2020 and calls Trump the greatest president of his lifetime; hard line on drugs and immigration.",
   "sources": [
    {
@@ -1290,6 +1384,8 @@
   "econ": 7,
   "auth": 1,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Performed at the 2024 Republican convention on the night Trump accepted the nomination; calls himself libertarian and supports abortion rights and same-sex marriage.",
   "sources": [
    {
@@ -1314,6 +1410,8 @@
   "econ": 5,
   "auth": 4,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Wanted a Republican in 2012 and praised Santorum; opposes gay marriage. In 1992 he covered the Democratic convention for MTV.",
   "shift": {
    "econ": -1,
@@ -1343,6 +1441,8 @@
   "econ": 7,
   "auth": 4,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Ended the Ramones' 2002 Rock Hall speech with \"God bless President Bush\"; called Reagan the best president of his lifetime; NRA-supporting, low-tax Republican who fought Joey over \"Bonzo Goes to Bitburg\".",
   "sources": [
    {
@@ -1371,6 +1471,8 @@
   "econ": -5,
   "auth": -5.6,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Liberal Democrat (per bandmate Marky) who wrote \"Bonzo Goes to Bitburg\" (1985) against Reagan's visit to a cemetery with SS graves; the title was softened for the US to placate Republican Johnny Ramone.",
   "sources": [
    {
@@ -1399,6 +1501,8 @@
   "econ": 5,
   "auth": 1.5,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Backed Bush's foreign policy and the Iraq invasion; endorsed Romney in 2012 saying the country should be run like a business; supported Trump's border wall, then attacked his 2020 fraud claims; on good terms with him again by 2025.",
   "sources": [
    {
@@ -1427,6 +1531,8 @@
   "econ": 3,
   "auth": -7,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Called himself a \"practical conservative\" and wanted to tax the churches; testified against record labelling at the 1985 Senate hearing as a step towards censorship.",
   "sources": [
    {
@@ -1451,6 +1557,8 @@
   "econ": 0,
   "auth": -6.6,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Testified against the PMRC's record-labelling push before the US Senate in 1985; endorsed Al Gore in 2000 over the environment and abortion rights; now attacks censorship from the left too.",
   "sources": [
    {
@@ -1479,6 +1587,8 @@
   "econ": -1,
   "auth": -5,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Credited \"the genius of Ayn Rand\" on 2112 (1976). By 2012 called himself a \"bleeding-heart libertarian\", a label usually meaning pro-market with a social conscience, but reportedly voted only Democrat, citing health care. Actions outweigh the label, so he sits just left of centre, with medium confidence.",
   "shift": {
    "econ": 6,
@@ -1512,6 +1622,8 @@
   "econ": 0,
   "auth": -8,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "\"I'm essentially an anarchist\" (2007): anti-government, anti-religion, anti-war, pro-choice; said all politicians are thieves and stopped voting; also said he believed in the royal family.",
   "sources": [
    {
@@ -1540,6 +1652,8 @@
   "econ": 3,
   "auth": 0.6,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Voted Leave and defended Brexit in 2018 as opening Britain to the world; attacked the government in 2021 over touring barriers; said in 2024 the UK should re-engage with the EU.",
   "sources": [
    {
@@ -1568,6 +1682,8 @@
   "econ": 3,
   "auth": -3,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "NRA member and hunter who left the Bay Area for Colorado in 2016, citing an \"elitist attitude\" toward anyone not \"their way politically\"; otherwise keeps out of politics.",
   "sources": [
    {
@@ -1592,6 +1708,8 @@
   "econ": 3.6,
   "auth": -0.2,
   "confidence": 1,
+  "ce": 1,
+  "ca": 1,
   "basis": "Voted Conservative in 1979, according to Deborah Curtis's memoir. A single data point.",
   "sources": [
    {
@@ -1611,6 +1729,8 @@
   "econ": -4,
   "auth": -2.4,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Amnesty International campaigner since 1981, including the 1988 Human Rights Now! world tour; co-founded the Rainforest Foundation in 1989 with Kayapó leader Raoni.",
   "sources": [
    {
@@ -1639,6 +1759,8 @@
   "econ": -5.6,
   "auth": -3.4,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Headlined Rock Against Racism's second carnival at Brockwell Park (September 1978); \"Shipbuilding\" on the Falklands war and \"Tramp the Dirt Down\" (1989), wishing to outlive Thatcher.",
   "sources": [
    {
@@ -1667,6 +1789,8 @@
   "econ": 2.5,
   "auth": 4,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "Asked Nixon in 1970 to make him a \"federal agent at large\" against the drug culture and got a narcotics badge; told Nixon the Beatles promoted anti-American themes. A single episode with no economic content.",
   "sources": [
    {
@@ -1691,6 +1815,8 @@
   "econ": -2,
   "auth": -2.2,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Testified to a Senate subcommittee for prison reform in 1972 and met Nixon the same day; recorded Bitter Tears (1964) on Native American rights; friendly with presidents of both parties.",
   "sources": [
    {
@@ -1715,6 +1841,8 @@
   "econ": 5,
   "auth": 2.4,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "His touring Beach Boys headlined a Trump inaugural ball in 2017 and a Trump campaign fundraiser in 2020; Brian Wilson and Al Jardine publicly disavowed the fundraiser.",
   "sources": [
    {
@@ -1739,6 +1867,8 @@
   "econ": 4,
   "auth": 0,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "\"A definite old-school Republican\" (2012) and Republican all his life; endorsed John McCain in 2008 on national security and the economy; names JFK as his favourite president.",
   "sources": [
    {
@@ -1767,6 +1897,8 @@
   "econ": 4,
   "auth": -1,
   "confidence": 1,
+  "ce": 1,
+  "ca": 1,
   "basis": "Appeared at a 2009 Tea Party rally, \"furious\" at being \"led towards socialism\". One rally appearance: a direction, not a distance.",
   "sources": [
    {
@@ -1791,6 +1923,8 @@
   "econ": -3,
   "auth": -6,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "New York (1989) as social critique of the AIDS-era city; on the Sun City anti-apartheid record and the 1986 Amnesty tour; interviewed Vaclav Havel in Prague in 1990 and stayed close to him.",
   "sources": [
    {
@@ -1819,6 +1953,8 @@
   "econ": -3,
   "auth": -0.8,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Registered unaffiliated but has campaigned and fundraised for Kerry, Clinton and other Democrats; runs pay-what-you-can JBJ Soul Kitchen restaurants.",
   "sources": [
    {
@@ -1843,6 +1979,8 @@
   "econ": -2.4,
   "auth": -4.6,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Sent the Bush campaign a cease-and-desist over \"I Won't Back Down\" in 2000 and played Al Gore's concession-night party; did the same to Michele Bachmann in 2011; in 2015 called his 1985 use of the Confederate flag \"downright stupid\".",
   "sources": [
    {
@@ -1871,6 +2009,8 @@
   "econ": 1,
   "auth": -2.3,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Calls himself \"temperamentally\" conservative, small c, and wary of the idea of progress; calls cancel culture \"mercy's antithesis\"; called the cultural boycott of Israel \"cowardly and shameful\"; attended the 2023 coronation.",
   "sources": [
    {
@@ -1899,6 +2039,8 @@
   "econ": -4.2,
   "auth": -4.8,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Calls hereditary privilege \"inherently wrong\" and says he would never accept an honour; mocked the 2023 coronation; forced Ticketmaster to refund fees that year and blamed a system that \"values profit over people\".",
   "sources": [
    {
@@ -1927,6 +2069,8 @@
   "econ": 4,
   "auth": 1.2,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "Backed the Countryside Alliance's fight against the hunting ban: part of the \"Countryside Rocks\" campaign and dedicated his 2004 Q lifetime award to his son Otis, a pro-hunt activist who stormed the Commons. The \"self-described conservative\" label is not yet sourced.",
   "sources": [
    {
@@ -1955,6 +2099,8 @@
   "econ": -7,
   "auth": -3.2,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "President of the Stop the War Coalition; spoke at Corbyn's 2015 leadership rally; elected to DiEM25's coordinating collective; a BDS supporter who has refused Israeli state-sponsored use of his music.",
   "sources": [
    {
@@ -1983,6 +2129,8 @@
   "econ": -5.8,
   "auth": -4.5,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "\"Biko\" (1980) against apartheid; Amnesty's Conspiracy of Hope (1986) and Human Rights Now! (1988) tours; founded the human-rights video group Witness in 1992.",
   "sources": [
    {
@@ -2007,6 +2155,8 @@
   "econ": -6,
   "auth": -5.2,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Tore up the Pope's photograph on Saturday Night Live in 1992 to protest child abuse in the Catholic Church, and never withdrew the point.",
   "sources": [
    {
@@ -2031,6 +2181,8 @@
   "econ": -0.6,
   "auth": -2.4,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Live Aid and Live 8; led the anti-Brexit flotilla against Farage on the Thames in 2016.",
   "sources": [
    {
@@ -2055,6 +2207,8 @@
   "econ": -1.4,
   "auth": -3.8,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Founded the Elton John AIDS Foundation (1992); attacked Brexit as built on \"completely ridiculous\" promises; condemned Braverman's 2023 asylum remarks and Russia's anti-gay laws.",
   "sources": [
    {
@@ -2079,6 +2233,8 @@
   "econ": -6.5,
   "auth": -5.6,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Anti-war from Vietnam and \"Ohio\" to the 2006 CSNY tour against the Iraq war; anti-nuclear benefits; played Occupy Wall Street in 2011 and a California union-rights benefit in 2012.",
   "sources": [
    {
@@ -2107,6 +2263,8 @@
   "econ": -2.6,
   "auth": -3.6,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Released \"The Lighthouse\" (2024) about the end of Roe v. Wade and backed Harris; first voted at 70.",
   "sources": [
    {
@@ -2131,6 +2289,8 @@
   "econ": -4.4,
   "auth": -3.3,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Band sent the Trump campaign a cease-and-desist in 2020 (\"did not and does not endorse Trump\"); co-founded the disaster-relief charity Music for Relief (2005); covered the 2012 US election for The Big Issue.",
   "sources": [
    {
@@ -2159,6 +2319,8 @@
   "econ": -2.8,
   "auth": -5.4,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "America 51 (2017) spends a third of its length on Trump but attacks both parties; says he is \"much more liberal than people would realize\" yet stands \"in the middle\" and is tired of zealots on both sides.",
   "sources": [
    {
@@ -2187,6 +2349,8 @@
   "econ": 6.2,
   "auth": 3,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "\"Am I the Only One\" (2021, a country No. 1) on flag-burning and toppled statues; led a \"F*** Joe Biden\" chant in Scranton in 2021; said every racist law was the Democrats'; backed Trump in 2016 and Trump-aligned candidates since.",
   "sources": [
    {
@@ -2215,6 +2379,8 @@
   "econ": 7.8,
   "auth": 4.4,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Headlined a 1976 benefit for Jimmy Carter and played his inauguration; later a staunch conservative columnist (\"Soapbox\"), NRA member and defender of the Iraq war, who praised Reagan.",
   "sources": [
    {
@@ -2243,6 +2409,8 @@
   "econ": -5.4,
   "auth": -1.8,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Midnight Oil singer and Australian Conservation Foundation president; Labor MP for Kingsford Smith (2004–13), environment minister then schools minister; critics say he defended US bases and approved a uranium mine he once opposed.",
   "sources": [
    {
@@ -2271,6 +2439,8 @@
   "econ": -4.8,
   "auth": -8.4,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Jailed in 2012 for Pussy Riot's anti-Putin \"Punk Prayer\" and named a prisoner of conscience by Amnesty; on release co-founded the prisoners'-rights group Zona Prava and the news site MediaZona.",
   "sources": [
    {
@@ -2299,6 +2469,8 @@
   "econ": -4.6,
   "auth": -6.6,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Evolutionary biologist and self-described naturalist (an atheist in practice); Bad Religion's The Empire Strikes First (2004) attacked the Iraq war, the Bush administration, the Patriot Act and the religious right.",
   "sources": [
    {
@@ -2327,6 +2499,8 @@
   "econ": -4.4,
   "auth": -7.4,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Founded Punkvoter.com (2004) to vote Bush out, raising over $1m, and the Rock Against Bush tours and compilations; handed out Iraq-war documentaries at shows.",
   "sources": [
    {
@@ -2355,6 +2529,8 @@
   "econ": -5.5,
   "auth": -7.1,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Rise Against's lyrics are openly left-wing (\"Appeal to Reason\", 2008, is named after a socialist newspaper); long-time PETA and Sea Shepherd supporter; calls the Trump White House \"a disaster every single day\".",
   "sources": [
    {
@@ -2383,6 +2559,8 @@
   "econ": -6.2,
   "auth": -2.5,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Founded 2 Tone as an anti-racist project amid the National Front's rise; wrote \"Free Nelson Mandela\" (1984); co-founded Artists Against Apartheid in 1986 and organised the Clapham Common and Wembley Mandela concerts; later Red Wedge.",
   "sources": [
    {
@@ -2411,6 +2589,8 @@
   "econ": -4.6,
   "auth": -1.4,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Farm Aid co-founder (1985) and board member; campaigned for Edwards, Clinton and Obama in 2008; made McCain stop using \"Our Country\" and \"Pink Houses\"; thought Obama too conservative.",
   "sources": [
    {
@@ -2439,6 +2619,8 @@
   "econ": -6.7,
   "auth": -4.8,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Co-founded Musicians United for Safe Energy and the No Nukes concerts (1979); Lives in the Balance (1986) attacked Reagan's policy in Central America after his visits to Nicaragua; benefits for Amnesty and the Christic Institute.",
   "sources": [
    {
@@ -2467,6 +2649,8 @@
   "econ": -5.6,
   "auth": -3,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Wrote and produced \"Sun City\" and founded Artists United Against Apartheid in 1985; the participants pledged never to play the resort.",
   "sources": [
    {
@@ -2495,6 +2679,8 @@
   "econ": -3,
   "auth": -6,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Self-described \"left-leaning libertarian\" in the Chomsky mould; socialist on land and energy. Earlier flirted with conspiracy theories.",
   "sources": [
    {
@@ -2519,6 +2705,8 @@
   "econ": -7,
   "auth": -5.6,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "\"Danny Nedelko\" (2018) celebrates his Ukrainian immigrant friend; blames NHS cuts and \"the baron-hearted right\" for his mother's death; still wants the Tories to \"die a slow and lingering death\", figuratively; \"F*** the king\".",
   "sources": [
    {
@@ -2547,6 +2735,8 @@
   "econ": -5,
   "auth": -5.6,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "\"Common People\" on class tourism; \"Running the World\" (2006), pushed as a protest Christmas No. 1 after the 2019 Tory win; signed the 2016 Remain letter and calls Brexit a national mental-health crisis; lifelong Labour voter who has Extinction Rebellion stalls at his gigs.",
   "sources": [
    {
@@ -2575,6 +2765,8 @@
   "econ": -1.5,
   "auth": -1.5,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "\"Land of the Free\" (2019) on gun violence, mass incarceration and the border wall; played for Democrat Harry Reid's campaign and lunched with fellow Mormon Mitt Romney; otherwise guarded (\"left, right, or straddle the line\").",
   "sources": [
    {
@@ -2603,6 +2795,8 @@
   "econ": -4,
   "auth": -5.4,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Told DeSantis voters they were dead to her (2023); played the Love Rising benefit against Tennessee's drag and trans-care laws; urged a vote against Trump from the stage in 2024.",
   "sources": [
    {
@@ -2627,6 +2821,8 @@
   "econ": 3,
   "auth": 0.5,
   "confidence": 1,
+  "ce": 1,
+  "ca": 1,
   "basis": "Told Britain to \"give Farage a chance\" in 2025, a year after attacking Farage over Ukraine; critical of Trump's turn from Europe. Two remarks a year apart that point different ways.",
   "sources": [
    {
@@ -2651,6 +2847,8 @@
   "econ": 4,
   "auth": -5,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Calls himself a \"free-market libertarian capitalist\"; says he has not voted since 1992; several Infowars appearances.",
   "sources": [
    {
@@ -2671,6 +2869,8 @@
   "econ": -7,
   "auth": -1.4,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Manics lyricist whose politics are, in his words, \"socialist-ingrained\" (Nye Bevan alongside the Situationists); the band played Havana in 2001 and met Castro; says he'll always hate the Tories but lost faith in New Labour.",
   "sources": [
    {
@@ -2699,6 +2899,8 @@
   "econ": 4.0,
   "auth": 5.0,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Wore the MAGA hat in 2018 and ran for president in 2020; antisemitic statements from 2022 ended his major business deals.",
   "sources": [
    {
@@ -2723,6 +2925,8 @@
   "econ": -4.0,
   "auth": -4.0,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "\"Alright\" (2015) became the chant of Black Lives Matter protests against police violence, though his own relationship with the movement has been described as complicated; avoids endorsements. What a crowd made of a song is influence, not his own stated view, so confidence is low until his own statements are sourced.",
   "sources": [
    {
@@ -2751,6 +2955,8 @@
   "econ": -5.0,
   "auth": -7.0,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Sanders surrogate in 2016 and 2020 who refused to back Clinton; member of the National African American Gun Association and defender of Black gun ownership (NRATV, 2018); co-founded the Black-owned online bank Greenwood (2020).",
   "sources": [
    {
@@ -2779,6 +2985,8 @@
   "econ": -7.0,
   "auth": -4.0,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "\"Fight the Power\" (1989); decades of activism through Public Enemy and Prophets of Rage; played Bernie Sanders' 2020 LA rally, citing universal healthcare and childcare while saying he hates party politics.",
   "sources": [
    {
@@ -2807,6 +3015,8 @@
   "econ": 0.5,
   "auth": -3.0,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Published a 13-point Contract with Black America in 2020 (police and prison reform, banking, home-ownership loans) and advised the Trump campaign on its Platinum Plan; insists he endorsed nobody and that both parties fall short.",
   "sources": [
    {
@@ -2835,6 +3045,8 @@
   "econ": 1.0,
   "auth": -3.2,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Campaigned and raised money for Obama (2008, 2012); headlined a Clinton concert in 2016; co-founded a probation and parole reform group with Meek Mill; unapologetic billionaire capitalism.",
   "sources": [
    {
@@ -2859,6 +3071,8 @@
   "econ": -3.0,
   "auth": -4.4,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "\"Mosh\" against Bush (2004), anti-Trump freestyle (2017), introduced Obama at a Harris rally (2024).",
   "sources": [
    {
@@ -2883,6 +3097,8 @@
   "econ": -6.0,
   "auth": -5.0,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Born to Black Panther parents and called \"a child of the Black Panther Party\" by his mother; lyrics on police, prisons and poverty; no party politics.",
   "sources": [
    {
@@ -2907,6 +3123,8 @@
   "econ": 0.0,
   "auth": -5.0,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "In 2017 vowed to \"roast\" anyone who played Trump's inauguration; in 2024 said he had \"nothing but love and respect\" for Trump and played a 2025 inauguration crypto ball. Long-time cannabis legalisation advocate.",
   "sources": [
    {
@@ -2931,6 +3149,8 @@
   "econ": -9.0,
   "auth": -5.0,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "\"I'm a communist\": labour organiser from age 14 (Watsonville cannery strike), led a high-school walkout; says his art exists to \"instigate class struggle\".",
   "sources": [
    {
@@ -2959,6 +3179,8 @@
   "econ": -5.0,
   "auth": -3.6,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Backed Bernie Sanders in 2016 and 2020 and interviewed him on wages, health care and student debt; praises the New Deal; rallied for Harris in 2024.",
   "sources": [
    {
@@ -2983,6 +3205,8 @@
   "econ": 3.0,
   "auth": 3.0,
   "confidence": 1,
+  "ce": 1,
+  "ca": 1,
   "basis": "Criticised Trump's family-separation policy in 2018; in December 2025 praised Trump and Vance on stage at Turning Point USA. One appearance, after earlier criticism of Trump: low confidence.",
   "shift": {
    "econ": -2.0,
@@ -3012,6 +3236,8 @@
   "econ": -3.0,
   "auth": -4.0,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Stayed silent until 2018, then endorsed Tennessee Democrats, Biden and Harris; LGBT-rights advocacy.",
   "sources": [
    {
@@ -3036,6 +3262,8 @@
   "econ": -3.4,
   "auth": -3.6,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Performed \"Formation\" at the 2016 Super Bowl with Black Panther berets and raised fists; headlined a Clinton concert in 2016, endorsed Biden in 2020 and spoke at Harris's 2024 abortion-rights rally in Houston.",
   "sources": [
    {
@@ -3064,6 +3292,8 @@
   "econ": -3.0,
   "auth": -5.0,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Headlined a 2010 rally in Maine pressing senators to repeal Don't Ask, Don't Tell; campaigned for Biden, including his final 2020 rally; sang the anthem at his inauguration.",
   "sources": [
    {
@@ -3096,6 +3326,8 @@
   "econ": -3.0,
   "auth": -6.0,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Early safer-sex and AIDS advocate, honoured by GLAAD; campaigned for Clinton in 2016; gave a combative speech at the 2017 Women's March.",
   "sources": [
    {
@@ -3124,6 +3356,8 @@
   "econ": -4.0,
   "auth": -5.0,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Endorsed Biden at the 2020 Democratic convention, citing climate change; climate campaigning alongside Greta Thunberg; registered voters at her concerts.",
   "sources": [
    {
@@ -3148,6 +3382,8 @@
   "econ": -4.0,
   "auth": -4.4,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Fund 4 Good sends tour proceeds to abortion funds; handed out emergency contraception at a Missouri show; accepted a Planned Parenthood award; promoted Covid vaccination at the White House in 2021.",
   "sources": [
    {
@@ -3176,6 +3412,8 @@
   "econ": -4.4,
   "auth": -4.0,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Attended March for Our Lives (2018); called Bernie Sanders \"my guy\" in 2019 and registered voters at her shows; gave the maximum to Kamala Harris's primary campaign that year.",
   "sources": [
    {
@@ -3204,6 +3442,8 @@
   "econ": -4.0,
   "auth": -3.4,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Democratic campaigner since the Carter years: backed Carter in 1976, raised money and campaigned for Clinton in 2016 and Biden in 2020, endorsed Harris in 2024; long-running Trump critic.",
   "sources": [
    {
@@ -3232,6 +3472,8 @@
   "econ": -4.2,
   "auth": -3.0,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Democratic fundraiser for four decades: Senate benefits in 1986 and 2007, Obama, Clinton, Biden and Harris events; FEC records show continuing donations to Democrats.",
   "sources": [
    {
@@ -3260,6 +3502,8 @@
   "econ": -4,
   "auth": -4,
   "confidence": 1,
+  "ce": 1,
+  "ca": 1,
   "basis": "Declined to endorse Harris in 2024, criticising both parties from the left, though she said she would vote for her. One statement: a direction, not a distance.",
   "sources": [
    {
@@ -3284,6 +3528,8 @@
   "econ": 4.0,
   "auth": 2.0,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "New Deal Democrat who campaigned for Truman, Stevenson and Kennedy; switched to the Republicans around 1970, backed Nixon and raised millions for Reagan in 1980.",
   "shift": {
    "econ": -3.0,
@@ -3313,6 +3559,8 @@
   "econ": -4.0,
   "auth": -7.0,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Farm Aid co-founder; backs marijuana decriminalisation; headlined rallies for Beto O'Rourke in 2018 and 2022 and wrote \"Vote 'Em Out\" for the first.",
   "sources": [
    {
@@ -3341,6 +3589,8 @@
   "econ": 2,
   "auth": 2,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "\"Courtesy of the Red, White and Blue\" and 11 USO tours; a registered Democrat until 2008 (\"a conservative Democrat\", 2004), then independent, never a Republican; praised Obama in 2008; played Trump's 2017 inauguration concert, as he had events for Bush and Obama.",
   "sources": [
    {
@@ -3369,6 +3619,8 @@
   "econ": -4.0,
   "auth": -4.8,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Told a London crowd in March 2003 the band were ashamed Bush was from Texas and opposed the coming Iraq invasion; country radio blacklisted them; she withdrew her apology in 2006.",
   "sources": [
    {
@@ -3397,6 +3649,8 @@
   "econ": 6.0,
   "auth": 4.0,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "\"Try That in a Small Town\" (2023), praised by Trump and DeSantis after CMT pulled its video; calls Trump a friend, dedicated the song to him after the 2024 assassination attempt and introduced him at a 2024 rally.",
   "sources": [
    {
@@ -3425,6 +3679,8 @@
   "econ": 0.0,
   "auth": 1.0,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "\"Okie from Muskogee\" (1969) became a conservative anthem and won him Nixon-era White House audiences; later attacked the Iraq war in \"America First\" (2005), wrote a song backing Hillary Clinton (2007) and one for Obama's inauguration.",
   "sources": [
    {
@@ -3453,6 +3709,8 @@
   "econ": 0.5,
   "auth": -2.0,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "\"We Shall Be Free\" (1992), banned by some country stations for its gay-rights line; has called himself a Republican while backing gay rights; sang at Obama's 2009 and Biden's 2021 inaugurations, calling the latter \"not a political statement\".",
   "sources": [
    {
@@ -3481,6 +3739,8 @@
   "econ": 6.0,
   "auth": 4.6,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "\"God Bless the USA\" is Trump's walk-out song; self-described Reagan Republican who has backed Trump since 2015 without payment, sang at his inaugurations and co-branded the \"God Bless the USA Bible\".",
   "sources": [
    {
@@ -3509,6 +3769,8 @@
   "econ": -8.0,
   "auth": -5.0,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "\"Politically, I'm pretty much a socialist\"; long-time death-penalty abolitionist (2010 Shining Star of Abolition award); anti-war, anti-landmine, pro-choice and anti-gun.",
   "sources": [
    {
@@ -3537,6 +3799,8 @@
   "econ": 2.0,
   "auth": -2,
   "confidence": 1,
+  "ce": 1,
+  "ca": 1,
   "basis": "\"Rich Men North of Richmond\" (2023) attacks taxes, welfare and DC elites; says he is \"dead center\" and that both sides serve the same master, and that the song was about the Republicans who quoted it in a debate. Anti-elite populism is not evidence of libertarianism, and his own \"dead center\" outranks a reading of the song.",
   "sources": [
    {
@@ -3561,6 +3825,8 @@
   "econ": 4,
   "auth": 2,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "Compared Obama golfing with Boehner to \"Hitler playing golf with Netanyahu\" on Fox in 2011 and called Obama and Biden \"the enemy\"; ESPN dropped his Monday Night Football theme, restored in 2017. The Trump-supporter part is not yet sourced. On the sourced record this is one inflammatory remark; offensive is not the same as authoritarian, so it gives a direction, not a distance.",
   "sources": [
    {
@@ -3589,6 +3855,8 @@
   "econ": 0.0,
   "auth": -2.0,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Avoids party politics and declined the Medal of Freedom so as not to be \"doing politics\"; gave $1 million to the research behind the Moderna vaccine; said \"of course Black lives matter\" in 2020.",
   "sources": [
    {
@@ -3613,6 +3881,8 @@
   "econ": -9.0,
   "auth": -1,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "\"This machine kills fascists\"; wrote the \"Woody Sez\" column for the Communist People's World and Daily Worker (1939–40) and followed the party line during the Hitler–Stalin pact; whether he ever formally joined the party is disputed; union songs throughout.",
   "sources": [
    {
@@ -3641,6 +3911,8 @@
   "econ": -8,
   "auth": -3,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Joined the Communist Party in 1942 and followed its line with the Almanac Singers; left around 1949–50; refused to answer HUAC in 1955 and was cited for contempt; later played a Solidarity benefit (1982) and condemned Stalin in print.",
   "sources": [
    {
@@ -3674,6 +3946,8 @@
   "econ": -6.0,
   "auth": -7.0,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Marched from Selma to Montgomery with King; jailed twice in 1967 for blocking a draft induction centre; withheld war taxes for a decade; in 1979 founded Humanitas International and publicly condemned abuses by Vietnam's communist government.",
   "sources": [
    {
@@ -3702,6 +3976,8 @@
   "econ": -7.0,
   "auth": -4.0,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "\"Mississippi Goddam\" (1964), written after the Birmingham church bombing and Medgar Evers's murder; benefit concerts for CORE and SNCC and the Selma march; came to identify with Black Power and Black nationalism over non-violence.",
   "sources": [
    {
@@ -3730,6 +4006,8 @@
   "econ": -5.0,
   "auth": -5.4,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Joined the hands of rival party leaders Manley and Seaga at the 1978 One Love Peace Concert; played Zimbabwe's independence celebrations in 1980; Pan-Africanist songwriting.",
   "sources": [
    {
@@ -3758,6 +4036,8 @@
   "econ": -6.0,
   "auth": -7.6,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Declared his Kalakuta commune independent of military rule; it was burned by soldiers in 1977 after \"Zombie\"; founded the Movement of the People (Nkrumahist, African socialist) and was barred from the 1979 election; jailed 20 months under Buhari (1984).",
   "sources": [
    {
@@ -3786,6 +4066,8 @@
   "econ": -9.0,
   "auth": -3.0,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Joined the Communist Party in the 1960s; wrote \"Venceremos\" for Allende's Popular Unity campaign and served as its cultural ambassador; tortured and killed at Estadio Chile days after the 1973 coup.",
   "sources": [
    {
@@ -3814,6 +4096,8 @@
   "econ": -4.0,
   "auth": -3.8,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "What's Going On (1971): a protest album on Vietnam, poverty, police violence and the environment, made over Motown's objections. Songs are the main evidence.",
   "sources": [
    {
@@ -3838,6 +4122,8 @@
   "econ": 2.0,
   "auth": 0.0,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "\"Say It Loud\" (1968) and an endorsement of Humphrey that year, then Nixon in 1972, drawn by \"Black capitalism\" and self-help; picketed as \"Nixon's clown\" for it.",
   "sources": [
    {
@@ -3866,6 +4152,8 @@
   "econ": -4.0,
   "auth": -2.6,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Led the three-year campaign for Martin Luther King Day (\"Happy Birthday\", 1981 Washington rally, testimony to Congress); campaigned for Clinton in 2016.",
   "sources": [
    {
@@ -3890,6 +4178,8 @@
   "econ": -5.0,
   "auth": -4.0,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Quietly funded civil-rights work for decades (per Jesse Jackson); in 1970 publicly offered to post bail for Angela Davis.",
   "sources": [
    {
@@ -3914,6 +4204,8 @@
   "econ": -7.0,
   "auth": -6.0,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "\"The Revolution Will Not Be Televised\" (1970), from the radical Black movements of the 60s; \"Johannesburg\" (1975) became an anti-apartheid anthem; on the Sun City record; anti-nuclear songs; cancelled a Tel Aviv show in 2010.",
   "sources": [
    {
@@ -3942,6 +4234,8 @@
   "econ": -7.0,
   "auth": -5.0,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Co-funded an NME advert against the Iraq war; long Palestinian-solidarity campaigning, arrested at a protest against the ban on Palestine Action; commissioned the Tyndall Centre roadmap on touring emissions (2019).",
   "sources": [
    {
@@ -3970,6 +4264,8 @@
   "econ": -5.0,
   "auth": -5.0,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Vegan since 1987 and animal-rights activist with the Humane Society and PETA; has given millions to animal-rights groups, climate groups and Democratic candidates; long-time MoveOn collaborator.",
   "sources": [
    {
@@ -3994,6 +4290,8 @@
   "econ": 0,
   "auth": -3,
   "confidence": 1,
+  "ce": 1,
+  "ca": 1,
   "basis": "Tamil advocacy and refugee politics; long-time Assange and WikiLeaks supporter; vaccine scepticism in 2022; appeared to endorse Trump in 2024 and called herself a \"brown Republican voter\" on stage in 2026, which got her dropped from Kid Cudi's tour. She still frames it as immigrant-rights politics.",
   "sources": [
    {
@@ -4035,6 +4333,8 @@
   "econ": -5.0,
   "auth": -6.0,
   "confidence": 3,
+  "ce": 0,
+  "ca": 3,
   "basis": "Dedicated \"Declare Independence\" to Greenland and the Faroes, Kosovo and Tibet (shouting \"Tibet!\" on stage in Shanghai, 2008); backed a Yes vote in Scotland (2014) and Greenlandic independence again in 2026.",
   "sources": [
    {
@@ -4063,6 +4363,8 @@
   "econ": -9,
   "auth": 5.5,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Accepted the Stalin Peace Prize (1952) and wrote the eulogy \"To You Beloved Comrade\" when Stalin died in 1953; never publicly broke with the USSR.",
   "sources": [
    {
@@ -4087,6 +4389,8 @@
   "econ": -8,
   "auth": 5,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "American singer who settled in East Germany; on 60 Minutes in 1986 he defended the Berlin Wall and the Soviet war in Afghanistan.",
   "sources": [
    {
@@ -4111,6 +4415,8 @@
   "econ": -9,
   "auth": 4,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Lifelong communist who wrote \"The Ballad of Stalin\" and \"The Ballad of Ho Chi Minh\" for the British Communist Party; later defended the Stalin song.",
   "sources": [
    {
@@ -4135,6 +4441,8 @@
   "econ": -7,
   "auth": 3,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Sat in Cuba's National Assembly for 15 years from 1993 and still defends the revolution, while criticising officials and censorship; said in 2026 he would take up arms against a US intervention.",
   "sources": [
    {
@@ -4159,6 +4467,8 @@
   "econ": -3,
   "auth": 1.5,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Communist MP and Lenin Peace Prize winner who was jailed by the junta, then served as a minister in Mitsotakis's centre-right government (1990–93).",
   "shift": {
    "econ": -8,
@@ -4188,6 +4498,8 @@
   "econ": -9,
   "auth": 4,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Sang anti-Batista songs at La Bodeguita del Medio before 1959, then became \"el cantor de la Revolución\": \"Y en eso llegó Fidel\", \"La Reforma Agraria\", and \"Hasta siempre, comandante\" (1965) for Che; toured abroad as Cuba's cultural ambassador.",
   "sources": [
    {
@@ -4216,6 +4528,8 @@
   "econ": -8,
   "auth": 0.5,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Close adviser and fundraiser to Martin Luther King from 1956; anti-apartheid campaigner; praised Hugo Chávez and called George W. Bush \"the greatest terrorist in the world\" in Venezuela in 2006; backed Bernie Sanders in 2016.",
   "sources": [
    {
@@ -4244,6 +4558,8 @@
   "econ": 3,
   "auth": 9,
   "confidence": 3,
+  "ce": 1,
+  "ca": 3,
   "basis": "Turned Skrewdriver into a white-power band that raised money for the National Front; founded the neo-Nazi Blood & Honour network in 1987.",
   "sources": [
    {
@@ -4272,6 +4588,8 @@
   "econ": -7,
   "auth": -7,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Leading voice of the alter-globalisation movement: played the Genoa G8 protests in 2001, donates royalties to the Zapatistas and dedicated Clandestino (1998) to the EZLN; migrant-rights causes such as Arizona's Alto Arizona campaign; member of Attac.",
   "sources": [
    {
@@ -4300,6 +4618,8 @@
   "econ": -4,
   "auth": -5,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Paused his 2019 tour to join the protests that ousted Puerto Rico's governor; endorsed Kamala Harris in 2024; left the US mainland off his 2025–26 tour over fears of ICE raids at shows.",
   "sources": [
    {
@@ -4328,6 +4648,8 @@
   "econ": -3,
   "auth": -5,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "\"Shoot the Dog\" (2002) cast Blair as Bush's poodle before the Iraq War; kept campaigning against the war in 2003.",
   "sources": [
    {
@@ -4352,6 +4674,8 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "HIV campaigning through her SING campaign; campaigned against the 2003 Iraq invasion; signed the Artists4Ceasefire letter and called for a Gaza ceasefire on stage at the 2024 Grammys.",
   "sources": [
    {
@@ -4380,6 +4704,8 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Visited the Calais camp in 2016 and apologised to a child refugee \"on behalf of my country\"; offered to take in an unaccompanied child; called the press coverage xenophobic.",
   "sources": [
    {
@@ -4404,6 +4730,8 @@
   "econ": 4,
   "auth": 1,
   "confidence": 3,
+  "ce": 3,
+  "ca": 3,
   "basis": "Sat in the House of Lords as a Conservative peer (1997–2017); flew back from New York and voted for the 2015 tax-credit cuts, later saying he regretted being used as lobby fodder; voted for same-sex marriage in 2013.",
   "sources": [
    {
@@ -4432,6 +4760,8 @@
   "econ": 2,
   "auth": 0,
   "confidence": 1,
+  "ce": 1,
+  "ca": 1,
   "basis": "Widely reported in 1997 to have threatened to leave Britain if Labour won, then moved to Switzerland; he later called it a misunderstood quote and said he is not a Conservative. Weak evidence either way.",
   "sources": [
    {
@@ -4456,6 +4786,8 @@
   "econ": 6,
   "auth": 4,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Lifelong Republican who has endorsed dozens of conservative candidates; recorded robocalls for Trump in 2016 and voted for him twice, while publicly urging him to tone it down (2022, 2026); questioned Obama's legitimacy.",
   "sources": [
    {
@@ -4484,6 +4816,8 @@
   "econ": -7,
   "auth": -4,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Endorsed Jeremy Corbyn in 2016, 2017 and 2019; attacked Theresa May over Grenfell at the 2018 Brits; funds the Stormzy Scholarship for Black students at Cambridge.",
   "sources": [
    {
@@ -4512,6 +4846,8 @@
   "econ": -8,
   "auth": -4,
   "confidence": 3,
+  "ce": 2,
+  "ca": 3,
   "basis": "Anti-imperialist author of Natives: Race and Class in the Ruins of Empire (2018); voted for the first time in 2017 for Corbyn on austerity, war and the NHS, while saying he was not and probably never would be a Labour supporter.",
   "sources": [
    {
@@ -4540,6 +4876,8 @@
   "econ": -8,
   "auth": -5,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Kneecap's Irish-language republicanism and pro-Palestinian stage messages; charged under the Terrorism Act for allegedly displaying a Hezbollah flag at a 2024 London gig; the case was thrown out in 2025 as filed a day too late.",
   "sources": [
    {
@@ -4568,6 +4906,8 @@
   "econ": -5,
   "auth": -6,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Called Obama \"the biggest terrorist\" over US foreign policy and drone strikes (CBS, 2011) after calling Bush an \"American Terrorist\" in 2006; says he doesn't vote; cut off at a 2013 pre-inaugural show for an anti-Obama rap.",
   "sources": [
    {
@@ -4596,6 +4936,8 @@
   "econ": -5,
   "auth": -5,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "\"Same Love\" (2012) for marriage equality; \"Hind's Hall\" (2024) backing the Gaza campus protests, with proceeds to UNRWA and a line blaming Biden; joined Black Lives Matter protests.",
   "sources": [
    {
@@ -4620,6 +4962,8 @@
   "econ": -6,
   "auth": -6,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Filmed himself undergoing the Guantánamo force-feeding procedure for the human-rights group Reprieve in 2013 to protest it.",
   "sources": [
    {
@@ -4648,6 +4992,8 @@
   "econ": 2,
   "auth": 0,
   "confidence": 1,
+  "ce": 1,
+  "ca": 1,
   "basis": "Told fans to vote Trump over Biden's top-rate tax plan in October 2020, then retracted within a week (\"I never liked him\"). Only the tax objection is consistent.",
   "sources": [
    {
@@ -4672,6 +5018,8 @@
   "econ": 1,
   "auth": 0,
   "confidence": 1,
+  "ce": 1,
+  "ca": 1,
   "basis": "Met Trump days before the 2020 election and praised his Platinum Plan and criminal-justice record; pardoned by Trump on a federal gun charge in January 2021. Little else on record.",
   "sources": [
    {
@@ -4696,6 +5044,8 @@
   "econ": -7,
   "auth": -5,
   "confidence": 2,
+  "ce": 0,
+  "ca": 2,
   "basis": "Helped organise and lead the 2019 #RickyRenuncia protests that forced Governor Rosselló to resign, co-writing the protest anthem \"Afilando los Cuchillos\"; Calle 13's work is often pro-independence and anti-colonial.",
   "sources": [
    {
@@ -4724,6 +5074,8 @@
   "econ": -7,
   "auth": -5,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Travelled to Nicaragua in support of the Sandinistas in the 1980s; played the 1987 benefit for Leonard Peltier and was banned by radio stations for it; early benefit for the United Farm Workers (1972).",
   "sources": [
    {
@@ -4752,6 +5104,8 @@
   "econ": 6,
   "auth": 3,
   "confidence": 2,
+  "ce": 2,
+  "ca": 2,
   "basis": "Strong Republican: backed Rand Paul then Trump in 2016, played Trump's 2017 pre-inaugural concert, co-wrote \"Shut Up About Politics\" with Fox's Greg Gutfeld (2019), and campaigns for Trump-aligned candidates in Tennessee.",
   "sources": [
    {
@@ -4780,6 +5134,8 @@
   "econ": 2,
   "auth": 0,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "Cancelled four 2021 shows at venues requiring Covid vaccination, tests or masks, calling it discrimination, and took the case to Tucker Carlson. The Trump-supporter part is not yet sourced. Opposing vaccine mandates is not an economic position; with the Trump claim unsourced, only a mild right lean is supported.",
   "sources": [
    {
@@ -4808,6 +5164,8 @@
   "econ": -4,
   "auth": -4,
   "confidence": 2,
+  "ce": 1,
+  "ca": 2,
   "basis": "Played a fundraiser for Democrat Phil Bredesen (2018) and was called the \"unhinged left\" by the GOP Senate committee; Georgia Blue charity album after Biden won Georgia; played the 2024 DNC; signed Nashville artists' 2023 gun-safety letter.",
   "sources": [
    {
@@ -4836,6 +5194,8 @@
   "econ": -1,
   "auth": -2,
   "confidence": 1,
+  "ce": 0,
+  "ca": 1,
   "basis": "\"Bad News\" (2025) sang about ICE raids and drew rebukes from the Homeland Security secretary and the White House; he answered that he loves the country and that the full song \"hits on both sides of the aisle\". One song is the whole record, and a single signal shows a direction, not a distance from the centre.",
   "sources": [
    {

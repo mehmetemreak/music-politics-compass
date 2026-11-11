@@ -25,7 +25,9 @@ The axes follow [the Political Compass](https://www.politicalcompass.org) ([back
 - **Influence does not count.** How far a song spread says nothing about how strongly its writer holds the view. The chart measures belief, not impact.
 - **Inclusion:** widely known, or a substantial political record. Cap of 200.
 - **The starting 50 (default view):** everyone with a documented shift, the person furthest from the centre in each quadrant, then the most-viewed English Wikipedia articles (Nov 2025 – Oct 2026) until there are 50. The page computes this from `data.json`, so the rule applies itself when the data changes.
-- **Confidence:** high (about ±1 unit), medium (±1.5), low (±2.5). The page draws that uncertainty.
+- **Confidence, per axis:** `ce` (economic) and `ca` (authority) are each high (about ±1 unit), medium (±1.5) or low (±2.5); `ce` can also be 0, no economic record, drawn as ±5. The halo is an ellipse with those two radii. `confidence` is the overall rating used for the mark's fill and the filters.
+  - Economic evidence means positions on taxes, wages, unions, public services, ownership or markets, or sustained campaigning for candidates whose platforms are mainly economic. A single endorsement gives `ce` 1.
+  - Charity is not economic evidence. Neither is defending one's own copyright: copyright is a state-granted monopoly, not a free-market stance.
 - **Sourcing:** every placement needs at least one link. Placements without one are marked *not yet sourced* and are either sourced or removed before the site goes public.
 
 ## Data

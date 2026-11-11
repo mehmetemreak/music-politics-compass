@@ -1664,10 +1664,10 @@
   "name": "Elvis Presley",
   "band": "solo",
   "genre": "R",
-  "econ": 4,
-  "auth": 5,
-  "confidence": 2,
-  "basis": "Asked Nixon in 1970 to make him a \"federal agent at large\" against the drug culture and got a narcotics badge; told Nixon the Beatles promoted anti-American themes.",
+  "econ": 2.5,
+  "auth": 4,
+  "confidence": 1,
+  "basis": "Asked Nixon in 1970 to make him a \"federal agent at large\" against the drug culture and got a narcotics badge; told Nixon the Beatles promoted anti-American themes. A single episode with no economic content.",
   "sources": [
    {
     "title": "White House Historical Association: Nixon meets Presley (1970)",
@@ -1764,10 +1764,10 @@
   "name": "Moe Tucker",
   "band": "The Velvet Underground",
   "genre": "R",
-  "econ": 6,
+  "econ": 4,
   "auth": -1,
-  "confidence": 3,
-  "basis": "Appeared at a 2009 Tea Party rally, \"furious\" at being \"led towards socialism\".",
+  "confidence": 1,
+  "basis": "Appeared at a 2009 Tea Party rally, \"furious\" at being \"led towards socialism\". One rally appearance: a direction, not a distance.",
   "sources": [
    {
     "title": "NME: Moe Tucker breaks her silence on Tea Party link (2010)",
@@ -2626,8 +2626,8 @@
   "genre": "R",
   "econ": 3,
   "auth": 0.5,
-  "confidence": 2,
-  "basis": "Told Britain to \"give Farage a chance\" in 2025, a year after attacking Farage over Ukraine; critical of Trump's turn from Europe.",
+  "confidence": 1,
+  "basis": "Told Britain to \"give Farage a chance\" in 2025, a year after attacking Farage over Ukraine; critical of Trump's turn from Europe. Two remarks a year apart that point different ways.",
   "sources": [
    {
     "title": "LBC: Rod Stewart says Britain should give Farage a chance (2025)",
@@ -2722,8 +2722,8 @@
   "genre": "H",
   "econ": -4.0,
   "auth": -4.0,
-  "confidence": 2,
-  "basis": "\"Alright\" (2015) became the chant of Black Lives Matter protests against police violence, though his own relationship with the movement has been described as complicated; avoids endorsements.",
+  "confidence": 1,
+  "basis": "\"Alright\" (2015) became the chant of Black Lives Matter protests against police violence, though his own relationship with the movement has been described as complicated; avoids endorsements. What a crowd made of a song is influence, not his own stated view, so confidence is low until his own statements are sourced.",
   "sources": [
    {
     "title": "NPR: Kendrick Lamar's Alright, party and protest",
@@ -2982,8 +2982,8 @@
   "genre": "H",
   "econ": 3.0,
   "auth": 3.0,
-  "confidence": 2,
-  "basis": "Criticised Trump's family-separation policy in 2018; in December 2025 praised Trump and Vance on stage at Turning Point USA.",
+  "confidence": 1,
+  "basis": "Criticised Trump's family-separation policy in 2018; in December 2025 praised Trump and Vance on stage at Turning Point USA. One appearance, after earlier criticism of Trump: low confidence.",
   "shift": {
    "econ": -2.0,
    "auth": -3.0,
@@ -3257,10 +3257,10 @@
   "name": "Chappell Roan",
   "band": "solo",
   "genre": "O",
-  "econ": -6.0,
-  "auth": -6.0,
-  "confidence": 2,
-  "basis": "Declined to endorse Harris in 2024, criticising both parties from the left, though she said she would vote for her.",
+  "econ": -4,
+  "auth": -4,
+  "confidence": 1,
+  "basis": "Declined to endorse Harris in 2024, criticising both parties from the left, though she said she would vote for her. One statement: a direction, not a distance.",
   "sources": [
    {
     "title": "TIME: Roan declines to endorse, cites 'problems on both sides' (2024)",
@@ -3558,10 +3558,10 @@
   "name": "Hank Williams Jr.",
   "band": "solo",
   "genre": "C",
-  "econ": 7.0,
-  "auth": 4.0,
-  "confidence": 2,
-  "basis": "Compared Obama golfing with Boehner to \"Hitler playing golf with Netanyahu\" on Fox in 2011 and called Obama and Biden \"the enemy\"; ESPN dropped his Monday Night Football theme, restored in 2017. The Trump-supporter part is not yet sourced.",
+  "econ": 4,
+  "auth": 2,
+  "confidence": 1,
+  "basis": "Compared Obama golfing with Boehner to \"Hitler playing golf with Netanyahu\" on Fox in 2011 and called Obama and Biden \"the enemy\"; ESPN dropped his Monday Night Football theme, restored in 2017. The Trump-supporter part is not yet sourced. On the sourced record this is one inflammatory remark; offensive is not the same as authoritarian, so it gives a direction, not a distance.",
   "sources": [
    {
     "title": "NPR: ESPN pulls Hank Williams Jr. song over Hitler remark (2011)",
@@ -4777,10 +4777,10 @@
   "name": "Travis Tritt",
   "band": "solo",
   "genre": "C",
-  "econ": 5,
+  "econ": 2,
   "auth": 0,
   "confidence": 1,
-  "basis": "Cancelled four 2021 shows at venues requiring Covid vaccination, tests or masks, calling it discrimination, and took the case to Tucker Carlson. The Trump-supporter part is not yet sourced.",
+  "basis": "Cancelled four 2021 shows at venues requiring Covid vaccination, tests or masks, calling it discrimination, and took the case to Tucker Carlson. The Trump-supporter part is not yet sourced. Opposing vaccine mandates is not an economic position; with the Trump claim unsourced, only a mild right lean is supported.",
   "sources": [
    {
     "title": "Travis Tritt official: cancels concerts requiring vaccinations, tests or masks (2021)",

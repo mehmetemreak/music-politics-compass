@@ -17,7 +17,7 @@ The axes follow [the Political Compass](https://www.politicalcompass.org) ([back
   1. Costly action: office held; prison, exile, bans or violence risked; years of organising; donations large relative to means; money refused (boycotts, withheld licences).
   2. Sustained public work they stand behind: activism, an owned body of political songs, rally performances.
   3. Explicit self-description and specific policy statements.
-  4. Single signals: one vote, one endorsement, a small donation. Direction only, never magnitude.
+  4. Single signals: one vote, one endorsement, a small donation, one remark. Direction only: a placement resting on nothing stronger stays within 4 units of the centre on that axis, at low confidence.
   5. Stray interview remarks and lyrics that fail gate 1: context only, never move a mark alone.
 
   Ties go to the more specific claim, then the more consistent record. The current position uses the most recent evidence; an earlier one is kept as a shift.

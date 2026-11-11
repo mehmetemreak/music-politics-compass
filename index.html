@@ -149,6 +149,7 @@ h2{font:600 18px Georgia,serif;margin:28px 0 8px}
 .sub a,.note a{color:var(--ink);text-decoration-color:var(--mut)}
 footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2)}
 #err{padding:14px;border:1px solid var(--gE);border-radius:8px;color:var(--ink)}
+.wk{font-size:.92em;margin:10px 0 0}
 </style>
 </head>
 <body>
@@ -405,6 +406,11 @@ function openCluster(c){const m=c.m,xs=m.map(j=>D[j].x),ys=m.map(j=>D[j].y);
  animateTo(k,(Math.max(...xs)+Math.min(...xs))/2,(Math.max(...ys)+Math.min(...ys))/2,380)}
 $("mm").addEventListener("pointerdown",e=>{const r=e.currentTarget.getBoundingClientRect();animateTo(st.k,(e.clientX-r.left)/r.width*20-10,10-(e.clientY-r.top)/r.height*20,220);e.stopPropagation()});
 
+// ---------- Wikipedia politics section ----------
+// wsec = the politics heading of the person's Wikipedia article, read from the Wikipedia API on 11 Nov 2026 ("" = article has none)
+const wkUrl=(t,a)=>"https://en.wikipedia.org/wiki/"+encodeURIComponent(t.replace(/ /g,"_"))+(a?"#"+encodeURIComponent(a):"");
+function wkLink(d){if(!d.wiki)return"";if(d.wsec)return `Wikipedia: <a href="${esc(wkUrl(d.wiki,d.wsec))}" target="_blank" rel="noopener">${esc(d.wsec.replace(/_/g," "))}</a>`;
+ return `<a href="${esc(wkUrl(d.wiki))}" target="_blank" rel="noopener">Wikipedia article</a>${d.wsec===""?" (no section on politics)":""}`}
 // ---------- sheet ----------
 function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
  const s=src.length?`<span class="st y">&#10003; Sourced · checked ${new Date(d.checked+"T00:00:00").toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"})}</span>`:`<span class="st">Not yet sourced · placed from general knowledge, pending a check</span>`;
@@ -413,7 +419,7 @@ function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
  <div class="why">${d.starter?`In the starting 50: ${d.why}.`:"Shown under All."} ${d.views>=1e6?(d.views/1e6).toFixed(1)+"M":Math.round(d.views/1e3)+"k"} Wikipedia views in the past year.</div><div class="pos">Economic ${fmt(d.econ)} · Authority ${fmt(d.auth)} · ${CL[d.confidence]} confidence (&plusmn;${HR[d.confidence]})</div>${s}
  <p>${esc(d.basis)}</p>${d.shift?`<p><i>Earlier position (${esc(d.shift.label)}):</i> economic ${fmt(d.shift.econ)}, authority ${fmt(d.shift.auth)}.</p>`:""}
  <h4>Sources</h4>${src.length?`<ol>${src.map(x=>`<li>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`:esc(x.title)}</li>`).join("")}</ol>`:`<p style="color:var(--mut)">None yet.</p>`}
- <div class="acts">${st.mode==="list"?`<button id="shGo">Show on chart</button>`:""}<a href="${issue}" target="_blank" rel="noopener">Dispute this placement</a><button id="shL">Copy link</button></div>`;
+ <p class="wk" id="shW">${wkLink(d)}</p><div class="acts">${st.mode==="list"?`<button id="shGo">Show on chart</button>`:""}<a href="${issue}" target="_blank" rel="noopener">Dispute this placement</a><button id="shL">Copy link</button></div>`;
  $("sheet").hidden=false;$("shX").onclick=closeSheet;
  if($("shGo"))$("shGo").onclick=()=>focusOn(i);
  $("shL").onclick=e=>{const u=location.href.split("#")[0]+"#"+slug(d.name);try{navigator.clipboard.writeText(u).then(()=>e.target.textContent="Copied",()=>e.target.textContent=u)}catch(_){e.target.textContent=u}};

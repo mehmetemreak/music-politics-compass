@@ -28,7 +28,8 @@
   "checked": "2026-11-11",
   "wiki": "Tom Morello",
   "views": 1143851,
-  "start": 1979
+  "start": 1979,
+  "wsec": "Political_views"
  },
  {
   "name": "Zack de la Rocha",
@@ -37,12 +38,26 @@
   "econ": -8.5,
   "auth": -6.5,
   "confidence": 3,
-  "basis": "Zapatista solidarity work; anti-capitalist activism throughout his career.",
-  "sources": [],
-  "checked": null,
+  "basis": "Repeated trips to Chiapas since 1994 to work in Zapatista communities, including joining human-chain protection for EZLN negotiators; campaigns for Leonard Peltier and Mumia Abu-Jamal; anti-capitalist activism throughout his career.",
+  "sources": [
+   {
+    "title": "Rolling Stone: The Battle of Rage Against the Machine (1999)",
+    "url": "https://www.rollingstone.com/music/music-news/the-battle-of-rage-against-the-machine-101068/"
+   },
+   {
+    "title": "Spin: Rage Against the Machine cover story (2000)",
+    "url": "https://www.spinmagazine.com/2019/11/rage-against-the-machine-2000-cover-story/"
+   },
+   {
+    "title": "Enlace Civil interview with Zack de la Rocha in Chiapas (1998)",
+    "url": "https://www.spunk.org/library/places/mexico/sp001836.html"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Zack de la Rocha",
   "views": 800783,
-  "start": 1987
+  "start": 1987,
+  "wsec": "Activism"
  },
  {
   "name": "Joe Strummer",
@@ -51,12 +66,26 @@
   "econ": -7,
   "auth": -5,
   "confidence": 3,
-  "basis": "Called himself a socialist; headlined Rock Against Racism in 1978.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"I'm a socialist, not by persuasion but from my own experiences\" (1980); headlined the Rock Against Racism carnival at Victoria Park in 1978; last gig was a benefit for striking firefighters; drifted towards a looser humanism in the 1990s.",
+  "sources": [
+   {
+    "title": "Tribune: The Punk Strategy – Joe Strummer's socialism (2022)",
+    "url": "https://tribunemag.co.uk/2022/06/joe-strummer-the-clash-music-politics-socialism"
+   },
+   {
+    "title": "Rolling Stone: The Clash rock against racism in 1978",
+    "url": "https://www.rollingstone.com/music/music-news/flashback-the-clash-rock-against-racism-in-1978-231725/"
+   },
+   {
+    "title": "Green Left: Joe Strummer and political punk (2003)",
+    "url": "https://greenleft.org.au/node/34163"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Joe Strummer",
   "views": 566983,
-  "start": 1970
+  "start": 1970,
+  "wsec": ""
  },
  {
   "name": "Billy Bragg",
@@ -65,12 +94,26 @@
   "econ": -7,
   "auth": -4,
   "confidence": 3,
-  "basis": "Red Wedge, miners' strike benefits, lifelong Labour-left campaigner.",
-  "sources": [],
-  "checked": null,
+  "basis": "Benefit gigs for the 1984–85 miners' strike and gave Between the Wars EP profits to the miners; co-founded Red Wedge to back Labour in 1987; calls himself a socialist but says he never advocated abolishing capitalism.",
+  "sources": [
+   {
+    "title": "Britannica: Bragg, a committed socialist, miners' strike benefits and Red Wedge",
+    "url": "https://www.britannica.com/topic/A-New-England"
+   },
+   {
+    "title": "Jacobin: Billy Bragg – 'On the class war, I knew where I stood' (2024)",
+    "url": "https://jacobin.com/2024/02/billy-bragg-interview"
+   },
+   {
+    "title": "Morning Star: Billy Bragg on Red Wedge",
+    "url": "https://morningstaronline.co.uk/node/209866"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Billy Bragg",
   "views": 240704,
-  "start": 1977
+  "start": 1977,
+  "wsec": "Politics_and_activism"
  },
  {
   "name": "Roger Waters",
@@ -97,7 +140,8 @@
   "checked": "2026-11-11",
   "wiki": "Roger Waters",
   "views": 1047439,
-  "start": 1960
+  "start": 1960,
+  "wsec": "Political_views_and_activism"
  },
  {
   "name": "David Gilmour",
@@ -106,12 +150,26 @@
   "econ": -4,
   "auth": -4,
   "confidence": 2,
-  "basis": "Gave the proceeds of a London house sale to the homeless charity Crisis (2003); pro-Ukraine single in 2022.",
-  "sources": [],
-  "checked": null,
+  "basis": "Gave the £3.6m proceeds of a London house sale to the homeless charity Crisis (announced 2003) and became its vice-president; pro-Ukraine single \"Hey Hey Rise Up\" in 2022; sold his guitars for the climate-law charity ClientEarth.",
+  "sources": [
+   {
+    "title": "Crisis: Our vice presidents – David Gilmour",
+    "url": "https://www.crisis.org.uk/about-us/our-vice-presidents/"
+   },
+   {
+    "title": "Hello!: Pink Floyd star sells £3.6-million mansion for charity (2003)",
+    "url": "https://www.hellomagazine.com/celebrities/469896/davidgilmour/"
+   },
+   {
+    "title": "Louder: Pink Floyd raise half a million pounds with Ukraine charity single (2022)",
+    "url": "https://www.loudersound.com/news/pink-floyd-thank-fans-after-raising-half-a-million-pounds-through-charity-single"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "David Gilmour",
   "views": 978853,
-  "start": 1963
+  "start": 1963,
+  "wsec": ""
  },
  {
   "name": "John Lennon",
@@ -134,7 +192,8 @@
   "checked": "2026-11-11",
   "wiki": "John Lennon",
   "views": 3625374,
-  "start": 1956
+  "start": 1956,
+  "wsec": "Political_activism"
  },
  {
   "name": "Paul McCartney",
@@ -157,7 +216,8 @@
   "checked": "2026-11-11",
   "wiki": "Paul McCartney",
   "views": 4634979,
-  "start": 1957
+  "start": 1957,
+  "wsec": "Political_views"
  },
  {
   "name": "George Harrison",
@@ -180,7 +240,8 @@
   "checked": "2026-11-11",
   "wiki": "George Harrison",
   "views": 2995413,
-  "start": 1958
+  "start": 1958,
+  "wsec": ""
  },
  {
   "name": "Ringo Starr",
@@ -203,7 +264,8 @@
   "checked": "2026-11-11",
   "wiki": "Ringo Starr",
   "views": 2547998,
-  "start": 1957
+  "start": 1957,
+  "wsec": ""
  },
  {
   "name": "Bruce Springsteen",
@@ -230,7 +292,8 @@
   "checked": "2026-11-11",
   "wiki": "Bruce Springsteen",
   "views": 3333247,
-  "start": 1964
+  "start": 1964,
+  "wsec": "Political_views_and_activism"
  },
  {
   "name": "Neil Young",
@@ -253,7 +316,8 @@
   "checked": "2026-11-11",
   "wiki": "Neil Young",
   "views": 2000437,
-  "start": 1963
+  "start": 1963,
+  "wsec": "Activism,_philanthropy,_and_humanitarian_efforts"
  },
  {
   "name": "Eddie Vedder",
@@ -280,7 +344,8 @@
   "checked": "2026-11-11",
   "wiki": "Eddie Vedder",
   "views": 1374205,
-  "start": 1988
+  "start": 1988,
+  "wsec": "Activism"
  },
  {
   "name": "Kurt Cobain",
@@ -307,7 +372,8 @@
   "checked": "2026-11-11",
   "wiki": "Kurt Cobain",
   "views": 2561139,
-  "start": 1985
+  "start": 1985,
+  "wsec": ""
  },
  {
   "name": "Krist Novoselic",
@@ -335,7 +401,8 @@
   "checked": "2026-11-11",
   "wiki": "Krist Novoselic",
   "views": 597193,
-  "start": 1987
+  "start": 1987,
+  "wsec": "Political_and_social_activism"
  },
  {
   "name": "Dave Grohl",
@@ -362,7 +429,8 @@
   "checked": "2026-11-11",
   "wiki": "Dave Grohl",
   "views": 1699229,
-  "start": 1982
+  "start": 1982,
+  "wsec": "Advocacy,_philanthropy_and_views"
  },
  {
   "name": "Thom Yorke",
@@ -371,12 +439,26 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
-  "basis": "Climate campaigning with Friends of the Earth; anti-Brexit; refused the cultural boycott of Israel in 2017.",
-  "sources": [],
-  "checked": null,
+  "basis": "Friends of the Earth spokesman for the Big Ask climate campaign (2006); anti-Brexit; rejected the cultural boycott of Israel and played Tel Aviv in 2017, then said in 2025 he would not go near the Netanyahu government.",
+  "sources": [
+   {
+    "title": "Al Jazeera: Radiohead breaks silence on Israel concert (2017)",
+    "url": "https://www.aljazeera.com/news/2017/06/uk-band-radiohead-breaks-silence-israel-concert-170603101841006.html"
+   },
+   {
+    "title": "Far Out: So, what are Radiohead's politics?",
+    "url": "https://faroutmagazine.co.uk/so-what-are-radioheads-politics/"
+   },
+   {
+    "title": "Ynet: Thom Yorke says he won't return to Israel (2025)",
+    "url": "https://www.ynetnews.com/topics/Thom_Yorke"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Thom Yorke",
   "views": 863196,
-  "start": 1985
+  "start": 1985,
+  "wsec": "Politics_and_activism"
  },
  {
   "name": "Billie Joe Armstrong",
@@ -399,7 +481,8 @@
   "checked": "2026-11-11",
   "wiki": "Billie Joe Armstrong",
   "views": 1255148,
-  "start": 1977
+  "start": 1977,
+  "wsec": "Political_views"
  },
  {
   "name": "Flea",
@@ -422,7 +505,8 @@
   "checked": "2026-11-11",
   "wiki": "Flea (musician)",
   "views": 1471067,
-  "start": 1982
+  "start": 1982,
+  "wsec": "Political_activism"
  },
  {
   "name": "John Fogerty",
@@ -445,7 +529,8 @@
   "checked": "2026-11-11",
   "wiki": "John Fogerty",
   "views": 1089405,
-  "start": 1959
+  "start": 1959,
+  "wsec": "Political_views"
  },
  {
   "name": "Don Henley",
@@ -472,7 +557,8 @@
   "checked": "2026-11-11",
   "wiki": "Don Henley",
   "views": 1308044,
-  "start": 1970
+  "start": 1970,
+  "wsec": "Political_activity"
  },
  {
   "name": "Axl Rose",
@@ -499,7 +585,8 @@
   "checked": "2026-11-11",
   "wiki": "Axl Rose",
   "views": 1213170,
-  "start": 1983
+  "start": 1983,
+  "wsec": "Politics"
  },
  {
   "name": "Bono",
@@ -530,7 +617,8 @@
   "checked": "2026-11-11",
   "wiki": "Bono",
   "views": 1122529,
-  "start": 1976
+  "start": 1976,
+  "wsec": "Activism_and_philanthropy"
  },
  {
   "name": "Brian May",
@@ -557,21 +645,36 @@
   "checked": "2026-11-11",
   "wiki": "Brian May",
   "views": 1328639,
-  "start": 1963
+  "start": 1963,
+  "wsec": "Political_views"
  },
  {
   "name": "Pete Townshend",
   "band": "The Who",
   "genre": "R",
-  "econ": -3,
-  "auth": -2,
+  "econ": -2,
+  "auth": 0,
   "confidence": 2,
-  "basis": "Labour-leaning and pro-Remain.",
-  "sources": [],
-  "checked": null,
+  "basis": "Voted Remain against bandmate Daltrey's Brexit; bitter critic of Thatcher and the Tories; but told ABC in 2012 he was \"a bit of a neocon\" who likes America as the world's police; calls \"Won't Get Fooled Again\" an anti-politics song.",
+  "sources": [
+   {
+    "title": "HuffPost: Pete Townshend says he's 'a bit of a neocon' (2012)",
+    "url": "https://www.huffpost.com/entry/pete-townshend-neocon-neoconservative-the-who-admits-r_n_2244317"
+   },
+   {
+    "title": "Far Out: Townshend found Daltrey's pro-Brexit stance 'very problematic'",
+    "url": "https://faroutmagazine.co.uk/the-whos-pete-townshend-found-roger-daltreys-pro-brexit-stance-very-problematic/"
+   },
+   {
+    "title": "Far Out: Townshend takes aim at the Tory party",
+    "url": "https://faroutmagazine.co.uk/the-who-pete-townshend-aim-at-tory-party-shoot-them/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Pete Townshend",
   "views": 761337,
-  "start": 1960
+  "start": 1960,
+  "wsec": "Political_views"
  },
  {
   "name": "Roger Daltrey",
@@ -580,12 +683,26 @@
   "econ": 2,
   "auth": 1.5,
   "confidence": 3,
-  "basis": "Former Labour voter turned vocal Brexit supporter and critic of mass immigration.",
-  "sources": [],
-  "checked": null,
+  "basis": "Lifelong Labour voter who said he would never forgive the party for mass immigration undercutting the working class (2011, 2013); vocal Brexit supporter who called the EU a \"gravy train\".",
+  "sources": [
+   {
+    "title": "IBTimes: Daltrey blasts Labour for allowing mass immigration (2011)",
+    "url": "https://www.ibtimes.com/who-singer-roger-daltrey-blasts-labour-party-allowing-mass-immigration-britain-299073"
+   },
+   {
+    "title": "NME: Roger Daltrey on Brexit and touring bands",
+    "url": "https://www.nme.com/news/music/roger-daltrey-brexit-touring-bands-2390845"
+   },
+   {
+    "title": "Stereogum: Daltrey calls Brexit 'the right thing' (2017)",
+    "url": "https://stereogum.com/1932709/the-whos-roger-daltrey-says-a-dead-dog-would-have-beaten-hillary-clinton-calls-brexit-the-right-thing/news"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Roger Daltrey",
   "views": 557403,
-  "start": 1959
+  "start": 1959,
+  "wsec": "Political_views"
  },
  {
   "name": "Bob Dylan",
@@ -612,7 +729,8 @@
   "checked": "2026-11-11",
   "wiki": "Bob Dylan",
   "views": 3699808,
-  "start": 1957
+  "start": 1957,
+  "wsec": ""
  },
  {
   "name": "Mick Jagger",
@@ -635,7 +753,8 @@
   "checked": "2026-11-11",
   "wiki": "Mick Jagger",
   "views": 2413482,
-  "start": 1960
+  "start": 1960,
+  "wsec": ""
  },
  {
   "name": "David Bowie",
@@ -658,7 +777,8 @@
   "checked": "2026-11-11",
   "wiki": "David Bowie",
   "views": 4080064,
-  "start": 1962
+  "start": 1962,
+  "wsec": "Political_views"
  },
  {
   "name": "Patti Smith",
@@ -685,7 +805,8 @@
   "checked": "2026-11-11",
   "wiki": "Patti Smith",
   "views": 1465273,
-  "start": 1967
+  "start": 1967,
+  "wsec": "Politics_and_activism"
  },
  {
   "name": "Jello Biafra",
@@ -708,7 +829,8 @@
   "checked": "2026-11-11",
   "wiki": "Jello Biafra",
   "views": 334969,
-  "start": 1976
+  "start": 1976,
+  "wsec": "Politics"
  },
  {
   "name": "Henry Rollins",
@@ -717,12 +839,26 @@
   "econ": -5,
   "auth": -6,
   "confidence": 2,
-  "basis": "LGBT-rights advocacy; anti-war, but toured with the USO.",
-  "sources": [],
-  "checked": null,
+  "basis": "LGBT-rights and marriage-equality advocacy; called the Iraq war illegal while doing several USO tours to Iraq and Afghanistan (\"my way of protesting the war\"); veterans' reintegration work with IAVA.",
+  "sources": [
+   {
+    "title": "Mother Jones: Henry Rollins, Post-Punk Pundit (2007)",
+    "url": "https://adops.motherjones.com/politics/2007/07/henry-rollins-down-troops"
+   },
+   {
+    "title": "USNI News: Henry Rollins on the Navy (2013)",
+    "url": "https://news.usni.org/2013/05/01/henry-rollins-on-the-navy"
+   },
+   {
+    "title": "Philadelphia Gay News: Rollins interview on LGBT rights and DADT (2010)",
+    "url": "https://epgn.com/2010/03/04/6567557-rollins-brings-spokenword-tour-to-philly"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Henry Rollins",
   "views": 908622,
-  "start": 1980
+  "start": 1980,
+  "wsec": "Views_and_relationships"
  },
  {
   "name": "Ian MacKaye",
@@ -731,12 +867,26 @@
   "econ": -6,
   "auth": -8,
   "confidence": 3,
-  "basis": "DIY economics as practice: cheap all-ages shows, benefit gigs, no major labels.",
-  "sources": [],
-  "checked": null,
+  "basis": "Co-founded Dischord Records (1980) as a DIY label; Fugazi capped tickets at about $5, played all-ages and gave proceeds to benefits; refused major labels; says he \"always felt a kinship with Bernie\".",
+  "sources": [
+   {
+    "title": "Mother Jones: Catching up with DC punk legend Ian MacKaye",
+    "url": "https://practice.motherjones.com/?p=199906"
+   },
+   {
+    "title": "HuffPost: MacKaye on the Fugazi Live Series – $5 shows, benefits",
+    "url": "https://www.huffingtonpost.com/entry/fugazi-live-series_n_1184100.html"
+   },
+   {
+    "title": "Hear Nebraska: Fugazi in Nebraska – MacKaye's 'kinship with Bernie'",
+    "url": "https://hearnebraska.org/feature/fugazi-live-nebraska-echoes/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Ian MacKaye",
   "views": 272649,
-  "start": 1979
+  "start": 1979,
+  "wsec": "Campaigning,_business_and_activism"
  },
  {
   "name": "Kathleen Hanna",
@@ -745,12 +895,26 @@
   "econ": -7,
   "auth": -7,
   "confidence": 3,
-  "basis": "Riot grrrl feminism; abortion-rights benefits.",
-  "sources": [],
-  "checked": null,
+  "basis": "Co-founded riot grrrl and its zines; Bikini Kill's feminist punk; played the 1993 Rock for Choice abortion-rights benefit; memoir Rebel Girl (2024) on abortion, assault and intersectional feminism.",
+  "sources": [
+   {
+    "title": "Ms. Magazine: 'My Life as a Feminist Punk' – Kathleen Hanna interview (2024)",
+    "url": "https://msmagazine.com/2024/05/13/my-life-as-a-feminist-punk-kathleen-hanna-interview/"
+   },
+   {
+    "title": "The Rumpus: Kathleen Hanna's girl style – Rock for Choice 1993",
+    "url": "https://therumpus.net/2019/01/wanted-needed-loved-kathleen-hannas-girl-style-then-and-now"
+   },
+   {
+    "title": "Exclaim!: Kathleen Hanna – There's a Riot Goin' On (2013)",
+    "url": "https://exclaim.ca/music/article/kathleen_hanna-theres_riot_goin_on"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Kathleen Hanna",
   "views": 364334,
-  "start": 1989
+  "start": 1989,
+  "wsec": "Activism_and_impact"
  },
  {
   "name": "Serj Tankian",
@@ -759,12 +923,26 @@
   "econ": -7,
   "auth": -6,
   "confidence": 3,
-  "basis": "Axis of Justice co-founder; Sanders supporter.",
-  "sources": [],
-  "checked": null,
+  "basis": "Co-founded Axis of Justice with Tom Morello (2002); endorsed Bernie Sanders in 2015; decades of campaigning for recognition of the Armenian genocide.",
+  "sources": [
+   {
+    "title": "Blabbermouth: Tankian and Axis of Justice launch Armenian genocide recognition campaign (2009)",
+    "url": "https://blabbermouth.net/news/serj-tankian-and-axis-of-justice-launch-armenian-genocide-recognition-campaign"
+   },
+   {
+    "title": "Blabbermouth: Tankian says Bernie Sanders is 'the most human' candidate (2016)",
+    "url": "https://blabbermouth.net/news/serj-tankian-says-bernie-sanders-is-the-most-human-of-current-presidential-candidates"
+   },
+   {
+    "title": "The Real News: Serj Tankian author page",
+    "url": "https://therealnews.com/author/serj-tankian"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Serj Tankian",
   "views": 780865,
-  "start": 1992
+  "start": 1992,
+  "wsec": "Political_views"
  },
  {
   "name": "John Dolmayan",
@@ -773,12 +951,26 @@
   "econ": 5,
   "auth": 0,
   "confidence": 3,
-  "basis": "Outspoken Trump supporter; his own band's public opposite number.",
-  "sources": [],
-  "checked": null,
+  "basis": "Called Trump \"the greatest friend to minorities\" (2020), Democrats \"the true fascists\", and \"defund the police\" the stupidest idea he'd heard; Tankian says he voted Obama before Trump and may have cooled on him since.",
+  "sources": [
+   {
+    "title": "Exclaim!: Trump-supporting SOAD drummer John Dolmayan on 'differing opinions' (2020)",
+    "url": "https://exclaim.ca/music/article/trump-supporting_system_of_a_down_drummer_john_dolmayan_admits_there_are_differing_opinions_in_the_band"
+   },
+   {
+    "title": "Kerrang!: Tankian – frustrating to see Dolmayan publicly supporting Trump (2020)",
+    "url": "https://kerrang.com/serj-tankian-its-frustrating-to-see-john-dolmayan-publicly-supporting-trump"
+   },
+   {
+    "title": "mxdwn: Tankian on Dolmayan's views via Rolling Stone Italy",
+    "url": "https://music.mxdwn.com/?p=443254"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "John Dolmayan",
   "views": 287078,
-  "start": 1994
+  "start": 1994,
+  "wsec": ""
  },
  {
   "name": "Michael Stipe",
@@ -787,12 +979,26 @@
   "econ": -5,
   "auth": -5,
   "confidence": 3,
-  "basis": "Vote for Change in 2004; Sanders in 2016; environmental and LGBT causes.",
-  "sources": [],
-  "checked": null,
+  "basis": "Vote for Change tour against Bush in 2004; introduced Bernie Sanders at rallies in 2016, citing LGBTQ rights, environmental justice and pay equity.",
+  "sources": [
+   {
+    "title": "Fortune: Michael Stipe introduces Bernie Sanders at Coney Island (2016)",
+    "url": "https://fortune.com/2016/04/11/michael-stipe-bernie-sanders/"
+   },
+   {
+    "title": "NME: Stipe explains Bernie Sanders support (2016)",
+    "url": "https://www.nme.com/news/music/rem-7-1195247"
+   },
+   {
+    "title": "Louder: Springsteen and Stipe on the Vote for Change tour (2004)",
+    "url": "https://www.loudersound.com/features/bruce-springsteen-michael-stipe-collaborate-because-the-night-and-bad-day"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Michael Stipe",
   "views": 691105,
-  "start": 1980
+  "start": 1980,
+  "wsec": "Political_activism"
  },
  {
   "name": "Chris Martin",
@@ -819,7 +1025,8 @@
   "checked": "2026-11-11",
   "wiki": "Chris Martin",
   "views": 1935835,
-  "start": 1997
+  "start": 1997,
+  "wsec": "Political_views"
  },
  {
   "name": "Damon Albarn",
@@ -846,7 +1053,8 @@
   "checked": "2026-11-11",
   "wiki": "Damon Albarn",
   "views": 1532470,
-  "start": 1988
+  "start": 1988,
+  "wsec": "Politics_and_activism"
  },
  {
   "name": "Noel Gallagher",
@@ -855,12 +1063,26 @@
   "econ": 0.5,
   "auth": -1,
   "confidence": 2,
-  "basis": "New Labour's Downing Street guest in 1997; later scathing about Corbyn; said the Brexit vote had to be respected.",
-  "sources": [],
-  "checked": null,
+  "basis": "Endorsed Blair at the 1996 Brits and was New Labour's Downing Street guest in 1997; later called Blair a let-down and Corbyn's politics \"communism\", while saying he could never vote Tory; said the Brexit vote was legal and had to be carried out.",
+  "sources": [
+   {
+    "title": "HuffPost UK: Noel Gallagher condemns Corbyn's 'communism' but would never vote Tory (2016)",
+    "url": "https://huffingtonpost.co.uk/amp/entry/noel-gallagher-condemns-jeremy-corbyn_n_8949274"
+   },
+   {
+    "title": "PoliticsHome / The House: When Britpop and politics met",
+    "url": "https://www.politicshome.com/thehouse/article/common-people-britpop-politics-met"
+   },
+   {
+    "title": "Yahoo News UK: Gallagher says Labour has 'betrayed ordinary people'",
+    "url": "https://uk.news.yahoo.com/noel-gallagher-says-labour-party-085337850.html"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Noel Gallagher",
   "views": 886469,
-  "start": 1991
+  "start": 1991,
+  "wsec": "Political_views"
  },
  {
   "name": "Paul Weller",
@@ -888,7 +1110,8 @@
   "checked": "2026-11-11",
   "wiki": "Paul Weller",
   "views": 474569,
-  "start": 1972
+  "start": 1972,
+  "wsec": "Political_views_and_activism"
  },
  {
   "name": "Morrissey",
@@ -916,7 +1139,8 @@
   "checked": "2026-11-11",
   "wiki": "Morrissey",
   "views": 1268377,
-  "start": 1977
+  "start": 1977,
+  "wsec": "Political_opinions"
  },
  {
   "name": "Johnny Marr",
@@ -925,12 +1149,26 @@
   "econ": -5,
   "auth": -4,
   "confidence": 3,
-  "basis": "Publicly \"forbade\" David Cameron from liking The Smiths; Labour left.",
-  "sources": [],
-  "checked": null,
+  "basis": "Publicly \"forbade\" David Cameron from liking The Smiths (2010); said he would re-form the band if the coalition government stepped down; \"no one can tell me the Conservative Party have ever been about\" a fair shout for everyone.",
+  "sources": [
+   {
+    "title": "Channel 4 News: The Smiths appear at Prime Minister's Questions (2010)",
+    "url": "https://channel4.com/news/the-smiths-appear-at-prime-ministers-questions"
+   },
+   {
+    "title": "New Statesman: Johnny Marr interview on the Conservative Party (2013)",
+    "url": "https://www.newstatesman.com/culture/2013/03/johnny-marr-everyone-should-get-fair-shout-and-no-one-can-tell-me-conservative-party"
+   },
+   {
+    "title": "New Statesman: The Smiths vs The Tories (2012)",
+    "url": "https://www.newstatesman.com/culture/2012/03/marr-government-smiths-reform"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Johnny Marr",
   "views": 684105,
-  "start": 1982
+  "start": 1982,
+  "wsec": ""
  },
  {
   "name": "John Lydon",
@@ -962,7 +1200,8 @@
   "checked": "2026-11-11",
   "wiki": "John Lydon",
   "views": 836855,
-  "start": 1975
+  "start": 1975,
+  "wsec": "Political_and_social_criticism"
  },
  {
   "name": "Eric Clapton",
@@ -993,7 +1232,8 @@
   "checked": "2026-11-11",
   "wiki": "Eric Clapton",
   "views": 2193241,
-  "start": 1962
+  "start": 1962,
+  "wsec": "Political_opinions"
  },
  {
   "name": "Van Morrison",
@@ -1002,12 +1242,22 @@
   "econ": 2,
   "auth": -5,
   "confidence": 2,
-  "basis": "Anti-lockdown protest songs in 2020; a long-running anti-establishment grievance.",
-  "sources": [],
-  "checked": null,
+  "basis": "Three anti-lockdown protest songs in 2020 (\"No More Lockdown\", \"Born to Be Free\", \"As I Walked Out\"); a defamation fight with Northern Ireland's health minister Robin Swann, settled in 2024; a long-running anti-establishment grievance.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Van Morrison, Robin Swann settle defamation battle",
+    "url": "https://www.rollingstone.com/music/music-news/van-morrison-robin-swann-settle-defamation-lawsuits-1235096845/"
+   },
+   {
+    "title": "Euronews: Van Morrison sued by NI minister over Covid rules (2021)",
+    "url": "https://www.euronews.com/2021/11/08/van-morrison-sued-by-ni-government-minister-for-libel-over-covid-rules"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Van Morrison",
   "views": 930454,
-  "start": 1958
+  "start": 1958,
+  "wsec": ""
  },
  {
   "name": "Ted Nugent",
@@ -1016,12 +1266,22 @@
   "econ": 8,
   "auth": 3,
   "confidence": 3,
-  "basis": "Longtime NRA board member and Trump surrogate; hard line on drugs and immigration.",
-  "sources": [],
-  "checked": null,
+  "basis": "NRA board member from 1995 to 2021 and author of \"I Am the NRA\"; campaigned with Donald Trump Jr. in 2020 and calls Trump the greatest president of his lifetime; hard line on drugs and immigration.",
+  "sources": [
+   {
+    "title": "Bloomberg: Ted Nugent resigns from NRA board after 26 years (2021)",
+    "url": "https://www.bloomberg.com/news/articles/2021-07-30/ted-nugent-resigns-from-nra-board-on-scheduling-conflicts"
+   },
+   {
+    "title": "Blabbermouth: Nugent on Trump and the 2020 campaign trail",
+    "url": "https://blabbermouth.net/news/watch-ted-nugent-perform-u-s-national-anthem-at-texass-walker-county-warrior-banquet"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Ted Nugent",
   "views": 625679,
-  "start": 1963
+  "start": 1963,
+  "wsec": "Political_views"
  },
  {
   "name": "Kid Rock",
@@ -1044,7 +1304,8 @@
   "checked": "2026-11-11",
   "wiki": "Kid Rock",
   "views": 2062574,
-  "start": 1988
+  "start": 1988,
+  "wsec": "Politics_and_views"
  },
  {
   "name": "Dave Mustaine",
@@ -1072,7 +1333,8 @@
   "checked": "2026-11-11",
   "wiki": "Dave Mustaine",
   "views": 800900,
-  "start": 1978
+  "start": 1978,
+  "wsec": "Politics"
  },
  {
   "name": "Johnny Ramone",
@@ -1081,12 +1343,26 @@
   "econ": 7,
   "auth": 4,
   "confidence": 3,
-  "basis": "\"God bless President Bush\" at the 2002 Rock Hall induction; Reagan admirer.",
-  "sources": [],
-  "checked": null,
+  "basis": "Ended the Ramones' 2002 Rock Hall speech with \"God bless President Bush\"; called Reagan the best president of his lifetime; NRA-supporting, low-tax Republican who fought Joey over \"Bonzo Goes to Bitburg\".",
+  "sources": [
+   {
+    "title": "Rolling Stone: The Curse of the Ramones – Hall of Fame speech",
+    "url": "https://www.rollingstone.com/feature/the-curse-of-the-ramones-165741/13/"
+   },
+   {
+    "title": "National Review: Johnny was a punk rocker (2004)",
+    "url": "https://www.nationalreview.com/2004/09/johnny-was-punk-rocker-steve-beard/amp/"
+   },
+   {
+    "title": "Washington Times: Johnny Ramone interview (2004)",
+    "url": "https://m.washingtontimes.com/news/2004/mar/11/20040311-085521-1823r/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Johnny Ramone",
   "views": 360768,
-  "start": 1965
+  "start": 1965,
+  "wsec": "Politics"
  },
  {
   "name": "Joey Ramone",
@@ -1095,12 +1371,26 @@
   "econ": -5,
   "auth": -5.6,
   "confidence": 3,
-  "basis": "Liberal; co-wrote \"Bonzo Goes to Bitburg\" against Reagan's 1985 cemetery visit.",
-  "sources": [],
-  "checked": null,
+  "basis": "Liberal Democrat (per bandmate Marky) who wrote \"Bonzo Goes to Bitburg\" (1985) against Reagan's visit to a cemetery with SS graves; the title was softened for the US to placate Republican Johnny Ramone.",
+  "sources": [
+   {
+    "title": "Far Out: When the Ramones likened Ronald Reagan to the Nazis",
+    "url": "https://faroutmagazine.co.uk/the-ramones-likened-ronald-reagan-nazis/"
+   },
+   {
+    "title": "Vice: Dee Dee and Joey explain 'Bonzo Goes to Bitburg'",
+    "url": "https://www.vice.com/en/article/this-pioneering-punk-band-had-some-surprisingly-kind-words-about-the-world-leader-they-were-protesting-in-a-very-political-1985-song/"
+   },
+   {
+    "title": "Washington Times: Johnny Ramone, the Republican punk (2004)",
+    "url": "https://m.washingtontimes.com/news/2004/mar/11/20040311-085521-1823r/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Joey Ramone",
   "views": 520389,
-  "start": 1972
+  "start": 1972,
+  "wsec": ""
  },
  {
   "name": "Gene Simmons",
@@ -1127,7 +1417,8 @@
   "checked": "2026-11-11",
   "wiki": "Gene Simmons",
   "views": 1539067,
-  "start": 1970
+  "start": 1970,
+  "wsec": "Personal_views_and_politics"
  },
  {
   "name": "Frank Zappa",
@@ -1150,7 +1441,8 @@
   "checked": "2026-11-11",
   "wiki": "Frank Zappa",
   "views": 1350001,
-  "start": 1955
+  "start": 1955,
+  "wsec": "Beliefs_and_politics"
  },
  {
   "name": "Dee Snider",
@@ -1159,12 +1451,26 @@
   "econ": 0,
   "auth": -6.6,
   "confidence": 3,
-  "basis": "Testified alongside Zappa in 1985; pro-choice, anti-censorship, calls himself a moderate.",
-  "sources": [],
-  "checked": null,
+  "basis": "Testified against the PMRC's record-labelling push before the US Senate in 1985; endorsed Al Gore in 2000 over the environment and abortion rights; now attacks censorship from the left too.",
+  "sources": [
+   {
+    "title": "NPR / WLRN: Tipper Gore, Twisted Sister and the fight over warning labels (2025)",
+    "url": "https://www.wlrn.org/npr-breaking-news/2025-09-12/tipper-gore-twisted-sister-and-the-fight-to-put-warning-labels-on-music"
+   },
+   {
+    "title": "Mental Floss: Snider's endorsement of Gore over environment and abortion rights",
+    "url": "https://www.mentalfloss.com/posts/tipper-gore-fought-against-80s-rock-music-parental-advisory"
+   },
+   {
+    "title": "Loudwire: Snider on censorship now coming from the left",
+    "url": "https://loudwire.com/twisted-sisters-dee-snider-1985-pmrc-senate-hearing/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Dee Snider",
   "views": 444823,
-  "start": 1976
+  "start": 1976,
+  "wsec": "Politics"
  },
  {
   "name": "Neil Peart",
@@ -1196,7 +1502,8 @@
   "checked": "2026-11-11",
   "wiki": "Neil Peart",
   "views": 820905,
-  "start": 1968
+  "start": 1968,
+  "wsec": "Political_views"
  },
  {
   "name": "Lemmy",
@@ -1205,12 +1512,26 @@
   "econ": 0,
   "auth": -8,
   "confidence": 2,
-  "basis": "Called himself an anarchist; contempt for politicians and religion alike.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"I'm essentially an anarchist\" (2007): anti-government, anti-religion, anti-war, pro-choice; said all politicians are thieves and stopped voting; also said he believed in the royal family.",
+  "sources": [
+   {
+    "title": "Blabbermouth / The Times: Lemmy – 'I'm essentially an anarchist' (2007)",
+    "url": "https://blabbermouth.net/news/mot-rhead-s-lemmy-on-using-viagra-jimi-hendrix-and-growing-old"
+   },
+   {
+    "title": "Blabbermouth / LA Weekly: Lemmy – 'All politicians are assholes' (2011)",
+    "url": "https://blabbermouth.net/news/lemmy-on-living-in-l-a-studying-history"
+   },
+   {
+    "title": "Louder: Lemmy on God and religion",
+    "url": "https://www.loudersound.com/bands-artists/god-maybe-hes-gone-senile-lemmy-was-once-asked-what-he-thought-about-god-and-religion-and-he-didnt-hold-back"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Lemmy",
   "views": 730972,
-  "start": 1960
+  "start": 1960,
+  "wsec": "Religious_and_political_views"
  },
  {
   "name": "Bruce Dickinson",
@@ -1219,12 +1540,26 @@
   "econ": 3,
   "auth": 0.6,
   "confidence": 2,
-  "basis": "Voted Leave and defended Brexit.",
-  "sources": [],
-  "checked": null,
+  "basis": "Voted Leave and defended Brexit in 2018 as opening Britain to the world; attacked the government in 2021 over touring barriers; said in 2024 the UK should re-engage with the EU.",
+  "sources": [
+   {
+    "title": "Louder: Bruce Dickinson defends Brexit and why he voted Leave (2018)",
+    "url": "https://www.loudersound.com/news/iron-maidens-bruce-dickinson-defends-brexit-and-reveals-why-he-voted-to-leave-the-eu"
+   },
+   {
+    "title": "Louder: Brexiteer Dickinson slams UK government over Brexit's impact on musicians (2021)",
+    "url": "https://www.loudersound.com/news/brexiteer-bruce-dickinson-slams-uk-government-over-brexits-impact-on-uk-musicians"
+   },
+   {
+    "title": "Blabbermouth: Dickinson says Britain should 're-engage' with the EU (2024)",
+    "url": "https://blabbermouth.net/news/bruce-dickinson-defends-his-decision-to-vote-for-brexit-but-says-great-britain-should-absolutely-re-engage-with-e-u"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Bruce Dickinson",
   "views": 593159,
-  "start": 1976
+  "start": 1976,
+  "wsec": ""
  },
  {
   "name": "James Hetfield",
@@ -1247,7 +1582,8 @@
   "checked": "2026-11-11",
   "wiki": "James Hetfield",
   "views": 1155921,
-  "start": 1978
+  "start": 1978,
+  "wsec": "Political_views"
  },
  {
   "name": "Ian Curtis",
@@ -1265,7 +1601,8 @@
   "checked": "2026-11-11",
   "wiki": "Ian Curtis",
   "views": 841132,
-  "start": 1976
+  "start": 1976,
+  "wsec": ""
  },
  {
   "name": "Sting",
@@ -1292,7 +1629,8 @@
   "checked": "2026-11-11",
   "wiki": "Sting (musician)",
   "views": 1716954,
-  "start": 1969
+  "start": 1969,
+  "wsec": "Activism"
  },
  {
   "name": "Elvis Costello",
@@ -1301,12 +1639,26 @@
   "econ": -5.6,
   "auth": -3.4,
   "confidence": 2,
-  "basis": "\"Tramp the Dirt Down\"; Rock Against Racism.",
-  "sources": [],
-  "checked": null,
+  "basis": "Headlined Rock Against Racism's second carnival at Brockwell Park (September 1978); \"Shipbuilding\" on the Falklands war and \"Tramp the Dirt Down\" (1989), wishing to outlive Thatcher.",
+  "sources": [
+   {
+    "title": "Flashbak: Rock Against Racism photographs – Costello headlined Carnival 2, 1978",
+    "url": "https://flashbak.com/?p=63447"
+   },
+   {
+    "title": "HuffPost UK: Costello, Thatcher and 'Tramp the Dirt Down'",
+    "url": "https://huffingtonpost.co.uk/amp/entry/margaret-thatcher-elvis-costello-protest-song_b_3083718"
+   },
+   {
+    "title": "IBTimes: Costello defends anti-Thatcher song after her death (2013)",
+    "url": "https://ibtimes.com/dancing-her-grave-elvis-costello-defends-anti-margaret-thatcher-song-even-after-iron-ladys-death"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Elvis Costello",
   "views": 729994,
-  "start": 1970
+  "start": 1970,
+  "wsec": ""
  },
  {
   "name": "Elvis Presley",
@@ -1329,7 +1681,8 @@
   "checked": "2026-11-11",
   "wiki": "Elvis Presley",
   "views": 5303706,
-  "start": 1953
+  "start": 1953,
+  "wsec": ""
  },
  {
   "name": "Johnny Cash",
@@ -1352,7 +1705,8 @@
   "checked": "2026-11-11",
   "wiki": "Johnny Cash",
   "views": 2370466,
-  "start": 1954
+  "start": 1954,
+  "wsec": "Activism_for_Native_Americans"
  },
  {
   "name": "Mike Love",
@@ -1361,12 +1715,22 @@
   "econ": 5,
   "auth": 2.4,
   "confidence": 2,
-  "basis": "Played Trump inaugural and fundraising events; Brian Wilson and Al Jardine publicly disavowed the 2020 one.",
-  "sources": [],
-  "checked": null,
+  "basis": "His touring Beach Boys headlined a Trump inaugural ball in 2017 and a Trump campaign fundraiser in 2020; Brian Wilson and Al Jardine publicly disavowed the fundraiser.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Brian Wilson, Al Jardine disavow Trump's Beach Boys fundraiser (2020)",
+    "url": "https://www.rollingstone.com/music/music-news/brian-wilson-al-jardine-donald-trump-beach-boys-fundraiser-1077437/"
+   },
+   {
+    "title": "Global News: Brian Wilson denounces Beach Boys performance at Trump fundraiser (2020)",
+    "url": "https://globalnews.ca/news/7405198/brian-wilson-beach-boys-donald-trump-fundraiser"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Mike Love",
   "views": 617440,
-  "start": 1961
+  "start": 1961,
+  "wsec": "Political_views"
  },
  {
   "name": "Joe Perry",
@@ -1375,12 +1739,26 @@
   "econ": 4,
   "auth": 0,
   "confidence": 2,
-  "basis": "Self-described lifelong Republican; backed McCain in 2008.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"A definite old-school Republican\" (2012) and Republican all his life; endorsed John McCain in 2008 on national security and the economy; names JFK as his favourite president.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Joe Perry – 'I'm a definite old-school Republican' (2012)",
+    "url": "https://www.rollingstone.com/politics/politics-news/aerosmiths-joe-perry-im-a-definite-old-school-republican-204196/"
+   },
+   {
+    "title": "Washington Times: McCain finds Joe the rocker (2008)",
+    "url": "https://m.washingtontimes.com/blog/joe-curl/2008/oct/30/mccain-finds-joe---rocker/"
+   },
+   {
+    "title": "Blabbermouth: Joe Perry on meeting McCain (2009)",
+    "url": "https://blabbermouth.net/news/aerosmith-s-joe-perry-on-meeting-mccain-and-his-own-political-ambitions"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Joe Perry (musician)",
   "views": 389948,
-  "start": 1965
+  "start": 1965,
+  "wsec": ""
  },
  {
   "name": "Moe Tucker",
@@ -1403,7 +1781,8 @@
   "checked": "2026-11-11",
   "wiki": "Moe Tucker",
   "views": 132135,
-  "start": 1963
+  "start": 1963,
+  "wsec": ""
  },
  {
   "name": "Lou Reed",
@@ -1412,12 +1791,26 @@
   "econ": -3,
   "auth": -6,
   "confidence": 2,
-  "basis": "New York (1989) as social critique; Sun City boycott; friend of Vaclav Havel.",
-  "sources": [],
-  "checked": null,
+  "basis": "New York (1989) as social critique of the AIDS-era city; on the Sun City anti-apartheid record and the 1986 Amnesty tour; interviewed Vaclav Havel in Prague in 1990 and stayed close to him.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Lou Reed, Out of the Darkness (1986) – Sun City, Amnesty tour",
+    "url": "https://www.rollingstone.com/music/music-features/lou-reed-out-of-the-darkness-107009/"
+   },
+   {
+    "title": "PleaseKillMe: Lou Reed and Vaclav Havel, 1990",
+    "url": "https://pleasekillme.com/lou-reed-and-vaclav-havel/"
+   },
+   {
+    "title": "NYPL Lou Reed papers: Interview with Václav Havel (1990 recording)",
+    "url": "https://digitalcollections.nypl.org/items/20a07830-0ae8-0137-0b80-27f3e85ac430"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Lou Reed",
   "views": 1031416,
-  "start": 1958
+  "start": 1958,
+  "wsec": ""
  },
  {
   "name": "Jon Bon Jovi",
@@ -1440,7 +1833,8 @@
   "checked": "2026-11-11",
   "wiki": "Jon Bon Jovi",
   "views": 2286015,
-  "start": 1974
+  "start": 1974,
+  "wsec": "Activism"
  },
  {
   "name": "Tom Petty",
@@ -1467,7 +1861,8 @@
   "checked": "2026-11-11",
   "wiki": "Tom Petty",
   "views": 1440909,
-  "start": 1967
+  "start": 1967,
+  "wsec": ""
  },
  {
   "name": "Nick Cave",
@@ -1494,7 +1889,8 @@
   "checked": "2026-11-11",
   "wiki": "Nick Cave",
   "views": 1178638,
-  "start": 1973
+  "start": 1973,
+  "wsec": "Politics"
  },
  {
   "name": "Robert Smith",
@@ -1521,7 +1917,8 @@
   "checked": "2026-11-11",
   "wiki": "Robert Smith (musician)",
   "views": 1230457,
-  "start": 1972
+  "start": 1972,
+  "wsec": "Views"
  },
  {
   "name": "Bryan Ferry",
@@ -1529,13 +1926,27 @@
   "genre": "R",
   "econ": 4,
   "auth": 1.2,
-  "confidence": 2,
-  "basis": "Self-described conservative; Countryside Alliance supporter.",
-  "sources": [],
-  "checked": null,
+  "confidence": 1,
+  "basis": "Backed the Countryside Alliance's fight against the hunting ban: part of the \"Countryside Rocks\" campaign and dedicated his 2004 Q lifetime award to his son Otis, a pro-hunt activist who stormed the Commons. The \"self-described conservative\" label is not yet sourced.",
+  "sources": [
+   {
+    "title": "Boisdale: Fields of Rock – Ferry, Daltrey, Waters, Clapton in 'Countryside Rocks'",
+    "url": "https://www.boisdale.co.uk/magazine/fields-of-rock"
+   },
+   {
+    "title": "NZ Herald: Ferry 'equally supportive' of son Otis's hunt campaign",
+    "url": "https://nzherald.co.nz/world/ferry-sly-as-fox-in-campaign-to-save-hunting/ZKNUCQOSNE7JZA5EBRTWOUPSE4"
+   },
+   {
+    "title": "Independent via inkl: Ferry applauded his 'brave son' at an awards show",
+    "url": "https://www.inkl.com/news/meat-is-murder-rockers-go-head-to-head-over-animal-rights"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Bryan Ferry",
   "views": 628279,
-  "start": 1967
+  "start": 1967,
+  "wsec": "Political_views"
  },
  {
   "name": "Brian Eno",
@@ -1544,12 +1955,26 @@
   "econ": -7,
   "auth": -3.2,
   "confidence": 3,
-  "basis": "Stop the War, Corbyn backer, DiEM25, BDS.",
-  "sources": [],
-  "checked": null,
+  "basis": "President of the Stop the War Coalition; spoke at Corbyn's 2015 leadership rally; elected to DiEM25's coordinating collective; a BDS supporter who has refused Israeli state-sponsored use of his music.",
+  "sources": [
+   {
+    "title": "Stop the War: Brian Eno, president of StW, addresses rally",
+    "url": "https://stopwar.org.uk/article/brian-eno-addresses-rally-palestine-defend-the-right-to-protest"
+   },
+   {
+    "title": "Yanis Varoufakis: elected DiEM25 coordinating collective (2016)",
+    "url": "https://yanisvaroufakis.eu/2016/10/05/impressive-list-of-elected-diem25-coordinators-advisors-has-been-announced"
+   },
+   {
+    "title": "Tablet: The Eno Paradox – BDS statement and Corbyn rally (2016)",
+    "url": "https://www.tabletmag.com/sections/news/articles/the-eno-paradox-genius-musician-nauseating-bds-leader"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Brian Eno",
   "views": 836622,
-  "start": 1969
+  "start": 1969,
+  "wsec": "Politics_and_activism"
  },
  {
   "name": "Peter Gabriel",
@@ -1572,7 +1997,8 @@
   "checked": "2026-11-11",
   "wiki": "Peter Gabriel",
   "views": 1125909,
-  "start": 1965
+  "start": 1965,
+  "wsec": "Political_views"
  },
  {
   "name": "Sinéad O'Connor",
@@ -1595,7 +2021,8 @@
   "checked": "2026-11-11",
   "wiki": "Sinéad O'Connor",
   "views": 1982369,
-  "start": 1984
+  "start": 1984,
+  "wsec": "Politics"
  },
  {
   "name": "Bob Geldof",
@@ -1605,11 +2032,21 @@
   "auth": -2.4,
   "confidence": 3,
   "basis": "Live Aid and Live 8; led the anti-Brexit flotilla against Farage on the Thames in 2016.",
-  "sources": [],
-  "checked": null,
+  "sources": [
+   {
+    "title": "RTÉ: Farage and Geldof clash on the Thames over Brexit (2016)",
+    "url": "https://www.rte.ie/news/2016/0615/795823-brexit-thames-geldof-farage"
+   },
+   {
+    "title": "ITV News: Farage and Geldof go head to head on Thames (2016)",
+    "url": "https://itv.com/news/story/2016-06-15/eu-referendum-farage-geldof-go-head-to-head-on-thames"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Bob Geldof",
   "views": 788821,
-  "start": 1975
+  "start": 1975,
+  "wsec": "Politics"
  },
  {
   "name": "Elton John",
@@ -1632,7 +2069,8 @@
   "checked": "2026-11-11",
   "wiki": "Elton John",
   "views": 2626218,
-  "start": 1962
+  "start": 1962,
+  "wsec": "Political_views"
  },
  {
   "name": "David Crosby",
@@ -1641,12 +2079,26 @@
   "econ": -6.5,
   "auth": -5.6,
   "confidence": 3,
-  "basis": "Anti-war and anti-nuclear activism from \"Ohio\" onwards; lifelong left-wing critic of both parties.",
-  "sources": [],
-  "checked": null,
+  "basis": "Anti-war from Vietnam and \"Ohio\" to the 2006 CSNY tour against the Iraq war; anti-nuclear benefits; played Occupy Wall Street in 2011 and a California union-rights benefit in 2012.",
+  "sources": [
+   {
+    "title": "Portside: What the media forgot about David Crosby (2023)",
+    "url": "https://portside.org/2023-01-28/what-media-forgot-about-david-crosby"
+   },
+   {
+    "title": "NPR: David Crosby obituary (2023)",
+    "url": "https://www.npr.org/2023/01/19/750902962/david-crosby-obituary"
+   },
+   {
+    "title": "Yahoo / The Independent: David Crosby obituary",
+    "url": "https://uk.news.yahoo.com/david-crosby-velvet-voiced-hell-151110264.html"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "David Crosby",
   "views": 728956,
-  "start": 1963
+  "start": 1963,
+  "wsec": "Politics"
  },
  {
   "name": "Stevie Nicks",
@@ -1669,7 +2121,8 @@
   "checked": "2026-11-11",
   "wiki": "Stevie Nicks",
   "views": 2758599,
-  "start": 1967
+  "start": 1967,
+  "wsec": ""
  },
  {
   "name": "Mike Shinoda",
@@ -1678,12 +2131,26 @@
   "econ": -4.4,
   "auth": -3.3,
   "confidence": 2,
-  "basis": "Band sent the Trump campaign a cease-and-desist in 2020; voter-registration and disaster-relief work.",
-  "sources": [],
-  "checked": null,
+  "basis": "Band sent the Trump campaign a cease-and-desist in 2020 (\"did not and does not endorse Trump\"); co-founded the disaster-relief charity Music for Relief (2005); covered the 2012 US election for The Big Issue.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Linkin Park issue cease and desist after 'In the End' appears in Trump video (2020)",
+    "url": "https://www.rollingstone.com/music/music-news/linkin-park-cease-and-desist-trump-video-1030886/"
+   },
+   {
+    "title": "Alternative Press: Linkin Park send cease and desist; Shinoda on Trump (2020)",
+    "url": "https://www.altpress.com/?p=180321"
+   },
+   {
+    "title": "Kerrang: Why Mike Shinoda is one of rock's true good guys",
+    "url": "https://www.kerrang.com/why-mike-shinoda-is-one-of-rocks-true-good-guys"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Mike Shinoda",
   "views": 797978,
-  "start": 1994
+  "start": 1994,
+  "wsec": ""
  },
  {
   "name": "Corey Taylor",
@@ -1692,12 +2159,26 @@
   "econ": -2.8,
   "auth": -5.4,
   "confidence": 2,
-  "basis": "Vocal Trump critic who also attacks the left's speech policing; calls himself a centrist with liberal instincts.",
-  "sources": [],
-  "checked": null,
+  "basis": "America 51 (2017) spends a third of its length on Trump but attacks both parties; says he is \"much more liberal than people would realize\" yet stands \"in the middle\" and is tired of zealots on both sides.",
+  "sources": [
+   {
+    "title": "Blabbermouth: Corey Taylor – 'The Cheeto can't lead' (2020)",
+    "url": "https://blabbermouth.net/news/corey-taylor-blasts-donald-trump-the-cheeto-cant-lead"
+   },
+   {
+    "title": "Loudwire: America 51 – conservatives and liberals will both be coming after me (2017)",
+    "url": "https://loudwire.com/corey-taylor-america-51-conservatives-liberals-will-both-be-coming-after-me/"
+   },
+   {
+    "title": "Louder: America 51 review",
+    "url": "https://www.loudersound.com/reviews/corey-taylor-america-51-review"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Corey Taylor",
   "views": 834075,
-  "start": 1992
+  "start": 1992,
+  "wsec": ""
  },
  {
   "name": "Aaron Lewis",
@@ -1706,12 +2187,26 @@
   "econ": 6.2,
   "auth": 3,
   "confidence": 3,
-  "basis": "\"Am I the Only One\" (2021) and on-stage tirades against Democrats; Trump supporter.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Am I the Only One\" (2021, a country No. 1) on flag-burning and toppled statues; led a \"F*** Joe Biden\" chant in Scranton in 2021; said every racist law was the Democrats'; backed Trump in 2016 and Trump-aligned candidates since.",
+  "sources": [
+   {
+    "title": "Blabbermouth: Aaron Lewis urges crowd to chant against Joe Biden (2021)",
+    "url": "https://blabbermouth.net/news/stainds-aaron-lewis-urges-crowd-to-chant-f-joe-biden-during-show"
+   },
+   {
+    "title": "Mother Jones: Aaron Lewis and 'Am I the Only One' (2021)",
+    "url": "https://link.motherjones.com/public/24585284"
+   },
+   {
+    "title": "Blabbermouth: Lewis – 'every racist law… was the Democrats' (2021)",
+    "url": "https://blabbermouth.net/news/stainds-aaron-lewis-every-racist-law-thats-ever-been-put-into-place-every-scar-on-america-was-the-democrats"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Aaron Lewis",
   "views": 389465,
-  "start": 1990
+  "start": 1990,
+  "wsec": ""
  },
  {
   "name": "Charlie Daniels",
@@ -1720,12 +2215,26 @@
   "econ": 7.8,
   "auth": 4.4,
   "confidence": 3,
-  "basis": "Moved from 1970s Carter supporter to hawkish conservative columnist and NRA spokesman.",
-  "sources": [],
-  "checked": null,
+  "basis": "Headlined a 1976 benefit for Jimmy Carter and played his inauguration; later a staunch conservative columnist (\"Soapbox\"), NRA member and defender of the Iraq war, who praised Reagan.",
+  "sources": [
+   {
+    "title": "Taste of Country: Charlie Daniels headlined a Jimmy Carter fundraiser",
+    "url": "https://tasteofcountry.com/charlie-daniels-jimmy-carter-fundraiser/"
+   },
+   {
+    "title": "Country Music Hall of Fame: Charlie Daniels",
+    "url": "https://www.countrymusichalloffame.org/artist/charlie-daniels"
+   },
+   {
+    "title": "Phoenix New Times: Charlie Daniels' complex politics – NRA, Iraq",
+    "url": "https://www.phoenixnewtimes.com/music/charlie-daniels-band-6433459/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Charlie Daniels",
   "views": 271730,
-  "start": 1953
+  "start": 1953,
+  "wsec": "Views"
  },
  {
   "name": "Peter Garrett",
@@ -1734,12 +2243,26 @@
   "econ": -5.4,
   "auth": -1.8,
   "confidence": 3,
-  "basis": "Went from protest singer to Australian Labor MP and cabinet minister (2007-13).",
-  "sources": [],
-  "checked": null,
+  "basis": "Midnight Oil singer and Australian Conservation Foundation president; Labor MP for Kingsford Smith (2004–13), environment minister then schools minister; critics say he defended US bases and approved a uranium mine he once opposed.",
+  "sources": [
+   {
+    "title": "Parliament of Australia: Hon Peter Garrett AM",
+    "url": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=HV4"
+   },
+   {
+    "title": "National Portrait Gallery: Peter Garrett",
+    "url": "https://portrait.gov.au/portraits/2003.209/peter-garrett"
+   },
+   {
+    "title": "Independent Australia: Garrett's power and passion still questionable",
+    "url": "https://independentaustralia.net/politics/politics-display/midnight-oil-are-re-forming-but-garretts-power-and-passion-still-questionable,10038"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Peter Garrett",
   "views": 148591,
-  "start": 1973
+  "start": 1973,
+  "wsec": "Political_career"
  },
  {
   "name": "Nadya Tolokonnikova",
@@ -1748,12 +2271,26 @@
   "econ": -4.8,
   "auth": -8.4,
   "confidence": 3,
-  "basis": "Jailed in 2012 for the anti-Putin \"Punk Prayer\"; prisoners'-rights and feminist activism since.",
-  "sources": [],
-  "checked": null,
+  "basis": "Jailed in 2012 for Pussy Riot's anti-Putin \"Punk Prayer\" and named a prisoner of conscience by Amnesty; on release co-founded the prisoners'-rights group Zona Prava and the news site MediaZona.",
+  "sources": [
+   {
+    "title": "Al Jazeera: After jail, Pussy Riot focuses on prisons (2014)",
+    "url": "https://www.aljazeera.com/features/2014/12/23/after-jail-pussy-riot-focuses-on-prisons"
+   },
+   {
+    "title": "Meduza: From punk rock to prisoners' rights (2015)",
+    "url": "https://meduza.io/en/feature/2015/07/15/from-punk-rock-to-prisoners-rights"
+   },
+   {
+    "title": "PEN America: Nadya Tolokonnikova",
+    "url": "https://pen.org/?p=164870"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Nadya Tolokonnikova",
   "views": 126274,
-  "start": 2008
+  "start": 2008,
+  "wsec": "Release_and_later_global_activism"
  },
  {
   "name": "Greg Graffin",
@@ -1762,12 +2299,26 @@
   "econ": -4.6,
   "auth": -6.6,
   "confidence": 3,
-  "basis": "Secular humanist; The Empire Strikes First (2004) against the Iraq war and the religious right.",
-  "sources": [],
-  "checked": null,
+  "basis": "Evolutionary biologist and self-described naturalist (an atheist in practice); Bad Religion's The Empire Strikes First (2004) attacked the Iraq war, the Bush administration, the Patriot Act and the religious right.",
+  "sources": [
+   {
+    "title": "PopMatters: Bad Religion – The Empire Strikes First review (2004)",
+    "url": "https://www.popmatters.com/badreligion-empire-2495834166.html"
+   },
+   {
+    "title": "Ithaca Journal via The BR Page: Graffin on The Empire Strikes First (2004)",
+    "url": "https://www.thebrpage.net/media/item.asp?itemID=197"
+   },
+   {
+    "title": "The BR Page: Graffin – an encounter with a humanist punk professor",
+    "url": "https://www.thebrpage.net/media/item.asp?itemID=913"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Greg Graffin",
   "views": 112784,
-  "start": 1980
+  "start": 1980,
+  "wsec": ""
  },
  {
   "name": "Fat Mike",
@@ -1776,12 +2327,26 @@
   "econ": -4.4,
   "auth": -7.4,
   "confidence": 3,
-  "basis": "Founded Punkvoter and the Rock Against Bush compilations in 2004.",
-  "sources": [],
-  "checked": null,
+  "basis": "Founded Punkvoter.com (2004) to vote Bush out, raising over $1m, and the Rock Against Bush tours and compilations; handed out Iraq-war documentaries at shows.",
+  "sources": [
+   {
+    "title": "New Statesman: How Green Day's American Idiot pitted punk against Bush – Rock Against Bush (2024)",
+    "url": "https://www.newstatesman.com/culture/music/2024/09/how-green-days-american-idiot-pitted-punk-against-george-w-bush"
+   },
+   {
+    "title": "UPI: Punk bands rock the vote against Bush (2004)",
+    "url": "https://www.upi.com/Archives/2004/02/26/Punk-bands-rock-the-vote-against-Bush/8981077771600"
+   },
+   {
+    "title": "Trax on the Trail: Music as persuasion against Bush's re-election",
+    "url": "https://www.traxonthetrail.com/not-another-term-music-as-persuasion-in-the-campaign-against-the-re-election-of-george-w-bush/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Fat Mike",
   "views": 175507,
-  "start": 1983
+  "start": 1983,
+  "wsec": "Activism"
  },
  {
   "name": "Tim McIlrath",
@@ -1790,12 +2355,26 @@
   "econ": -5.5,
   "auth": -7.1,
   "confidence": 3,
-  "basis": "Animal-rights, anti-war and labour causes run through the band's work and benefit record.",
-  "sources": [],
-  "checked": null,
+  "basis": "Rise Against's lyrics are openly left-wing (\"Appeal to Reason\", 2008, is named after a socialist newspaper); long-time PETA and Sea Shepherd supporter; calls the Trump White House \"a disaster every single day\".",
+  "sources": [
+   {
+    "title": "Chicago Sun-Times: Rise Against 'uncompromising in its leftist politics' (2008)",
+    "url": "https://chicago.suntimes.com/news/2008/11/13/18611475/rise-against-melodic-hardcore-political-pop-punk-mainstream-underground-great-whatever-you-call-it"
+   },
+   {
+    "title": "The Punk Site: Tim McIlrath interview on PETA (2005)",
+    "url": "https://www.thepunksite.com/interviews/rise-against/"
+   },
+   {
+    "title": "Blabbermouth: McIlrath – 'A Trump White House has been a disaster' (2025)",
+    "url": "https://blabbermouth.net/news/rise-againsts-tim-mcilrath-a-trump-white-house-has-been-a-disaster-every-single-day-its-been-there"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Tim McIlrath",
   "views": 83681,
-  "start": 1995
+  "start": 1995,
+  "wsec": "Political_lyrics"
  },
  {
   "name": "Jerry Dammers",
@@ -1804,12 +2383,26 @@
   "econ": -6.2,
   "auth": -2.5,
   "confidence": 3,
-  "basis": "2 Tone as anti-racist project; wrote \"Free Nelson Mandela\" and founded Artists Against Apartheid.",
-  "sources": [],
-  "checked": null,
+  "basis": "Founded 2 Tone as an anti-racist project amid the National Front's rise; wrote \"Free Nelson Mandela\" (1984); co-founded Artists Against Apartheid in 1986 and organised the Clapham Common and Wembley Mandela concerts; later Red Wedge.",
+  "sources": [
+   {
+    "title": "Anti-Apartheid Movement Archives: Jerry Dammers",
+    "url": "https://www.aamarchives.org/archive/who-was-involved/artists.html?start=120"
+   },
+   {
+    "title": "South African Presidency: profile of Jerry Dammers (national order)",
+    "url": "https://presidency.gov.za/node/4990"
+   },
+   {
+    "title": "Racism No Way: Rock Against Racism and Artists Against Apartheid",
+    "url": "https://racismnoway.com.au/teaching-resources/rock-against-racism/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Jerry Dammers",
   "views": 87556,
-  "start": 1977
+  "start": 1977,
+  "wsec": ""
  },
  {
   "name": "John Mellencamp",
@@ -1836,7 +2429,8 @@
   "checked": "2026-11-11",
   "wiki": "John Mellencamp",
   "views": 1188590,
-  "start": 1974
+  "start": 1974,
+  "wsec": "Politics_and_activism"
  },
  {
   "name": "Jackson Browne",
@@ -1845,12 +2439,26 @@
   "econ": -6.7,
   "auth": -4.8,
   "confidence": 3,
-  "basis": "Co-founded the No Nukes concerts (1979); critic of US policy in Central America.",
-  "sources": [],
-  "checked": null,
+  "basis": "Co-founded Musicians United for Safe Energy and the No Nukes concerts (1979); Lives in the Balance (1986) attacked Reagan's policy in Central America after his visits to Nicaragua; benefits for Amnesty and the Christic Institute.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Lives in the Balance review (1986)",
+    "url": "https://www.rollingstone.com/music/music-album-reviews/lives-in-the-balance-250492/"
+   },
+   {
+    "title": "Rock & Roll Hall of Fame: Jackson Browne induction essay (2004, PDF)",
+    "url": "https://rockhall.com/wp-content/uploads/2024/03/Jackson_Browne_2004.pdf"
+   },
+   {
+    "title": "EBSCO Research Starters: Jackson Browne biography",
+    "url": "https://ebsco.com/research-starters/biography/jackson-browne"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Jackson Browne",
   "views": 948027,
-  "start": 1964
+  "start": 1964,
+  "wsec": "Activism_and_music"
  },
  {
   "name": "Steven Van Zandt",
@@ -1877,7 +2485,8 @@
   "checked": "2026-11-11",
   "wiki": "Steven Van Zandt",
   "views": 1100843,
-  "start": 1968
+  "start": 1968,
+  "wsec": ""
  },
  {
   "name": "Matt Bellamy",
@@ -1900,7 +2509,8 @@
   "checked": "2026-11-11",
   "wiki": "Matt Bellamy",
   "views": 788705,
-  "start": 1991
+  "start": 1991,
+  "wsec": "Political_views"
  },
  {
   "name": "Joe Talbot",
@@ -1909,12 +2519,26 @@
   "econ": -7,
   "auth": -5.6,
   "confidence": 3,
-  "basis": "Pro-immigration \"Danny Nedelko\", NHS tributes, anti-Tory from the stage.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Danny Nedelko\" (2018) celebrates his Ukrainian immigrant friend; blames NHS cuts and \"the baron-hearted right\" for his mother's death; still wants the Tories to \"die a slow and lingering death\", figuratively; \"F*** the king\".",
+  "sources": [
+   {
+    "title": "Louder: Idles interview on Tangk – Talbot on the Tories (2024)",
+    "url": "https://loudersound.com/features/idles-tangk-interview"
+   },
+   {
+    "title": "The Skinny: Idles on nationalism, immigration and class (2018)",
+    "url": "https://www.theskinny.co.uk/music/interviews/love-yourself-idles-on-creating-positive-punk"
+   },
+   {
+    "title": "SCMP Style: Talbot on 'Danny Nedelko' and working-class discontent (2024)",
+    "url": "https://amp.scmp.com/magazines/style/entertainment/article/3251241/burn-it-down-kill-it-and-move-idles-how-new-album-tangk-goes-beyond-angry-post-punk-politics-and"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Joe Talbot (singer)",
   "views": 122361,
-  "start": 2009
+  "start": 2009,
+  "wsec": ""
  },
  {
   "name": "Jarvis Cocker",
@@ -1923,12 +2547,26 @@
   "econ": -5,
   "auth": -5.6,
   "confidence": 2,
-  "basis": "\"Common People\" on class tourism; \"Running the World\"; anti-Brexit.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Common People\" on class tourism; \"Running the World\" (2006), pushed as a protest Christmas No. 1 after the 2019 Tory win; signed the 2016 Remain letter and calls Brexit a national mental-health crisis; lifelong Labour voter who has Extinction Rebellion stalls at his gigs.",
+  "sources": [
+   {
+    "title": "Guardian via inkl: Jarvis Cocker – 'Politics has turned into Game of Thrones' (2019)",
+    "url": "https://www.inkl.com/news/jarvis-cocker-politics-has-turned-into-game-of-thrones-i-can-t-see-it-ending-well"
+   },
+   {
+    "title": "Line of Best Fit: artists including Cocker call for Britain to remain in EU (2016)",
+    "url": "https://thelineofbestfit.com/news/latest-news/jessie-ware-alt-j-franz-ferdinand-and-more-call-for-britain-to-remain-in-eu"
+   },
+   {
+    "title": "Far Out: Jarvis Cocker – 'Brexit is an ongoing mental health crisis'",
+    "url": "https://faroutmagazine.co.uk/jarvis-cocker-brexit-mental-health-crisis-pulp/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Jarvis Cocker",
   "views": 372603,
-  "start": 1978
+  "start": 1978,
+  "wsec": "Activism"
  },
  {
   "name": "Brandon Flowers",
@@ -1937,12 +2575,26 @@
   "econ": -1.5,
   "auth": -1.5,
   "confidence": 2,
-  "basis": "\"Land of the Free\" (2019) on gun violence and the border wall; otherwise guarded.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Land of the Free\" (2019) on gun violence, mass incarceration and the border wall; played for Democrat Harry Reid's campaign and lunched with fellow Mormon Mitt Romney; otherwise guarded (\"left, right, or straddle the line\").",
+  "sources": [
+   {
+    "title": "Rolling Stone: The Killers address gun violence, border wall in 'Land of the Free' (2019)",
+    "url": "https://www.rollingstone.com/music/music-news/the-killers-new-song-land-of-the-free-778697/"
+   },
+   {
+    "title": "Global News: The Killers' anti-Trump song (2019)",
+    "url": "https://globalnews.ca/news/4849802/the-killers-anti-trump-song/amp/"
+   },
+   {
+    "title": "Daily Beast: The Killers talk Mitt Romney, Harry Reid, Mormonism (2012)",
+    "url": "https://thedailybeast.com/the-killers-talk-new-album-battle-born-mitt-romney-mormonism-and-more"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Brandon Flowers",
   "views": 737200,
-  "start": 2001
+  "start": 2001,
+  "wsec": ""
  },
  {
   "name": "Hayley Williams",
@@ -1965,7 +2617,8 @@
   "checked": "2026-11-11",
   "wiki": "Hayley Williams",
   "views": 2086734,
-  "start": 2003
+  "start": 2003,
+  "wsec": "Political_views"
  },
  {
   "name": "Rod Stewart",
@@ -1988,7 +2641,8 @@
   "checked": "2026-11-11",
   "wiki": "Rod Stewart",
   "views": 2275989,
-  "start": 1961
+  "start": 1961,
+  "wsec": "Political_views"
  },
  {
   "name": "Billy Corgan",
@@ -2007,7 +2661,8 @@
   "checked": "2026-11-11",
   "wiki": "Billy Corgan",
   "views": 1086847,
-  "start": 1985
+  "start": 1985,
+  "wsec": "Political_beliefs"
  },
  {
   "name": "Nicky Wire",
@@ -2015,13 +2670,27 @@
   "genre": "R",
   "econ": -7,
   "auth": -1.4,
-  "confidence": 2,
-  "basis": "Welsh socialist; the band played Havana in 2001 with Fidel Castro in the audience.",
-  "sources": [],
-  "checked": null,
+  "confidence": 3,
+  "basis": "Manics lyricist whose politics are, in his words, \"socialist-ingrained\" (Nye Bevan alongside the Situationists); the band played Havana in 2001 and met Castro; says he'll always hate the Tories but lost faith in New Labour.",
+  "sources": [
+   {
+    "title": "New Statesman: \"I'll always hate the Tory party. But now I hate Labour, too\" (2014)",
+    "url": "https://www.newstatesman.com/culture/2014/07/manic-street-preachers-i-ll-always-hate-tory-party-now-i-hate-labour-too"
+   },
+   {
+    "title": "The Independent via Yahoo: Wire on 'socialist-ingrained' politics (2018)",
+    "url": "https://uk.news.yahoo.com/manic-street-preachers-apos-democracy-053920609.html"
+   },
+   {
+    "title": "The Quietus: In conversation – Tony Benn & Nicky Wire (2010)",
+    "url": "https://thequietus.com/?p=4946"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Nicky Wire",
   "views": 52701,
-  "start": 1986
+  "start": 1986,
+  "wsec": ""
  },
  {
   "name": "Kanye West",
@@ -2044,7 +2713,8 @@
   "checked": "2026-11-11",
   "wiki": "Kanye West",
   "views": 3793317,
-  "start": 1993
+  "start": 1993,
+  "wsec": "Politics"
  },
  {
   "name": "Kendrick Lamar",
@@ -2071,7 +2741,8 @@
   "checked": "2026-11-11",
   "wiki": "Kendrick Lamar",
   "views": 1891685,
-  "start": 2003
+  "start": 2003,
+  "wsec": "Philanthropy_and_activism"
  },
  {
   "name": "Killer Mike",
@@ -2080,12 +2751,26 @@
   "econ": -5.0,
   "auth": -7.0,
   "confidence": 3,
-  "basis": "Bernie Sanders surrogate who also defends gun ownership and Black-owned banking.",
-  "sources": [],
-  "checked": null,
+  "basis": "Sanders surrogate in 2016 and 2020 who refused to back Clinton; member of the National African American Gun Association and defender of Black gun ownership (NRATV, 2018); co-founded the Black-owned online bank Greenwood (2020).",
+  "sources": [
+   {
+    "title": "New Statesman: Killer Mike – Sanders and gun ownership",
+    "url": "https://newstatesman.com/?p=35198"
+   },
+   {
+    "title": "Reason: The peculiar politics of Killer Mike",
+    "url": "https://reason.com/?p=8238306"
+   },
+   {
+    "title": "Mother Jones: Killer Mike interviews Bernie Sanders (2015)",
+    "url": "https://fullsite.motherjones.com/politics/2015/12/killer-mike-interviews-bernie-sanders"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Killer Mike",
   "views": 250049,
-  "start": 1995
+  "start": 1995,
+  "wsec": "Political_involvement"
  },
  {
   "name": "Chuck D",
@@ -2094,12 +2779,26 @@
   "econ": -7.0,
   "auth": -4.0,
   "confidence": 3,
-  "basis": "\"Fight the Power\"; decades of Black-nationalist-inflected left activism; Sanders supporter.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Fight the Power\" (1989); decades of activism through Public Enemy and Prophets of Rage; played Bernie Sanders' 2020 LA rally, citing universal healthcare and childcare while saying he hates party politics.",
+  "sources": [
+   {
+    "title": "Spin: Chuck D explains Sanders support (2020)",
+    "url": "https://www.spinmagazine.com/2020/03/chuck-d-flavor-flav-political-twitter/"
+   },
+   {
+    "title": "Consequence via Yahoo: Chuck D plays 'Fight the Power' at Sanders rally (2020)",
+    "url": "https://www.yahoo.com/entertainment/chuck-d-plays-public-enemy-161341936.html"
+   },
+   {
+    "title": "The Nation: Chuck D and Rosa Clemente on hip-hop and politics (2023)",
+    "url": "https://www.thenation.com/article/culture/chuck-d-rosa-clemente-interview/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Chuck D",
   "views": 209651,
-  "start": 1984
+  "start": 1984,
+  "wsec": "Politics"
  },
  {
   "name": "Ice Cube",
@@ -2126,7 +2825,8 @@
   "checked": "2026-11-11",
   "wiki": "Ice Cube",
   "views": 1495283,
-  "start": 1986
+  "start": 1986,
+  "wsec": ""
  },
  {
   "name": "Jay-Z",
@@ -2149,7 +2849,8 @@
   "checked": "2026-11-11",
   "wiki": "Jay-Z",
   "views": 2062671,
-  "start": 1986
+  "start": 1986,
+  "wsec": "Political_involvement"
  },
  {
   "name": "Eminem",
@@ -2172,7 +2873,8 @@
   "checked": "2026-11-11",
   "wiki": "Eminem",
   "views": 3361560,
-  "start": 1988
+  "start": 1988,
+  "wsec": "Politics"
  },
  {
   "name": "Tupac Shakur",
@@ -2195,7 +2897,8 @@
   "checked": "2026-11-11",
   "wiki": "Tupac Shakur",
   "views": 4132087,
-  "start": 1989
+  "start": 1989,
+  "wsec": ""
  },
  {
   "name": "Snoop Dogg",
@@ -2218,7 +2921,8 @@
   "checked": "2026-11-11",
   "wiki": "Snoop Dogg",
   "views": 2462956,
-  "start": 1991
+  "start": 1991,
+  "wsec": "Political_views_and_activism"
  },
  {
   "name": "Boots Riley",
@@ -2227,12 +2931,26 @@
   "econ": -9.0,
   "auth": -5.0,
   "confidence": 3,
-  "basis": "Self-described communist; an organiser before and during his music career.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"I'm a communist\": labour organiser from age 14 (Watsonville cannery strike), led a high-school walkout; says his art exists to \"instigate class struggle\".",
+  "sources": [
+   {
+    "title": "Jacobin: Boots Riley interview on communism and Sorry to Bother You (2018)",
+    "url": "https://jacobinmag.com/2018/08/sorry-to-bother-you-boots-riley-interview"
+   },
+   {
+    "title": "NPR / WNYC Fresh Air: Boots Riley on organizing and I Love Boosters (2026)",
+    "url": "https://wnyc.org/npr/nx-s1-5816164"
+   },
+   {
+    "title": "MEL: A conversation with Boots Riley, the hip-hop communist",
+    "url": "https://melmagazine.com/en-us/story/a-conversation-with-boots-riley-the-hip-hop-communist-who-made-the-summers-must-see-satire"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Boots Riley",
   "views": 490232,
-  "start": 1991
+  "start": 1991,
+  "wsec": "Activism"
  },
  {
   "name": "Cardi B",
@@ -2255,7 +2973,8 @@
   "checked": "2026-11-11",
   "wiki": "Cardi B",
   "views": 2878894,
-  "start": 2015
+  "start": 2015,
+  "wsec": "Political_statements"
  },
  {
   "name": "Nicki Minaj",
@@ -2283,7 +3002,8 @@
   "checked": "2026-11-11",
   "wiki": "Nicki Minaj",
   "views": 3981801,
-  "start": 2002
+  "start": 2002,
+  "wsec": "Political_views"
  },
  {
   "name": "Taylor Swift",
@@ -2306,7 +3026,8 @@
   "checked": "2026-11-11",
   "wiki": "Taylor Swift",
   "views": 6774412,
-  "start": 2003
+  "start": 2003,
+  "wsec": "Social_activism"
  },
  {
   "name": "Beyoncé",
@@ -2333,7 +3054,8 @@
   "checked": "2026-11-11",
   "wiki": "Beyoncé",
   "views": 2625411,
-  "start": 1990
+  "start": 1990,
+  "wsec": "Social_activism"
  },
  {
   "name": "Lady Gaga",
@@ -2364,7 +3086,8 @@
   "checked": "2026-11-11",
   "wiki": "Lady Gaga",
   "views": 4274261,
-  "start": 2000
+  "start": 2000,
+  "wsec": "Activism"
  },
  {
   "name": "Madonna",
@@ -2391,7 +3114,8 @@
   "checked": "2026-11-11",
   "wiki": "Madonna",
   "views": 5259403,
-  "start": 1979
+  "start": 1979,
+  "wsec": ""
  },
  {
   "name": "Billie Eilish",
@@ -2414,7 +3138,8 @@
   "checked": "2026-11-11",
   "wiki": "Billie Eilish",
   "views": 3508329,
-  "start": 2015
+  "start": 2015,
+  "wsec": "Political_activism"
  },
  {
   "name": "Olivia Rodrigo",
@@ -2441,7 +3166,8 @@
   "checked": "2026-11-11",
   "wiki": "Olivia Rodrigo",
   "views": 4389382,
-  "start": 2015
+  "start": 2015,
+  "wsec": "Philanthropy_and_activism"
  },
  {
   "name": "Ariana Grande",
@@ -2468,7 +3194,8 @@
   "checked": "2026-11-11",
   "wiki": "Ariana Grande",
   "views": 6602678,
-  "start": 2008
+  "start": 2008,
+  "wsec": "Politics"
  },
  {
   "name": "Cher",
@@ -2495,7 +3222,8 @@
   "checked": "2026-11-11",
   "wiki": "Cher",
   "views": 3667636,
-  "start": 1963
+  "start": 1963,
+  "wsec": ""
  },
  {
   "name": "Barbra Streisand",
@@ -2522,7 +3250,8 @@
   "checked": "2026-11-11",
   "wiki": "Barbra Streisand",
   "views": 2655053,
-  "start": 1960
+  "start": 1960,
+  "wsec": "Politics"
  },
  {
   "name": "Chappell Roan",
@@ -2545,7 +3274,8 @@
   "checked": "2026-11-11",
   "wiki": "Chappell Roan",
   "views": 2678275,
-  "start": 2014
+  "start": 2014,
+  "wsec": ""
  },
  {
   "name": "Frank Sinatra",
@@ -2573,7 +3303,8 @@
   "checked": "2026-11-11",
   "wiki": "Frank Sinatra",
   "views": 3039593,
-  "start": 1935
+  "start": 1935,
+  "wsec": "Political_views_and_activism"
  },
  {
   "name": "Willie Nelson",
@@ -2600,21 +3331,36 @@
   "checked": "2026-11-11",
   "wiki": "Willie Nelson",
   "views": 2173264,
-  "start": 1956
+  "start": 1956,
+  "wsec": "Political_views_and_activism"
  },
  {
   "name": "Toby Keith",
   "band": "solo",
   "genre": "C",
-  "econ": 3.0,
-  "auth": 3.0,
+  "econ": 2,
+  "auth": 2,
   "confidence": 2,
-  "basis": "\"Courtesy of the Red, White and Blue\"; called himself a conservative Democrat, later independent; played Trump's 2017 inauguration.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Courtesy of the Red, White and Blue\" and 11 USO tours; a registered Democrat until 2008 (\"a conservative Democrat\", 2004), then independent, never a Republican; praised Obama in 2008; played Trump's 2017 inauguration concert, as he had events for Bush and Obama.",
+  "sources": [
+   {
+    "title": "NPR: Toby Keith's 'Courtesy of the Red, White and Blue' lives on in MAGA country (2024)",
+    "url": "https://npr.org/2024/02/16/1231780441/toby-keith-donald-trump-courtesy-of-the-red-white-and-blue"
+   },
+   {
+    "title": "KGOU: Toby Keith added to Trump's inauguration concert (2017)",
+    "url": "https://www.kgou.org/politics-and-government/2017-01-13/toby-keith-added-to-trumps-inauguration-concert"
+   },
+   {
+    "title": "Bustle: Is Toby Keith a Trump supporter? (2017)",
+    "url": "https://www.bustle.com/p/is-toby-keith-a-trump-supporter-the-answer-is-more-complicated-than-you-may-think-30309"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Toby Keith",
   "views": 1062966,
-  "start": 1993
+  "start": 1993,
+  "wsec": "Political_beliefs"
  },
  {
   "name": "Natalie Maines",
@@ -2623,12 +3369,26 @@
   "econ": -4.0,
   "auth": -4.8,
   "confidence": 3,
-  "basis": "Told a London crowd in 2003 she was ashamed Bush was from Texas; the band was dropped by country radio.",
-  "sources": [],
-  "checked": null,
+  "basis": "Told a London crowd in March 2003 the band were ashamed Bush was from Texas and opposed the coming Iraq invasion; country radio blacklisted them; she withdrew her apology in 2006.",
+  "sources": [
+   {
+    "title": "TIME: The Dixie Chicks' Bush comment",
+    "url": "https://content.time.com/time/specials/packages/article/0,28804,2107768_2107767,00.html"
+   },
+   {
+    "title": "Billboard: radio stations boycott the Dixie Chicks (2003)",
+    "url": "https://www.billboard.com/?p=71953"
+   },
+   {
+    "title": "Saving Country Music: Destroying the Dixie Chicks, ten years after",
+    "url": "https://savingcountrymusic.com/?p=38733"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Natalie Maines",
   "views": 462104,
-  "start": 1995
+  "start": 1995,
+  "wsec": ""
  },
  {
   "name": "Jason Aldean",
@@ -2637,12 +3397,26 @@
   "econ": 6.0,
   "auth": 4.0,
   "confidence": 3,
-  "basis": "\"Try That in a Small Town\" (2023); Trump supporter.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Try That in a Small Town\" (2023), praised by Trump and DeSantis after CMT pulled its video; calls Trump a friend, dedicated the song to him after the 2024 assassination attempt and introduced him at a 2024 rally.",
+  "sources": [
+   {
+    "title": "Variety: Aldean dedicates 'Try That in a Small Town' to Trump (2024)",
+    "url": "https://variety.com/2024/music/news/jason-aldean-dedicates-try-that-in-a-small-town-trump-assassination-attempt-1236072201"
+   },
+   {
+    "title": "The Hill: Trump defends Jason Aldean amid song controversy (2023)",
+    "url": "https://digital-release.thehill.com/?p=4107561"
+   },
+   {
+    "title": "Daily Beast: Aldean at Trump's Duluth rally (2024)",
+    "url": "https://www.thedailybeast.com/star-plays-the-victim-over-controversial-song-at-trump-rally"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Jason Aldean",
   "views": 468798,
-  "start": 1998
+  "start": 1998,
+  "wsec": "Political_beliefs"
  },
  {
   "name": "Merle Haggard",
@@ -2651,26 +3425,54 @@
   "econ": 0.0,
   "auth": 1.0,
   "confidence": 2,
-  "basis": "\"Okie from Muskogee\" (1969) became a conservative anthem; later wrote against the Iraq war and praised Obama.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Okie from Muskogee\" (1969) became a conservative anthem and won him Nixon-era White House audiences; later attacked the Iraq war in \"America First\" (2005), wrote a song backing Hillary Clinton (2007) and one for Obama's inauguration.",
+  "sources": [
+   {
+    "title": "Spokesman-Review: Haggard's latest sings out against Bush, Iraq (2005)",
+    "url": "https://www.spokesman.com/stories/2005/dec/02/haggards-latest-sings-out-against-bush-iraq"
+   },
+   {
+    "title": "Mississippi Free Press: Merle Haggard – Clinton song, Obama inauguration song",
+    "url": "https://www.mississippifreepress.org/merle-haggard/"
+   },
+   {
+    "title": "AOL / Billboard: Why Merle Haggard wrote 'America First'",
+    "url": "https://www.aol.com/why-merle-haggard-wrote-america-120100326.html"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Merle Haggard",
   "views": 524609,
-  "start": 1961
+  "start": 1961,
+  "wsec": ""
  },
  {
   "name": "Garth Brooks",
   "band": "solo",
   "genre": "C",
-  "econ": -1.0,
+  "econ": 0.5,
   "auth": -2.0,
   "confidence": 2,
-  "basis": "\"We Shall Be Free\" (1992); played Biden's inauguration and called it non-political.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"We Shall Be Free\" (1992), banned by some country stations for its gay-rights line; has called himself a Republican while backing gay rights; sang at Obama's 2009 and Biden's 2021 inaugurations, calling the latter \"not a political statement\".",
+  "sources": [
+   {
+    "title": "PBS / AP: Garth Brooks joins lineup at Biden inauguration (2021)",
+    "url": "https://www.pbs.org/newshour/arts/garth-brooks-joins-lineup-of-entertainers-at-biden-inauguration"
+   },
+   {
+    "title": "Deseret News: 'I might be the only Republican at this place' (2021)",
+    "url": "https://www.deseret.com/entertainment/2021/1/20/22240868/garth-brooks-sings-amazing-grace-at-joe-biden-inauguration-watch"
+   },
+   {
+    "title": "InsideHook: Is Garth Brooks the last bipartisan country star?",
+    "url": "https://www.insidehook.com/music/garth-brooks-biden"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Garth Brooks",
   "views": 791159,
-  "start": 1985
+  "start": 1985,
+  "wsec": ""
  },
  {
   "name": "Lee Greenwood",
@@ -2679,12 +3481,26 @@
   "econ": 6.0,
   "auth": 4.6,
   "confidence": 3,
-  "basis": "\"God Bless the USA\"; a fixture at Trump rallies.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"God Bless the USA\" is Trump's walk-out song; self-described Reagan Republican who has backed Trump since 2015 without payment, sang at his inaugurations and co-branded the \"God Bless the USA Bible\".",
+  "sources": [
+   {
+    "title": "AP via WSLS: Lee Greenwood on Trump's inauguration and Bibles (2025)",
+    "url": "https://www.wsls.com/news/politics/2025/01/17/qa-god-bless-the-usa-singer-lee-greenwood-on-donald-trumps-inauguration-and-bibles/"
+   },
+   {
+    "title": "Religion News Service via Church Leaders: Greenwood, true believer in God and Trump (2025)",
+    "url": "https://churchleaders.com/?p=504053"
+   },
+   {
+    "title": "TNND: Greenwood – 'I have received $0' from Trump campaign (2024)",
+    "url": "https://okcfox.com/news/nation-world/lee-greenwood-denies-being-paid-by-trump-campaign-i-have-received-0-presidential-election-politics-god-bless-the-usa-kamala-oprah-endorsement"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Lee Greenwood",
   "views": 329916,
-  "start": 1962
+  "start": 1962,
+  "wsec": ""
  },
  {
   "name": "Steve Earle",
@@ -2693,12 +3509,26 @@
   "econ": -8.0,
   "auth": -5.0,
   "confidence": 3,
-  "basis": "Self-described socialist; anti-death-penalty campaigner.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Politically, I'm pretty much a socialist\"; long-time death-penalty abolitionist (2010 Shining Star of Abolition award); anti-war, anti-landmine, pro-choice and anti-gun.",
+  "sources": [
+   {
+    "title": "The Progressive: Steve Earle interview (2011)",
+    "url": "https://progressive.org/magazine/steve-earle/"
+   },
+   {
+    "title": "Socialist Worker: Where politics and art meet – Steve Earle",
+    "url": "https://socialistworker.org/node/34"
+   },
+   {
+    "title": "CBC: Steve Earle on refugees and the death penalty",
+    "url": "https://amp.cbc.ca/radio/sunday/timid-ceos-endless-war-in-syria-steve-earle-fall-in-vermont-1.3801572/steve-earle-on-refugees-the-death-penalty-and-song-writing-as-literature-1.3801581"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Steve Earle",
   "views": 400314,
-  "start": 1968
+  "start": 1968,
+  "wsec": "Political_views_and_activism"
  },
  {
   "name": "Oliver Anthony",
@@ -2707,12 +3537,22 @@
   "econ": 2.0,
   "auth": -4.0,
   "confidence": 1,
-  "basis": "\"Rich Men North of Richmond\" (2023); says he sits in the middle and rejected Republican attempts to claim the song.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Rich Men North of Richmond\" (2023) attacks taxes, welfare and DC elites; says he is \"dead center\" and that both sides serve the same master, and that the song was about the Republicans who quoted it in a debate.",
+  "sources": [
+   {
+    "title": "NBC News: 'Rich Men North of Richmond' songwriter says it's no conservative anthem (2023)",
+    "url": "https://www.nbcnews.com/news/us-news/rich-men-north-richmond-songwriter-says-no-conservative-anthem-rcna101852"
+   },
+   {
+    "title": "Washington Times: Anthony criticises partisan use of his song (2023)",
+    "url": "https://www.washingtontimes.com/news/2023/aug/26/musician-behind-rich-men-north-richmond-criticizes/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Oliver Anthony",
   "views": 140800,
-  "start": 2021
+  "start": 2021,
+  "wsec": ""
  },
  {
   "name": "Hank Williams Jr.",
@@ -2720,13 +3560,27 @@
   "genre": "C",
   "econ": 7.0,
   "auth": 4.0,
-  "confidence": 3,
-  "basis": "Dropped from Monday Night Football in 2011 after an Obama-Hitler comparison; Trump supporter.",
-  "sources": [],
-  "checked": null,
+  "confidence": 2,
+  "basis": "Compared Obama golfing with Boehner to \"Hitler playing golf with Netanyahu\" on Fox in 2011 and called Obama and Biden \"the enemy\"; ESPN dropped his Monday Night Football theme, restored in 2017. The Trump-supporter part is not yet sourced.",
+  "sources": [
+   {
+    "title": "NPR: ESPN pulls Hank Williams Jr. song over Hitler remark (2011)",
+    "url": "https://www.npr.org/sections/thetwo-way/2011/10/03/141027499/espn-pulls-hank-williams-jr-song-from-mnf-over-hitler-remark"
+   },
+   {
+    "title": "Washington Times / AP: Hank Williams Jr. out on Monday Night Football (2011)",
+    "url": "https://www.washingtontimes.com/news/2011/oct/6/hank-williams-jr-out-monday-night-football/"
+   },
+   {
+    "title": "Stereogum: MNF brings back Hank Williams Jr. theme (2017)",
+    "url": "https://stereogum.com/1944814/six-years-after-obamahitler-comparison-monday-night-football-brings-back-hank-williams-jr-theme-song/news"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Hank Williams Jr.",
   "views": 618438,
-  "start": 1957
+  "start": 1957,
+  "wsec": "Politics"
  },
  {
   "name": "Dolly Parton",
@@ -2749,7 +3603,8 @@
   "checked": "2026-11-11",
   "wiki": "Dolly Parton",
   "views": 16878612,
-  "start": 1956
+  "start": 1956,
+  "wsec": "Philanthropy_and_advocacy"
  },
  {
   "name": "Woody Guthrie",
@@ -2758,12 +3613,26 @@
   "econ": -9.0,
   "auth": -1,
   "confidence": 3,
-  "basis": "\"This machine kills fascists\"; wrote a column for the Communist Daily Worker and followed the party line during the Hitler–Stalin pact; union songs throughout.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"This machine kills fascists\"; wrote the \"Woody Sez\" column for the Communist People's World and Daily Worker (1939–40) and followed the party line during the Hitler–Stalin pact; whether he ever formally joined the party is disputed; union songs throughout.",
+  "sources": [
+   {
+    "title": "People's World: Woody Guthrie's first Daily Worker column",
+    "url": "https://peoplesworld.org/?p=45148"
+   },
+   {
+    "title": "People's World: Ode to a labor troubadour, Woody Guthrie",
+    "url": "https://peoplesworld.org/?p=14845"
+   },
+   {
+    "title": "WSWS: Woody Guthrie at 100 – the pact and the party line (2012, PDF)",
+    "url": "https://www.wsws.org/en/articles/2012/08/guth-a28.pdf"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Woody Guthrie",
   "views": 980091,
-  "start": 1930
+  "start": 1930,
+  "wsec": "Political_views_and_relation_to_the_Communist_Party"
  },
  {
   "name": "Pete Seeger",
@@ -2795,7 +3664,8 @@
   },
   "wiki": "Pete Seeger",
   "views": 701383,
-  "start": 1939
+  "start": 1939,
+  "wsec": "Early_activism"
  },
  {
   "name": "Joan Baez",
@@ -2822,7 +3692,8 @@
   "checked": "2026-11-11",
   "wiki": "Joan Baez",
   "views": 1171279,
-  "start": 1958
+  "start": 1958,
+  "wsec": "Current_activism_and_public_engagement"
  },
  {
   "name": "Nina Simone",
@@ -2831,12 +3702,26 @@
   "econ": -7.0,
   "auth": -4.0,
   "confidence": 3,
-  "basis": "\"Mississippi Goddam\"; civil-rights movement mainstay who came to favour militancy.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Mississippi Goddam\" (1964), written after the Birmingham church bombing and Medgar Evers's murder; benefit concerts for CORE and SNCC and the Selma march; came to identify with Black Power and Black nationalism over non-violence.",
+  "sources": [
+   {
+    "title": "National Women's History Museum: Nina Simone",
+    "url": "https://www.womenshistory.org/education-resources/biographies/nina-simone"
+   },
+   {
+    "title": "The Nation: Nina Simone, Lit by a Sacred Flame (2003)",
+    "url": "https://www.thenation.com/article/archive/nina-simone-1933-2003"
+   },
+   {
+    "title": "Biography.com: Nina Simone's activism",
+    "url": "https://www.biography.com/musicians/nina-simone-activism"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Nina Simone",
   "views": 769110,
-  "start": 1954
+  "start": 1954,
+  "wsec": "Activism"
  },
  {
   "name": "Bob Marley",
@@ -2863,7 +3748,8 @@
   "checked": "2026-11-11",
   "wiki": "Bob Marley",
   "views": 2222196,
-  "start": 1962
+  "start": 1962,
+  "wsec": ""
  },
  {
   "name": "Fela Kuti",
@@ -2872,12 +3758,26 @@
   "econ": -6.0,
   "auth": -7.6,
   "confidence": 3,
-  "basis": "Founded his own party and was jailed and beaten under Nigeria's military governments.",
-  "sources": [],
-  "checked": null,
+  "basis": "Declared his Kalakuta commune independent of military rule; it was burned by soldiers in 1977 after \"Zombie\"; founded the Movement of the People (Nkrumahist, African socialist) and was barred from the 1979 election; jailed 20 months under Buhari (1984).",
+  "sources": [
+   {
+    "title": "Britannica: Fela Kuti",
+    "url": "https://www.britannica.com/biography/Fela-Kuti"
+   },
+   {
+    "title": "OkayAfrica: 'Zombie' is Fela Kuti's greatest protest song",
+    "url": "https://www.okayafrica.com/zombie-is-fela-kutis-greatest-protest-song/1440729"
+   },
+   {
+    "title": "OkayAfrica: How 20 months in prison redefined Fela Kuti's music",
+    "url": "https://www.okayafrica.com/how-20-months-in-prison-redefined-fela-kutis-music/1414925"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Fela Kuti",
   "views": 488535,
-  "start": 1958
+  "start": 1958,
+  "wsec": "Political_views_and_activism"
  },
  {
   "name": "Víctor Jara",
@@ -2886,12 +3786,26 @@
   "econ": -9.0,
   "auth": -3.0,
   "confidence": 3,
-  "basis": "Communist and Allende campaigner; killed by the military days after Chile's 1973 coup.",
-  "sources": [],
-  "checked": null,
+  "basis": "Joined the Communist Party in the 1960s; wrote \"Venceremos\" for Allende's Popular Unity campaign and served as its cultural ambassador; tortured and killed at Estadio Chile days after the 1973 coup.",
+  "sources": [
+   {
+    "title": "Encyclopedia.com: Victor Jara",
+    "url": "https://encyclopedia.com/education/news-wires-white-papers-and-books/jara-victor"
+   },
+   {
+    "title": "Memoria Chilena (Chilean National Library): Víctor Jara – his death",
+    "url": "https://www.memoriachilena.gob.cl/602/w3-article-98161.html"
+   },
+   {
+    "title": "Expansión: Víctor Jara, first martyr of the dictatorship (2023)",
+    "url": "https://expansion.mx/mundo/2023/09/05/victor-jara-muerte-primer-martir-dictadura-en-chile"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Víctor Jara",
   "views": 116555,
-  "start": 1946
+  "start": 1946,
+  "wsec": "Political_activism"
  },
  {
   "name": "Marvin Gaye",
@@ -2914,7 +3828,8 @@
   "checked": "2026-11-11",
   "wiki": "Marvin Gaye",
   "views": 1738334,
-  "start": 1957
+  "start": 1957,
+  "wsec": ""
  },
  {
   "name": "James Brown",
@@ -2941,7 +3856,8 @@
   "checked": "2026-11-11",
   "wiki": "James Brown",
   "views": 1215538,
-  "start": 1953
+  "start": 1953,
+  "wsec": "Political_views"
  },
  {
   "name": "Stevie Wonder",
@@ -2964,7 +3880,8 @@
   "checked": "2026-11-11",
   "wiki": "Stevie Wonder",
   "views": 2036045,
-  "start": 1961
+  "start": 1961,
+  "wsec": "Religion_and_politics"
  },
  {
   "name": "Aretha Franklin",
@@ -2987,7 +3904,8 @@
   "checked": "2026-11-11",
   "wiki": "Aretha Franklin",
   "views": 2033782,
-  "start": 1954
+  "start": 1954,
+  "wsec": "Activism"
  },
  {
   "name": "Gil Scott-Heron",
@@ -2996,12 +3914,26 @@
   "econ": -7.0,
   "auth": -6.0,
   "confidence": 3,
-  "basis": "\"The Revolution Will Not Be Televised\"; anti-apartheid \"Johannesburg\".",
-  "sources": [],
-  "checked": null,
+  "basis": "\"The Revolution Will Not Be Televised\" (1970), from the radical Black movements of the 60s; \"Johannesburg\" (1975) became an anti-apartheid anthem; on the Sun City record; anti-nuclear songs; cancelled a Tel Aviv show in 2010.",
+  "sources": [
+   {
+    "title": "NPR: Musician Gil Scott-Heron dies at 62 (2011)",
+    "url": "https://www.npr.org/transcripts/136750741"
+   },
+   {
+    "title": "Al Jazeera: US activist, poet and singer dies (2011)",
+    "url": "https://www.aljazeera.com/news/2011/5/28/us-activist-poet-and-singer-dies"
+   },
+   {
+    "title": "The Nation: Remembering Gil Scott-Heron (2011)",
+    "url": "https://thenation.com/article/archive/remembering-gil-scott-heron"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Gil Scott-Heron",
   "views": 350349,
-  "start": 1969
+  "start": 1969,
+  "wsec": ""
  },
  {
   "name": "Robert Del Naja",
@@ -3010,12 +3942,26 @@
   "econ": -7.0,
   "auth": -5.0,
   "confidence": 3,
-  "basis": "Anti-war and Palestinian-solidarity campaigning; commissioned climate research into touring emissions.",
-  "sources": [],
-  "checked": null,
+  "basis": "Co-funded an NME advert against the Iraq war; long Palestinian-solidarity campaigning, arrested at a protest against the ban on Palestine Action; commissioned the Tyndall Centre roadmap on touring emissions (2019).",
+  "sources": [
+   {
+    "title": "Guardian via PressReader: Del Naja – 'To help save the planet we'll have to change' (2019)",
+    "url": "https://www.pressreader.com/usa/the-guardian-usa/20191129/281788515917487"
+   },
+   {
+    "title": "EU Research: Massive Attack zero-carbon gigs; NME Iraq-war advert",
+    "url": "https://issuu.com/euresearcher/docs/digital_magazine_eur29/s/14345523"
+   },
+   {
+    "title": "Dork: Del Naja statement after arrest at Palestine Action protest",
+    "url": "https://readdork.com/news/massive-attack-del-naja-palestine-action-arrest-total-madness"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Robert Del Naja",
   "views": 309108,
-  "start": 1984
+  "start": 1984,
+  "wsec": "Activism_and_politics"
  },
  {
   "name": "Moby",
@@ -3024,26 +3970,63 @@
   "econ": -5.0,
   "auth": -5.0,
   "confidence": 3,
-  "basis": "Animal-rights vegan activist; Democratic campaigner.",
-  "sources": [],
-  "checked": null,
+  "basis": "Vegan since 1987 and animal-rights activist with the Humane Society and PETA; has given millions to animal-rights groups, climate groups and Democratic candidates; long-time MoveOn collaborator.",
+  "sources": [
+   {
+    "title": "NPR: All that Moby needs is to be good (2020)",
+    "url": "https://www.npr.org/2020/05/22/859282552/all-that-moby-needs-is-to-be-good"
+   },
+   {
+    "title": "Grist: interview with Moby on MoveOn and animal rights",
+    "url": "https://grist.org/culture/moby1/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Moby",
   "views": 647948,
-  "start": 1983
+  "start": 1983,
+  "wsec": "Politics"
  },
  {
   "name": "M.I.A.",
   "band": "solo",
   "genre": "E",
-  "econ": -3.0,
-  "auth": -7.0,
-  "confidence": 2,
-  "basis": "Tamil advocacy and refugee politics; Assange supporter; vaccine scepticism in 2022.",
-  "sources": [],
-  "checked": null,
+  "econ": 0,
+  "auth": -3,
+  "confidence": 1,
+  "basis": "Tamil advocacy and refugee politics; long-time Assange and WikiLeaks supporter; vaccine scepticism in 2022; appeared to endorse Trump in 2024 and called herself a \"brown Republican voter\" on stage in 2026, which got her dropped from Kid Cudi's tour. She still frames it as immigrant-rights politics.",
+  "sources": [
+   {
+    "title": "The Fader: M.I.A. dropped from Kid Cudi tour after political rant (May 2026)",
+    "url": "https://www.thefader.com/2026/05/04/mia-dropped-kid-cudi-rebel-ragers-tour-political-rant"
+   },
+   {
+    "title": "Fox News: Kid Cudi boots M.I.A. from tour; 2024 Trump endorsement noted",
+    "url": "https://www.foxnews.com/media/kid-cudi-boots-rapper-off-tour-after-comments-about-being-brown-republican-voter.print"
+   },
+   {
+    "title": "Dazed: M.I.A. performs outside the Home Office for Julian Assange (2019)",
+    "url": "https://www.dazeddigital.com/music/article/46714/1/watch-mia-perform-in-support-wikileaks-julian-assange?amp=1"
+   },
+   {
+    "title": "Rolling Stone India: M.I.A.'s doubts about Covid-19 vaccines (2022)",
+    "url": "https://rollingstoneindia.com/m-i-a-has-more-unfounded-doubts-about-the-safety-of-covid-19-vaccines"
+   },
+   {
+    "title": "NME: 15 M.I.A. moments – Tamil advocacy, Rajapaksa war-crimes call",
+    "url": "https://www.nme.com/photos/15-thought-provoking-m-i-a-moments-1431781"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "M.I.A. (rapper)",
   "views": 1006907,
-  "start": 2000
+  "start": 2000,
+  "shift": {
+   "econ": -3,
+   "auth": -7,
+   "label": "M.I.A., 2005–2015"
+  },
+  "wsec": "Politics"
  },
  {
   "name": "Björk",
@@ -3070,7 +4053,8 @@
   "checked": "2026-11-11",
   "wiki": "Björk",
   "views": 1635776,
-  "start": 1977
+  "start": 1977,
+  "wsec": "Political_activity"
  },
  {
   "name": "Paul Robeson",
@@ -3093,7 +4077,8 @@
   "checked": "2026-11-11",
   "wiki": "Paul Robeson",
   "views": 455690,
-  "start": 1925
+  "start": 1925,
+  "wsec": "Political_activism_and_McCarthy-era_persecution"
  },
  {
   "name": "Dean Reed",
@@ -3116,7 +4101,8 @@
   "checked": "2026-11-11",
   "wiki": "Dean Reed",
   "views": 33297,
-  "start": 1958
+  "start": 1958,
+  "wsec": ""
  },
  {
   "name": "Ewan MacColl",
@@ -3139,7 +4125,8 @@
   "checked": "2026-11-11",
   "wiki": "Ewan MacColl",
   "views": 175693,
-  "start": 1930
+  "start": 1930,
+  "wsec": "Political_songs"
  },
  {
   "name": "Silvio Rodríguez",
@@ -3162,7 +4149,8 @@
   "checked": "2026-11-11",
   "wiki": "Silvio Rodríguez",
   "views": 39805,
-  "start": 1967
+  "start": 1967,
+  "wsec": ""
  },
  {
   "name": "Mikis Theodorakis",
@@ -3190,7 +4178,8 @@
   "checked": "2026-11-11",
   "wiki": "Mikis Theodorakis",
   "views": 59458,
-  "start": 1943
+  "start": 1943,
+  "wsec": "Political_views"
  },
  {
   "name": "Carlos Puebla",
@@ -3198,13 +4187,27 @@
   "genre": "F",
   "econ": -9,
   "auth": 4,
-  "confidence": 2,
-  "basis": "Cuban troubadour of the revolution; wrote \"Hasta siempre, comandante\" (1965) and sang for Castro's government for decades.",
-  "sources": [],
-  "checked": null,
+  "confidence": 3,
+  "basis": "Sang anti-Batista songs at La Bodeguita del Medio before 1959, then became \"el cantor de la Revolución\": \"Y en eso llegó Fidel\", \"La Reforma Agraria\", and \"Hasta siempre, comandante\" (1965) for Che; toured abroad as Cuba's cultural ambassador.",
+  "sources": [
+   {
+    "title": "EcuRed: Carlos Puebla",
+    "url": "https://www.ecured.cu/Carlos_Puebla"
+   },
+   {
+    "title": "teleSUR: La Bodeguita de Carlos Puebla (2026)",
+    "url": "https://www.telesurtv.net/la-bodeguita-de-carlos-puebla/"
+   },
+   {
+    "title": "Diario de León: Songs of love and hate for Fidel Castro (2016)",
+    "url": "https://www.diariodeleon.es/internacional/161126/187778/canciones-amor-odio-fidel-castro.html"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Carlos Puebla",
   "views": 8955,
-  "start": 1930
+  "start": 1930,
+  "wsec": ""
  },
  {
   "name": "Harry Belafonte",
@@ -3213,12 +4216,26 @@
   "econ": -8,
   "auth": 0.5,
   "confidence": 2,
-  "basis": "Civil-rights organiser who praised Hugo Chávez and called George W. Bush \"the greatest terrorist in the world\" in Caracas in 2006.",
-  "sources": [],
-  "checked": null,
+  "basis": "Close adviser and fundraiser to Martin Luther King from 1956; anti-apartheid campaigner; praised Hugo Chávez and called George W. Bush \"the greatest terrorist in the world\" in Venezuela in 2006; backed Bernie Sanders in 2016.",
+  "sources": [
+   {
+    "title": "Democracy Now: Harry Belafonte on Bush, Iraq, King and FBI wiretaps (2006)",
+    "url": "https://www.democracynow.org/2006/1/30/harry_belafonte_on_bush_iraq_hurricane"
+   },
+   {
+    "title": "Al Jazeera: Viva la revolucion! Belafonte in Venezuela (2006)",
+    "url": "https://www.aljazeera.com/amp/news/2006/1/9/viva-la-revolucion"
+   },
+   {
+    "title": "Stereogum: artists endorse Bernie Sanders, incl. Belafonte (2016)",
+    "url": "https://stereogum.com/1870702/michael-stipe-miley-cyrus-amanda-palmer-sean-lennon-other-artists-endorse-bernie-sanders-in-new-video/news"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Harry Belafonte",
   "views": 701403,
-  "start": 1948
+  "start": 1948,
+  "wsec": "Political_activism"
  },
  {
   "name": "Ian Stuart Donaldson",
@@ -3245,7 +4262,8 @@
   "checked": "2026-11-11",
   "wiki": "Ian Stuart Donaldson",
   "views": 110588,
-  "start": 1975
+  "start": 1975,
+  "wsec": ""
  },
  {
   "name": "Manu Chao",
@@ -3254,12 +4272,26 @@
   "econ": -7,
   "auth": -7,
   "confidence": 2,
-  "basis": "Alter-globalisation figure who has supported the Zapatistas and anti-border causes.",
-  "sources": [],
-  "checked": null,
+  "basis": "Leading voice of the alter-globalisation movement: played the Genoa G8 protests in 2001, donates royalties to the Zapatistas and dedicated Clandestino (1998) to the EZLN; migrant-rights causes such as Arizona's Alto Arizona campaign; member of Attac.",
+  "sources": [
+   {
+    "title": "Irish Times: Anti-globalisation's pied piper (2001)",
+    "url": "https://www.irishtimes.com/news/entering-mainstream-fails-to-halt-anti-globalisation-s-pied-piper-1.317904"
+   },
+   {
+    "title": "Encyclopedia.com: Manu Chao – Zapatista royalties, Genoa G8",
+    "url": "https://encyclopedia.com/education/news-wires-white-papers-and-books/chao-manu"
+   },
+   {
+    "title": "NDLON: Manu Chao sings 'Clandestino' outside an Arizona jail",
+    "url": "https://ndlon.org/?p=169"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Manu Chao",
   "views": 216840,
-  "start": 1984
+  "start": 1984,
+  "wsec": "Political_views_and_activism"
  },
  {
   "name": "Bad Bunny",
@@ -3286,7 +4318,8 @@
   "checked": "2026-11-11",
   "wiki": "Bad Bunny",
   "views": 7593119,
-  "start": 2013
+  "start": 2013,
+  "wsec": "Activism"
  },
  {
   "name": "George Michael",
@@ -3309,7 +4342,8 @@
   "checked": "2026-11-11",
   "wiki": "George Michael",
   "views": 3377568,
-  "start": 1981
+  "start": 1981,
+  "wsec": "Politics"
  },
  {
   "name": "Annie Lennox",
@@ -3318,12 +4352,26 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
-  "basis": "HIV campaigning through her SING campaign; feminist activism; called for a Gaza ceasefire at the 2024 Grammys.",
-  "sources": [],
-  "checked": null,
+  "basis": "HIV campaigning through her SING campaign; campaigned against the 2003 Iraq invasion; signed the Artists4Ceasefire letter and called for a Gaza ceasefire on stage at the 2024 Grammys.",
+  "sources": [
+   {
+    "title": "The Nation: Annie Lennox and Artists for Cease-Fire (2024)",
+    "url": "https://thenation.com/article/activism/annie-lennox-grammys-ceasefire"
+   },
+   {
+    "title": "Al-Monitor: Grammys feature Gaza cease-fire calls (2024)",
+    "url": "https://app.al-monitor.com/originals/2024/02/grammys-feature-gaza-cease-fire-calls-keffiyeh-support-israeli-hostages"
+   },
+   {
+    "title": "Democracy Now: Lennox calls for Gaza ceasefire at Grammys (2024)",
+    "url": "https://www.democracynow.org/2024/2/5/headlines/annie_lennox_calls_for_gaza_ceasefire_during_sinead_oconnor_tribute_at_grammys"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Annie Lennox",
   "views": 984996,
-  "start": 1976
+  "start": 1976,
+  "wsec": "Views"
  },
  {
   "name": "Lily Allen",
@@ -3346,7 +4394,8 @@
   "checked": "2026-11-11",
   "wiki": "Lily Allen",
   "views": 2643931,
-  "start": 1988
+  "start": 1988,
+  "wsec": "Politics_and_activism"
  },
  {
   "name": "Andrew Lloyd Webber",
@@ -3355,12 +4404,26 @@
   "econ": 4,
   "auth": 1,
   "confidence": 3,
-  "basis": "Sat in the House of Lords as a Conservative peer; flew in to vote for the 2015 tax-credit cuts.",
-  "sources": [],
-  "checked": null,
+  "basis": "Sat in the House of Lords as a Conservative peer (1997–2017); flew back from New York and voted for the 2015 tax-credit cuts, later saying he regretted being used as lobby fodder; voted for same-sex marriage in 2013.",
+  "sources": [
+   {
+    "title": "HuffPost UK: Lloyd Webber 'parachuted in from New York' for tax credit cuts vote (2015)",
+    "url": "https://huffingtonpost.co.uk/amp/entry/andrew-lloyd-webber-tax-credit-cuts-vote_n_8396570"
+   },
+   {
+    "title": "IBTimes UK: Lloyd Webber 'flew from New York' to vote for cuts (2015)",
+    "url": "https://www.ibtimes.co.uk/tax-credits-millionaire-andrew-lloyd-webber-flew-new-york-vote-cuts-1525916"
+   },
+   {
+    "title": "The Stage: Andrew Lloyd Webber quits House of Lords (2017)",
+    "url": "https://thestage.co.uk/news/andrew-lloyd-webber-quits-house-of-lords"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Andrew Lloyd Webber",
   "views": 1001963,
-  "start": 1965
+  "start": 1965,
+  "wsec": "Politics"
  },
  {
   "name": "Phil Collins",
@@ -3383,7 +4446,8 @@
   "checked": "2026-11-11",
   "wiki": "Phil Collins",
   "views": 3448992,
-  "start": 1963
+  "start": 1963,
+  "wsec": "Political_views"
  },
  {
   "name": "Pat Boone",
@@ -3392,12 +4456,26 @@
   "econ": 6,
   "auth": 4,
   "confidence": 3,
-  "basis": "Long-time conservative columnist and campaigner; Trump supporter.",
-  "sources": [],
-  "checked": null,
+  "basis": "Lifelong Republican who has endorsed dozens of conservative candidates; recorded robocalls for Trump in 2016 and voted for him twice, while publicly urging him to tone it down (2022, 2026); questioned Obama's legitimacy.",
+  "sources": [
+   {
+    "title": "Jerusalem Post: Pat Boone, longtime Trump supporter, urges him to talk less (2026)",
+    "url": "https://www.jpost.com/american-politics/article-909119"
+   },
+   {
+    "title": "Daily Beast: Even Pat Boone is praying Trump doesn't run again (2022)",
+    "url": "https://www.thedailybeast.com/even-pat-boone-is-praying-donald-trump-doesnt-run-in-2024"
+   },
+   {
+    "title": "Daily Signal: Pat Boone on being a conservative in Hollywood (2015)",
+    "url": "https://www.dailysignal.com/?p=29937"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Pat Boone",
   "views": 529530,
-  "start": 1953
+  "start": 1953,
+  "wsec": "Politics"
  },
  {
   "name": "Stormzy",
@@ -3406,12 +4484,26 @@
   "econ": -7,
   "auth": -4,
   "confidence": 3,
-  "basis": "Endorsed Jeremy Corbyn in 2017 and 2019; campaigned after Grenfell; funds scholarships for Black students.",
-  "sources": [],
-  "checked": null,
+  "basis": "Endorsed Jeremy Corbyn in 2016, 2017 and 2019; attacked Theresa May over Grenfell at the 2018 Brits; funds the Stormzy Scholarship for Black students at Cambridge.",
+  "sources": [
+   {
+    "title": "The Fader: Stormzy signs open letter supporting Corbyn (2019)",
+    "url": "https://thefader.com/2019/11/25/stormzy-open-letter-labour-jeremy-corbyn-uk-election"
+   },
+   {
+    "title": "LabourList: 'Theresa May, where's the money for Grenfell?' (2018)",
+    "url": "https://labourlist.org/tag/stormzy"
+   },
+   {
+    "title": "University of Cambridge: The Stormzy Scholarship (2018)",
+    "url": "https://cam.ac.uk/node/199492"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Stormzy",
   "views": 346610,
-  "start": 2010
+  "start": 2010,
+  "wsec": "Political_activism"
  },
  {
   "name": "Akala",
@@ -3420,12 +4512,26 @@
   "econ": -8,
   "auth": -4,
   "confidence": 3,
-  "basis": "Socialist author of Natives (2018) and a prominent Corbyn supporter.",
-  "sources": [],
-  "checked": null,
+  "basis": "Anti-imperialist author of Natives: Race and Class in the Ruins of Empire (2018); voted for the first time in 2017 for Corbyn on austerity, war and the NHS, while saying he was not and probably never would be a Labour supporter.",
+  "sources": [
+   {
+    "title": "The Canary: Akala comes out as a Corbyn supporter (2017)",
+    "url": "https://www.thecanary.co/uk/2017/04/21/rapper-akala-corbyn-supporter-tweets/"
+   },
+   {
+    "title": "New Humanist: Empire's new ruins – review of Natives",
+    "url": "https://newhumanist.org.uk/articles/empires-new-ruins/"
+   },
+   {
+    "title": "Hachette: Natives – Race and Class in the Ruins of Empire",
+    "url": "https://www.hachette.co.uk/titles/akala/natives/9781473661233/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Akala (rapper)",
   "views": 57057,
-  "start": 2003
+  "start": 2003,
+  "wsec": "Political_views"
  },
  {
   "name": "Mo Chara",
@@ -3434,12 +4540,26 @@
   "econ": -8,
   "auth": -5,
   "confidence": 2,
-  "basis": "Irish-language rapper whose band's republican and pro-Palestinian politics drew UK government criticism in 2024–25.",
-  "sources": [],
-  "checked": null,
+  "basis": "Kneecap's Irish-language republicanism and pro-Palestinian stage messages; charged under the Terrorism Act for allegedly displaying a Hezbollah flag at a 2024 London gig; the case was thrown out in 2025 as filed a day too late.",
+  "sources": [
+   {
+    "title": "AP via AJC: British court throws out terror charge against Kneecap member (2025)",
+    "url": "https://www.ajc.com/news/2025/09/a-british-court-throws-out-terror-related-charge-against-irish-language-hip-hop-group-kneecap-member"
+   },
+   {
+    "title": "The National: Hezbollah terrorism charge against Kneecap rapper thrown out (2025)",
+    "url": "https://www.thenationalnews.com/news/uk/2025/09/26/hezbollah-terrorism-charge-against-kneecap-rapper-thrown-out"
+   },
+   {
+    "title": "Mixmag: Mo Chara statement after the charge was dropped",
+    "url": "https://mixmag.net/read/terror-charge-against-kneecaps-mo-chara-thrown-out-by-court-news"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Mo Chara",
   "views": 212668,
-  "start": 2017
+  "start": 2017,
+  "wsec": "Political_activism"
  },
  {
   "name": "Lupe Fiasco",
@@ -3448,12 +4568,26 @@
   "econ": -5,
   "auth": -6,
   "confidence": 2,
-  "basis": "Called Obama \"the biggest terrorist\" over drone strikes (2011); anti-war and anti-corporate.",
-  "sources": [],
-  "checked": null,
+  "basis": "Called Obama \"the biggest terrorist\" over US foreign policy and drone strikes (CBS, 2011) after calling Bush an \"American Terrorist\" in 2006; says he doesn't vote; cut off at a 2013 pre-inaugural show for an anti-Obama rap.",
+  "sources": [
+   {
+    "title": "BET: Lupe Fiasco calls Obama a terrorist (2011)",
+    "url": "https://www.bet.com/news/music/2011/06/08/lupe-fiasco-calls-obama-a-terrorist.html"
+   },
+   {
+    "title": "Riverfront Times: Lupe calls Obama the 'biggest terrorist', explains why he doesn't vote",
+    "url": "https://www.riverfronttimes.com/music/lupe-fiasco-calls-obama-the-biggest-terrorist-then-explains-why-he-doesnt-vote-2659112"
+   },
+   {
+    "title": "Reason: Lupe Fiasco calls out Obama at pre-inaugural concert (2013)",
+    "url": "https://reason.com/2013/01/21/lupe-fiasco-causes-one-calls-out-obama-a/printer"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Lupe Fiasco",
   "views": 306251,
-  "start": 2000
+  "start": 2000,
+  "wsec": "Political_views"
  },
  {
   "name": "Macklemore",
@@ -3476,7 +4610,8 @@
   "checked": "2026-11-11",
   "wiki": "Macklemore",
   "views": 1515794,
-  "start": 2000
+  "start": 2000,
+  "wsec": "Activism_and_political_views"
  },
  {
   "name": "Yasiin Bey",
@@ -3485,12 +4620,26 @@
   "econ": -6,
   "auth": -6,
   "confidence": 2,
-  "basis": "Filmed himself undergoing Guantánamo force-feeding procedure in 2013 to protest it.",
-  "sources": [],
-  "checked": null,
+  "basis": "Filmed himself undergoing the Guantánamo force-feeding procedure for the human-rights group Reprieve in 2013 to protest it.",
+  "sources": [
+   {
+    "title": "ACLU: Yasiin Bey undergoes force-feeding endured by Guantánamo hunger strikers (2013)",
+    "url": "https://aclu.org/news/national-security/video-yasiin-bey-mos-def-undergoes-force-feeding-endured-guantanamo"
+   },
+   {
+    "title": "ABC News: Rapper Mos Def takes force-feeding as US defends Gitmo practice (2013)",
+    "url": "https://abcnews.go.com/blogs/politics/2013/07/rapper-mos-def-takes-force-feeding-as-us-defends-gitmo-practice"
+   },
+   {
+    "title": "Reprieve: litigation challenging force-feeding",
+    "url": "https://reprieve.org/us/?p=4129"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Yasiin Bey",
   "views": 531962,
-  "start": 1987
+  "start": 1987,
+  "wsec": "Social_and_political_views"
  },
  {
   "name": "50 Cent",
@@ -3513,7 +4662,8 @@
   "checked": "2026-11-11",
   "wiki": "50 Cent",
   "views": 2510776,
-  "start": 1996
+  "start": 1996,
+  "wsec": "Political_views"
  },
  {
   "name": "Lil Wayne",
@@ -3536,7 +4686,8 @@
   "checked": "2026-11-11",
   "wiki": "Lil Wayne",
   "views": 1372008,
-  "start": 1991
+  "start": 1991,
+  "wsec": "Political_and_racial_views"
  },
  {
   "name": "Residente",
@@ -3545,12 +4696,26 @@
   "econ": -7,
   "auth": -5,
   "confidence": 2,
-  "basis": "Led the 2019 protests that forced Puerto Rico's governor to resign; anti-colonial politics throughout.",
-  "sources": [],
-  "checked": null,
+  "basis": "Helped organise and lead the 2019 #RickyRenuncia protests that forced Governor Rosselló to resign, co-writing the protest anthem \"Afilando los Cuchillos\"; Calle 13's work is often pro-independence and anti-colonial.",
+  "sources": [
+   {
+    "title": "NPR: 'Afilando los Cuchillos' soundtracks Puerto Rico's social movement (2019)",
+    "url": "https://www.npr.org/transcripts/744727518"
+   },
+   {
+    "title": "Daily Dot: Residente rallied people for Rosselló's resignation (2019)",
+    "url": "https://dailydot.com/?p=612035"
+   },
+   {
+    "title": "Guardian via inkl: Puerto Rico's musicians lend voice to protesters (2019)",
+    "url": "https://www.inkl.com/news/ricky-resign-puerto-rico-s-famous-musicians-lend-voice-to-surging-protesters"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Residente",
   "views": 89631,
-  "start": 2004
+  "start": 2004,
+  "wsec": ""
  },
  {
   "name": "Kris Kristofferson",
@@ -3577,7 +4742,8 @@
   "checked": "2026-11-11",
   "wiki": "Kris Kristofferson",
   "views": 1740077,
-  "start": 1959
+  "start": 1959,
+  "wsec": "Political_views_and_advocacy"
  },
  {
   "name": "John Rich",
@@ -3586,12 +4752,26 @@
   "econ": 6,
   "auth": 3,
   "confidence": 2,
-  "basis": "Outspoken conservative and Trump supporter.",
-  "sources": [],
-  "checked": null,
+  "basis": "Strong Republican: backed Rand Paul then Trump in 2016, played Trump's 2017 pre-inaugural concert, co-wrote \"Shut Up About Politics\" with Fox's Greg Gutfeld (2019), and campaigns for Trump-aligned candidates in Tennessee.",
+  "sources": [
+   {
+    "title": "Taste of Country: John Rich – 'Shut Up About Politics' (2019)",
+    "url": "https://tasteofcountry.com/john-rich-shut-up-about-politics/"
+   },
+   {
+    "title": "Saving Country Music: John Rich's political endorsements",
+    "url": "https://www.savingcountrymusic.com/?p=123078"
+   },
+   {
+    "title": "Fox News: Rich endorses Jody Barrett in Tennessee's special election",
+    "url": "https://www.foxnews.com/politics/country-artist-shares-why-hes-throwing-his-star-power-race-replace-top-republican"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "John Rich",
   "views": 166119,
-  "start": 1992
+  "start": 1992,
+  "wsec": "Political_views"
  },
  {
   "name": "Travis Tritt",
@@ -3599,13 +4779,27 @@
   "genre": "C",
   "econ": 5,
   "auth": 0,
-  "confidence": 2,
-  "basis": "Trump supporter who cancelled shows at venues requiring Covid vaccination (2021).",
-  "sources": [],
-  "checked": null,
+  "confidence": 1,
+  "basis": "Cancelled four 2021 shows at venues requiring Covid vaccination, tests or masks, calling it discrimination, and took the case to Tucker Carlson. The Trump-supporter part is not yet sourced.",
+  "sources": [
+   {
+    "title": "Travis Tritt official: cancels concerts requiring vaccinations, tests or masks (2021)",
+    "url": "https://travistritt.com/travis-tritt-cancels-concerts-that-require-covid-vaccinations-negative-tests-or-masks/"
+   },
+   {
+    "title": "AP via WDEF: After slamming Covid rules, Tritt sings anthem at NLCS (2021)",
+    "url": "https://www.wdef.com/?p=469398"
+   },
+   {
+    "title": "Rev: Tritt on Tucker Carlson (2021)",
+    "url": "https://www.rev.com/blog/?p=26116"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Travis Tritt",
   "views": 226059,
-  "start": 1987
+  "start": 1987,
+  "wsec": "Political_views_and_advocacy"
  },
  {
   "name": "Jason Isbell",
@@ -3614,12 +4808,26 @@
   "econ": -4,
   "auth": -4,
   "confidence": 2,
-  "basis": "Democratic campaigner in Georgia and Tennessee; gun-control advocate.",
-  "sources": [],
-  "checked": null,
+  "basis": "Played a fundraiser for Democrat Phil Bredesen (2018) and was called the \"unhinged left\" by the GOP Senate committee; Georgia Blue charity album after Biden won Georgia; played the 2024 DNC; signed Nashville artists' 2023 gun-safety letter.",
+  "sources": [
+   {
+    "title": "Rolling Stone: Isbell voting to 'cancel out John Rich' (2018)",
+    "url": "https://www.rollingstone.com/music/music-country/jason-isbell-john-rich-voting-msnbc-747606/"
+   },
+   {
+    "title": "Relix: Isbell performs at the 2024 Democratic National Convention",
+    "url": "https://relix.com/news/detail/watch-jason-isbell-performs-something-more-than-free-at-2024-democratic-national-convention"
+   },
+   {
+    "title": "Hypebot: 60 country artists pledge on gun control, incl. Isbell (2023)",
+    "url": "https://www.hypebot.com/can-country-music-enact-comon-sense-gun-control-60-top-artists-pledge-to-try/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Jason Isbell",
   "views": 359650,
-  "start": 1995
+  "start": 1995,
+  "wsec": ""
  },
  {
   "name": "Zach Bryan",
@@ -3642,6 +4850,7 @@
   "checked": "2026-11-11",
   "wiki": "Zach Bryan",
   "views": 1210255,
-  "start": 2017
+  "start": 2017,
+  "wsec": "Activism_and_political_views"
  }
 ]

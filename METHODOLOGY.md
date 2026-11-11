@@ -84,7 +84,7 @@ Work through this in order for every new entry, and for any re-check of an old o
 4. **Economic axis:** look for taxes, wages, unions, public services, ownership, markets, party office or sustained campaigning. Set `econ` and `ce` by the rules above; a single partisan signal keeps `econ` within 4 of the centre.
 5. **Authority axis:** state power first, then the three-part test for pressure outside the state. Check for calls to ban, fire, deplatform, drop or blacklist someone, and for defences of others' speech. Apply the mirror test before moving a mark. Then sort what is left into direct propositions and camp signals, and cap confidence by the camp-signal rule if nothing direct remains.
 6. **Shift:** is there an earlier, sourced position on fixed content that differs by a unit or more? If so, add `shift` with its own `ce`, `ca`, `basis`, `sources` and a dated `label`.
-7. **Write `basis`** in one to three plain sentences: what they did, and how strong it is. Say when something is a single signal or context only.
+7. **Write `basis`** in one to three plain sentences: what they did, and how strong it is. Say when something is a single signal or context only. Add `basis_tr`, the Turkish version, and keep the two in step: when `basis` changes, update or delete `basis_tr` (a missing one falls back to English, a stale one misleads).
 8. **Sources:** at least one link per claim that moves a mark, primary or reputable press over aggregators. Set `checked` to today.
 9. **Cost and popularity:** set `cost`/`costWhy` if the record shows office, prison, charges, violence, exile, bans or blacklists, sourced in `basis`. Fill `langs`, `lfm`, `lfmAct` with the same scripts used for everyone else (Wikidata sitelinks; Last.fm artist pages), so the new person is ranked on the same terms.
 10. **Review:** open the person on the page, check the halo, the arrow (solid or dashed) and the panel text read correctly.
@@ -112,6 +112,7 @@ Everything lives in [`data.json`](data.json), one object per person:
 | `ce`, `ca` | confidence per axis: 3 high, 2 medium, 1 low; `ce` 0 means no economic record |
 | `confidence` | overall rating for the fill and filters: 3, 2 or 1 |
 | `basis` | one to three sentences on why |
+| `basis_tr` | Turkish `basis`, shown when the page is in Turkish; same for `shift.basis_tr` |
 | `shift` | optional earlier position: `econ`, `auth`, `label`, `ce`, `ca`, `basis`, `sources` |
 | `sources` | list of `{title, url}`; `url` may be absent for print sources |
 | `checked` | date the sources were last checked, or `null` |

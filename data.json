@@ -160,9 +160,9 @@
   "econ": -4,
   "auth": -4,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "Gave the £3.6m proceeds of a London house sale to the homeless charity Crisis (announced 2003) and became its vice-president; pro-Ukraine single \"Hey Hey Rise Up\" in 2022; sold his guitars for the climate-law charity ClientEarth.",
+  "basis": "Gave the £3.6m proceeds of a London house sale to the homeless charity Crisis (announced 2003) and became its vice-president; pro-Ukraine single \"Hey Hey Rise Up\" in 2022; sold his guitars for the climate-law charity ClientEarth. Calls himself a socialist; voted Labour in 2017 'because I believe in social equality'.",
   "sources": [
    {
     "title": "Crisis: Our vice presidents – David Gilmour",
@@ -175,6 +175,14 @@
    {
     "title": "Louder: Pink Floyd raise half a million pounds with Ukraine charity single (2022)",
     "url": "https://www.loudersound.com/news/pink-floyd-thank-fans-after-raising-half-a-million-pounds-through-charity-single"
+   },
+   {
+    "title": "Independent: celebrity votes in the 2017 election",
+    "url": "https://www.independent.co.uk/News/uk/home-news/election-2017-celebrities-vote-party-ballots-comedians-actors-footballers-steve-coogan-danny-devito-a7779151.html"
+   },
+   {
+    "title": "Mirror: who celebrities are voting for (2017)",
+    "url": "https://www.mirror.co.uk/news/politics/who-celebrities-voting-general-election-10546843"
    }
   ],
   "checked": "2026-11-11",
@@ -213,12 +221,12 @@
   "name": "Paul McCartney",
   "band": "The Beatles",
   "genre": "R",
-  "econ": -2,
+  "econ": 0,
   "auth": -3,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "Animal-rights and vegetarian campaigning; \"Give Ireland Back to the Irish\" (1972); otherwise a mild liberal.",
+  "basis": "Animal-rights and vegetarian campaigning; \"Give Ireland Back to the Irish\" (1972); otherwise a mild liberal. On taxes in 2022: 'You earn some money, and you keep more of it', alongside Make Poverty History campaigning: mixed, so the centre is evidenced here, not assumed.",
   "sources": [
    {
     "title": "Wikipedia: Give Ireland Back to the Irish",
@@ -227,6 +235,10 @@
    {
     "title": "Beatles Story: Paul McCartney's activism",
     "url": "https://www.beatlesstory.com/blog/paul-mccartneys-activism/"
+   },
+   {
+    "title": "Far Out: McCartney on what he'd change as prime minister (2022)",
+    "url": "https://faroutmagazine.co.uk/paul-mccartney-reveals-changes-britain-prime-minister/"
    }
   ],
   "checked": "2026-11-11",
@@ -380,9 +392,9 @@
   "econ": -4,
   "auth": -6,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "Incesticide liner notes told homophobes, racists and sexists not to buy the records; Nirvana headlined the first Rock for Choice and played against Oregon's anti-gay Measure 9. Thin economic record.",
+  "basis": "Incesticide liner notes told homophobes, racists and sexists not to buy the records; Nirvana headlined the first Rock for Choice and played against Oregon's anti-gay Measure 9. Thin economic record. On indie bands signing to majors (1990): 'Chalk one up for capitalism', a single anti-corporate remark.",
   "sources": [
    {
     "title": "The Advocate: Cobain's 1993 interview and the Incesticide notes",
@@ -395,6 +407,10 @@
    {
     "title": "Lancer Spirit: Rock for Choice and Measure 9",
     "url": "https://lancerspiritonline.com/27042/a-e/come-as-you-are-nirvana-cleanses-prejudice-with-grunge"
+   },
+   {
+    "title": "Grunge.com: Cobain's words on the future of rock (from The Last Interview)",
+    "url": "https://grunge.com/1105146/kurt-cobain-had-some-prophetic-words-about-the-future-of-rock"
    }
   ],
   "checked": "2026-11-11",
@@ -471,9 +487,9 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "Friends of the Earth spokesman for the Big Ask climate campaign (2006); anti-Brexit; rejected the cultural boycott of Israel and played Tel Aviv in 2017, then said in 2025 he would not go near the Netanyahu government.",
+  "basis": "Friends of the Earth spokesman for the Big Ask climate campaign (2006); anti-Brexit; rejected the cultural boycott of Israel and played Tel Aviv in 2017, then said in 2025 he would not go near the Netanyahu government. Attacked tax havens 'for the global super rich' while the public is told to accept austerity (2015); DJ'd for Occupy activists in an occupied UBS building (2011).",
   "sources": [
    {
     "title": "Al Jazeera: Radiohead breaks silence on Israel concert (2017)",
@@ -486,6 +502,14 @@
    {
     "title": "Ynet: Thom Yorke says he won't return to Israel (2025)",
     "url": "https://www.ynetnews.com/topics/Thom_Yorke"
+   },
+   {
+    "title": "Guardian: Thom Yorke asks who our government works for (2015)",
+    "url": "https://www.theguardian.com/music/2015/feb/11/thom-yorke-asks-who-does-our-government-work-for"
+   },
+   {
+    "title": "Dazed: Occupy 2012 – the UBS party",
+    "url": "https://www.dazeddigital.com/artsandculture/article/12575/1/occupy-2012"
    }
   ],
   "checked": "2026-11-11",
@@ -579,9 +603,9 @@
   "econ": -3,
   "auth": -1.5,
   "confidence": 1,
-  "ce": 0,
+  "ce": 2,
   "ca": 1,
-  "basis": "Founded the Walden Woods Project (1990) and the Caddo Lake Institute; told a Senate committee in 2020 that copyright law lets big tech profit from piracy. His party donations are widely reported but not yet sourced here.",
+  "basis": "Founded the Walden Woods Project (1990) and the Caddo Lake Institute; told a Senate committee in 2020 that copyright law lets big tech profit from piracy. His party donations are widely reported but not yet sourced here. Gave Texas Democrats and environmental PACs at least $130,000 in 2018 alone (Sierra Club $40,000, League of Conservation Voters $35,000, five state-senate Democrats $10,000 each).",
   "sources": [
    {
     "title": "Walden Woods Project: mission and history",
@@ -594,6 +618,10 @@
    {
     "title": "US Senate Judiciary Committee: Henley's testimony (2020)",
     "url": "https://www.judiciary.senate.gov/download/henley-testimony?download=1"
+   },
+   {
+    "title": "Reform Austin: Don Henley gives Texas political candidates a boost (2018)",
+    "url": "https://www.reformaustin.org/campaign-finance/rocker-don-henley-gives-texas-political-candidates-a-boost/amp"
    }
   ],
   "checked": "2026-11-11",
@@ -673,9 +701,9 @@
   "econ": -2,
   "auth": -3,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "Founded the Save Me Trust (2010) against fox hunting and the badger cull, taking the government to court over it; launched the cross-party Common Decency campaign in 2015; says he stopped voting Conservative over wildlife policy.",
+  "basis": "Founded the Save Me Trust (2010) against fox hunting and the badger cull, taking the government to court over it; launched the cross-party Common Decency campaign in 2015; says he stopped voting Conservative over wildlife policy. Long a Conservative voter, he switched over hunting and badger policy (2010), endorsed Corbyn in 2017 and says he is closest to the Greens.",
   "sources": [
    {
     "title": "Daily Mirror via brianmay.com: May blasts Cameron over hunting and the cull",
@@ -688,6 +716,10 @@
    {
     "title": "Gulf News: May on why he stopped voting Conservative",
     "url": "https://gulfnews.com/uae/environment/taking-a-stance-for-the--planets-furry-friends-1.812278"
+   },
+   {
+    "title": "BBC Daily Politics: May on changing his vote (2010)",
+    "url": "https://news.bbc.co.uk/2/hi/programmes/the_daily_politics/8730078.stm"
    }
   ],
   "checked": "2026-11-11",
@@ -763,9 +795,9 @@
   "econ": -2,
   "auth": -5,
   "confidence": 1,
-  "ce": 0,
+  "ce": 1,
   "ca": 1,
-  "basis": "Sang at the 1963 March on Washington and wrote civil-rights and anti-war anthems, then spent decades refusing the \"spokesman\" role.",
+  "basis": "Sang at the 1963 March on Washington and wrote civil-rights and anti-war anthems, then spent decades refusing the \"spokesman\" role. At Live Aid (1985) asked for money for 'the mortgages ... the farmers here owe to the banks', which led to Farm Aid, where he played.",
   "sources": [
    {
     "title": "Time: Dylan at the 1963 March on Washington",
@@ -778,6 +810,10 @@
    {
     "title": "Green, Bob Dylan at the March on Washington (Rock Music Studies, 2019)",
     "url": "https://www.polisci.upenn.edu/sites/default/files/Green_%20Bob%20Dylan.pdf"
+   },
+   {
+    "title": "History.com: the first Farm Aid concert (1985)",
+    "url": "https://www.history.com/this-day-in-history/the-first-farm-aid-concert-is-held-in-champaign-illinois"
    }
   ],
   "checked": "2026-11-11",
@@ -819,9 +855,9 @@
   "econ": 0,
   "auth": -3,
   "confidence": 1,
-  "ce": 0,
+  "ce": 1,
   "ca": 1,
-  "basis": "Said in 1976 that Britain \"could benefit from a fascist leader\", then renounced it, blaming his drug use; turned down a CBE (2000) and a knighthood (2003); \"Scotland, stay with us\" (2014).",
+  "basis": "Said in 1976 that Britain \"could benefit from a fascist leader\", then renounced it, blaming his drug use; turned down a CBE (2000) and a knighthood (2003); \"Scotland, stay with us\" (2014). Moved to Switzerland in 1976 to escape British top tax rates, yet said in 1987 his 'tendency would be towards a Labour vote': mixed, so the centre is evidenced.",
   "sources": [
    {
     "title": "Bowie Bible: the 1976 Stockholm remarks, later renounced",
@@ -830,6 +866,10 @@
    {
     "title": "Mental Floss: Bowie turned down a knighthood",
     "url": "https://www.mentalfloss.com/history/royalty/10-famous-people-who-turned-down-knighthood"
+   },
+   {
+    "title": "The New European: was David Bowie a secret Tory? (Smash Hits 1987 quote)",
+    "url": "https://www.thenewworld.co.uk/rats-in-a-sack-was-david-bowie-really-a-secret-tory-spoiler-alert-no"
    }
   ],
   "checked": "2026-11-11",
@@ -898,12 +938,12 @@
   "name": "Henry Rollins",
   "band": "Black Flag",
   "genre": "P",
-  "econ": -5,
+  "econ": -4,
   "auth": -6,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "LGBT-rights and marriage-equality advocacy; called the Iraq war illegal while doing several USO tours to Iraq and Afghanistan (\"my way of protesting the war\"); veterans' reintegration work with IAVA.",
+  "basis": "LGBT-rights and marriage-equality advocacy; called the Iraq war illegal while doing several USO tours to Iraq and Afghanistan (\"my way of protesting the war\"); veterans' reintegration work with IAVA. Backed Bernie Sanders in 2015, a single economic signal.",
   "sources": [
    {
     "title": "Mother Jones: Henry Rollins, Post-Punk Pundit (2007)",
@@ -916,6 +956,10 @@
    {
     "title": "Philadelphia Gay News: Rollins interview on LGBT rights and DADT (2010)",
     "url": "https://epgn.com/2010/03/04/6567557-rollins-brings-spokenword-tour-to-philly"
+   },
+   {
+    "title": "Off the Grid: Rollins and Ventura on why Sanders has their vote (2015)",
+    "url": "https://web.archive.org/web/20151115092650/http://www.ora.tv/offthegrid/2015/8/10/jesse-ventura-and-henry-rollins-talk-the-2016-elections-why-bernie-sanders-has-their-vote-0_5lg244bfmdsd"
    }
   ],
   "checked": "2026-11-11",
@@ -1111,9 +1155,9 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "Fronted the Stop the War campaign against the Iraq invasion with Massive Attack's 3D (NME ads, Downing Street petition, the February 2003 march); marched for a second Brexit referendum in 2019.",
+  "basis": "Fronted the Stop the War campaign against the Iraq invasion with Massive Attack's 3D (NME ads, Downing Street petition, the February 2003 march); marched for a second Brexit referendum in 2019. 'We lean towards socialism, we are definitely 100% left-wing' (El País, 2026).",
   "sources": [
    {
     "title": "NME: one million march in London, Albarn and 3D among the leaders (2003)",
@@ -1126,6 +1170,10 @@
    {
     "title": "The New European: Albarn on Rees-Mogg and Brexit",
     "url": "https://www.thenewworld.co.uk/brexit-news-damon-albarn-on-jacob-rees-mogg-and-brexit-43448"
+   },
+   {
+    "title": "El País: Gorillaz – 'we lean towards socialism' (2026)",
+    "url": "https://web.archive.org/web/20260320051437/https://elpais.com/icon/2026-03-20/gorillaz-creo-que-nos-inclinamos-por-el-socialismo-somos-de-izquierdas-al-100.html"
    }
   ],
   "checked": "2026-11-11",
@@ -1729,9 +1777,9 @@
   "econ": -4,
   "auth": -2.4,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "Amnesty International campaigner since 1981, including the 1988 Human Rights Now! world tour; co-founded the Rainforest Foundation in 1989 with Kayapó leader Raoni.",
+  "basis": "Amnesty International campaigner since 1981, including the 1988 Human Rights Now! world tour; co-founded the Rainforest Foundation in 1989 with Kayapó leader Raoni. 'I've been a Labour supporter all my life' (2008); bandmate Stewart Copeland, a self-declared capitalist, says the two are 'violently opposed' politically; in 2025 attacked decades of government neglect of the North East.",
   "sources": [
    {
     "title": "Human Rights Concerts: background to the Amnesty tours",
@@ -1744,6 +1792,14 @@
    {
     "title": "The Times (1989) via sting.com: founding the Rainforest Foundation",
     "url": "https://www.sting.com/news/title/Interview:%20THE%20TIMES%20(1989)"
+   },
+   {
+    "title": "Daily Telegraph via sting.com: interview (2008)",
+    "url": "https://222.sting.com/news/title/Interview: THE DAILY TELEGRAPH (2008)"
+   },
+   {
+    "title": "Yahoo/Independent: Stewart Copeland – 'I'm a capitalist, get over it'",
+    "url": "https://uk.news.yahoo.com/stewart-copeland-m-capitalist-over-070000428.html"
    }
   ],
   "checked": "2026-11-11",
@@ -1815,9 +1871,9 @@
   "econ": -2,
   "auth": -2.2,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "Testified to a Senate subcommittee for prison reform in 1972 and met Nixon the same day; recorded Bitter Tears (1964) on Native American rights; friendly with presidents of both parties.",
+  "basis": "Testified to a Senate subcommittee for prison reform in 1972 and met Nixon the same day; recorded Bitter Tears (1964) on Native American rights; friendly with presidents of both parties. Asked by Nixon's office in 1970 to play the anti-welfare 'Welfare Cadillac', he declined and sang his own songs; 'Man in Black' (1971) is 'for the poor and the beaten down'.",
   "sources": [
    {
     "title": "Smithsonian: Remembering Johnny Cash's activism",
@@ -1826,6 +1882,10 @@
    {
     "title": "Nixon Foundation: Cash testifies on prison reform and meets Nixon (1972)",
     "url": "https://www.nixonfoundation.org/?p=58860"
+   },
+   {
+    "title": "Far Out: when Johnny Cash met President Nixon",
+    "url": "https://faroutmagazine.co.uk/johnny-cash-richard-nixon-man-in-black-1972/"
    }
   ],
   "checked": "2026-11-11",
@@ -2068,10 +2128,10 @@
   "genre": "R",
   "econ": 4,
   "auth": 1.2,
-  "confidence": 1,
-  "ce": 0,
-  "ca": 1,
-  "basis": "Backed the Countryside Alliance's fight against the hunting ban: part of the \"Countryside Rocks\" campaign and dedicated his 2004 Q lifetime award to his son Otis, a pro-hunt activist who stormed the Commons. The \"self-described conservative\" label is not yet sourced.",
+  "confidence": 2,
+  "ce": 2,
+  "ca": 2,
+  "basis": "Backed the Countryside Alliance's fight against the hunting ban: part of the \"Countryside Rocks\" campaign and dedicated his 2004 Q lifetime award to his son Otis, a pro-hunt activist who stormed the Commons. The \"self-described conservative\" label is not yet sourced. Said in 2008 he supported the Conservatives and was 'conservative by nature'; a guest at the Conservative black-and-white ball in 2012.",
   "sources": [
    {
     "title": "Boisdale: Fields of Rock – Ferry, Daltrey, Waters, Clapton in 'Countryside Rocks'",
@@ -2084,6 +2144,10 @@
    {
     "title": "Independent via inkl: Ferry applauded his 'brave son' at an awards show",
     "url": "https://www.inkl.com/news/meat-is-murder-rockers-go-head-to-head-over-animal-rights"
+   },
+   {
+    "title": "Evening Standard: Tory black-and-white ball guests (2012)",
+    "url": "https://www.standard.co.uk/hp/front/black-and-white-and-green-all-over-at-the-tory-ball-7259337.html"
    }
   ],
   "checked": "2026-11-11",
@@ -2129,9 +2193,9 @@
   "econ": -5.8,
   "auth": -4.5,
   "confidence": 3,
-  "ce": 0,
+  "ce": 2,
   "ca": 3,
-  "basis": "\"Biko\" (1980) against apartheid; Amnesty's Conspiracy of Hope (1986) and Human Rights Now! (1988) tours; founded the human-rights video group Witness in 1992.",
+  "basis": "\"Biko\" (1980) against apartheid; Amnesty's Conspiracy of Hope (1986) and Human Rights Now! (1988) tours; founded the human-rights video group Witness in 1992. Declared for Labour in 1997 and was named among its biggest private donors in 1998, 'to help get rid of the Tory government'.",
   "sources": [
    {
     "title": "NBC News: Peter Gabriel bears WITNESS to rights abuses",
@@ -2140,6 +2204,14 @@
    {
     "title": "Paste: Peter Gabriel, can I get a Witness?",
     "url": "https://www.pastemagazine.com/music/peter-gabriel/peter-gabriel-can-i-get-a-witness"
+   },
+   {
+    "title": "BBC: Labour's biggest private donors (1998)",
+    "url": "https://news.bbc.co.uk/2/hi/uk_news/politics/161057.stm"
+   },
+   {
+    "title": "The Quietus: Peter Gabriel interview",
+    "url": "http://thequietus.com/articles/07003-peter-gabriel-interview"
    }
   ],
   "checked": "2026-11-11",
@@ -2181,9 +2253,9 @@
   "econ": -0.6,
   "auth": -2.4,
   "confidence": 3,
-  "ce": 0,
+  "ce": 2,
   "ca": 3,
-  "basis": "Live Aid and Live 8; led the anti-Brexit flotilla against Farage on the Thames in 2016.",
+  "basis": "Live Aid and Live 8; led the anti-Brexit flotilla against Farage on the Thames in 2016. Lobbied the G8 on aid and debt relief, yet runs the private-equity fund 8 Miles investing in African businesses for profit: market means to anti-poverty ends.",
   "sources": [
    {
     "title": "RTÉ: Farage and Geldof clash on the Thames over Brexit (2016)",
@@ -2192,6 +2264,10 @@
    {
     "title": "ITV News: Farage and Geldof go head to head on Thames (2016)",
     "url": "https://itv.com/news/story/2016-06-15/eu-referendum-farage-geldof-go-head-to-head-on-thames"
+   },
+   {
+    "title": "Guardian: Bob Geldof is wrong on Africa (2013)",
+    "url": "https://www.theguardian.com/world/2013/mar/08/bob-geldof-wrong-africa"
    }
   ],
   "checked": "2026-11-11",
@@ -2207,9 +2283,9 @@
   "econ": -1.4,
   "auth": -3.8,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "Founded the Elton John AIDS Foundation (1992); attacked Brexit as built on \"completely ridiculous\" promises; condemned Braverman's 2023 asylum remarks and Russia's anti-gay laws.",
+  "basis": "Founded the Elton John AIDS Foundation (1992); attacked Brexit as built on \"completely ridiculous\" promises; condemned Braverman's 2023 asylum remarks and Russia's anti-gay laws. 'If I was to say what I am, I'd be a Labour man' (2006); a floating voter by 2009; endorsed Starmer in 2024.",
   "sources": [
    {
     "title": "The New European: Elton John on Brexit (2019)",
@@ -2218,6 +2294,14 @@
    {
     "title": "PinkNews: Elton John calls for compassion for LGBTQ+ refugees (2023)",
     "url": "https://thepinknews.com/2023/09/27/elton-john-suella-braverman-lgbtq-refugees"
+   },
+   {
+    "title": "Telegraph: Gordon Brown can't even count on Elton's vote (2009)",
+    "url": "https://www.telegraph.co.uk/news/newstopics/mandrake/6811802/Now-Gordon-Brown-cant-even-count-on-Sir-Elton-Johns-vote.html"
+   },
+   {
+    "title": "Telegraph: election live, Elton backs Starmer (2024)",
+    "url": "https://www.telegraph.co.uk/politics/2024/06/29/politics-latest-news-rishi-sunak-armed-forces-starmer-nigel/"
    }
   ],
   "checked": "2026-11-11",
@@ -2319,9 +2403,9 @@
   "econ": -2.8,
   "auth": -5.4,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "America 51 (2017) spends a third of its length on Trump but attacks both parties; says he is \"much more liberal than people would realize\" yet stands \"in the middle\" and is tired of zealots on both sides.",
+  "basis": "America 51 (2017) spends a third of its length on Trump but attacks both parties; says he is \"much more liberal than people would realize\" yet stands \"in the middle\" and is tired of zealots on both sides. Backed Bernie Sanders in 2016.",
   "sources": [
    {
     "title": "Blabbermouth: Corey Taylor – 'The Cheeto can't lead' (2020)",
@@ -2334,6 +2418,10 @@
    {
     "title": "Louder: America 51 review",
     "url": "https://www.loudersound.com/reviews/corey-taylor-america-51-review"
+   },
+   {
+    "title": "Guardian: Corey Taylor answers your questions (2016)",
+    "url": "https://www.theguardian.com/music/2016/feb/10/slipknot-corey-taylor-answers-your-questions"
    }
   ],
   "checked": "2026-11-11",
@@ -3071,9 +3159,9 @@
   "econ": -3.0,
   "auth": -4.4,
   "confidence": 3,
-  "ce": 0,
+  "ce": 1,
   "ca": 3,
-  "basis": "\"Mosh\" against Bush (2004), anti-Trump freestyle (2017), introduced Obama at a Harris rally (2024).",
+  "basis": "\"Mosh\" against Bush (2004), anti-Trump freestyle (2017), introduced Obama at a Harris rally (2024). 'The Storm' (2017) mocks Trump's tax cuts; frames his attacks as a working-class man's, a single economic signal.",
   "sources": [
    {
     "title": "AP via PBS: Eminem and Obama rally voters for Harris in Detroit (2024)",
@@ -3082,6 +3170,10 @@
    {
     "title": "Fortune / AP: Eminem's Detroit speech (2024)",
     "url": "https://fortune.com/2024/10/24/eminem-speech-kamala-harris-rally-barack-obama/"
+   },
+   {
+    "title": "Newsweek: Eminem's criticism of Trump (2024)",
+    "url": "https://www.newsweek.com/donald-trump-eminem-2024-election-viral-video-criticism-opinions-1940166"
    }
   ],
   "checked": "2026-11-11",
@@ -3120,12 +3212,12 @@
   "name": "Snoop Dogg",
   "band": "solo",
   "genre": "H",
-  "econ": 0.0,
+  "econ": -1.5,
   "auth": -5.0,
   "confidence": 1,
-  "ce": 0,
+  "ce": 1,
   "ca": 1,
-  "basis": "In 2017 vowed to \"roast\" anyone who played Trump's inauguration; in 2024 said he had \"nothing but love and respect\" for Trump and played a 2025 inauguration crypto ball. Long-time cannabis legalisation advocate.",
+  "basis": "In 2017 vowed to \"roast\" anyone who played Trump's inauguration; in 2024 said he had \"nothing but love and respect\" for Trump and played a 2025 inauguration crypto ball. Long-time cannabis legalisation advocate. Blamed Reagan's economic policies for the 1980s gang violence in Los Angeles (SXSW keynote, 2015).",
   "sources": [
    {
     "title": "NPR: Snoop Dogg faces heat for performing at Trump's pre-inauguration ball (2025)",
@@ -3134,6 +3226,10 @@
    {
     "title": "Lawyer Monthly: Snoop's 2017 threat and 2024 praise of Trump",
     "url": "https://www.lawyer-monthly.com/?p=57999"
+   },
+   {
+    "title": "Daily Beast: Snoop blames Reagan for LA gang violence (2015)",
+    "url": "http://www.thedailybeast.com/articles/2015/03/20/snoop-dogg-ronald-reagan-to-blame-for-l-a-gang-violence.html"
    }
   ],
   "checked": "2026-11-11",
@@ -3852,12 +3948,12 @@
   "name": "Dolly Parton",
   "band": "solo",
   "genre": "C",
-  "econ": 0.0,
+  "econ": -1,
   "auth": -2.0,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "Avoids party politics and declined the Medal of Freedom so as not to be \"doing politics\"; gave $1 million to the research behind the Moderna vaccine; said \"of course Black lives matter\" in 2020.",
+  "basis": "Avoids party politics and declined the Medal of Freedom so as not to be \"doing politics\"; gave $1 million to the research behind the Moderna vaccine; said \"of course Black lives matter\" in 2020. A dues-paying member of the Nashville musicians' union from 1968 for the rest of her life.",
   "sources": [
    {
     "title": "New Statesman: Parton avoids party politics; Black Lives Matter remark",
@@ -3866,6 +3962,10 @@
    {
     "title": "Spectrum News: Parton declined the Medal of Freedom twice",
     "url": "https://spectrumlocalnews.com/news/2021/02/02/dolly-parton-medal-of-freedom-twice-trump"
+   },
+   {
+    "title": "Mother Jones: Dolly Parton, unions, books and gays (2026)",
+    "url": "https://www.motherjones.com/politics/2026/08/dolly-parton-unions-books-gays-tribute/"
    }
   ],
   "checked": "2026-11-11",
@@ -3946,9 +4046,9 @@
   "econ": -6.0,
   "auth": -7.0,
   "confidence": 3,
-  "ce": 0,
+  "ce": 2,
   "ca": 3,
-  "basis": "Marched from Selma to Montgomery with King; jailed twice in 1967 for blocking a draft induction centre; withheld war taxes for a decade; in 1979 founded Humanitas International and publicly condemned abuses by Vietnam's communist government.",
+  "basis": "Marched from Selma to Montgomery with King; jailed twice in 1967 for blocking a draft induction centre; withheld war taxes for a decade; in 1979 founded Humanitas International and publicly condemned abuses by Vietnam's communist government. Played Occupy Wall Street (2011) and joined Bernie Sanders' Fighting Oligarchy tour (2025).",
   "sources": [
    {
     "title": "National Women's History Museum: Joan Baez",
@@ -3961,6 +4061,14 @@
    {
     "title": "Biography.com: Joan Baez",
     "url": "https://www.biography.com/musicians/joan-baez"
+   },
+   {
+    "title": "NY Daily News: Joan Baez at Occupy Wall Street (2011)",
+    "url": "http://www.nydailynews.com/new-york/folk-music-legend-joan-baez-perform-occupy-wall-street-rally-article-1.975888"
+   },
+   {
+    "title": "NPR: Sanders' Fighting Oligarchy tour (2025)",
+    "url": "https://www.npr.org/2025/03/22/nx-s1-5334488/bernie-sanders-fight-oligarchy-tour-trump-musk-doge-democrats"
    }
   ],
   "checked": "2026-11-11",
@@ -4003,12 +4111,12 @@
   "name": "Bob Marley",
   "band": "The Wailers",
   "genre": "F",
-  "econ": -5.0,
+  "econ": -4,
   "auth": -5.4,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "Joined the hands of rival party leaders Manley and Seaga at the 1978 One Love Peace Concert; played Zimbabwe's independence celebrations in 1980; Pan-Africanist songwriting.",
+  "basis": "Joined the hands of rival party leaders Manley and Seaga at the 1978 One Love Peace Concert; played Zimbabwe's independence celebrations in 1980; Pan-Africanist songwriting. A friend of the democratic-socialist prime minister Michael Manley; the historian Brian Meeks reads the One Love handshake as an attempt to save Manley's socialist project, not as neutrality. An interpretation, so a single signal.",
   "sources": [
    {
     "title": "Wikipedia: One Love Peace Concert",
@@ -4021,6 +4129,10 @@
    {
     "title": "Andscape: One Love and the Zimbabwe independence show",
     "url": "https://andscape.com/features/bob-marley-jamaica-one-love-peace-concert/"
+   },
+   {
+    "title": "Jacobin: Bob Marley's peace gesture supported radical change in Jamaica (2021)",
+    "url": "https://jacobin.com/2021/06/bob-marley-jamaica-peace-concert-photo"
    }
   ],
   "checked": "2026-11-11",
@@ -4152,9 +4264,9 @@
   "econ": -4.0,
   "auth": -2.6,
   "confidence": 3,
-  "ce": 0,
+  "ce": 2,
   "ca": 3,
-  "basis": "Led the three-year campaign for Martin Luther King Day (\"Happy Birthday\", 1981 Washington rally, testimony to Congress); campaigned for Clinton in 2016.",
+  "basis": "Led the three-year campaign for Martin Luther King Day (\"Happy Birthday\", 1981 Washington rally, testimony to Congress); campaigned for Clinton in 2016. Decades of Democratic campaigning; wrote 'Keep Moving Forward' (2012) for Obama's re-election, praising 'jobs for all' and 'health care for the middle class'.",
   "sources": [
    {
     "title": "Library of Congress: Song stories, Stevie Wonder's Happy Birthday",
@@ -4163,6 +4275,14 @@
    {
     "title": "Time via AOL: How Stevie Wonder helped make MLK Day official",
     "url": "https://www.aol.com/entertainment/stevie-wonder-helped-mlk-day-195845590.html"
+   },
+   {
+    "title": "Live for Live Music: Stevie Wonder's 'Keep Moving Forward' for Obama (2012)",
+    "url": "https://liveforlivemusic.com/news/stevie-wonder-releases-keep-moving-forward-endorsing-president-obama/"
+   },
+   {
+    "title": "Rolling Stone: rockers rally for Obama (2008)",
+    "url": "https://www.rollingstone.com/music/music-news/rockers-rally-for-obama-campaign-246439/"
    }
   ],
   "checked": "2026-11-11",
@@ -4234,9 +4354,9 @@
   "econ": -7.0,
   "auth": -5.0,
   "confidence": 3,
-  "ce": 0,
+  "ce": 2,
   "ca": 3,
-  "basis": "Co-funded an NME advert against the Iraq war; long Palestinian-solidarity campaigning, arrested at a protest against the ban on Palestine Action; commissioned the Tyndall Centre roadmap on touring emissions (2019).",
+  "basis": "Co-funded an NME advert against the Iraq war; long Palestinian-solidarity campaigning, arrested at a protest against the ban on Palestine Action; commissioned the Tyndall Centre roadmap on touring emissions (2019). Co-hosted the Occupy party in an occupied UBS bank (2011); signed the 2019 letter backing Corbyn; called for more government support for people in food poverty (2020).",
   "sources": [
    {
     "title": "Guardian via PressReader: Del Naja – 'To help save the planet we'll have to change' (2019)",
@@ -4249,6 +4369,14 @@
    {
     "title": "Dork: Del Naja statement after arrest at Palestine Action protest",
     "url": "https://readdork.com/news/massive-attack-del-naja-palestine-action-arrest-total-madness"
+   },
+   {
+    "title": "NME: letter supporting Jeremy Corbyn (2019)",
+    "url": "https://www.nme.com/news/music/new-letter-supporting-jeremy-corbyn-2574649"
+   },
+   {
+    "title": "Guardian: 3D raises £106,000 for Bristol food banks (2020)",
+    "url": "https://www.theguardian.com/music/2020/may/20/massive-attacks-3d-raises-106000-for-bristol-food-banks-with-art-print-fire-sale-robert-del-naja"
    }
   ],
   "checked": "2026-11-11",
@@ -4618,9 +4746,9 @@
   "econ": -4,
   "auth": -5,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "Paused his 2019 tour to join the protests that ousted Puerto Rico's governor; endorsed Kamala Harris in 2024; left the US mainland off his 2025–26 tour over fears of ICE raids at shows.",
+  "basis": "Paused his 2019 tour to join the protests that ousted Puerto Rico's governor; endorsed Kamala Harris in 2024; left the US mainland off his 2025–26 tour over fears of ICE raids at shows. The 'El Apagón' video (2022) attacks the privatised power grid run by LUMA, the Act 22 tax exemptions for wealthy incomers, and beach privatisation.",
   "sources": [
    {
     "title": "CNN via ABC7: Bad Bunny skipped the US over ICE raid fears",
@@ -4633,6 +4761,14 @@
    {
     "title": "SAN: 2019 Rosselló protests and Harris endorsement",
     "url": "https://san.com/cc/bad-bunny-on-skipping-us-in-upcoming-tour-its-unnecessary/"
+   },
+   {
+    "title": "NBC Miami: Bad Bunny protests LUMA Energy in 'El Apagón' (2022)",
+    "url": "https://nbcmiami.com/news/local/bad-bunny-protests-luma-energy-in-new-music-video-for-el-apagon/2860230"
+   },
+   {
+    "title": "Montevideo Portal: 'El apagón', a documentary of social protest (2022)",
+    "url": "https://www.montevideo.com.uy/Pantallazo/Bad-Bunny-estreno-el-video-de-El-apagon--un-documental-de-denuncia-social-uc832942"
    }
   ],
   "checked": "2026-11-11",
@@ -4648,9 +4784,9 @@
   "econ": -3,
   "auth": -5,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "\"Shoot the Dog\" (2002) cast Blair as Bush's poodle before the Iraq War; kept campaigning against the war in 2003.",
+  "basis": "\"Shoot the Dog\" (2002) cast Blair as Bush's poodle before the Iraq War; kept campaigning against the war in 2003. Joined the Young Communist League at 15, voted Labour through the Thatcher years, and Wham! played a 1984 benefit for the striking miners.",
   "sources": [
    {
     "title": "Tribune: When George Michael came for Blair",
@@ -4659,6 +4795,14 @@
    {
     "title": "The Advocate: Michael brings his anti-war protest to TV (2003)",
     "url": "https://www.advocate.com/arts-entertainment/entertainment-news/2003/03/08/george-michael-brings-his-antiwar-protest-ltigttop"
+   },
+   {
+    "title": "Guardian: Wham!, the most misunderstood group of the 1980s (2016)",
+    "url": "https://www.theguardian.com/music/musicblog/2016/dec/26/george-michael-wham-most-misunderstood-group-1980s-thatcherism"
+   },
+   {
+    "title": "New Frame: political songs – Shoot the Dog",
+    "url": "https://www.newframe.com/political-songs-shoot-the-dog-george-michael/"
    }
   ],
   "checked": "2026-11-11",
@@ -4704,9 +4848,9 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "Visited the Calais camp in 2016 and apologised to a child refugee \"on behalf of my country\"; offered to take in an unaccompanied child; called the press coverage xenophobic.",
+  "basis": "Visited the Calais camp in 2016 and apologised to a child refugee \"on behalf of my country\"; offered to take in an unaccompanied child; called the press coverage xenophobic. Calls herself a socialist; Labour supporter who rallied for Corbyn in 2016 and called the 2019 manifesto 'the best I've ever seen'.",
   "sources": [
    {
     "title": "AP via Washington Times: Lily Allen apologizes to refugees in Calais",
@@ -4715,6 +4859,14 @@
    {
     "title": "HuffPost UK: Allen hits back at xenophobic coverage",
     "url": "https://huffingtonpost.co.uk/entry/lily-allen-hits-back-at-xenophobic-attacks-on-her-after-calais-visit_uk_57ff93d0e4b0e982146c22b9"
+   },
+   {
+    "title": "Independent: Lily Allen on socialism (2016)",
+    "url": "https://www.independent.co.uk/voices/kate-bush-theresa-may-conservatives-lily-allen-socialism-isolated-who-cares-a7451571.html"
+   },
+   {
+    "title": "Telegraph: Corbyn supporters rally (2016)",
+    "url": "https://www.telegraph.co.uk/news/2016/06/25/labour-divided-over-jeremy-corbyn-as-supporters-launch-petition/"
    }
   ],
   "checked": "2026-11-11",
@@ -4906,9 +5058,9 @@
   "econ": -5,
   "auth": -6,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "Called Obama \"the biggest terrorist\" over US foreign policy and drone strikes (CBS, 2011) after calling Bush an \"American Terrorist\" in 2006; says he doesn't vote; cut off at a 2013 pre-inaugural show for an anti-Obama rap.",
+  "basis": "Called Obama \"the biggest terrorist\" over US foreign policy and drone strikes (CBS, 2011) after calling Bush an \"American Terrorist\" in 2006; says he doesn't vote; cut off at a 2013 pre-inaugural show for an anti-Obama rap. An early Occupy supporter: donated 50 tents to Zuccotti Park, wrote the poem 'Moneyman' for The Occupied Wall Street Journal, and dropped off tents at Occupy Denver (2011).",
   "sources": [
    {
     "title": "BET: Lupe Fiasco calls Obama a terrorist (2011)",
@@ -4921,6 +5073,14 @@
    {
     "title": "Reason: Lupe Fiasco calls out Obama at pre-inaugural concert (2013)",
     "url": "https://reason.com/2013/01/21/lupe-fiasco-causes-one-calls-out-obama-a/printer"
+   },
+   {
+    "title": "Green Left: Lupe Fiasco's 'Moneyman' poem for Occupy (2011)",
+    "url": "https://greenleft.org.au/content/moneyman-lupe-fiascos-poem-occupy-movement"
+   },
+   {
+    "title": "Westword: Lupe Fiasco supports Occupy Denver (2011)",
+    "url": "https://www.westword.com/music/lupe-fiasco-supports-occupy-denver-on-twitter-and-in-person-5683819"
    }
   ],
   "checked": "2026-11-11",
@@ -4933,12 +5093,12 @@
   "name": "Macklemore",
   "band": "solo",
   "genre": "H",
-  "econ": -5,
+  "econ": -4,
   "auth": -5,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "\"Same Love\" (2012) for marriage equality; \"Hind's Hall\" (2024) backing the Gaza campus protests, with proceeds to UNRWA and a line blaming Biden; joined Black Lives Matter protests.",
+  "basis": "\"Same Love\" (2012) for marriage equality; \"Hind's Hall\" (2024) backing the Gaza campus protests, with proceeds to UNRWA and a line blaming Biden; joined Black Lives Matter protests. A 2025 single attacks the billionaire class, a single economic signal.",
   "sources": [
    {
     "title": "Guardian via Yahoo: Macklemore backs Palestine and campus protests",
@@ -4947,6 +5107,10 @@
    {
     "title": "The Conversation via Interaksyon: Hind's Hall as a protest anthem",
     "url": "https://interaksyon.philstar.com/celebrities/2024/05/13/275411/hinds-hall-is-macklemores-bold-new-pro-palestine-anthem-what-might-it-actually-achieve/"
+   },
+   {
+    "title": "The Mary Sue: Macklemore's single puts billionaires on blast (2025)",
+    "url": "https://themarysue.com/more-money-more-oppression-macklemores-latest-single-rightfully-puts-billionaires-on-blast"
    }
   ],
   "checked": "2026-11-11",

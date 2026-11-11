@@ -82,7 +82,7 @@ details.opt[open] summary{border-color:var(--ink)}
 .pt .ring{fill:none;stroke:var(--ink);stroke-width:1.5}
 .pt text{font:12px system-ui,sans-serif;fill:var(--ink);paint-order:stroke;stroke:var(--panel);stroke-width:3px;stroke-linejoin:round}
 .pt.sel text{font-weight:700}
-.dm{opacity:.13}
+.dm{opacity:.13}.taste{margin:18px 0 6px;padding:14px;border:1px solid var(--grid2);border-radius:12px;background:var(--panel)}.taste h3{margin:0 0 4px;font:600 16px Georgia,serif}.tf{display:flex;gap:8px;margin:10px 0 6px}.tf input{flex:1;min-width:0;font:16px system-ui,sans-serif;padding:8px 10px;border:1px solid var(--grid2);border-radius:8px;background:var(--bg);color:var(--ink)}.tf button,.tclr{font:600 14px system-ui,sans-serif;padding:8px 14px;border:1px solid var(--ink);border-radius:8px;background:var(--ink);color:var(--bg);cursor:pointer}.tclr{background:none;color:var(--ink);border-color:var(--grid2);padding:5px 10px;font-weight:500}.tres{font-size:14px;line-height:1.45}.tres ol{margin:8px 0;padding-left:20px}.tres li{margin:2px 0}.tres li small{color:var(--mut)}.tcen{margin:8px 0;padding:8px 10px;border-left:3px solid var(--ink);background:var(--bg);border-radius:0 8px 8px 0}.tcr{font-size:12px;color:var(--mut);margin:8px 0 0}.terr{color:#c0392b}.cen circle{fill:none;stroke:var(--ink);stroke-width:2}.cen .c2{stroke-width:1;stroke-dasharray:2 2}.cen line{stroke:var(--ink);stroke-width:1.5}.cen text{font:600 11px system-ui,sans-serif;fill:var(--ink);paint-order:stroke;stroke:var(--bg);stroke-width:3px}
 .cl circle{fill:var(--panel);stroke:var(--ink2);stroke-width:1.5}
 .cl text{font:700 12px system-ui,sans-serif;fill:var(--ink);text-anchor:middle;dominant-baseline:central;pointer-events:none}
 .cl .cg{fill:none;stroke:var(--c);stroke-width:3}
@@ -185,6 +185,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 #sv.hovering #gTr>g:not(.hv){opacity:.15}
 #gTr>g.hv line{stroke:var(--ink)}
 </style>
+<script data-goatcounter="https://offkeys.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
 <main>
@@ -229,6 +230,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <div class="lh"><span id="lc"></span><span class="srt"><button type="button" id="sdir" class="sdir" aria-label="Reverse order" title="Reverse order"></button><label>Sort <select id="sort"><option value="name">Name</option><option value="econ">Left to right</option><option value="auth">Libertarian to authoritarian</option><option value="src">Sourced first</option><option value="start">Career began</option><option value="read">Most languages on Wikipedia</option><option value="heard">Most listened (Last.fm)</option></select></label></span></div>
 <div id="list"></div>
 </section>
+<section class="taste" id="taste"><h3>Your taste</h3><p class="fnote">Enter a Last.fm username to see which of your top 1,000 artists are on the chart, and where your listening sits on average.</p><form id="tF" class="tf" autocomplete="off"><input id="tU" type="text" placeholder="Last.fm username" aria-label="Last.fm username" autocapitalize="off" spellcheck="false"><button type="submit" id="tGo">Match</button></form><div id="tOut" aria-live="polite"></div><p class="tcr">Listening data from <a href="https://www.last.fm" target="_blank" rel="noopener">Last.fm</a>. Nothing is stored except the username, in your own browser.</p></section>
 
 </div>
 <div id="sheet" hidden><div class="sh" id="sh" role="dialog" aria-modal="false" aria-labelledby="shName"></div></div>
@@ -358,10 +360,10 @@ function draw(){
  $("gBg").innerHTML=g;
  $("gAx").innerHTML=st.k>1?"":`<text class="ql" x="${M+6}" y="${M+13}">AUTH-LEFT</text><text class="ql" x="${S-M-6}" y="${M+13}" text-anchor="end">AUTH-RIGHT</text><text class="ql" x="${M+6}" y="${S-M-6}">LIB-LEFT</text><text class="ql" x="${S-M-6}" y="${S-M-6}" text-anchor="end">LIB-RIGHT</text>`;
  const vis=[];D.forEach((d,i)=>{if(!pass(d))return;d.X=sx(d.x);d.Y=sy(d.y);if(d.X>M-12&&d.X<S-M+12&&d.Y>M-12&&d.Y<S-M+12)vis.push(i)});
- const q=!!st.q;
+ const q=!!st.q,tq=!!st.taste,q2=q||tq,on=i=>(!q||hit(D[i]))&&(!tq||st.taste.w.has(i));
  // group crowded marks into numbered bubbles (never the selected mark or search hits)
  CL_=[];const inCl=new Set();
- if(st.cluster&&!q){const R0=20,cand=vis.filter(i=>i!==st.sel),nb={};
+ if(st.cluster&&!q2){const R0=20,cand=vis.filter(i=>i!==st.sel),nb={};
   cand.forEach(i=>{nb[i]=cand.filter(j=>Math.hypot(D[i].X-D[j].X,D[i].Y-D[j].Y)<R0)});
   cand.slice().sort((a,b)=>nb[b].length-nb[a].length).forEach(i=>{if(inCl.has(i))return;const m=nb[i].filter(j=>!inCl.has(j));if(m.length<4)return;m.forEach(j=>inCl.add(j));CL_.push({m})});
   const fit=c=>{c.X=c.m.reduce((s,j)=>s+D[j].X,0)/c.m.length;c.Y=c.m.reduce((s,j)=>s+D[j].Y,0)/c.m.length;c.r=11+Math.sqrt(c.m.length)*2.6};CL_.forEach(fit);
@@ -377,24 +379,25 @@ function draw(){
  let sp="";if(st.splits){const b={};vis.forEach(i=>{const d=D[i];if(d.band!=="solo")(b[d.band]=b[d.band]||[]).push(d)});for(const k in b){const a=b[k];for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++)sp+=`<line x1="${a[i].X.toFixed(1)}" y1="${a[i].Y.toFixed(1)}" x2="${a[j].X.toFixed(1)}" y2="${a[j].Y.toFixed(1)}"/>`}}
  $("gSp").innerHTML=sp;
  // labels: selected, then search hits, then by confidence
- const own={},boxes=[];solo.forEach(i=>{own[i]={x:D[i].X-8,y:D[i].Y-8,w:16,h:16};boxes.push(own[i])});CL_.forEach(c=>boxes.push({x:c.X-c.r-3,y:c.Y-c.r-3,w:2*c.r+6,h:2*c.r+6}));
+ const own={},boxes=[];solo.forEach(i=>{own[i]={x:D[i].X-8,y:D[i].Y-8,w:16,h:16};if(!tq||on(i)||i===st.sel)boxes.push(own[i])});CL_.forEach(c=>boxes.push({x:c.X-c.r-3,y:c.Y-c.r-3,w:2*c.r+6,h:2*c.r+6}));
  if(st.k===1){const tb=(x,y,w,a)=>boxes.push({x:a==="middle"?x-w/2:a==="end"?x-w:x,y:y-11,w,h:14});
     tb(M+6,M+13,70,"start");tb(S-M-6,M+13,74,"end");tb(M+6,S-M-6,66,"start");tb(S-M-6,S-M-6,70,"end")}
- const pri=i=>(i===st.sel?100:0)+(q&&hit(D[i])?50:0)+D[i].confidence;
+ if(tq&&st.taste.n>=3){const X=sx(st.taste.cx),Y=sy(st.taste.cy);boxes.push({x:X-16,y:Y-16,w:32,h:32},{x:X-42,y:Y+18,w:84,h:15})}
+ const pri=i=>(i===st.sel?100:0)+(q2&&on(i)?50:0)+D[i].confidence;
  const lab={};let hidden=0;
- solo.slice().sort((a,b)=>pri(b)-pri(a)).forEach(i=>{const d=D[i];if(q&&!hit(d)&&i!==st.sel){return}
+ solo.slice().sort((a,b)=>pri(b)-pri(a)).forEach(i=>{const d=D[i];if(q2&&!on(i)&&i!==st.sel){return}
   const w=d.name.length*6.6+4,h=15,x=d.X,y=d.Y,c=[{x:x+11,y:y-8,a:"start",tx:x+11},{x:x-11-w,y:y-8,a:"end",tx:x-11},{x:x-w/2,y:y-26,a:"middle",tx:x},{x:x-w/2,y:y+11,a:"middle",tx:x},{x:x+9,y:y-1,a:"start",tx:x+9},{x:x-9-w,y:y-1,a:"end",tx:x-9},{x:x+8,y:y-21,a:"start",tx:x+8},{x:x-8-w,y:y-21,a:"end",tx:x-8}];
   for(const k of c){const bx={x:k.x,y:k.y,w,h};if(bx.x<M+2||bx.x+w>S-M-2||bx.y<M+2||bx.y+h>S-M-2)continue;if(i!==st.sel&&boxes.some(o=>o!==own[i]&&ov(bx,o)))continue;boxes.push(bx);lab[i]={tx:k.tx,ty:k.y+11.5,a:k.a};return}
   hidden++});
  // shifts (caption only where it fits)
- let tr="";if(st.shifts||st.hov!=null)vis.forEach(i=>{const d=D[i];if(!d.shift||(!st.shifts&&i!==st.hov))return;const x1=sx(d.shift.econ),y1=sy(d.shift.auth),x2=d.X,y2=d.Y,L=Math.hypot(x2-x1,y2-y1);if(L<20)return;const ux_=(x2-x1)/L,uy_=(y2-y1)/L,dm=q&&!hit(d)?' class="dm"':"";
+ let tr="";if(st.shifts||st.hov!=null)vis.forEach(i=>{const d=D[i];if(!d.shift||(!st.shifts&&i!==st.hov)||(tq&&!on(i)&&i!==st.hov))return;const x1=sx(d.shift.econ),y1=sy(d.shift.auth),x2=d.X,y2=d.Y,L=Math.hypot(x2-x1,y2-y1);if(L<20)return;const ux_=(x2-x1)/L,uy_=(y2-y1)/L,dm=q2&&!on(i)?' class="dm"':"";
   const right=d.shift.econ>0,tx=x1+(right?-10:10),ty=y1+(d.shift.auth<-6?19:-10),w=d.shift.label.length*6.2+4,bx={x:right?tx-w:tx,y:ty-11,w,h:14};
   let cap="";if(bx.x>M&&bx.x+w<S-M&&bx.y>M&&bx.y+14<S-M&&!boxes.some(o=>ov(bx,o))){boxes.push(bx);cap=`<text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" text-anchor="${right?"end":"start"}">${esc(d.shift.label)}</text>`}
-  tr+=`<g class="${shWeak(d)?"wk":""}${i===st.hov?" hv":(q&&!hit(d)?" dm":"")}"><line x1="${(x1+ux_*8).toFixed(1)}" y1="${(y1+uy_*8).toFixed(1)}" x2="${(x2-ux_*13).toFixed(1)}" y2="${(y2-uy_*13).toFixed(1)}" marker-end="url(#ah)"/><circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="6"/>${cap}</g>`});
+  tr+=`<g class="${shWeak(d)?"wk":""}${i===st.hov?" hv":(q2&&!on(i)?" dm":"")}"><line x1="${(x1+ux_*8).toFixed(1)}" y1="${(y1+uy_*8).toFixed(1)}" x2="${(x2-ux_*13).toFixed(1)}" y2="${(y2-uy_*13).toFixed(1)}" marker-end="url(#ah)"/><circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="6"/>${cap}</g>`});
  $("gTr").innerHTML=tr;
  let pts="";PV=[];
 const order=solo.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
- order.forEach(i=>{const d=D[i],X=d.X,Y=d.Y,l=lab[i],dm=q&&!hit(d)&&i!==st.sel;PV.push({i,X,Y});
+ order.forEach(i=>{const d=D[i],X=d.X,Y=d.Y,l=lab[i],dm=q2&&!on(i)&&i!==st.sel;PV.push({i,X,Y});
   pts+=`<g class="pt g${d.genre} c${d.confidence}${i===st.sel?" sel":""}${i===st.hov?" hov":""}${dm?" dm":""}" data-i="${i}">`+(fan.has(i)?`<line class="ld" x1="${d.tX.toFixed(1)}" y1="${d.tY.toFixed(1)}" x2="${X.toFixed(1)}" y2="${Y.toFixed(1)}"/><circle class="tp" cx="${d.tX.toFixed(1)}" cy="${d.tY.toFixed(1)}" r="1.8"/>`:"")+
   ((st.halos||i===st.sel||i===st.hov)?`<ellipse class="h" cx="${(fan.has(i)?d.tX:X).toFixed(1)}" cy="${(fan.has(i)?d.tY:Y).toFixed(1)}" rx="${(HX[d.ce??d.confidence]*U).toFixed(1)}" ry="${(HR[d.ca??d.confidence]*U).toFixed(1)}"/>`:"")+
   `<circle cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="16" fill="transparent"/>`+
@@ -404,6 +407,7 @@ const order=solo.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
   // thin genre ring around the bubble, segment length by count
   let a0=-Math.PI/2,ring="";const C=2*Math.PI*(c.r+3);[...GO].forEach(g=>{if(!cnt[g])return;const f=cnt[g]/c.m.length;ring+=`<circle class="cg g${g}" cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${(c.r+3).toFixed(1)}" stroke="var(--c)" stroke-dasharray="${(f*C).toFixed(1)} ${C.toFixed(1)}" transform="rotate(${(a0*180/Math.PI).toFixed(1)} ${c.X.toFixed(1)} ${c.Y.toFixed(1)})"/>`;a0+=f*2*Math.PI});
   PV.push({c:ci,X:c.X,Y:c.Y});pts+=`<g class="cl" data-c="${ci}" role="button" aria-label="${c.m.length} people; tap to zoom in">${ring}${KF&&KF.c===ci?`<circle class="kf" cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${(c.r+7).toFixed(1)}"/>`:""}<circle cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${c.r.toFixed(1)}"/><text x="${c.X.toFixed(1)}" y="${c.Y.toFixed(1)}">${c.m.length}</text></g>`});
+ if(tq&&st.taste.n>=3){const X=sx(st.taste.cx),Y=sy(st.taste.cy);if(X>M&&X<S-M&&Y>M&&Y<S-M)pts+=`<g class="cen" aria-label="Centre of your listening"><circle cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="9"/><circle class="c2" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="15"/><line x1="${(X-5).toFixed(1)}" y1="${Y.toFixed(1)}" x2="${(X+5).toFixed(1)}" y2="${Y.toFixed(1)}"/><line x1="${X.toFixed(1)}" y1="${(Y-5).toFixed(1)}" x2="${X.toFixed(1)}" y2="${(Y+5).toFixed(1)}"/><text x="${X.toFixed(1)}" y="${(Y+29).toFixed(1)}" text-anchor="middle">your listening</text></g>`}
  $("gPt").innerHTML=pts;$("sv").classList.toggle("hovering",st.hov!=null);
  // chrome
  $("zIn").disabled=st.k>=KMAX;$("zOut").disabled=st.k<=1;$("zR").disabled=st.k<=1;
@@ -539,6 +543,37 @@ const THM=["auto","light","dark"],TI={auto:'<svg viewBox="0 0 16 16"><circle cx=
 function setTheme(t){if(t==="auto")document.documentElement.removeAttribute("data-theme");else document.documentElement.setAttribute("data-theme",t);$("thm").innerHTML=TI[t];$("thm").title="Theme: "+t+" (tap to change)";try{localStorage.setItem("thm",t)}catch(e){}}
 let thm="auto";try{thm=localStorage.getItem("thm")||"auto"}catch(e){}
 setTheme(THM.includes(thm)?thm:"auto");$("thm").onclick=()=>{thm=THM[(THM.indexOf(thm)+1)%3];setTheme(thm)};
+
+// ---------- your taste (Last.fm) ----------
+const LFK="c786edf85e9d7a09043082b14c08666d";
+const nrm=s=>(s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/&/g,"and").replace(/^the /,"").replace(/[^a-z0-9]+/g,"");
+function tasteFrom(arts){const P={};arts.forEach(a=>{P[nrm(a.name)]=(P[nrm(a.name)]||0)+(+a.playcount||0)});
+ const bandN={};D.forEach(d=>{if(d.band&&d.band!=="solo"){const k=nrm(d.band);bandN[k]=(bandN[k]||0)+1}});
+ const w=new Map(),how={};
+ D.forEach((d,i)=>{let v=0,src=[];const own=P[nrm(d.name)]||0;if(own){v+=own;src.push(d.name)}
+  const al=d.lfmAct&&nrm(d.lfmAct)!==nrm(d.band)&&nrm(d.lfmAct)!==nrm(d.name)?P[nrm(d.lfmAct)]||0:0;if(al){v+=al;src.push(d.lfmAct)}
+  if(d.band&&d.band!=="solo"){const b=P[nrm(d.band)]||0;if(b){const n=bandN[nrm(d.band)]||1;v+=b/n;src.push(d.band+(n>1?` (1/${n})`:""))}}
+  if(v>0){w.set(i,v);how[i]=src}});
+ const hitA=new Set();D.forEach(d=>[d.name,d.lfmAct,d.band].forEach(s=>{if(s&&s!=="solo"&&P[nrm(s)])hitA.add(nrm(s))}));
+ let W=0,cx=0,cy=0;w.forEach((v,i)=>{W+=v;cx+=v*D[i].econ;cy+=v*D[i].auth});
+ return{w,how,n:w.size,na:hitA.size,cx:W?cx/W:0,cy:W?cy/W:0}}
+function tasteShow(user,t,total){const o=$("tOut");
+ if(!t.n){o.innerHTML=`<div class="tres">None of ${esc(user)}'s top ${total.toLocaleString("en")} artists are on the chart yet. <button type="button" class="tclr" id="tClr">Clear</button></div>`;$("tClr").onclick=tasteClear;return}
+ const top=[...t.w.entries()].sort((a,b)=>b[1]-a[1]).slice(0,10);
+ const cen=t.n>=3?`<div class="tcen"><b>Centre of your listening:</b> economic ${fmt(+t.cx.toFixed(1))}, authority ${fmt(+t.cy.toFixed(1))}.<br><small>This is where the musicians you play sit on average, weighted by plays. It is not where you sit.</small></div>`:`<p class="fnote">Fewer than three matches, so no centre is drawn.</p>`;
+ o.innerHTML=`<div class="tres"><b>${t.na}</b> of ${esc(user)}'s top ${total.toLocaleString("en")} artists ${t.na===1?"matches":"match"} <b>${t.n}</b> ${t.n===1?"person":"people"} on the chart; everyone else is faded. ${cen}<ol>${top.map(([i,v])=>`<li><a href="#" data-i="${i}">${esc(D[i].name)}</a> <small>${Math.round(v).toLocaleString("en")} plays${t.how[i].some(s=>s!==D[i].name)?" via "+esc(t.how[i].join(", ")):""}</small></li>`).join("")}</ol><button type="button" class="tclr" id="tClr">Clear</button></div>`;
+ $("tClr").onclick=tasteClear;o.querySelectorAll("a[data-i]").forEach(a=>a.onclick=e=>{e.preventDefault();focusOn(+a.dataset.i)})}
+function tasteClear(){st.taste=null;$("tOut").innerHTML="";refresh()}
+$("tF").onsubmit=async e=>{e.preventDefault();const user=$("tU").value.trim();if(!user)return;const o=$("tOut"),b=$("tGo");b.disabled=true;o.innerHTML='<p class="fnote">Fetching your top artists…</p>';
+ try{const r=await fetch(`https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=${encodeURIComponent(user)}&period=overall&limit=1000&api_key=${LFK}&format=json`);const j=await r.json();
+  if(j.error){o.innerHTML=`<p class="terr">${j.error===6?"No Last.fm user by that name.":j.error===17?"That profile keeps its listening private.":"Last.fm said: "+esc(j.message||"error")}</p>`;return}
+  const arts=(j.topartists&&j.topartists.artist)||[];const t=tasteFrom(arts);st.taste=t.n?t:null;
+  try{localStorage.setItem("lfu",user)}catch(_){}
+  if(t.n&&st.view!=="all")setView("all");else refresh();tasteShow(user,t,arts.length);
+  try{window.goatcounter&&goatcounter.count&&goatcounter.count({path:"taste-match",title:"Your taste",event:true})}catch(_){}}
+ catch(err){o.innerHTML='<p class="terr">Could not reach Last.fm. Check your connection and try again.</p>'}
+ finally{b.disabled=false}};
+try{const u=localStorage.getItem("lfu");if(u)$("tU").value=u}catch(_){}
 </script>
 </body>
 </html>

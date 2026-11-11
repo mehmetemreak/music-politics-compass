@@ -556,11 +556,11 @@
   "band": "Foo Fighters",
   "genre": "R",
   "econ": -3,
-  "auth": -4,
+  "auth": -3.5,
   "confidence": 2,
   "ce": 1,
   "ca": 2,
-  "basis": "Played Kerry campaign stops in 2004 after Bush used \"Times Like These\"; objected to McCain using \"My Hero\" (2008); headlined an Obama fundraiser in 2012; played Biden's inauguration concert. Counter-protested the anti-gay Westboro Baptist Church in 2011 and 2015; advocates gun control.",
+  "basis": "Played Kerry campaign stops in 2004 after Bush used \"Times Like These\"; objected to McCain using \"My Hero\" (2008); headlined an Obama fundraiser in 2012; played Biden's inauguration concert. Counter-protested the anti-gay Westboro Baptist Church in 2011 and 2015; advocates gun control. Gun regulation counts as a mild authority claim: +0.5.",
   "sources": [
    {
     "title": "Rolling Stone: Grohl on Biden's inauguration and the Kerry trail",
@@ -670,11 +670,11 @@
   "band": "Red Hot Chili Peppers",
   "genre": "R",
   "econ": -3.5,
-  "auth": -4,
+  "auth": -3.5,
   "confidence": 2,
   "ce": 2,
   "ca": 2,
-  "basis": "Wrote a Rolling Stone op-ed backing Bernie Sanders and played the band's 2016 \"Feel the Bern\" fundraiser; all four members signed the endorsement letter. Said in 2016 he fears the NRA more than terrorists, backing tighter gun laws.",
+  "basis": "Wrote a Rolling Stone op-ed backing Bernie Sanders and played the band's 2016 \"Feel the Bern\" fundraiser; all four members signed the endorsement letter. Said in 2016 he fears the NRA more than terrorists, backing tighter gun laws. Gun regulation counts as a mild authority claim: +0.5.",
   "sources": [
    {
     "title": "Rolling Stone: Chili Peppers at Bernie Sanders fundraiser",
@@ -1722,11 +1722,11 @@
   "band": "solo",
   "genre": "M",
   "econ": 8,
-  "auth": 3,
+  "auth": 2.5,
   "confidence": 3,
   "ce": 2,
   "ca": 3,
-  "basis": "NRA board member from 1995 to 2021 and author of \"I Am the NRA\"; campaigned with Donald Trump Jr. in 2020 and calls Trump the greatest president of his lifetime; hard line on drugs and immigration.",
+  "basis": "NRA board member from 1995 to 2021 and author of \"I Am the NRA\"; campaigned with Donald Trump Jr. in 2020 and calls Trump the greatest president of his lifetime; hard line on drugs and immigration. Gun-rights advocacy counts as a mild liberty claim: −0.5.",
   "sources": [
    {
     "title": "Bloomberg: Ted Nugent resigns from NRA board after 26 years (2021)",
@@ -1834,11 +1834,11 @@
   "band": "Ramones",
   "genre": "P",
   "econ": 7,
-  "auth": 4,
+  "auth": 3.5,
   "confidence": 3,
   "ce": 2,
   "ca": 3,
-  "basis": "Ended the Ramones' 2002 Rock Hall speech with \"God bless President Bush\"; called Reagan the best president of his lifetime; NRA-supporting, low-tax Republican who fought Joey over \"Bonzo Goes to Bitburg\".",
+  "basis": "Ended the Ramones' 2002 Rock Hall speech with \"God bless President Bush\"; called Reagan the best president of his lifetime; NRA-supporting, low-tax Republican who fought Joey over \"Bonzo Goes to Bitburg\". Gun-rights advocacy counts as a mild liberty claim: −0.5.",
   "sources": [
    {
     "title": "Rolling Stone: The Curse of the Ramones – Hall of Fame speech",
@@ -2132,11 +2132,11 @@
   "band": "Metallica",
   "genre": "M",
   "econ": 3,
-  "auth": -3,
+  "auth": -3.5,
   "confidence": 1,
   "ce": 1,
   "ca": 1,
-  "basis": "NRA member and hunter who left the Bay Area for Colorado in 2016, citing an \"elitist attitude\" toward anyone not \"their way politically\"; otherwise keeps out of politics. Rolling Stone, interviewing him: has never voted; 'a defiantly individual mix of right-of-center values with a strong dislike of rules — kind of a conservative anarchist.' Says 'I hate politics' and keeps his view of Trump to himself. A journalist's summary, not an economic stance he stated, so the weakest economic record here.",
+  "basis": "NRA member and hunter who left the Bay Area for Colorado in 2016, citing an \"elitist attitude\" toward anyone not \"their way politically\"; otherwise keeps out of politics. Rolling Stone, interviewing him: has never voted; 'a defiantly individual mix of right-of-center values with a strong dislike of rules — kind of a conservative anarchist.' Says 'I hate politics' and keeps his view of Trump to himself. A journalist's summary, not an economic stance he stated, so the weakest economic record here. Gun-rights advocacy counts as a mild liberty claim: −0.5.",
   "sources": [
    {
     "title": "Blabbermouth: Hetfield moved to Colorado over Bay Area's elitist attitude",
@@ -2373,11 +2373,11 @@
   "band": "Aerosmith",
   "genre": "M",
   "econ": 4,
-  "auth": 0,
+  "auth": -0.5,
   "confidence": 2,
   "ce": 2,
   "ca": 2,
-  "basis": "\"A definite old-school Republican\" (2012) and Republican all his life; endorsed John McCain in 2008 on national security and the economy; names JFK as his favourite president. 'I'm an advocate of gun rights' (2009); defends the Second Amendment.",
+  "basis": "\"A definite old-school Republican\" (2012) and Republican all his life; endorsed John McCain in 2008 on national security and the economy; names JFK as his favourite president. 'I'm an advocate of gun rights' (2009); defends the Second Amendment. Gun-rights advocacy counts as a mild liberty claim: −0.5.",
   "sources": [
    {
     "title": "Rolling Stone: Joe Perry – 'I'm a definite old-school Republican' (2012)",
@@ -2483,11 +2483,11 @@
   "band": "Bon Jovi",
   "genre": "R",
   "econ": -3,
-  "auth": -0.8,
+  "auth": -0.3,
   "confidence": 2,
   "ce": 1,
   "ca": 2,
-  "basis": "Registered unaffiliated but has campaigned and fundraised for Kerry, Clinton and other Democrats; runs pay-what-you-can JBJ Soul Kitchen restaurants. The album 2020 takes on gun violence (\"Lower the Flag\"), police violence (\"American Reckoning\") and migrants (\"Blood in the Water\").",
+  "basis": "Registered unaffiliated but has campaigned and fundraised for Kerry, Clinton and other Democrats; runs pay-what-you-can JBJ Soul Kitchen restaurants. The album 2020 takes on gun violence (\"Lower the Flag\"), police violence (\"American Reckoning\") and migrants (\"Blood in the Water\"). Gun regulation counts as a mild authority claim: +0.5.",
   "sources": [
    {
     "title": "AP via Washington Times: Bon Jovi's pay-what-you-can restaurant opens (2011)",
@@ -2953,11 +2953,11 @@
   "band": "Slipknot",
   "genre": "M",
   "econ": -2.8,
-  "auth": -4.0,
+  "auth": -3.5,
   "confidence": 2,
   "ce": 1,
   "ca": 2,
-  "basis": "America 51 (2017) spends a third of its length on Trump but attacks both parties; says he is \"much more liberal than people would realize\" yet stands \"in the middle\" and is tired of zealots on both sides. Backed Bernie Sanders in 2016. Called for curbs on gun availability in 2019 ('too many guns in America') while saying he does not oppose the Second Amendment; calls politicians who blame music and games for shootings idiots.",
+  "basis": "America 51 (2017) spends a third of its length on Trump but attacks both parties; says he is \"much more liberal than people would realize\" yet stands \"in the middle\" and is tired of zealots on both sides. Backed Bernie Sanders in 2016. Called for curbs on gun availability in 2019 ('too many guns in America') while saying he does not oppose the Second Amendment; calls politicians who blame music and games for shootings idiots. Gun regulation counts as a mild authority claim: +0.5.",
   "sources": [
    {
     "title": "Blabbermouth: Corey Taylor – 'The Cheeto can't lead' (2020)",
@@ -3029,11 +3029,11 @@
   "band": "Charlie Daniels Band",
   "genre": "C",
   "econ": 7.8,
-  "auth": 4.4,
+  "auth": 3.9,
   "confidence": 3,
   "ce": 2,
   "ca": 3,
-  "basis": "Headlined a 1976 benefit for Jimmy Carter and played his inauguration; later a staunch conservative columnist (\"Soapbox\"), NRA member and defender of the Iraq war, who praised Reagan.",
+  "basis": "Headlined a 1976 benefit for Jimmy Carter and played his inauguration; later a staunch conservative columnist (\"Soapbox\"), NRA member and defender of the Iraq war, who praised Reagan. Gun-rights advocacy counts as a mild liberty claim: −0.5.",
   "sources": [
    {
     "title": "Taste of Country: Charlie Daniels headlined a Jimmy Carter fundraiser",
@@ -3499,11 +3499,11 @@
   "band": "The Killers",
   "genre": "R",
   "econ": -1.5,
-  "auth": -1.5,
+  "auth": -1.0,
   "confidence": 2,
   "ce": 1,
   "ca": 2,
-  "basis": "\"Land of the Free\" (2019) on gun violence, mass incarceration and the border wall; played for Democrat Harry Reid's campaign and lunched with fellow Mormon Mitt Romney; otherwise guarded (\"left, right, or straddle the line\"). Playing for Harry Reid's campaign is a partisan proxy: a single economic signal.",
+  "basis": "\"Land of the Free\" (2019) on gun violence, mass incarceration and the border wall; played for Democrat Harry Reid's campaign and lunched with fellow Mormon Mitt Romney; otherwise guarded (\"left, right, or straddle the line\"). Playing for Harry Reid's campaign is a partisan proxy: a single economic signal. Gun regulation counts as a mild authority claim: +0.5.",
   "sources": [
    {
     "title": "Rolling Stone: The Killers address gun violence, border wall in 'Land of the Free' (2019)",
@@ -3865,11 +3865,11 @@
   "band": "solo",
   "genre": "H",
   "econ": -3.0,
-  "auth": -4.4,
+  "auth": -3.9,
   "confidence": 3,
   "ce": 1,
   "ca": 3,
-  "basis": "\"Mosh\" against Bush (2004), anti-Trump freestyle (2017), introduced Obama at a Harris rally (2024). 'The Storm' (2017) mocks Trump's tax cuts; frames his attacks as a working-class man's, a single economic signal. Publicly supports gay rights; \"Darkness\" (2020) ends with a call for stricter gun laws; backed abortion rights after Roe fell.",
+  "basis": "\"Mosh\" against Bush (2004), anti-Trump freestyle (2017), introduced Obama at a Harris rally (2024). 'The Storm' (2017) mocks Trump's tax cuts; frames his attacks as a working-class man's, a single economic signal. Publicly supports gay rights; \"Darkness\" (2020) ends with a call for stricter gun laws; backed abortion rights after Roe fell. Gun regulation counts as a mild authority claim: +0.5.",
   "sources": [
    {
     "title": "AP via PBS: Eminem and Obama rally voters for Harris in Detroit (2024)",
@@ -4001,11 +4001,11 @@
   "band": "solo",
   "genre": "H",
   "econ": -5.0,
-  "auth": -3.6,
+  "auth": -3.1,
   "confidence": 2,
   "ce": 2,
   "ca": 2,
-  "basis": "Backed Bernie Sanders in 2016 and 2020 and interviewed him on wages, health care and student debt; praises the New Deal; rallied for Harris in 2024. Campaigns for gun control and warned fans about Trump's immigration policies (2016).",
+  "basis": "Backed Bernie Sanders in 2016 and 2020 and interviewed him on wages, health care and student debt; praises the New Deal; rallied for Harris in 2024. Campaigns for gun control and warned fans about Trump's immigration policies (2016). Gun regulation counts as a mild authority claim: +0.5.",
   "sources": [
    {
     "title": "The FADER: Cardi B's full conversation with Bernie Sanders (2019)",
@@ -4291,11 +4291,11 @@
   "band": "solo",
   "genre": "O",
   "econ": -4.4,
-  "auth": -4.0,
+  "auth": -3.5,
   "confidence": 2,
   "ce": 1,
   "ca": 2,
-  "basis": "Attended March for Our Lives (2018); called Bernie Sanders \"my guy\" in 2019 and registered voters at her shows; gave the maximum to Kamala Harris's primary campaign that year.",
+  "basis": "Attended March for Our Lives (2018); called Bernie Sanders \"my guy\" in 2019 and registered voters at her shows; gave the maximum to Kamala Harris's primary campaign that year. Gun regulation counts as a mild authority claim: +0.5.",
   "sources": [
    {
     "title": "Rolling Stone: Which musicians backed whom in the 2020 primary",
@@ -4697,11 +4697,11 @@
   "band": "solo",
   "genre": "C",
   "econ": 6.0,
-  "auth": 4.6,
+  "auth": 4.1,
   "confidence": 2,
   "ce": 2,
   "ca": 2,
-  "basis": "\"God Bless the USA\" is Trump's walk-out song; self-described Reagan Republican who has backed Trump since 2015 without payment, sang at his inaugurations and co-branded the \"God Bless the USA Bible\". Second Amendment supporter.",
+  "basis": "\"God Bless the USA\" is Trump's walk-out song; self-described Reagan Republican who has backed Trump since 2015 without payment, sang at his inaugurations and co-branded the \"God Bless the USA Bible\". Second Amendment supporter. Gun-rights advocacy counts as a mild liberty claim: −0.5.",
   "sources": [
    {
     "title": "AP via WSLS: Lee Greenwood on Trump's inauguration and Bibles (2025)",
@@ -4735,11 +4735,11 @@
   "band": "solo",
   "genre": "C",
   "econ": -8.0,
-  "auth": -5.0,
+  "auth": -4.5,
   "confidence": 3,
   "ce": 3,
   "ca": 3,
-  "basis": "\"Politically, I'm pretty much a socialist\"; long-time death-penalty abolitionist (2010 Shining Star of Abolition award); anti-war, anti-landmine, pro-choice and anti-gun.",
+  "basis": "\"Politically, I'm pretty much a socialist\"; long-time death-penalty abolitionist (2010 Shining Star of Abolition award); anti-war, anti-landmine, pro-choice and anti-gun. Gun regulation counts as a mild authority claim: +0.5.",
   "sources": [
    {
     "title": "The Progressive: Steve Earle interview (2011)",
@@ -6465,11 +6465,11 @@
   "band": "Big & Rich",
   "genre": "C",
   "econ": 6,
-  "auth": 3,
+  "auth": 2.5,
   "confidence": 2,
   "ce": 2,
   "ca": 2,
-  "basis": "Strong Republican: backed Rand Paul then Trump in 2016, played Trump's 2017 pre-inaugural concert, co-wrote \"Shut Up About Politics\" with Fox's Greg Gutfeld (2019), and campaigns for Trump-aligned candidates in Tennessee. Pulled Bud Light from his Nashville bar during the 2023 boycott: a single signal, context only. Life member of the NRA and outspoken Second Amendment defender.",
+  "basis": "Strong Republican: backed Rand Paul then Trump in 2016, played Trump's 2017 pre-inaugural concert, co-wrote \"Shut Up About Politics\" with Fox's Greg Gutfeld (2019), and campaigns for Trump-aligned candidates in Tennessee. Pulled Bud Light from his Nashville bar during the 2023 boycott: a single signal, context only. Life member of the NRA and outspoken Second Amendment defender. Gun-rights advocacy counts as a mild liberty claim: −0.5.",
   "sources": [
    {
     "title": "Taste of Country: John Rich – 'Shut Up About Politics' (2019)",
@@ -6553,11 +6553,11 @@
   "band": "solo",
   "genre": "C",
   "econ": -4,
-  "auth": -4,
+  "auth": -3.5,
   "confidence": 2,
   "ce": 1,
   "ca": 2,
-  "basis": "Played a fundraiser for Democrat Phil Bredesen (2018) and was called the \"unhinged left\" by the GOP Senate committee; Georgia Blue charity album after Biden won Georgia; played the 2024 DNC; signed Nashville artists' 2023 gun-safety letter.",
+  "basis": "Played a fundraiser for Democrat Phil Bredesen (2018) and was called the \"unhinged left\" by the GOP Senate committee; Georgia Blue charity album after Biden won Georgia; played the 2024 DNC; signed Nashville artists' 2023 gun-safety letter. Gun regulation counts as a mild authority claim: +0.5.",
   "sources": [
    {
     "title": "Rolling Stone: Isbell voting to 'cancel out John Rich' (2018)",

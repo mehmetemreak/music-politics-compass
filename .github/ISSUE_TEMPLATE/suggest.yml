@@ -1,0 +1,43 @@
+name: Suggest a musician
+description: Someone missing from the chart? Point us to what they have said or done.
+title: "Suggest: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        People are placed by what they have done, endorsed and said, not by their image. A suggestion is added only when there is enough on record to place both axes. See the README for the full rules.
+  - type: input
+    id: who
+    attributes:
+      label: Who
+      description: The musician's name, and their band if they are best known through one.
+    validations:
+      required: true
+  - type: textarea
+    id: economic
+    attributes:
+      label: Economic record
+      description: Taxes, wages, unions, public services, ownership or markets. What did they say or do, and when?
+    validations:
+      required: true
+  - type: textarea
+    id: authority
+    attributes:
+      label: Authority record
+      description: Civil liberties, censorship, policing, drugs, immigration, guns, the death penalty, or backing for a regime. Party or war stances alone count only as weak evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source links
+      description: One link per claim. Interviews, op-eds, donation records and reputable press over fan wikis. Suggestions without sources are closed.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why they belong
+      description: Optional. Reach, a costly political record, or a position the chart does not yet cover.

@@ -5,15 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Music politics compass</title>
 <style>
-:root{--bg:#f6f4ee;--panel:#fcfcfb;--ink:#1b1b1a;--ink2:#55524b;--mut:#8c887e;--grid:#ebe8e0;--grid2:#cfcabd;--acc:#55524b;--hal:rgba(60,60,55,.12);--ok:#0a7d0a;
+:root{--axE:#0f7c8c;--axA:#9a3fa0;--bg:#f6f4ee;--panel:#fcfcfb;--ink:#1b1b1a;--ink2:#55524b;--mut:#8c887e;--grid:#ebe8e0;--grid2:#cfcabd;--acc:#55524b;--hal:rgba(60,60,55,.12);--ok:#0a7d0a;
 --gR:#2a78d6;--gP:#eb6834;--gF:#1baf7a;--gH:#eda100;--gO:#e87ba4;--gC:#008300;--gM:#6250d6;--gE:#e34948}
-@media (prefers-color-scheme:dark){:root{--bg:#131312;--panel:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--mut:#85827a;--grid:#252522;--grid2:#3b3a35;--acc:#c3c2b7;--hal:rgba(240,239,236,.12);--ok:#4cc24c;
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--axE:#4fb8c6;--axA:#c98ad0;--bg:#131312;--panel:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--mut:#85827a;--grid:#252522;--grid2:#3b3a35;--acc:#c3c2b7;--hal:rgba(240,239,236,.12);--ok:#4cc24c;
 --gR:#3987e5;--gP:#d95926;--gF:#199e70;--gH:#c98500;--gO:#d55181;--gC:#1f9a1f;--gM:#9085e9;--gE:#e66767}}
+:root[data-theme=dark]{--axE:#4fb8c6;--axA:#c98ad0;--bg:#131312;--panel:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--mut:#85827a;--grid:#252522;--grid2:#3b3a35;--acc:#c3c2b7;--hal:rgba(240,239,236,.12);--ok:#4cc24c;
+--gR:#3987e5;--gP:#d95926;--gF:#199e70;--gH:#c98500;--gO:#d55181;--gC:#1f9a1f;--gM:#9085e9;--gE:#e66767}
+:root[data-theme=dark]{color-scheme:dark}:root[data-theme=light]{color-scheme:light}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
 main{max-width:860px;margin:0 auto;padding:18px 12px 120px}
-h1{font:600 24px/1.2 Georgia,"Times New Roman",serif;margin:0 0 4px}
+h1{font:600 24px/1.2 Georgia,"Times New Roman",serif;margin:0 0 4px}.hrow{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}.thm{font:13px system-ui,sans-serif;display:flex;align-items:center;gap:5px;padding:6px 10px;min-height:36px;border:1px solid var(--grid2);border-radius:999px;background:var(--panel);color:var(--ink2);cursor:pointer;flex:none}.thm svg{width:15px;height:15px}
 .sub{margin:0 0 10px;color:var(--ink2);font-size:14px}
 .prog{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--ink2);margin:0 0 12px}
 .prog .bar{flex:0 0 110px;height:6px;border-radius:3px;background:var(--grid2);overflow:hidden}
@@ -103,7 +106,7 @@ details.opt[open] summary{border-color:var(--ink)}
 .leg button{display:flex;align-items:center;gap:6px;font:inherit;color:inherit;background:none;border:1px solid transparent;border-radius:999px;padding:5px 10px 5px 7px;margin:-2px -4px;cursor:pointer;min-height:32px}.leg button:hover{border-color:var(--grid2)}.leg button[aria-pressed=true]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink);color:var(--ink)}.leg button.off{opacity:.45;text-decoration:line-through}.leg svg{width:15px;height:15px}
 #list{display:flex;flex-direction:column;border:1px solid var(--grid2);border-radius:10px;overflow:hidden;background:var(--panel)}
 .lh{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;color:var(--mut);margin:0 0 8px}
-.lh select{font:inherit;font-size:14px;padding:4px 6px;border:1px solid var(--grid2);border-radius:6px;background:var(--panel);color:var(--ink)}
+.srt{display:flex;align-items:center;gap:6px;min-width:0}.srt label{display:flex;align-items:center;gap:6px;white-space:nowrap;min-width:0}.srt select{max-width:52vw;min-width:0}#lc{white-space:nowrap}.sdir{font:15px system-ui,sans-serif;width:34px;height:32px;border:1px solid var(--grid2);border-radius:6px;background:var(--panel);color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center}.lh select{font:inherit;font-size:14px;padding:4px 6px;border:1px solid var(--grid2);border-radius:6px;background:var(--panel);color:var(--ink)}
 .row{display:flex;align-items:center;gap:10px;padding:10px 12px;border:0;border-bottom:1px solid var(--grid);background:none;color:var(--ink);text-align:left;font:inherit;cursor:pointer;width:100%}
 .row:last-child{border-bottom:0}
 .row svg{flex:none;width:18px;height:18px}
@@ -130,7 +133,7 @@ details.opt[open] summary{border-color:var(--ink)}
 .sh h3{margin:0;font:600 19px/1.25 Georgia,serif}
 .sh .meta{color:var(--mut);font-size:13px}
 .sh .x{flex:none;width:34px;height:34px;border-radius:8px;border:1px solid var(--grid2);background:var(--panel);color:var(--ink);font-size:18px;cursor:pointer}
-.pos{font:12px ui-monospace,Menlo,monospace;color:var(--ink2);margin:8px 0}
+.pos{margin:10px 0;display:grid;gap:8px}.gr{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;align-items:center}.gr b{font:600 12px system-ui,sans-serif;color:var(--ink2)}.gv{font:700 15px ui-monospace,Menlo,monospace;text-align:right}.gr.e .gv{color:var(--axE)}.gr.a .gv{color:var(--axA)}.gt{grid-column:1/-1;position:relative;height:14px}.gt i{position:absolute;top:6px;left:0;right:0;height:2px;background:var(--grid2)}.gt u{position:absolute;top:2px;height:10px;border-radius:5px;opacity:.28}.gr.e u{background:var(--axE)}.gr.a u{background:var(--axA)}.gt s{position:absolute;top:1px;width:4px;height:12px;border-radius:2px;margin-left:-2px}.gr.e s{background:var(--axE)}.gr.a s{background:var(--axA)}.gt em{position:absolute;top:0;left:50%;width:1px;height:14px;background:var(--mut)}.gl{grid-column:1/-1;display:flex;justify-content:space-between;font:11px system-ui,sans-serif;color:var(--mut)}.pcf{font:12px system-ui,sans-serif;color:var(--mut)}
 .st{display:inline-block;font-size:12px;padding:2px 8px;border-radius:999px;border:1px solid var(--grid2);color:var(--ink2);margin:0 0 6px}
 .st.y{border-color:var(--ok);color:var(--ok)}
 .sh p{margin:6px 0;font-size:14px}
@@ -185,7 +188,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 </head>
 <body>
 <main>
-<h1>Music politics compass</h1>
+<div class="hrow"><h1>Music politics compass</h1><button type="button" id="thm" class="thm" aria-label="Theme"></button></div>
 <p class="sub">Musicians placed by what they have done, endorsed and said, on the axes of <a href="https://www.politicalcompass.org" target="_blank" rel="noopener">the Political Compass</a>. People, not bands. Every mark is an estimate; tap it for the evidence.</p>
 <div class="prog" id="prog"></div>
 <p id="err" hidden>The data file did not load. If you opened this page straight from disk, serve it over http instead.</p>
@@ -223,7 +226,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 </section>
 
 <section id="vList" hidden>
-<div class="lh"><span id="lc"></span><label>Sort <select id="sort"><option value="name">Name</option><option value="econ">Left to right</option><option value="auth">Libertarian to authoritarian</option><option value="src">Sourced first</option><option value="start">Career began</option><option value="read">Most languages on Wikipedia</option><option value="heard">Most listened (Last.fm)</option></select></label></div>
+<div class="lh"><span id="lc"></span><span class="srt"><button type="button" id="sdir" class="sdir" aria-label="Reverse order" title="Reverse order"></button><label>Sort <select id="sort"><option value="name">Name</option><option value="econ">Left to right</option><option value="auth">Libertarian to authoritarian</option><option value="src">Sourced first</option><option value="start">Career began</option><option value="read">Most languages on Wikipedia</option><option value="heard">Most listened (Last.fm)</option></select></label></span></div>
 <div id="list"></div>
 </section>
 
@@ -232,7 +235,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <div id="insp0">Pick a point, or a row in the list, to see the placement, its sources and the Wikipedia section on their politics.</div>
 </div>
 
-<h2>How to read it</h2>
+<h2>How to read it</h2><p class="fnote">Missing someone? <a id="sugg" href="#" target="_blank" rel="noopener">Suggest a musician</a> with a sourced statement or record.</p>
 <ul class="note">
 <li><b>The axes follow <a href="https://www.politicalcompass.org" target="_blank" rel="noopener">the Political Compass</a>.</b> Horizontal is economics: state ownership, redistribution and public provision on the left; free markets and private enterprise on the right. Vertical is authority, kept separate from economics: one-party rule, censorship, the death penalty, nationalism and enforced moral codes at the top; civil liberties and limits on state power at the bottom.</li>
 <li><b>Authority has no side.</b> Backing the Soviet Union or Castro's Cuba counts as authoritarian exactly as backing an ethno-nationalist party does. A big public sector on its own does not: Nordic-style social democrats sit lib-left. Being offensive is not the same as being authoritarian, and being cancelled is not the same as being libertarian.</li>
@@ -262,7 +265,7 @@ const st={hov:null,k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:
 const dec=d=>d.start?String(Math.floor(d.start/10)*10):"?";
 const DL=k=>k==="?"?"Unknown":k+"s";
 let CL_=[];
-$("repo").href=REPO;
+$("repo").href=REPO;$("sugg").href=REPO+"/issues/new?template=suggest.yml";
 
 // shapes, drawn at screen position in px
 function poly(x,y,pts){return `<polygon class="d" points="${pts.map(p=>(x+p[0]).toFixed(1)+","+(y+p[1]).toFixed(1)).join(" ")}"/>`}
@@ -316,7 +319,7 @@ const shWeak=d=>{const h=d.shift,a=Math.abs(h.econ-d.econ)>=1&&Math.min(h.ce??1,
 const big=v=>!v?"0":v>=1e6?(v/1e6).toFixed(1)+"M":v>=1e3?Math.round(v/1e3)+"k":String(v);
 const CI={3:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--ink2)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',2:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',1:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6" stroke-dasharray="2.4 2"/></svg>'},CLG={3:"Filled: high confidence",2:"Hollow: medium",1:"Dashed: low"};
 function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.filter(d=>d.sources.length).length;
- $("vS").setAttribute("aria-pressed",st.view==="start");$("vA").setAttribute("aria-pressed",st.view==="all");$("vA").textContent=`All ${D.length}`;$("vS2").setAttribute("aria-pressed",st.view==="start");$("vA2").setAttribute("aria-pressed",st.view==="all");$("vA2").textContent=D.length;$("vA2").setAttribute("aria-label",`Show all ${D.length}`);
+ $("vS").setAttribute("aria-pressed",st.view==="start");$("vA").setAttribute("aria-pressed",st.view==="all");$("vA").textContent="All";$("vS2").setAttribute("aria-pressed",st.view==="start");$("vA2").setAttribute("aria-pressed",st.view==="all");$("vA2").textContent="All";$("vA2").setAttribute("aria-label",`Show all ${D.length}`);
  $("vNote").textContent=st.view==="start"?"popular names plus the political outliers":`everyone, up to a cap of 200`;
  $("prog").innerHTML=`<span class="bar"><i style="width:${(100*n/base.length).toFixed(1)}%"></i></span><span><b>${n}</b> of ${base.length} ${st.view==="start"?"starting placements":"placements"} sourced so far</span>`;
  const cnt={},dc={};base.forEach(d=>{cnt[d.genre]=(cnt[d.genre]||0)+1;dc[dec(d)]=(dc[dec(d)]||0)+1});
@@ -480,7 +483,7 @@ function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
  const s=src.length?`<span class="st y">&#10003; Sourced · checked ${new Date(d.checked+"T00:00:00").toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"})}</span>`:`<span class="st">Not yet sourced · placed from general knowledge, pending a check</span>`;
  const issue=`${REPO}/issues/new?template=placement.yml&title=${encodeURIComponent("Placement: "+d.name)}`;
  $("sh").style.transform="";$("sh").innerHTML=`<div class="grab" id="grab"></div><div class="sh-h"><div><h3 id="shName">${esc(d.name)}</h3><div class="meta">${esc(d.band==="solo"?"Solo":d.band)} · ${GN[d.genre]}${d.start?` · career began ${d.start}`:""}</div></div><button class="x" aria-label="Close" id="shX">&times;</button></div>
- <div class="why">${d.starter?`In the starting 50: ${d.why}.`:"Shown under All."} Wikipedia article in ${d.langs} ${d.langs===1?"language":"languages"}, ${big(d.views)} English views in the past year${d.lfm?` · ${big(d.lfm)} Last.fm listeners${d.lfmAct&&d.lfmAct!==d.name?` (as ${esc(d.lfmAct)})`:""}`:""}.</div><div class="pos">Economic ${fmt(d.econ)} ${(d.ce??d.confidence)===0?"(no economic record: &plusmn;5)":`(&plusmn;${HX[d.ce??d.confidence]})`} · Authority ${fmt(d.auth)} (&plusmn;${HR[d.ca??d.confidence]}) · ${CL[d.confidence]} confidence</div>${s}
+ <div class="why">${d.starter?`In the starting 50: ${d.why}.`:"Shown under All."} Wikipedia article in ${d.langs} ${d.langs===1?"language":"languages"}, ${big(d.views)} English views in the past year${d.lfm?` · ${big(d.lfm)} Last.fm listeners${d.lfmAct&&d.lfmAct!==d.name?` (as ${esc(d.lfmAct)})`:""}`:""}.</div><div class="pos">${gauge("Economic",d.econ,(d.ce??d.confidence)===0?5:HX[d.ce??d.confidence],"Left","Right","e")}${gauge("Authority",d.auth,HR[d.ca??d.confidence],"Libertarian","Authoritarian","a")}<div class="pcf">${CL[d.confidence]} confidence${(d.ce??d.confidence)===0?" · no economic record":""}</div></div>${s}
  <p>${esc(d.basis)}</p>${d.shift?`<p><i>Earlier position (${esc(d.shift.label)}):</i> economic ${fmt(d.shift.econ)} (&plusmn;${HX[d.shift.ce??1]}), authority ${fmt(d.shift.auth)} (&plusmn;${HR[d.shift.ca??1]})${shWeak(d)?" · <b>weak shift</b>: one end rests on a single signal, so the arrow is dashed":""}. ${esc(d.shift.basis||"")}${(d.shift.sources||[]).length?" "+d.shift.sources.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join("; "):""}</p>`:""}
  <h4>Sources</h4>${src.length?`<ol>${src.map(x=>`<li>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`:esc(x.title)}</li>`).join("")}</ol>`:`<p style="color:var(--mut)">None yet.</p>`}
  <p class="wk" id="shW">${wkLink(d)}</p><div class="acts">${st.mode==="list"?`<button id="shGo">Show on chart</button>`:""}<a href="${issue}" target="_blank" rel="noopener">Dispute this placement</a><button id="shL">Copy link</button></div>`;
@@ -501,10 +504,10 @@ function focusOn(i){setMode("chart");const d=D[i];if(!pass(d)){st.genres.clear()
 function drawList(){
  let a=D.map((d,i)=>i).filter(i=>pass(D[i])&&(!st.q||hit(D[i])));
  const c={name:(x,y)=>D[x].name.localeCompare(D[y].name),econ:(x,y)=>D[x].econ-D[y].econ,auth:(x,y)=>D[x].auth-D[y].auth,src:(x,y)=>(D[y].sources.length>0)-(D[x].sources.length>0)||D[x].name.localeCompare(D[y].name),start:(x,y)=>(D[x].start||9999)-(D[y].start||9999),read:(x,y)=>(D[y].langs||0)-(D[x].langs||0)||(D[y].views||0)-(D[x].views||0),heard:(x,y)=>(D[y].lfm||0)-(D[x].lfm||0)}[st.sort];
- a.sort(c);$("lc").textContent=`${a.length} ${a.length===1?"person":"people"}`;
+ a.sort(c);if(st.rev)a.reverse();$("sdir").textContent=st.rev?"\u2191":"\u2193";$("sdir").setAttribute("aria-pressed",!!st.rev);$("lc").textContent=`${a.length} ${a.length===1?"person":"people"}`;
  $("list").innerHTML=a.length?a.map(i=>{const d=D[i];return `<button class="row" data-i="${i}">${icon(d.genre,d.confidence)}<span class="t"><b>${esc(d.name)}</b><small>${esc(d.band==="solo"?GN[d.genre]:d.band+" · "+GN[d.genre])}${d.start?" · "+d.start:""}</small></span><span class="p">${fmt(d.econ)}, ${fmt(d.auth)}<br>${st.sort==="read"?d.langs+" languages":st.sort==="heard"?big(d.lfm)+" listeners":d.sources.length?'<span class="ok">&#10003; sourced</span>':"unsourced"}</span></button>`}).join(""):`<div class="empty">Nobody matches.</div>`}
 $("list").addEventListener("click",e=>{const r=e.target.closest(".row");if(r)openSheet(+r.dataset.i)});
-$("sort").onchange=e=>{st.sort=e.target.value;drawList()};
+$("sort").onchange=e=>{st.sort=e.target.value;st.rev=false;drawList()};$("sdir").onclick=()=>{st.rev=!st.rev;drawList()};
 
 // ---------- controls ----------
 function setMode(m){st.mode=m;$("tabC").setAttribute("aria-selected",m==="chart");$("tabL").setAttribute("aria-selected",m==="list");$("vChart").hidden=m!=="chart";$("vList").hidden=m!=="list";if(m==="list"){drawList();document.querySelector(".tabs").scrollIntoView({block:"start"})}else resize()}
@@ -530,6 +533,12 @@ $("oT").onchange=e=>{st.shifts=e.target.checked;req()};
 $("oS").onchange=e=>{st.splits=e.target.checked;req()};
 $("oH").onchange=e=>{st.halos=e.target.checked;req()};
 $("oV").onchange=e=>{st.sourced=e.target.checked;refresh()};
+
+function gauge(lab,v,r,lo,hi,c){const p=x=>Math.max(0,Math.min(100,(x+10)*5));return `<div class="gr ${c}"><b>${lab}</b><span class="gv">${fmt(v)} <small style="font-weight:400;color:var(--mut)">&plusmn;${r}</small></span><div class="gt" aria-hidden="true"><i></i><em></em><u style="left:${p(v-r)}%;width:${p(v+r)-p(v-r)}%"></u><s style="left:${p(v)}%"></s></div><div class="gl"><span>${lo}</span><span>${hi}</span></div></div>`}
+const THM=["auto","light","dark"],TI={auto:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 2a6 6 0 0 1 0 12z" fill="currentColor"/></svg>Auto',light:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="3" fill="currentColor"/><g stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3 3l1.4 1.4M11.6 11.6 13 13M3 13l1.4-1.4M11.6 4.4 13 3"/></g></svg>Light',dark:'<svg viewBox="0 0 16 16"><path d="M13 10A6 6 0 0 1 6 3a6 6 0 1 0 7 7z" fill="currentColor"/></svg>Dark'};
+function setTheme(t){if(t==="auto")document.documentElement.removeAttribute("data-theme");else document.documentElement.setAttribute("data-theme",t);$("thm").innerHTML=TI[t];$("thm").title="Theme: "+t+" (tap to change)";try{localStorage.setItem("thm",t)}catch(e){}}
+let thm="auto";try{thm=localStorage.getItem("thm")||"auto"}catch(e){}
+setTheme(THM.includes(thm)?thm:"auto");$("thm").onclick=()=>{thm=THM[(THM.indexOf(thm)+1)%3];setTheme(thm)};
 </script>
 </body>
 </html>

@@ -3535,9 +3535,9 @@
   "band": "solo",
   "genre": "C",
   "econ": 2.0,
-  "auth": -4.0,
+  "auth": -2,
   "confidence": 1,
-  "basis": "\"Rich Men North of Richmond\" (2023) attacks taxes, welfare and DC elites; says he is \"dead center\" and that both sides serve the same master, and that the song was about the Republicans who quoted it in a debate.",
+  "basis": "\"Rich Men North of Richmond\" (2023) attacks taxes, welfare and DC elites; says he is \"dead center\" and that both sides serve the same master, and that the song was about the Republicans who quoted it in a debate. Anti-elite populism is not evidence of libertarianism, and his own \"dead center\" outranks a reading of the song.",
   "sources": [
    {
     "title": "NBC News: 'Rich Men North of Richmond' songwriter says it's no conservative anthem (2023)",
@@ -4834,9 +4834,9 @@
   "band": "solo",
   "genre": "C",
   "econ": -1,
-  "auth": -4,
+  "auth": -2,
   "confidence": 1,
-  "basis": "\"Bad News\" (2025) sang about ICE raids and drew rebukes from the Homeland Security secretary and the White House; he answered that he loves the country and that the full song \"hits on both sides of the aisle\". One song is the whole record.",
+  "basis": "\"Bad News\" (2025) sang about ICE raids and drew rebukes from the Homeland Security secretary and the White House; he answered that he loves the country and that the full song \"hits on both sides of the aisle\". One song is the whole record, and a single signal shows a direction, not a distance from the centre.",
   "sources": [
    {
     "title": "ABC News: Zach Bryan addresses backlash over ICE lyrics",

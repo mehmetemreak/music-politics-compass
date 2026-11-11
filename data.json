@@ -263,10 +263,10 @@
   "genre": "R",
   "econ": 0,
   "auth": -3,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Animal-rights and vegetarian campaigning; \"Give Ireland Back to the Irish\" (1972); otherwise a mild liberal. On taxes in 2022: 'You earn some money, and you keep more of it', alongside Make Poverty History campaigning: mixed, so the centre is evidenced here, not assumed. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Animal-rights and vegetarian campaigning; \"Give Ireland Back to the Irish\" (1972); otherwise a mild liberal. On taxes in 2022: 'You earn some money, and you keep more of it', alongside Make Poverty History campaigning: mixed, so the centre is evidenced here, not assumed. Signed the 1967 Times advertisement calling for cannabis law reform.",
   "sources": [
    {
     "title": "Wikipedia: Give Ireland Back to the Irish",
@@ -279,6 +279,10 @@
    {
     "title": "Far Out: McCartney on what he'd change as prime minister (2022)",
     "url": "https://faroutmagazine.co.uk/paul-mccartney-reveals-changes-britain-prime-minister/"
+   },
+   {
+    "title": "Wikipedia: Paul McCartney",
+    "url": "https://en.wikipedia.org/wiki/Paul_McCartney"
    }
   ],
   "checked": "2026-11-11",
@@ -553,10 +557,10 @@
   "genre": "R",
   "econ": -3,
   "auth": -4,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Played Kerry campaign stops in 2004 after Bush used \"Times Like These\"; objected to McCain using \"My Hero\" (2008); headlined an Obama fundraiser in 2012; played Biden's inauguration concert. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Played Kerry campaign stops in 2004 after Bush used \"Times Like These\"; objected to McCain using \"My Hero\" (2008); headlined an Obama fundraiser in 2012; played Biden's inauguration concert. Counter-protested the anti-gay Westboro Baptist Church in 2011 and 2015; advocates gun control.",
   "sources": [
    {
     "title": "Rolling Stone: Grohl on Biden's inauguration and the Kerry trail",
@@ -569,6 +573,10 @@
    {
     "title": "Spin: Foo Fighters step up support for Obama (2012)",
     "url": "https://www.spinmagazine.com/articles/foo-fighters-barack-obama-fundraiser-democratic-national-convention"
+   },
+   {
+    "title": "Wikipedia: Dave Grohl",
+    "url": "https://en.wikipedia.org/wiki/Dave_Grohl"
    }
   ],
   "checked": "2026-11-11",
@@ -663,10 +671,10 @@
   "genre": "R",
   "econ": -3.5,
   "auth": -4,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 2,
-  "ca": 1,
-  "basis": "Wrote a Rolling Stone op-ed backing Bernie Sanders and played the band's 2016 \"Feel the Bern\" fundraiser; all four members signed the endorsement letter. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Wrote a Rolling Stone op-ed backing Bernie Sanders and played the band's 2016 \"Feel the Bern\" fundraiser; all four members signed the endorsement letter. Said in 2016 he fears the NRA more than terrorists, backing tighter gun laws.",
   "sources": [
    {
     "title": "Rolling Stone: Chili Peppers at Bernie Sanders fundraiser",
@@ -675,6 +683,10 @@
    {
     "title": "Rolling Stone: 25 musicians feeling the Bern",
     "url": "https://www.rollingstone.com/music/music-lists/25-musicians-feeling-the-bern-for-bernie-sanders-18242/"
+   },
+   {
+    "title": "Blabbermouth: Flea more afraid of the NRA than terrorists",
+    "url": "https://blabbermouth.net/news/red-hot-chili-peppers-flea-is-more-afraid-of-the-nra-than-terrorists"
    }
   ],
   "checked": "2026-11-11",
@@ -761,10 +773,10 @@
   "genre": "M",
   "econ": -2,
   "auth": -3.5,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Trump critic since 2018: demanded his music be kept out of rallies, urged fans to vote Democrat in the midterms, feuded with Treasury Secretary Mnuchin in 2020. The earlier record is apolitical provocation. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Trump critic since 2018: demanded his music be kept out of rallies, urged fans to vote Democrat in the midterms, feuded with Treasury Secretary Mnuchin in 2020. The earlier record is apolitical provocation. Wrote to Indonesia's president in 2015 urging him to drop the death penalty in the Bali Nine case.",
   "sources": [
    {
     "title": "CNN: Axl Rose and Steve Mnuchin's Twitter spat",
@@ -777,6 +789,10 @@
    {
     "title": "Fox News: Rose explains his disdain for the Trump administration",
     "url": "https://www.foxnews.com/entertainment/axl-rose-disdain-trump-administration-twitter-feud-surgeon-general"
+   },
+   {
+    "title": "Wikipedia: Axl Rose",
+    "url": "https://en.wikipedia.org/wiki/Axl_Rose"
    }
   ],
   "checked": "2026-11-11",
@@ -833,10 +849,10 @@
   "genre": "R",
   "econ": -2,
   "auth": -3,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Founded the Save Me Trust (2010) against fox hunting and the badger cull, taking the government to court over it; launched the cross-party Common Decency campaign in 2015; says he stopped voting Conservative over wildlife policy. Long a Conservative voter, he switched over hunting and badger policy (2010), endorsed Corbyn in 2017 and says he is closest to the Greens. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Founded the Save Me Trust (2010) against fox hunting and the badger cull, taking the government to court over it; launched the cross-party Common Decency campaign in 2015; says he stopped voting Conservative over wildlife policy. Long a Conservative voter, he switched over hunting and badger policy (2010), endorsed Corbyn in 2017 and says he is closest to the Greens. Long-time LGBTQ-rights supporter; Straight Ally Award at the 2016 British LGBT Awards.",
   "sources": [
    {
     "title": "Daily Mirror via brianmay.com: May blasts Cameron over hunting and the cull",
@@ -853,6 +869,10 @@
    {
     "title": "BBC Daily Politics: May on changing his vote (2010)",
     "url": "https://news.bbc.co.uk/2/hi/programmes/the_daily_politics/8730078.stm"
+   },
+   {
+    "title": "Wikipedia: Brian May",
+    "url": "https://en.wikipedia.org/wiki/Brian_May"
    }
   ],
   "checked": "2026-11-11",
@@ -1224,7 +1244,7 @@
   "confidence": 2,
   "ce": 1,
   "ca": 2,
-  "basis": "Co-founded Axis of Justice with Tom Morello (2002); endorsed Bernie Sanders in 2015; decades of campaigning for recognition of the Armenian genocide. On authority the record is only camp signals, several of them independent: medium confidence at most.",
+  "basis": "Co-founded Axis of Justice with Tom Morello (2002); endorsed Bernie Sanders in 2015; decades of campaigning for recognition of the Armenian genocide. Wrote \"Fears\" (2008) for Amnesty International's Write-A-Thon; supports Black Lives Matter.",
   "sources": [
    {
     "title": "Blabbermouth: Tankian and Axis of Justice launch Armenian genocide recognition campaign (2009)",
@@ -1237,6 +1257,10 @@
    {
     "title": "The Real News: Serj Tankian author page",
     "url": "https://therealnews.com/author/serj-tankian"
+   },
+   {
+    "title": "Wikipedia: Serj Tankian",
+    "url": "https://en.wikipedia.org/wiki/Serj_Tankian"
    }
   ],
   "checked": "2026-11-11",
@@ -1323,10 +1347,10 @@
   "genre": "R",
   "econ": -3,
   "auth": -3,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Fronted Oxfam's Make Trade Fair campaign from 2002, travelling to Haiti and Ghana for it; curator of the anti-poverty Global Citizen Festival since 2015. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Fronted Oxfam's Make Trade Fair campaign from 2002, travelling to Haiti and Ghana for it; curator of the anti-poverty Global Citizen Festival since 2015. Backed the migrant sea-rescue charity MOAS (2017); stood by LGBTQ rights when Malaysian politicians called for Coldplay's show to be cancelled (2023).",
   "sources": [
    {
     "title": "Rolling Stone: Coldplay fight for fair trade",
@@ -1339,6 +1363,14 @@
    {
     "title": "Billboard: Martin's 15-year role as Global Citizen Festival curator",
     "url": "https://www.billboard.com/?p=6480012"
+   },
+   {
+    "title": "Guardian via Yahoo: Coldplay back refugee rescue charity",
+    "url": "https://uk.news.yahoo.com/coldplay-throw-support-behind-refugee-153950899.html"
+   },
+   {
+    "title": "PinkNews: Coldplay and the Malaysia gig",
+    "url": "https://www.thepinknews.com/2023/05/22/coldplay-malaysia-gig-lgbtq-rights/"
    }
   ],
   "checked": "2026-11-11",
@@ -1429,10 +1461,10 @@
   "genre": "P",
   "econ": -6,
   "auth": -4,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 2,
-  "ca": 1,
-  "basis": "Told NME in 1977 he would vote for Thatcher; co-founded Labour's Red Wedge in 1985; played a Momentum concert for Corbyn in 2016. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Told NME in 1977 he would vote for Thatcher; co-founded Labour's Red Wedge in 1985; played a Momentum concert for Corbyn in 2016. Signed the 2025 open letter against attempts to 'censor and ultimately deplatform' Kneecap.",
   "shift": {
    "econ": 2,
    "auth": 0,
@@ -1455,6 +1487,10 @@
    {
     "title": "NME: Weller to play a concert for Corbyn (2016)",
     "url": "https://www.nme.com/news/music/paul-weller-257-1189852"
+   },
+   {
+    "title": "Wikipedia: Paul Weller",
+    "url": "https://en.wikipedia.org/wiki/Paul_Weller"
    }
   ],
   "checked": "2026-11-11",
@@ -1517,10 +1553,10 @@
   "genre": "R",
   "econ": -5,
   "auth": -4,
-  "confidence": 1,
+  "confidence": 3,
   "ce": 1,
-  "ca": 1,
-  "basis": "Publicly \"forbade\" David Cameron from liking The Smiths (2010); said he would re-form the band if the coalition government stepped down; \"no one can tell me the Conservative Party have ever been about\" a fair shout for everyone. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 3,
+  "basis": "Publicly \"forbade\" David Cameron from liking The Smiths (2010); said he would re-form the band if the coalition government stepped down; \"no one can tell me the Conservative Party have ever been about\" a fair shout for everyone. Anti-monarchy (2011); backed Kneecap against calls to censor their 2025 Glastonbury set.",
   "sources": [
    {
     "title": "Channel 4 News: The Smiths appear at Prime Minister's Questions (2010)",
@@ -1533,6 +1569,10 @@
    {
     "title": "New Statesman: The Smiths vs The Tories (2012)",
     "url": "https://www.newstatesman.com/culture/2012/03/marr-government-smiths-reform"
+   },
+   {
+    "title": "Rolling Stone AU: Marr backs Kneecap",
+    "url": "https://au.rollingstone.com/?p=78293"
    }
   ],
   "checked": "2026-11-11",
@@ -1828,11 +1868,11 @@
   "band": "Ramones",
   "genre": "P",
   "econ": -5,
-  "auth": -4.0,
-  "confidence": 1,
+  "auth": -5.6,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Liberal Democrat (per bandmate Marky) who wrote \"Bonzo Goes to Bitburg\" (1985) against Reagan's visit to a cemetery with SS graves; the title was softened for the US to placate Republican Johnny Ramone. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Liberal Democrat (per bandmate Marky) who wrote \"Bonzo Goes to Bitburg\" (1985) against Reagan's visit to a cemetery with SS graves; the title was softened for the US to placate Republican Johnny Ramone. Joined Artists United Against Apartheid (1985).",
   "sources": [
    {
     "title": "Far Out: When the Ramones likened Ronald Reagan to the Nazis",
@@ -1845,6 +1885,10 @@
    {
     "title": "Washington Times: Johnny Ramone, the Republican punk (2004)",
     "url": "https://m.washingtontimes.com/news/2004/mar/11/20040311-085521-1823r/"
+   },
+   {
+    "title": "Wikipedia: Joey Ramone",
+    "url": "https://en.wikipedia.org/wiki/Joey_Ramone"
    }
   ],
   "checked": "2026-11-11",
@@ -2051,10 +2095,10 @@
   "genre": "M",
   "econ": 3,
   "auth": 0.6,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Voted Leave and defended Brexit in 2018 as opening Britain to the world; attacked the government in 2021 over touring barriers; said in 2024 the UK should re-engage with the EU. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Voted Leave and defended Brexit in 2018 as opening Britain to the world; attacked the government in 2021 over touring barriers; said in 2024 the UK should re-engage with the EU. Calls himself 'a libertarian who hates every form of extremism' (Rolling Stone Italia, 2021).",
   "sources": [
    {
     "title": "Louder: Bruce Dickinson defends Brexit and why he voted Leave (2018)",
@@ -2067,6 +2111,10 @@
    {
     "title": "Blabbermouth: Dickinson says Britain should 're-engage' with the EU (2024)",
     "url": "https://blabbermouth.net/news/bruce-dickinson-defends-his-decision-to-vote-for-brexit-but-says-great-britain-should-absolutely-re-engage-with-e-u"
+   },
+   {
+    "title": "Rolling Stone Italia: Dickinson interview",
+    "url": "https://www.rollingstone.it/musica/interviste-musica/bruce-dickinson-sono-un-libertario-che-odia-ogni-forma-di-estremismo/580474/"
    }
   ],
   "checked": "2026-11-11",
@@ -2326,10 +2374,10 @@
   "genre": "M",
   "econ": 4,
   "auth": 0,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 2,
-  "ca": 1,
-  "basis": "\"A definite old-school Republican\" (2012) and Republican all his life; endorsed John McCain in 2008 on national security and the economy; names JFK as his favourite president. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "\"A definite old-school Republican\" (2012) and Republican all his life; endorsed John McCain in 2008 on national security and the economy; names JFK as his favourite president. 'I'm an advocate of gun rights' (2009); defends the Second Amendment.",
   "sources": [
    {
     "title": "Rolling Stone: Joe Perry – 'I'm a definite old-school Republican' (2012)",
@@ -2342,6 +2390,10 @@
    {
     "title": "Blabbermouth: Joe Perry on meeting McCain (2009)",
     "url": "https://blabbermouth.net/news/aerosmith-s-joe-perry-on-meeting-mccain-and-his-own-political-ambitions"
+   },
+   {
+    "title": "NRA-ILA: Joe Perry for gun rights",
+    "url": "https://nraila.org/articles/20090925/aerosmiths-joe-perry-for-gun-rights"
    }
   ],
   "checked": "2026-11-11",
@@ -2432,10 +2484,10 @@
   "genre": "R",
   "econ": -3,
   "auth": -0.8,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Registered unaffiliated but has campaigned and fundraised for Kerry, Clinton and other Democrats; runs pay-what-you-can JBJ Soul Kitchen restaurants. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Registered unaffiliated but has campaigned and fundraised for Kerry, Clinton and other Democrats; runs pay-what-you-can JBJ Soul Kitchen restaurants. The album 2020 takes on gun violence (\"Lower the Flag\"), police violence (\"American Reckoning\") and migrants (\"Blood in the Water\").",
   "sources": [
    {
     "title": "AP via Washington Times: Bon Jovi's pay-what-you-can restaurant opens (2011)",
@@ -2444,6 +2496,10 @@
    {
     "title": "Red Bank Green: Bon Jovi hosts a Hillary Clinton fundraiser",
     "url": "https://www.redbankgreen.com/?p=98914"
+   },
+   {
+    "title": "Louder: Bon Jovi's 2020",
+    "url": "https://www.loudersound.com/news/your-days-are-numbered-jon-bon-jovi-warns-president-trump"
    }
   ],
   "checked": "2026-11-11",
@@ -2609,7 +2665,7 @@
   "confidence": 2,
   "ce": 2,
   "ca": 2,
-  "basis": "President of the Stop the War Coalition; spoke at Corbyn's 2015 leadership rally; elected to DiEM25's coordinating collective; a BDS supporter who has refused Israeli state-sponsored use of his music. On authority the record is only camp signals, several of them independent: medium confidence at most.",
+  "basis": "President of the Stop the War Coalition; spoke at Corbyn's 2015 leadership rally; elected to DiEM25's coordinating collective; a BDS supporter who has refused Israeli state-sponsored use of his music. Patron of the human-rights video charity Videre est Credere (2013).",
   "sources": [
    {
     "title": "Stop the War: Brian Eno, president of StW, addresses rally",
@@ -2622,6 +2678,10 @@
    {
     "title": "Tablet: The Eno Paradox – BDS statement and Corbyn rally (2016)",
     "url": "https://www.tabletmag.com/sections/news/articles/the-eno-paradox-genius-musician-nauseating-bds-leader"
+   },
+   {
+    "title": "Wikipedia: Brian Eno",
+    "url": "https://en.wikipedia.org/wiki/Brian_Eno"
    }
   ],
   "checked": "2026-11-11",
@@ -2716,10 +2776,10 @@
   "genre": "P",
   "econ": -0.6,
   "auth": -2.4,
-  "confidence": 1,
+  "confidence": 3,
   "ce": 2,
-  "ca": 1,
-  "basis": "Live Aid and Live 8; led the anti-Brexit flotilla against Farage on the Thames in 2016. Lobbied the G8 on aid and debt relief, yet runs the private-equity fund 8 Miles investing in African businesses for profit: market means to anti-poverty ends. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 3,
+  "basis": "Live Aid and Live 8; led the anti-Brexit flotilla against Farage on the Thames in 2016. Lobbied the G8 on aid and debt relief, yet runs the private-equity fund 8 Miles investing in African businesses for profit: market means to anti-poverty ends. Played Amnesty's Secret Policeman's Other Ball (1981); repeatedly attacks authoritarian rulers, calling Xi Jinping a repressive dictator.",
   "sources": [
    {
     "title": "RTÉ: Farage and Geldof clash on the Thames over Brexit (2016)",
@@ -2732,6 +2792,10 @@
    {
     "title": "Guardian: Bob Geldof is wrong on Africa (2013)",
     "url": "https://www.theguardian.com/world/2013/mar/08/bob-geldof-wrong-africa"
+   },
+   {
+    "title": "Wikipedia: Bob Geldof",
+    "url": "https://en.wikipedia.org/wiki/Bob_Geldof"
    }
   ],
   "checked": "2026-11-11",
@@ -2852,10 +2916,10 @@
   "genre": "M",
   "econ": -4.4,
   "auth": -3.3,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Band sent the Trump campaign a cease-and-desist in 2020 (\"did not and does not endorse Trump\"); co-founded the disaster-relief charity Music for Relief (2005); covered the 2012 US election for The Big Issue. The Trump cease-and-desist is the only partisan signal: a single economic signal. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Band sent the Trump campaign a cease-and-desist in 2020 (\"did not and does not endorse Trump\"); co-founded the disaster-relief charity Music for Relief (2005); covered the 2012 US election for The Big Issue. The Trump cease-and-desist is the only partisan signal: a single economic signal. \"Kenji\" (2005) on his family's wartime internment; drew the parallel with the 2017 travel ban.",
   "sources": [
    {
     "title": "Rolling Stone: Linkin Park issue cease and desist after 'In the End' appears in Trump video (2020)",
@@ -2868,6 +2932,10 @@
    {
     "title": "Kerrang: Why Mike Shinoda is one of rock's true good guys",
     "url": "https://www.kerrang.com/why-mike-shinoda-is-one-of-rocks-true-good-guys"
+   },
+   {
+    "title": "Rolling Stone: Shinoda on his family's WWII incarceration",
+    "url": "https://www.rollingstone.com/music/music-features/mike-shinoda-japanese-american-internment-camps-1339017/"
    }
   ],
   "checked": "2026-11-11",
@@ -2886,10 +2954,10 @@
   "genre": "M",
   "econ": -2.8,
   "auth": -4.0,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "America 51 (2017) spends a third of its length on Trump but attacks both parties; says he is \"much more liberal than people would realize\" yet stands \"in the middle\" and is tired of zealots on both sides. Backed Bernie Sanders in 2016. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "America 51 (2017) spends a third of its length on Trump but attacks both parties; says he is \"much more liberal than people would realize\" yet stands \"in the middle\" and is tired of zealots on both sides. Backed Bernie Sanders in 2016. Called for curbs on gun availability in 2019 ('too many guns in America') while saying he does not oppose the Second Amendment; calls politicians who blame music and games for shootings idiots.",
   "sources": [
    {
     "title": "Blabbermouth: Corey Taylor – 'The Cheeto can't lead' (2020)",
@@ -2906,6 +2974,10 @@
    {
     "title": "Guardian: Corey Taylor answers your questions (2016)",
     "url": "https://www.theguardian.com/music/2016/feb/10/slipknot-corey-taylor-answers-your-questions"
+   },
+   {
+    "title": "Louder: Corey Taylor on guns in America",
+    "url": "https://www.loudersound.com/news/corey-taylor-there-are-too-many-f-guns-in-america"
    }
   ],
   "checked": "2026-11-11",
@@ -3106,10 +3178,10 @@
   "genre": "P",
   "econ": -4.4,
   "auth": -7.4,
-  "confidence": 2,
+  "confidence": 3,
   "ce": 1,
-  "ca": 2,
-  "basis": "Founded Punkvoter.com (2004) to vote Bush out, raising over $1m, and the Rock Against Bush tours and compilations; handed out Iraq-war documentaries at shows. On authority the record is only camp signals, several of them independent: medium confidence at most.",
+  "ca": 3,
+  "basis": "Founded Punkvoter.com (2004) to vote Bush out, raising over $1m, and the Rock Against Bush tours and compilations; handed out Iraq-war documentaries at shows. States his rule as 'people should be able to do whatever they want, as long as it isn't hurting anybody'.",
   "sources": [
    {
     "title": "New Statesman: How Green Day's American Idiot pitted punk against Bush – Rock Against Bush (2024)",
@@ -3122,6 +3194,10 @@
    {
     "title": "Trax on the Trail: Music as persuasion against Bush's re-election",
     "url": "https://www.traxonthetrail.com/not-another-term-music-as-persuasion-in-the-campaign-against-the-re-election-of-george-w-bush/"
+   },
+   {
+    "title": "Spare Change News: Fat Mike interview",
+    "url": "https://sparechangenews.net/?p=14453"
    }
   ],
   "checked": "2026-11-11",
@@ -3212,10 +3288,10 @@
   "genre": "R",
   "econ": -4.6,
   "auth": -1.4,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 2,
-  "ca": 1,
-  "basis": "Farm Aid co-founder (1985) and board member; campaigned for Edwards, Clinton and Obama in 2008; made McCain stop using \"Our Country\" and \"Pink Houses\"; thought Obama too conservative. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Farm Aid co-founder (1985) and board member; campaigned for Edwards, Clinton and Obama in 2008; made McCain stop using \"Our Country\" and \"Pink Houses\"; thought Obama too conservative. Supports same-sex marriage and told the National Organization for Marriage to stop using his music (2010).",
   "sources": [
    {
     "title": "The Nation: Senator Mellencamp?",
@@ -3228,6 +3304,10 @@
    {
     "title": "CBS News: McCain stops using Mellencamp songs",
     "url": "https://www.cbsnews.com/news/mccain-stops-using-mellencamp-songs"
+   },
+   {
+    "title": "Wikipedia: John Mellencamp",
+    "url": "https://en.wikipedia.org/wiki/John_Mellencamp"
    }
   ],
   "checked": "2026-11-11",
@@ -3578,10 +3658,10 @@
   "genre": "H",
   "econ": 4.0,
   "auth": 4.0,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Wore the MAGA hat in 2018 and ran for president in 2020; antisemitic statements from 2022 ended his major business deals. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Wore the MAGA hat in 2018 and ran for president in 2020; antisemitic statements from 2022 ended his major business deals. Opposes abortion (2013; called it 'genocide' in 2022); gave $2m to families of police-brutality victims in 2020: mixed, so the authority mark stays at 4.",
   "sources": [
    {
     "title": "theGrio: Kanye West's signed MAGA hat (2018)",
@@ -3590,6 +3670,10 @@
    {
     "title": "PBS NewsHour: Adidas ends its partnership with Ye over antisemitic remarks (2022)",
     "url": "https://www.pbs.org/newshour/tag/ye"
+   },
+   {
+    "title": "Wikipedia: Kanye West",
+    "url": "https://en.wikipedia.org/wiki/Kanye_West"
    }
   ],
   "checked": "2026-11-11",
@@ -3781,11 +3865,11 @@
   "band": "solo",
   "genre": "H",
   "econ": -3.0,
-  "auth": -4.0,
-  "confidence": 1,
+  "auth": -4.4,
+  "confidence": 3,
   "ce": 1,
-  "ca": 1,
-  "basis": "\"Mosh\" against Bush (2004), anti-Trump freestyle (2017), introduced Obama at a Harris rally (2024). 'The Storm' (2017) mocks Trump's tax cuts; frames his attacks as a working-class man's, a single economic signal. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 3,
+  "basis": "\"Mosh\" against Bush (2004), anti-Trump freestyle (2017), introduced Obama at a Harris rally (2024). 'The Storm' (2017) mocks Trump's tax cuts; frames his attacks as a working-class man's, a single economic signal. Publicly supports gay rights; \"Darkness\" (2020) ends with a call for stricter gun laws; backed abortion rights after Roe fell.",
   "sources": [
    {
     "title": "AP via PBS: Eminem and Obama rally voters for Harris in Detroit (2024)",
@@ -3798,6 +3882,10 @@
    {
     "title": "Newsweek: Eminem's criticism of Trump (2024)",
     "url": "https://www.newsweek.com/donald-trump-eminem-2024-election-viral-video-criticism-opinions-1940166"
+   },
+   {
+    "title": "Wikipedia: Eminem",
+    "url": "https://en.wikipedia.org/wiki/Eminem"
    }
   ],
   "checked": "2026-11-11",
@@ -3914,10 +4002,10 @@
   "genre": "H",
   "econ": -5.0,
   "auth": -3.6,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 2,
-  "ca": 1,
-  "basis": "Backed Bernie Sanders in 2016 and 2020 and interviewed him on wages, health care and student debt; praises the New Deal; rallied for Harris in 2024. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Backed Bernie Sanders in 2016 and 2020 and interviewed him on wages, health care and student debt; praises the New Deal; rallied for Harris in 2024. Campaigns for gun control and warned fans about Trump's immigration policies (2016).",
   "sources": [
    {
     "title": "The FADER: Cardi B's full conversation with Bernie Sanders (2019)",
@@ -3926,6 +4014,10 @@
    {
     "title": "Complex: Cardi B backs Harris at a Milwaukee rally (2024)",
     "url": "https://www.complex.com/music/a/tracewilliamcowen/cardi-b-support-kamala-harris"
+   },
+   {
+    "title": "Wikipedia: Cardi B",
+    "url": "https://en.wikipedia.org/wiki/Cardi_B"
    }
   ],
   "checked": "2026-11-11",
@@ -4124,10 +4216,10 @@
   "genre": "O",
   "econ": -4.0,
   "auth": -5.0,
-  "confidence": 2,
+  "confidence": 3,
   "ce": 1,
-  "ca": 2,
-  "basis": "Endorsed Biden at the 2020 Democratic convention, citing climate change; climate campaigning alongside Greta Thunberg; registered voters at her concerts. On authority the record is only camp signals, several of them independent: medium confidence at most.",
+  "ca": 3,
+  "basis": "Endorsed Biden at the 2020 Democratic convention, citing climate change; climate campaigning alongside Greta Thunberg; registered voters at her concerts. Abortion-rights campaigning, including against Texas's 2021 law; denounced ICE at the 2026 Grammys ('no one is illegal on stolen land').",
   "sources": [
    {
     "title": "The Hill: Billie Eilish at the 2020 Democratic convention",
@@ -4136,6 +4228,10 @@
    {
     "title": "Washington Examiner: Eilish urges vote against Trump; climate activism",
     "url": "https://www.washingtonexaminer.com/?p=2603361"
+   },
+   {
+    "title": "Wikipedia: Billie Eilish",
+    "url": "https://en.wikipedia.org/wiki/Billie_Eilish"
    }
   ],
   "checked": "2026-11-11",
@@ -4448,10 +4544,10 @@
   "genre": "C",
   "econ": -4.0,
   "auth": -4.8,
-  "confidence": 2,
+  "confidence": 3,
   "ce": 2,
-  "ca": 2,
-  "basis": "Told a London crowd in March 2003 the band were ashamed Bush was from Texas and opposed the coming Iraq invasion; country radio blacklisted them; she withdrew her apology in 2006. A self-described Democrat ('people were so shocked that I was a Democrat'); the Chicks sang at the 2020 Democratic convention and endorsed Democrat James Talarico in 2026. On authority the record is only camp signals, several of them independent: medium confidence at most.",
+  "ca": 3,
+  "basis": "Told a London crowd in March 2003 the band were ashamed Bush was from Texas and opposed the coming Iraq invasion; country radio blacklisted them; she withdrew her apology in 2006. A self-described Democrat ('people were so shocked that I was a Democrat'); the Chicks sang at the 2020 Democratic convention and endorsed Democrat James Talarico in 2026. 'I'm pro-gay marriage. Pro-gay everything. I'm pro-choice' (2013); signed the letter against Texas's bathroom bills; says she leans slightly conservative on guns.",
   "sources": [
    {
     "title": "TIME: The Dixie Chicks' Bush comment",
@@ -4472,6 +4568,14 @@
    {
     "title": "Daily Beast: the Chicks endorse Talarico, hit back at the White House (2026)",
     "url": "https://www.thedailybeast.com/obsessed/music-legend-gets-sweet-revenge-after-white-house-meltdown"
+   },
+   {
+    "title": "PinkNews: Maines, 'pro-gay everything'",
+    "url": "https://thepinknews.com/2013/05/10/dixie-chicks-singer-natalie-maines-im-pro-gay-marriage-im-pro-gay-everything"
+   },
+   {
+    "title": "Country Music Nation: Maines against Texas bathroom bills",
+    "url": "https://countrymusicnation.com/natalie-maines-takes-stand-against-controversial-bathroom-bills-in-texas"
    }
   ],
   "checked": "2026-11-11",
@@ -4593,11 +4697,11 @@
   "band": "solo",
   "genre": "C",
   "econ": 6.0,
-  "auth": 4.0,
-  "confidence": 1,
+  "auth": 4.6,
+  "confidence": 2,
   "ce": 2,
-  "ca": 1,
-  "basis": "\"God Bless the USA\" is Trump's walk-out song; self-described Reagan Republican who has backed Trump since 2015 without payment, sang at his inaugurations and co-branded the \"God Bless the USA Bible\". On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "\"God Bless the USA\" is Trump's walk-out song; self-described Reagan Republican who has backed Trump since 2015 without payment, sang at his inaugurations and co-branded the \"God Bless the USA Bible\". Second Amendment supporter.",
   "sources": [
    {
     "title": "AP via WSLS: Lee Greenwood on Trump's inauguration and Bibles (2025)",
@@ -4610,6 +4714,10 @@
    {
     "title": "TNND: Greenwood – 'I have received $0' from Trump campaign (2024)",
     "url": "https://okcfox.com/news/nation-world/lee-greenwood-denies-being-paid-by-trump-campaign-i-have-received-0-presidential-election-politics-god-bless-the-usa-kamala-oprah-endorsement"
+   },
+   {
+    "title": "America's 1st Freedom: Lee Greenwood is NRA Country",
+    "url": "https://www.americas1stfreedom.org/articles/2020/10/30/lee-greenwood-is-nra-country"
    }
   ],
   "checked": "2026-11-11",
@@ -4726,10 +4834,10 @@
   "genre": "C",
   "econ": -1,
   "auth": -2.0,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Avoids party politics and declined the Medal of Freedom so as not to be \"doing politics\"; gave $1 million to the research behind the Moderna vaccine; said \"of course Black lives matter\" in 2020. A dues-paying member of the Nashville musicians' union from 1968 for the rest of her life. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Avoids party politics and declined the Medal of Freedom so as not to be \"doing politics\"; gave $1 million to the research behind the Moderna vaccine; said \"of course Black lives matter\" in 2020. A dues-paying member of the Nashville musicians' union from 1968 for the rest of her life. Long-time supporter of gay fans; came out for same-sex marriage in 2009.",
   "sources": [
    {
     "title": "New Statesman: Parton avoids party politics; Black Lives Matter remark",
@@ -4742,6 +4850,10 @@
    {
     "title": "Mother Jones: Dolly Parton, unions, books and gays (2026)",
     "url": "https://www.motherjones.com/politics/2026/08/dolly-parton-unions-books-gays-tribute/"
+   },
+   {
+    "title": "Wikipedia: Dolly Parton",
+    "url": "https://en.wikipedia.org/wiki/Dolly_Parton"
    }
   ],
   "checked": "2026-11-11",
@@ -4925,11 +5037,11 @@
   "band": "The Wailers",
   "genre": "F",
   "econ": -4,
-  "auth": -4.0,
-  "confidence": 1,
+  "auth": -5.4,
+  "confidence": 2,
   "ce": 1,
-  "ca": 1,
-  "basis": "Joined the hands of rival party leaders Manley and Seaga at the 1978 One Love Peace Concert; played Zimbabwe's independence celebrations in 1980; Pan-Africanist songwriting. A friend of the democratic-socialist prime minister Michael Manley; the historian Brian Meeks reads the One Love handshake as an attempt to save Manley's socialist project, not as neutrality. An interpretation, so a single signal. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Joined the hands of rival party leaders Manley and Seaga at the 1978 One Love Peace Concert; played Zimbabwe's independence celebrations in 1980; Pan-Africanist songwriting. A friend of the democratic-socialist prime minister Michael Manley; the historian Brian Meeks reads the One Love handshake as an attempt to save Manley's socialist project, not as neutrality. An interpretation, so a single signal. Advocated cannabis legalisation; opposed apartheid in \"War\" (1976) and at the 1979 Amandla Festival.",
   "sources": [
    {
     "title": "Wikipedia: One Love Peace Concert",
@@ -4946,6 +5058,10 @@
    {
     "title": "Jacobin: Bob Marley's peace gesture supported radical change in Jamaica (2021)",
     "url": "https://jacobin.com/2021/06/bob-marley-jamaica-peace-concert-photo"
+   },
+   {
+    "title": "Wikipedia: Bob Marley",
+    "url": "https://en.wikipedia.org/wiki/Bob_Marley"
    }
   ],
   "checked": "2026-11-11",
@@ -5261,7 +5377,7 @@
   "confidence": 2,
   "ce": 1,
   "ca": 2,
-  "basis": "Vegan since 1987 and animal-rights activist with the Humane Society and PETA; has given millions to animal-rights groups, climate groups and Democratic candidates; long-time MoveOn collaborator. On authority the record is only camp signals, several of them independent: medium confidence at most.",
+  "basis": "Vegan since 1987 and animal-rights activist with the Humane Society and PETA; has given millions to animal-rights groups, climate groups and Democratic candidates; long-time MoveOn collaborator. Played the 2000 Pro-Choice March on the Washington Mall.",
   "sources": [
    {
     "title": "NPR: All that Moby needs is to be good (2020)",
@@ -5270,6 +5386,10 @@
    {
     "title": "Grist: interview with Moby on MoveOn and animal rights",
     "url": "https://grist.org/culture/moby1/"
+   },
+   {
+    "title": "Wikipedia: Moby",
+    "url": "https://en.wikipedia.org/wiki/Moby"
    }
   ],
   "checked": "2026-11-11",
@@ -5928,10 +6048,10 @@
   "genre": "O",
   "econ": 6,
   "auth": 4,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 2,
-  "ca": 1,
-  "basis": "Lifelong Republican who has endorsed dozens of conservative candidates; recorded robocalls for Trump in 2016 and voted for him twice, while publicly urging him to tone it down (2022, 2026); questioned Obama's legitimacy. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Lifelong Republican who has endorsed dozens of conservative candidates; recorded robocalls for Trump in 2016 and voted for him twice, while publicly urging him to tone it down (2022, 2026); questioned Obama's legitimacy. Recorded 2007 Kentucky robocalls warning that the Democrat would support 'every homosexual cause'.",
   "sources": [
    {
     "title": "Jerusalem Post: Pat Boone, longtime Trump supporter, urges him to talk less (2026)",
@@ -5944,6 +6064,10 @@
    {
     "title": "Daily Signal: Pat Boone on being a conservative in Hollywood (2015)",
     "url": "https://www.dailysignal.com/?p=29937"
+   },
+   {
+    "title": "Wikipedia: Pat Boone",
+    "url": "https://en.wikipedia.org/wiki/Pat_Boone"
    }
   ],
   "checked": "2026-11-11",
@@ -5962,10 +6086,10 @@
   "genre": "H",
   "econ": -7,
   "auth": -4,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 2,
-  "ca": 1,
-  "basis": "Endorsed Jeremy Corbyn in 2016, 2017 and 2019; attacked Theresa May over Grenfell at the 2018 Brits; funds the Stormzy Scholarship for Black students at Cambridge. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Endorsed Jeremy Corbyn in 2016, 2017 and 2019; attacked Theresa May over Grenfell at the 2018 Brits; funds the Stormzy Scholarship for Black students at Cambridge. Speaks out against police brutality and racism in policing (2016 onwards).",
   "sources": [
    {
     "title": "The Fader: Stormzy signs open letter supporting Corbyn (2019)",
@@ -5978,6 +6102,10 @@
    {
     "title": "University of Cambridge: The Stormzy Scholarship (2018)",
     "url": "https://cam.ac.uk/node/199492"
+   },
+   {
+    "title": "Digital Music News: Stormzy on police brutality",
+    "url": "https://www.digitalmusicnews.com/?p=74859"
    }
   ],
   "checked": "2026-11-11",
@@ -5996,10 +6124,10 @@
   "genre": "H",
   "econ": -8,
   "auth": -4,
-  "confidence": 2,
+  "confidence": 3,
   "ce": 2,
-  "ca": 2,
-  "basis": "Anti-imperialist author of Natives: Race and Class in the Ruins of Empire (2018); voted for the first time in 2017 for Corbyn on austerity, war and the NHS, while saying he was not and probably never would be a Labour supporter. On authority the record is only camp signals, several of them independent: medium confidence at most.",
+  "ca": 3,
+  "basis": "Anti-imperialist author of Natives: Race and Class in the Ruins of Empire (2018); voted for the first time in 2017 for Corbyn on austerity, war and the NHS, while saying he was not and probably never would be a Labour supporter. Argues against more policing and tougher sentences as the answer to knife crime; Natives (2018) on stop and search.",
   "sources": [
    {
     "title": "The Canary: Akala comes out as a Corbyn supporter (2017)",
@@ -6012,6 +6140,10 @@
    {
     "title": "Hachette: Natives – Race and Class in the Ruins of Empire",
     "url": "https://www.hachette.co.uk/titles/akala/natives/9781473661233/"
+   },
+   {
+    "title": "Afropunk: Akala on British colonialism and crime",
+    "url": "https://afropunk.com/2019/03/akala-destroys-the-hypocrisy-of-british-colonialism"
    }
   ],
   "checked": "2026-11-11",
@@ -6073,11 +6205,11 @@
   "band": "solo",
   "genre": "H",
   "econ": -5,
-  "auth": -4,
-  "confidence": 1,
+  "auth": -6,
+  "confidence": 2,
   "ce": 2,
-  "ca": 1,
-  "basis": "Called Obama \"the biggest terrorist\" over US foreign policy and drone strikes (CBS, 2011) after calling Bush an \"American Terrorist\" in 2006; says he doesn't vote; cut off at a 2013 pre-inaugural show for an anti-Obama rap. An early Occupy supporter: donated 50 tents to Zuccotti Park, wrote the poem 'Moneyman' for The Occupied Wall Street Journal, and dropped off tents at Occupy Denver (2011). On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Called Obama \"the biggest terrorist\" over US foreign policy and drone strikes (CBS, 2011) after calling Bush an \"American Terrorist\" in 2006; says he doesn't vote; cut off at a 2013 pre-inaugural show for an anti-Obama rap. An early Occupy supporter: donated 50 tents to Zuccotti Park, wrote the poem 'Moneyman' for The Occupied Wall Street Journal, and dropped off tents at Occupy Denver (2011). Songs and videos on police brutality, including the 2015 Freddie Gray protests ('Just Might Be OK').",
   "sources": [
    {
     "title": "BET: Lupe Fiasco calls Obama a terrorist (2011)",
@@ -6098,6 +6230,10 @@
    {
     "title": "Westword: Lupe Fiasco supports Occupy Denver (2011)",
     "url": "https://www.westword.com/music/lupe-fiasco-supports-occupy-denver-on-twitter-and-in-person-5683819"
+   },
+   {
+    "title": "MTV: Lupe Fiasco's 'Just Might Be OK' video",
+    "url": "https://www.mtv.com/news/2149064/lupe-fiasco-just-might-be-ok-video/"
    }
   ],
   "checked": "2026-11-11",
@@ -6330,10 +6466,10 @@
   "genre": "C",
   "econ": 6,
   "auth": 3,
-  "confidence": 1,
+  "confidence": 2,
   "ce": 2,
-  "ca": 1,
-  "basis": "Strong Republican: backed Rand Paul then Trump in 2016, played Trump's 2017 pre-inaugural concert, co-wrote \"Shut Up About Politics\" with Fox's Greg Gutfeld (2019), and campaigns for Trump-aligned candidates in Tennessee. Pulled Bud Light from his Nashville bar during the 2023 boycott: a single signal, context only. On authority the record is only camp signals (party, war, Brexit and similar stances), so low confidence.",
+  "ca": 2,
+  "basis": "Strong Republican: backed Rand Paul then Trump in 2016, played Trump's 2017 pre-inaugural concert, co-wrote \"Shut Up About Politics\" with Fox's Greg Gutfeld (2019), and campaigns for Trump-aligned candidates in Tennessee. Pulled Bud Light from his Nashville bar during the 2023 boycott: a single signal, context only. Life member of the NRA and outspoken Second Amendment defender.",
   "sources": [
    {
     "title": "Taste of Country: John Rich – 'Shut Up About Politics' (2019)",
@@ -6350,6 +6486,10 @@
    {
     "title": "WSMV: Travis Tritt, John Rich drop Anheuser-Busch (2023)",
     "url": "https://www.wsmv.com/2023/04/07/travis-tritt-john-rich-drop-anheuser-busch-tour/?outputType=amp"
+   },
+   {
+    "title": "America's 1st Freedom: I Defend the 2nd, John Rich",
+    "url": "https://americas1stfreedom.org/content/i-defend-the-2nd-john-rich"
    }
   ],
   "checked": "2026-11-11",

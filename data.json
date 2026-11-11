@@ -6,9 +6,26 @@
   "econ": -8.5,
   "auth": -5,
   "confidence": 3,
-  "basis": "Self-described socialist; co-founded Axis of Justice; a regular at union benefits.",
-  "sources": [],
-  "checked": null,
+  "basis": "Identifies as a nonsectarian socialist; co-founded Axis of Justice (2002); played the 2011 Madison protests against Wisconsin's anti-union law and gave the Union Town proceeds to labour groups; played the 2023 Hollywood picket lines.",
+  "sources": [
+   {
+    "title": "In These Times: Tom Morello",
+    "url": "https://inthesetimes.com/article/tom-morello"
+   },
+   {
+    "title": "The Nation: Morello's Justice Tour links rockers and unions",
+    "url": "https://www.thenation.com/article/archive/guitars-and-bagpipes-tom-morellos-justice-tour-links-rockers-and-unions-labor-day-fightb/"
+   },
+   {
+    "title": "Harvard Magazine: Rage, reborn",
+    "url": "https://www.harvardmagazine.com/2018/07/tom-morello-prophets-of-rage"
+   },
+   {
+    "title": "Wikipedia: Tom Morello (self-description)",
+    "url": "https://en.wikipedia.org/wiki/Tom_Morello"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Tom Morello",
   "views": 1143851,
   "start": 1979
@@ -414,9 +431,18 @@
   "econ": -3.5,
   "auth": -4,
   "confidence": 2,
-  "basis": "\"Fortunate Son\" as a class critique of the draft; cease-and-desist to the Trump campaign in 2020.",
-  "sources": [],
-  "checked": null,
+  "basis": "Wrote \"Fortunate Son\" (1969) about the privileged dodging the draft while working-class men went to Vietnam; sent the Trump campaign a cease-and-desist in 2020 for using it.",
+  "sources": [
+   {
+    "title": "CNN: Fogerty tells Trump to stop playing his song",
+    "url": "https://amp.cnn.com/cnn/2020/10/19/us/john-fogerty-tells-trump-to-stop-playing-his-song-trnd"
+   },
+   {
+    "title": "The Hill: Trump shares Fortunate Son video despite cease-and-desist",
+    "url": "https://thehill.com/homenews/campaign/523185-trump-shares-video-of-fortunate-son-playing-at-rally-despite-cease-and-desist/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "John Fogerty",
   "views": 1089405,
   "start": 1959
@@ -482,9 +508,26 @@
   "econ": 0.5,
   "auth": -1,
   "confidence": 2,
-  "basis": "Debt-relief and AIDS campaigning with both parties; praises commerce as an anti-poverty tool; the band's 2006 tax move to the Netherlands.",
-  "sources": [],
-  "checked": null,
+  "basis": "Lobbied Bush and both parties on debt relief and AIDS funding; told Georgetown in 2012 that \"commerce [and] entrepreneurial capitalism take more people out of poverty than aid\"; U2 moved its royalty business to the Netherlands in 2006 to cut its tax bill.",
+  "sources": [
+   {
+    "title": "Georgetown University: Bono's 2012 speech",
+    "url": "https://www.georgetown.edu/news/u2s-bono-budget-cuts-can-impact-social-enterprise-global-change/"
+   },
+   {
+    "title": "Acton Institute: Bono affirms capitalism alleviates poverty more than aid",
+    "url": "https://blog.acton.org/archives/58688-bono-affirms-that-capitalism-alleviates-poverty-more-than-aid.html"
+   },
+   {
+    "title": "Tax Research UK: U2's move to the Netherlands",
+    "url": "https://www.taxresearch.org.uk/Blog/?p=1856"
+   },
+   {
+    "title": "U2.com: Bono lobbying in Washington (2006)",
+    "url": "https://member.u2.com/news/title/thank_you_mr_president_1884"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Bono",
   "views": 1122529,
   "start": 1976
@@ -1190,9 +1233,18 @@
   "econ": 3,
   "auth": -3,
   "confidence": 1,
-  "basis": "Hunter and NRA member who says he hates politics.",
-  "sources": [],
-  "checked": null,
+  "basis": "NRA member and hunter who left the Bay Area for Colorado in 2016, citing an \"elitist attitude\" toward anyone not \"their way politically\"; otherwise keeps out of politics.",
+  "sources": [
+   {
+    "title": "Blabbermouth: Hetfield moved to Colorado over Bay Area's elitist attitude",
+    "url": "https://blabbermouth.net/news/metallica-james-hetfield-moved-to-colorado-after-getting-sick-of-elitist-attitude-in-san-francisco-bay-area"
+   },
+   {
+    "title": "Metal Injection: Hetfield on elitist attitudes, NRA membership",
+    "url": "https://metalinjection.net/news/metallicas-james-hetfield-says-elitist-attidues-in-san-francisco-made-him-move-to-colorado"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "James Hetfield",
   "views": 1155921,
   "start": 1978
@@ -1424,9 +1476,22 @@
   "econ": 1,
   "auth": -2.3,
   "confidence": 2,
-  "basis": "Calls himself temperamentally conservative; criticises cancel culture; attended the 2023 coronation; opposes the cultural boycott of Israel.",
-  "sources": [],
-  "checked": null,
+  "basis": "Calls himself \"temperamentally\" conservative, small c, and wary of the idea of progress; calls cancel culture \"mercy's antithesis\"; called the cultural boycott of Israel \"cowardly and shameful\"; attended the 2023 coronation.",
+  "sources": [
+   {
+    "title": "Guardian via inkl: Is Nick Cave a conservative?",
+    "url": "https://inkl.com/news/is-nick-cave-a-conservative-depends-what-kind-of-conservative-you-mean"
+   },
+   {
+    "title": "New Statesman: The conservatism of Nick Cave",
+    "url": "https://www.newstatesman.com/culture/music/2023/05/nick-cave-conservatism-charles-coronation"
+   },
+   {
+    "title": "Irish Times: Cave criticises cancel culture",
+    "url": "https://www.irishtimes.com/culture/music/nick-cave-criticises-cancel-culture-as-bad-religion-run-amuck-1.4329332"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Nick Cave",
   "views": 1178638,
   "start": 1973
@@ -1493,9 +1558,18 @@
   "econ": -5.8,
   "auth": -4.5,
   "confidence": 3,
-  "basis": "\"Biko\"; Amnesty tours; founded the human-rights group Witness.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Biko\" (1980) against apartheid; Amnesty's Conspiracy of Hope (1986) and Human Rights Now! (1988) tours; founded the human-rights video group Witness in 1992.",
+  "sources": [
+   {
+    "title": "NBC News: Peter Gabriel bears WITNESS to rights abuses",
+    "url": "https://www.nbcnews.com/id/wbna34129286"
+   },
+   {
+    "title": "Paste: Peter Gabriel, can I get a Witness?",
+    "url": "https://www.pastemagazine.com/music/peter-gabriel/peter-gabriel-can-i-get-a-witness"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Peter Gabriel",
   "views": 1125909,
   "start": 1965
@@ -1744,9 +1818,22 @@
   "econ": -4.6,
   "auth": -1.4,
   "confidence": 3,
-  "basis": "Farm Aid co-founder; heartland populist and Democratic campaigner.",
-  "sources": [],
-  "checked": null,
+  "basis": "Farm Aid co-founder (1985) and board member; campaigned for Edwards, Clinton and Obama in 2008; made McCain stop using \"Our Country\" and \"Pink Houses\"; thought Obama too conservative.",
+  "sources": [
+   {
+    "title": "The Nation: Senator Mellencamp?",
+    "url": "https://www.thenation.com/?p=96653"
+   },
+   {
+    "title": "Los Angeles Times via mellencamp.com: season of political discontent",
+    "url": "https://www.mellencamp.com/oldnews/los-angeles-times--john-mellencamp-s-season-of-political-discontent"
+   },
+   {
+    "title": "CBS News: McCain stops using Mellencamp songs",
+    "url": "https://www.cbsnews.com/news/mccain-stops-using-mellencamp-songs"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "John Mellencamp",
   "views": 1188590,
   "start": 1974
@@ -1772,9 +1859,22 @@
   "econ": -5.6,
   "auth": -3,
   "confidence": 3,
-  "basis": "Organised \"Sun City\" and Artists United Against Apartheid in 1985.",
-  "sources": [],
-  "checked": null,
+  "basis": "Wrote and produced \"Sun City\" and founded Artists United Against Apartheid in 1985; the participants pledged never to play the resort.",
+  "sources": [
+   {
+    "title": "Open Culture: how Van Zandt organised the Sun City boycott",
+    "url": "https://www.openculture.com/2021/08/how-steven-van-zandt-organized-the-sun-city-boycott-and-helped-catalyze-the-anti-apartheid-movement-1985.html"
+   },
+   {
+    "title": "Time: Sun City among the top protest songs",
+    "url": "https://entertainment.time.com/2010/05/04/kent-state-40-years-later-top-10-protest-songs/slide/sun-city-1985-artists-united-against-apartheid/"
+   },
+   {
+    "title": "UPI: Van Zandt on Sun City and fighting apartheid",
+    "url": "https://www.upi.com/blog/2013/12/13/Steven-Van-Zandt-talks-Sun-City-and-fighting-apartheid/8571386960721/"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Steven Van Zandt",
   "views": 1100843,
   "start": 1968
@@ -2704,9 +2804,22 @@
   "econ": -6.0,
   "auth": -7.0,
   "confidence": 3,
-  "basis": "Civil-rights marches, draft resistance, lifelong nonviolence; criticised Vietnam's communist government in 1979.",
-  "sources": [],
-  "checked": null,
+  "basis": "Marched from Selma to Montgomery with King; jailed twice in 1967 for blocking a draft induction centre; withheld war taxes for a decade; in 1979 founded Humanitas International and publicly condemned abuses by Vietnam's communist government.",
+  "sources": [
+   {
+    "title": "National Women's History Museum: Joan Baez",
+    "url": "https://www.womenshistory.org/education-resources/biographies/joan-baez"
+   },
+   {
+    "title": "University of Colorado Libraries: Humanitas International archive",
+    "url": "https://libraries.colorado.edu/2018/05/30/archives-humanitas-international"
+   },
+   {
+    "title": "Biography.com: Joan Baez",
+    "url": "https://www.biography.com/musicians/joan-baez"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Joan Baez",
   "views": 1171279,
   "start": 1958
@@ -3512,12 +3625,21 @@
   "name": "Zach Bryan",
   "band": "solo",
   "genre": "C",
-  "econ": -3,
+  "econ": -1,
   "auth": -4,
   "confidence": 1,
-  "basis": "\"Bad News\" (2025) criticised ICE raids and drew a rebuke from the Department of Homeland Security.",
-  "sources": [],
-  "checked": null,
+  "basis": "\"Bad News\" (2025) sang about ICE raids and drew rebukes from the Homeland Security secretary and the White House; he answered that he loves the country and that the full song \"hits on both sides of the aisle\". One song is the whole record.",
+  "sources": [
+   {
+    "title": "ABC News: Zach Bryan addresses backlash over ICE lyrics",
+    "url": "https://www.goodmorningamerica.com/news/story/love-country-zach-bryan-addresses-backlash-song-ice-126325347"
+   },
+   {
+    "title": "Axios: DHS escalates fight over Bryan's ICE lyric",
+    "url": "https://www.axios.com/2025/10/08/zach-bryan-ice-lyric-bad-news-dhs"
+   }
+  ],
+  "checked": "2026-11-11",
   "wiki": "Zach Bryan",
   "views": 1210255,
   "start": 2017

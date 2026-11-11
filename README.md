@@ -2,9 +2,9 @@
 
 **A political compass of musicians**, placed by what they have said and done, with the uncertainty drawn in.
 
-**[Open the chart →](https://mehmetemreak.github.io/music-politics-compass/)**
+**[Open the chart →](https://mehmetemreak.github.io/offkey-politics-compass/)**
 
-180 musicians, from Woody Guthrie to Kneecap. Every placement has a written basis and at least one source; tap anyone on the chart to read them. Last full audit: 11 November 2026 ([log](METHODOLOGY.md#audits-done)).
+191 musicians, from Woody Guthrie to Kneecap. Every placement has a written basis and at least one source; tap anyone on the chart to read them. Last full audit: 11 November 2026 ([log](METHODOLOGY.md#audits-done)).
 
 ## People, not bands
 
@@ -63,8 +63,8 @@ Enter a Last.fm username under the chart to see which of your top 1,000 artists 
 
 Open an issue with a source:
 
-- **[Dispute a placement](https://github.com/mehmetemreak/music-politics-compass/issues/new?template=placement.yml):** which axis, where you think the person belongs, and a link to an interview, statement, filing or record. Disputes without a source are closed.
-- **[Suggest a musician](https://github.com/mehmetemreak/music-politics-compass/issues/new?template=suggest.yml):** their economic and authority record, one source per claim.
+- **[Dispute a placement](https://github.com/mehmetemreak/offkey-politics-compass/issues/new?template=placement.yml):** which axis, where you think the person belongs, and a link to an interview, statement, filing or record. Disputes without a source are closed.
+- **[Suggest a musician](https://github.com/mehmetemreak/offkey-politics-compass/issues/new?template=suggest.yml):** their economic and authority record, one source per claim.
 
 Every case is checked the same way whichever side it favours: if it would move one side's mark, the mirror case must move the other's.
 
@@ -77,8 +77,8 @@ Visits are counted with [GoatCounter](https://www.goatcounter.com), which sets n
 No build step and no dependencies. The page loads `data.json` with `fetch`, so serve the folder:
 
 ```sh
-git clone https://github.com/mehmetemreak/music-politics-compass.git
-cd music-politics-compass
+git clone https://github.com/mehmetemreak/offkey-politics-compass.git
+cd offkey-politics-compass
 python3 -m http.server
 ```
 

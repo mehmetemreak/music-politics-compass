@@ -3405,7 +3405,7 @@
   "confidence": 2,
   "ce": 2,
   "ca": 2,
-  "basis": "Self-described \"left-leaning libertarian\" in the Chomsky mould; socialist on land and energy. Earlier flirted with conspiracy theories.",
+  "basis": "Self-described \"left-leaning libertarian\" in the Chomsky mould and 'meta-centrist': liberal for individuals, 'more socialist on things like land ownership, nature and energy'. Backs a land value tax, limits on corporate size, decentralised government and abolishing the monarchy and the House of Lords. Earlier 9/11 conspiracy theories, later disowned, do not count.",
   "sources": [
    {
     "title": "Rolling Stone: Muse criticise Glenn Beck (2012)",
@@ -3414,6 +3414,10 @@
    {
     "title": "Loudwire: Bellamy on a 'third way' politics",
     "url": "https://wgrd.com/muse-matt-bellamy-warns-modern-civilization-end-replaced-new-form-politics/"
+   },
+   {
+    "title": "Wikipedia: Matt Bellamy (political views)",
+    "url": "https://en.wikipedia.org/wiki/Matt_Bellamy#Political_views"
    }
   ],
   "checked": "2026-11-11",
@@ -5020,6 +5024,10 @@
    {
     "title": "UNC Press: Kimberley Phillips on 'The Backlash Blues'",
     "url": "https://uncpressblog.com/2012/01/26/excerpt-war-what-is-it-good-for-by-kimberley-l-phillips"
+   },
+   {
+    "title": "History News Network: The radical politics of Nina Simone",
+    "url": "https://www.historynewsnetwork.org/article/the-radical-politics-of-nina-simone"
    }
   ],
   "checked": "2026-11-11",
@@ -6615,5 +6623,339 @@
   "lfmAct": "Zach Bryan",
   "lfmChecked": "2026-11-11",
   "langs": 23
+ },
+ {
+  "name": "Kevin Parker",
+  "band": "Tame Impala",
+  "genre": "R",
+  "start": 2007,
+  "econ": 0,
+  "auth": -2,
+  "ce": 0,
+  "ca": 1,
+  "wiki": "Kevin Parker",
+  "wsec": "",
+  "views": 655338,
+  "langs": 16,
+  "lfm": 4708526,
+  "lfmAct": "Tame Impala",
+  "basis": "Joined the 2020 Black Lives Matter protest in Perth against police violence and played a protest gig against a road extension near Perth: a single direct signal, so low confidence. No economic record turned up in a real search, so economics is unknown (drawn ±5).",
+  "sources": [
+   {
+    "title": "Cosmic Magazine: Kevin Parker joins Black Lives Matter protest (2020)",
+    "url": "https://cosmicmagazine.com.au/news/tame-impalas-kevin-parker-attends-australian-black-lives-matter-protest/"
+   },
+   {
+    "title": "DIY: Kevin Parker plays Australian protest gig",
+    "url": "https://diymag.com/news/tame-impala-australian-protest-gig"
+   }
+  ],
+  "confidence": 1,
+  "checked": "2026-11-11",
+  "lfmChecked": "2026-11-11"
+ },
+ {
+  "name": "Lana Del Rey",
+  "band": "solo",
+  "genre": "O",
+  "start": 2005,
+  "econ": -2,
+  "auth": -2,
+  "ce": 1,
+  "ca": 1,
+  "wiki": "Lana Del Rey",
+  "wsec": "Social_views",
+  "views": 2188269,
+  "langs": 149,
+  "lfm": 5501082,
+  "lfmAct": "Lana Del Rey",
+  "basis": "Trump critic since 2017 (a 'binding spell', changed her Americana visuals, called him delusional in 2021) who covered \"On Eagles' Wings\" for Biden's win and criticised Kanye West's Trump support. Party and candidate signals only, so low confidence on both axes. Calls feminism 'not an interesting concept', which is not a policy position.",
+  "sources": [
+   {
+    "title": "Wikipedia: Lana Del Rey (social views)",
+    "url": "https://en.wikipedia.org/wiki/Lana_Del_Rey#Social_views"
+   },
+   {
+    "title": "Stylist: Lana Del Rey changes her aesthetic because of Trump",
+    "url": "https://stylist.co.uk/people/lana-del-rey-trump-donald-americana-american-flag-changing-aesthetic-politics/34906"
+   }
+  ],
+  "confidence": 1,
+  "checked": "2026-11-11",
+  "lfmChecked": "2026-11-11"
+ },
+ {
+  "name": "Chris Cornell",
+  "band": "Soundgarden",
+  "genre": "R",
+  "start": 1984,
+  "econ": -4,
+  "auth": -1.5,
+  "ce": 2,
+  "ca": 1,
+  "wiki": "Chris Cornell",
+  "wsec": "",
+  "views": 2748903,
+  "langs": 54,
+  "lfm": 3493556,
+  "lfmAct": "Soundgarden",
+  "basis": "Called his song \"Hunger Strike\" 'somewhat of a political, socialist statement' (2005); played Obama's 2009 inaugural ball and a 2012 Obama rally in Iowa. On authority there are only camp signals (Audioslave's 2017 anti-Trump inaugural ball) and a 1994 remark doubting drug legalisation, so low confidence.",
+  "sources": [
+   {
+    "title": "Grunge Included: Hunger Strike, 'a political, socialist statement' (citing Hay, 2005)",
+    "url": "https://grungeincluded.substack.com/p/hunger-strike-1991commercial-punk"
+   },
+   {
+    "title": "Contactmusic: Cornell plays Obama rally in Iowa (2012)",
+    "url": "https://admin.contactmusic.com/chris-cornell/news/chris-cornell-supports-obama-after-pulling-out-of-jay-z-festival_1408763"
+   },
+   {
+    "title": "Dagbladet: Cornell on legalisation (1994)",
+    "url": "https://www.dagbladet.no/nyheter/snill-gutt---slem-musikk/65402031"
+   },
+   {
+    "title": "Wikipedia: Chris Cornell",
+    "url": "https://en.wikipedia.org/wiki/Chris_Cornell"
+   }
+  ],
+  "confidence": 1,
+  "checked": "2026-11-11",
+  "lfmChecked": "2026-11-11"
+ },
+ {
+  "name": "Rihanna",
+  "band": "solo",
+  "genre": "O",
+  "start": 2005,
+  "econ": -3,
+  "auth": -5,
+  "ce": 1,
+  "ca": 3,
+  "wiki": "Rihanna",
+  "wsec": "Advocacy",
+  "views": 3364433,
+  "langs": 139,
+  "lfm": 8578649,
+  "lfmAct": "Rihanna",
+  "basis": "Turned down the 2019 Super Bowl halftime show in solidarity with Colin Kaepernick's protest over police violence; opposed Indiana's 2015 religious-freedom law used against LGBT people; attacked Trump's travel ban and the 2019 ICE raids. Economically only a partisan proxy: she endorsed Kamala Harris in 2024.",
+  "sources": [
+   {
+    "title": "Wikipedia: Rihanna (advocacy)",
+    "url": "https://en.wikipedia.org/wiki/Rihanna#Advocacy"
+   },
+   {
+    "title": "HuffPost: Rihanna speaks out against Trump's 'devastating' immigration policies (2019)",
+    "url": "https://www.huffingtonpost.ca/entry/rihanna-speaks-out-against-trumps-devastating-immigration-policies_n_5d124fc0e4b0a394186950cd"
+   }
+  ],
+  "confidence": 3,
+  "checked": "2026-11-11",
+  "lfmChecked": "2026-11-11"
+ },
+ {
+  "name": "Dua Lipa",
+  "band": "solo",
+  "genre": "O",
+  "start": 2015,
+  "econ": -4,
+  "auth": -2.5,
+  "ce": 1,
+  "ca": 2,
+  "wiki": "Dua Lipa",
+  "wsec": "Political_views_and_activism",
+  "views": 5153086,
+  "langs": 102,
+  "lfm": 3469115,
+  "lfmAct": "Dua Lipa",
+  "basis": "Endorsed Corbyn's Labour in 2019 after comparing the parties' policies and backed Bernie Sanders in 2020: partisan proxies, so a direction only. LGBT-rights advocacy and condemnation of Sudan's internet blackout pull towards liberty; posting a Greater Albania map (2020) and the KLA logo after Thaçi's war-crimes conviction (2026) pull towards nationalism. Palestine statements are camp signals.",
+  "sources": [
+   {
+    "title": "Wikipedia: Dua Lipa (political views and activism)",
+    "url": "https://en.wikipedia.org/wiki/Dua_Lipa#Political_views_and_activism"
+   }
+  ],
+  "confidence": 2,
+  "checked": "2026-11-11",
+  "lfmChecked": "2026-11-11"
+ },
+ {
+  "name": "Harry Styles",
+  "band": "One Direction",
+  "genre": "O",
+  "start": 2010,
+  "econ": -2,
+  "auth": -3,
+  "ce": 1,
+  "ca": 2,
+  "wiki": "Harry Styles",
+  "wsec": "Philanthropy_and_advocacy",
+  "views": 4051112,
+  "langs": 75,
+  "lfm": 3543498,
+  "lfmAct": "Harry Styles",
+  "basis": "LGBTQ-rights advocate (Gay Times Honour, 2018) who backed the March for Our Lives gun-control petition (guns count +0.5). Described as a Labour supporter and said in 2017 he would vote for 'whoever is against Brexit': party and Brexit signals only on economics.",
+  "sources": [
+   {
+    "title": "Wikipedia: Harry Styles (philanthropy and advocacy)",
+    "url": "https://en.wikipedia.org/wiki/Harry_Styles#Philanthropy_and_advocacy"
+   },
+   {
+    "title": "The Line of Best Fit: Styles to vote for 'whoever is against Brexit' (2017)",
+    "url": "https://thelineofbestfit.com/news/latest-news/harry-styles-planning-to-vote-for-whoever-is-against-brexit"
+   },
+   {
+    "title": "The Spectator: Styles, 'a self-confessed Labour supporter'",
+    "url": "https://spectator.co.uk/?p=136699"
+   }
+  ],
+  "confidence": 2,
+  "checked": "2026-11-11",
+  "lfmChecked": "2026-11-11"
+ },
+ {
+  "name": "Ed Sheeran",
+  "band": "solo",
+  "genre": "O",
+  "start": 2004,
+  "econ": -2.5,
+  "auth": -1,
+  "ce": 1,
+  "ca": 1,
+  "wiki": "Ed Sheeran",
+  "wsec": "Political_views",
+  "views": 2627041,
+  "langs": 90,
+  "lfm": 4375887,
+  "lfmAct": "Ed Sheeran",
+  "basis": "'I love Corbyn. I love everything Corbyn is about' (2017), while calling himself not political; signed the post-referendum letter on Brexit's harm to music. Party and Brexit signals only. In 2026 Macklemore was dropped from his tour over 'Free Palestine' remarks; Sheeran says it was the promoter's decision, not his, so it is context, not a call he made.",
+  "sources": [
+   {
+    "title": "Wikipedia: Ed Sheeran (political views)",
+    "url": "https://en.wikipedia.org/wiki/Ed_Sheeran#Political_views"
+   },
+   {
+    "title": "Yahoo/Independent: Sheeran says he is a fan of Corbyn (2017)",
+    "url": "https://uk.news.yahoo.com/ed-sheeran-says-fan-jeremy-085700001.html"
+   }
+  ],
+  "confidence": 1,
+  "checked": "2026-11-11",
+  "lfmChecked": "2026-11-11"
+ },
+ {
+  "name": "Phil Anselmo",
+  "band": "Pantera",
+  "genre": "M",
+  "start": 1986,
+  "econ": -2,
+  "auth": -1,
+  "ce": 1,
+  "ca": 1,
+  "wiki": "Phil Anselmo",
+  "wsec": "Views_on_race",
+  "views": 416325,
+  "langs": 34,
+  "lfm": 2736151,
+  "lfmAct": "Pantera",
+  "basis": "Says he would be 'easily on the left… surprisingly so', citing gun control (2018), and that he does not believe in hate-speech rules (2019). The 2016 'white power' salute and his remarks against affirmative action are offensive acts, not calls for coercion, so they are context only; he later called Pantera's use of the Confederate flag a mistake. Low confidence on both axes.",
+  "sources": [
+   {
+    "title": "Metalwani: Anselmo, 'easily on the left' on gun control (2018)",
+    "url": "https://metalwani.com/2018/02/philip-anselmo-why-i-loathe-guns.html"
+   },
+   {
+    "title": "Metalwani: Anselmo doesn't believe in hate speech (2019)",
+    "url": "https://metalwani.com/2019/03/phil-anselmo-says-he-doesnt-believe-in-hate-speech-or-any-of-that-sht.html"
+   },
+   {
+    "title": "Wikipedia: Phil Anselmo (views on race)",
+    "url": "https://en.wikipedia.org/wiki/Phil_Anselmo#Views_on_race"
+   }
+  ],
+  "confidence": 1,
+  "checked": "2026-11-11",
+  "lfmChecked": "2026-11-11"
+ },
+ {
+  "name": "Joni Mitchell",
+  "band": "solo",
+  "genre": "F",
+  "start": 1964,
+  "econ": 0,
+  "auth": -2,
+  "ce": 0,
+  "ca": 2,
+  "wiki": "Joni Mitchell",
+  "wsec": "",
+  "views": 1393943,
+  "langs": 65,
+  "lfm": 1774794,
+  "lfmAct": "Joni Mitchell",
+  "basis": "In 2022 demanded Spotify remove her songs while it hosted Joe Rogan, as Neil Young did: a call for a platform to drop someone's speech, which moves her a unit towards authority. Against that: songs attacking the religious right (\"Tax Free\") and the FBI at Pine Ridge (\"Lakota\"), and an 'ICE Out' pin at the 2026 Grammys. No economic record turned up in a real search (drawn ±5).",
+  "sources": [
+   {
+    "title": "Wikipedia: Joni Mitchell",
+    "url": "https://en.wikipedia.org/wiki/Joni_Mitchell"
+   }
+  ],
+  "confidence": 2,
+  "checked": "2026-11-11",
+  "lfmChecked": "2026-11-11"
+ },
+ {
+  "name": "Ice-T",
+  "band": "solo",
+  "genre": "H",
+  "start": 1982,
+  "econ": 0,
+  "auth": -6.5,
+  "ce": 0,
+  "ca": 3,
+  "wiki": "Ice-T",
+  "wsec": "Activism",
+  "views": 1392905,
+  "langs": 46,
+  "lfm": 291028,
+  "lfmAct": "Ice-T",
+  "basis": "Long-time anti-censorship campaigner: debated Tipper Gore on Oprah with Jello Biafra (1990) and toured universities on First Amendment rights; attacked mass incarceration on record. Defends gun ownership as 'the last form of defense against tyranny' (2012; guns count −0.5). \"Cop Killer\" being pulled in 1992 does not move him: being cancelled is not a position. No economic record found (drawn ±5).",
+  "sources": [
+   {
+    "title": "Wikipedia: Ice-T (activism)",
+    "url": "https://en.wikipedia.org/wiki/Ice-T#Activism"
+   },
+   {
+    "title": "Reason: Ice-T on the failures of gun control",
+    "url": "https://reason.com/?p=237955"
+   }
+  ],
+  "confidence": 3,
+  "checked": "2026-11-11",
+  "lfmChecked": "2026-11-11"
+ },
+ {
+  "name": "Eazy-E",
+  "band": "N.W.A",
+  "genre": "H",
+  "start": 1986,
+  "econ": 2,
+  "auth": 1,
+  "ce": 1,
+  "ca": 1,
+  "wiki": "Eazy-E",
+  "wsec": "",
+  "views": 1173106,
+  "langs": 53,
+  "lfm": 1383114,
+  "lfmAct": "Eazy-E",
+  "basis": "Attended a 1991 Republican Senatorial Inner Circle lunch with George H. W. Bush; his spokesman said he backed Bush over the Gulf War. Party and war signals only, so low confidence. \"Fuck tha Police\" was written by Ice Cube and MC Ren, so it is not his evidence.",
+  "sources": [
+   {
+    "title": "Wikipedia: Eazy-E",
+    "url": "https://en.wikipedia.org/wiki/Eazy-E"
+   }
+  ],
+  "confidence": 1,
+  "checked": "2026-11-11",
+  "lfmChecked": "2026-11-11"
  }
 ]

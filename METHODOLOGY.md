@@ -47,7 +47,7 @@ The axes follow [the Political Compass](https://www.politicalcompass.org) ([back
 ### Confidence and halos
 
 - `ce` (economic) and `ca` (authority) are each high (3, about ±1 unit), medium (2, ±1.5) or low (1, ±2.5). The halo is an ellipse with those two radii.
-- `ce` 0 means no economic record and is drawn as ±5. Every current placement has `ce` ≥ 1; a new person should only be added with `ce` 0 after a real search has come up empty, and that should be said in `basis`.
+- `ce` 0 means no economic record and is drawn as ±5. All original placements have `ce` ≥ 1; a new person should only be added with `ce` 0 after a real search has come up empty, and that should be said in `basis`.
 - `confidence` is the overall rating used for the mark's fill and the filters. It currently equals `ca`; whether it should become the weaker of the two axes is an open decision.
 
 ### Shifts
@@ -95,6 +95,7 @@ Work through this in order for every new entry, and for any re-check of an old o
 
 - **11 Nov 2026, camp signals:** every `basis` scanned for war, Palestine, Brexit, climate, Ukraine, apartheid, party and candidate signals, then checked for a direct authority claim. Apartheid, anti-gay laws, policing, drug laws, guns, abortion, immigration enforcement and the death penalty count as direct claims, since they are about what a state does to its own people. 49 placements rested only on camp signals; a second pass (Wikipedia text scanned from a browser script, then targeted searches) found direct evidence for 44 of them, which was added to `basis` and `sources`. Still camp-only: Mike Love, Bryan Ferry and Frank Sinatra (post-1970 record) at authority confidence 1; Patti Smith and Björk at 2. Kanye West held at authority 4 because his direct record points both ways (anti-abortion, but funding police-brutality victims). The starting 50 came out unchanged.
 - **11 Nov 2026, guns:** +0.5 authority for Grohl, Flea, Corey Taylor, Eminem, Cardi B, Grande, Isbell, Bon Jovi, Brandon Flowers, Steve Earle; −0.5 for Nugent, Johnny Ramone, Daniels, Greenwood, John Rich, Joe Perry, Hetfield. Killer Mike unchanged.
+- **11 Nov 2026, new entries:** 25 requested names and band members bulk-scanned on Wikipedia, then searched. Added: Kevin Parker, Lana Del Rey, Chris Cornell, Rihanna, Dua Lipa, Harry Styles, Ed Sheeran, Phil Anselmo, Joni Mitchell, Ice-T, Eazy-E. Kevin Parker, Joni Mitchell and Ice-T are placed with `ce` 0 after the search found no economic record. Not added, no record that could place them: Dimebag Darrell (only a neighbour's recollection that he backed Bush; no Klan or similar record found), MF Doom, Daron Malakian, Shavo Odadjian, Flavor Flav, Dr. Dre, MC Ren, Mike Dirnt, Tré Cool, Dominic Howard, Chris Wolstenholme, Vinnie Paul. Not added, record mostly offensive remarks rather than positions: Professor Griff. Nina Simone and Matt Bellamy were already on the chart and gained sources.
 
 ## Data
 

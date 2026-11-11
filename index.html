@@ -86,8 +86,9 @@ details.opt[open] summary{border-color:var(--ink)}
 .cl{cursor:pointer}
 .ql{font:600 9.5px ui-monospace,Menlo,Consolas,monospace;letter-spacing:.1em;fill:var(--mut);opacity:.75}
 .tr{opacity:.6}
-.tr line{stroke:var(--acc);stroke-width:1.4;stroke-dasharray:5 4}
-.tr circle{fill:var(--panel);stroke:var(--acc);stroke-width:1.4;stroke-dasharray:2.5 2.5}
+.tr line{stroke:var(--acc);stroke-width:1.6}
+.tr circle{fill:var(--panel);stroke:var(--acc);stroke-width:1.6}
+.tr .wk{opacity:.7}.tr .wk line{stroke-width:1.3;stroke-dasharray:5 4}.tr .wk circle{stroke-width:1.3;stroke-dasharray:2.5 2.5}
 .tr text{font:italic 11.5px Georgia,serif;fill:var(--ink2);paint-order:stroke;stroke:var(--panel);stroke-width:3px}
 .sp line{stroke:var(--mut);stroke-width:1;stroke-dasharray:1.5 4}
 .ctl{display:flex;align-items:center;gap:12px;margin:8px 0 0}.zb{display:flex;gap:6px;flex:none}
@@ -234,7 +235,9 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <h2>How to read it</h2>
 <ul class="note">
 <li><b>The axes follow <a href="https://www.politicalcompass.org" target="_blank" rel="noopener">the Political Compass</a>.</b> Horizontal is economics: state ownership, redistribution and public provision on the left; free markets and private enterprise on the right. Vertical is authority, kept separate from economics: one-party rule, censorship, the death penalty, nationalism and enforced moral codes at the top; civil liberties and limits on state power at the bottom.</li>
-<li><b>Authority has no side.</b> Backing the Soviet Union or Castro's Cuba counts as authoritarian exactly as backing an ethno-nationalist party does. A big public sector on its own does not: Nordic-style social democrats sit lib-left. Being offensive is not the same as being authoritarian.</li>
+<li><b>Authority has no side.</b> Backing the Soviet Union or Castro's Cuba counts as authoritarian exactly as backing an ethno-nationalist party does. A big public sector on its own does not: Nordic-style social democrats sit lib-left. Being offensive is not the same as being authoritarian, and being cancelled is not the same as being libertarian.</li>
+<li><b>Pressure outside the state counts, narrowly.</b> Calling for someone to lose a job, a platform, a venue or a contract over what they said or who they are counts towards authority, weighted below state power. Criticism does not, refusing to work with someone does not, and boycotting a state or a company over its policies does not (Sun City, BDS). The same test applies whichever side is calling for it.</li>
+<li><b>Shifts are drawn only from evidence that passes the same tests.</b> A solid arrow means both ends are at least medium confidence; a dashed one means one end rests on a single signal. The arrow says where someone stood then and stands now, not why they moved: the axes measure fixed positions, not whether someone is against whoever is in power.</li>
 <li><b>Two tests for every piece of evidence.</b> First: is the person speaking as themselves? Lyrics count only when the artist owns them, by saying the song is their view, taking it to rallies or picket lines, giving its money to the cause, or writing in that line across their whole work. Characters, irony and stage personas do not count. Second: what did it cost them? Office, prison, exile, bans, years of organising and money given up count most. Sustained activism and political work they stand behind come next, then what they call themselves. A single vote, endorsement or small donation shows only a direction: a mark resting on nothing stronger stays within 4 units of the centre, at low confidence. A stray interview line never moves a mark on its own.</li>
 <li><b>Thin evidence widens the halo; it does not pull anyone to the centre.</b> Someone who never voted but spent decades on political work they stand behind can sit far out. How famous a song became does not count either: the chart measures belief, not influence.</li>
 <li><b>The starting 50:</b> everyone with a documented shift in position, the person furthest from the centre in each quadrant, then the most-viewed English Wikipedia articles from November 2025 to October 2026 until there are 50. <i>All</i> shows everyone. A search always looks through everyone.</li>
@@ -305,6 +308,8 @@ function init(data){
 }
 const slug=s=>s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 
+// a shift is firm only if both ends are at least medium confidence on every axis it moves along
+const shWeak=d=>{const h=d.shift,a=Math.abs(h.econ-d.econ)>=1&&Math.min(h.ce??1,d.ce??1)<2,b=Math.abs(h.auth-d.auth)>=1&&Math.min(h.ca??1,d.ca??1)<2;return a||b};
 const CI={3:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--ink2)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',2:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',1:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6" stroke-dasharray="2.4 2"/></svg>'},CLG={3:"Filled: high confidence",2:"Hollow: medium",1:"Dashed: low"};
 function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.filter(d=>d.sources.length).length;
  $("vS").setAttribute("aria-pressed",st.view==="start");$("vA").setAttribute("aria-pressed",st.view==="all");$("vA").textContent=`All ${D.length}`;$("vS2").setAttribute("aria-pressed",st.view==="start");$("vA2").setAttribute("aria-pressed",st.view==="all");$("vA2").textContent=D.length;$("vA2").setAttribute("aria-label",`Show all ${D.length}`);
@@ -317,7 +322,7 @@ function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.fi
  const cc={};base.forEach(d=>{cc[d.confidence]=(cc[d.confidence]||0)+1});
  $("cchips").innerHTML=`<button type="button" data-c="" aria-pressed="${!st.conf.size}">All</button>`+[3,2,1].map(k=>`<button type="button" data-c="${k}" aria-pressed="${st.conf.has(k)}">${CI[k]}${CL[k]} <span class="n">${cc[k]||0}</span></button>`).join("");
  $("leg").innerHTML=[3,2,1].map(k=>`<button type="button" data-c="${k}" aria-pressed="${st.conf.has(k)}" title="Show only ${CL[k].toLowerCase()}-confidence placements">${CI[k]}${CLG[k]}</button>`).join("")+
-  `<button type="button" data-o="oT" class="${st.shifts?"":"off"}" title="Show or hide shifts over time"><svg viewBox="0 0 16 16"><line x1="1" y1="8" x2="15" y2="8" stroke="var(--acc)" stroke-width="1.5" stroke-dasharray="4 3"/></svg>Documented shift</button>`+
+  `<button type="button" data-o="oT" class="${st.shifts?"":"off"}" title="Show or hide shifts over time. Solid: both ends well sourced. Dashed: one end rests on a single signal."><svg viewBox="0 0 16 16"><line x1="1" y1="8" x2="15" y2="8" stroke="var(--acc)" stroke-width="1.6"/></svg>Documented shift</button>`+
   `<button type="button" data-o="oC" class="${st.cluster?"":"off"}" title="Group or ungroup crowded areas"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.4"/><text x="8" y="8.5" font-size="7" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="var(--ink)">5</text></svg>Crowded group: tap to open</button>`;
  // active filters as removable pills (phone), count badge and the panel's "Show N" button
  const pl=[...st.genres].map(g=>`<button class="pill" data-pg="${g}">${GN[g]}<i>&times;</i></button>`).concat([...st.decades].sort().map(k=>`<button class="pill" data-pd="${k}">${DL(k)}<i>&times;</i></button>`));
@@ -378,7 +383,7 @@ function draw(){
  let tr="";if(st.shifts||st.hov!=null)vis.forEach(i=>{const d=D[i];if(!d.shift||(!st.shifts&&i!==st.hov))return;const x1=sx(d.shift.econ),y1=sy(d.shift.auth),x2=d.X,y2=d.Y,L=Math.hypot(x2-x1,y2-y1);if(L<20)return;const ux_=(x2-x1)/L,uy_=(y2-y1)/L,dm=q&&!hit(d)?' class="dm"':"";
   const right=d.shift.econ>0,tx=x1+(right?-10:10),ty=y1+(d.shift.auth<-6?19:-10),w=d.shift.label.length*6.2+4,bx={x:right?tx-w:tx,y:ty-11,w,h:14};
   let cap="";if(bx.x>M&&bx.x+w<S-M&&bx.y>M&&bx.y+14<S-M&&!boxes.some(o=>ov(bx,o))){boxes.push(bx);cap=`<text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" text-anchor="${right?"end":"start"}">${esc(d.shift.label)}</text>`}
-  tr+=`<g${i===st.hov?' class="hv"':dm}><line x1="${(x1+ux_*8).toFixed(1)}" y1="${(y1+uy_*8).toFixed(1)}" x2="${(x2-ux_*13).toFixed(1)}" y2="${(y2-uy_*13).toFixed(1)}" marker-end="url(#ah)"/><circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="6"/>${cap}</g>`});
+  tr+=`<g class="${shWeak(d)?"wk":""}${i===st.hov?" hv":(q&&!hit(d)?" dm":"")}"><line x1="${(x1+ux_*8).toFixed(1)}" y1="${(y1+uy_*8).toFixed(1)}" x2="${(x2-ux_*13).toFixed(1)}" y2="${(y2-uy_*13).toFixed(1)}" marker-end="url(#ah)"/><circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="6"/>${cap}</g>`});
  $("gTr").innerHTML=tr;
  let pts="";PV=[];
 const order=solo.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
@@ -472,7 +477,7 @@ function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
  const issue=`${REPO}/issues/new?template=placement.yml&title=${encodeURIComponent("Placement: "+d.name)}`;
  $("sh").style.transform="";$("sh").innerHTML=`<div class="grab" id="grab"></div><div class="sh-h"><div><h3 id="shName">${esc(d.name)}</h3><div class="meta">${esc(d.band==="solo"?"Solo":d.band)} · ${GN[d.genre]}${d.start?` · career began ${d.start}`:""}</div></div><button class="x" aria-label="Close" id="shX">&times;</button></div>
  <div class="why">${d.starter?`In the starting 50: ${d.why}.`:"Shown under All."} ${d.views>=1e6?(d.views/1e6).toFixed(1)+"M":Math.round(d.views/1e3)+"k"} Wikipedia views in the past year.</div><div class="pos">Economic ${fmt(d.econ)} ${(d.ce??d.confidence)===0?"(no economic record: &plusmn;5)":`(&plusmn;${HX[d.ce??d.confidence]})`} · Authority ${fmt(d.auth)} (&plusmn;${HR[d.ca??d.confidence]}) · ${CL[d.confidence]} confidence</div>${s}
- <p>${esc(d.basis)}</p>${d.shift?`<p><i>Earlier position (${esc(d.shift.label)}):</i> economic ${fmt(d.shift.econ)}, authority ${fmt(d.shift.auth)}.</p>`:""}
+ <p>${esc(d.basis)}</p>${d.shift?`<p><i>Earlier position (${esc(d.shift.label)}):</i> economic ${fmt(d.shift.econ)} (&plusmn;${HX[d.shift.ce??1]}), authority ${fmt(d.shift.auth)} (&plusmn;${HR[d.shift.ca??1]})${shWeak(d)?" · <b>weak shift</b>: one end rests on a single signal, so the arrow is dashed":""}. ${esc(d.shift.basis||"")}${(d.shift.sources||[]).length?" "+d.shift.sources.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join("; "):""}</p>`:""}
  <h4>Sources</h4>${src.length?`<ol>${src.map(x=>`<li>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`:esc(x.title)}</li>`).join("")}</ol>`:`<p style="color:var(--mut)">None yet.</p>`}
  <p class="wk" id="shW">${wkLink(d)}</p><div class="acts">${st.mode==="list"?`<button id="shGo">Show on chart</button>`:""}<a href="${issue}" target="_blank" rel="noopener">Dispute this placement</a><button id="shL">Copy link</button></div>`;
  $("sheet").hidden=false;$("shX").onclick=closeSheet;

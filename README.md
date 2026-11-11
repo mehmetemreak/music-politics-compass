@@ -10,26 +10,78 @@ Phone-first, not phone-only: from 1024px wide the person's details sit in a side
 
 The axes follow [the Political Compass](https://www.politicalcompass.org) ([background and criticism](https://en.wikipedia.org/wiki/The_Political_Compass)). The chart borrows its axes, not its test or its placements.
 
-- **Economic axis (left/right):** state ownership, redistribution and public provision against free markets and private enterprise.
-- **Authority axis (up/down), separate from economics:** one-party rule, censorship, the death penalty, nationalism and enforced moral codes against civil liberties and limits on state power. Backing the Soviet Union counts the same as backing an ethno-nationalist party. A big public sector on its own is not authoritarian. Being offensive is not the same as being authoritarian.
-- **Evidence, gate 1: attribution.** Is the person speaking as themselves? Lyrics count as first-person evidence only when the artist owns them: says the song is their view, performs it at rallies or picket lines, gives its proceeds to the cause or controls its use by campaigns, or writes in that line across a body of work. Characters, irony and stage personas (Bowie, Eminem) fail this gate. Lyrics are credited to whoever wrote them, not whoever sang them.
-- **Evidence, gate 2: cost.** Weight follows what the evidence cost the person, not its category:
-  1. Costly action: office held; prison, exile, bans or violence risked; years of organising; donations large relative to means; money refused (boycotts, withheld licences).
+### The axes
+
+- **Economic (left/right):** state ownership, redistribution and public provision against free markets and private enterprise.
+- **Authority (up/down), separate from economics:** one-party rule, censorship, the death penalty, nationalism and enforced moral codes against civil liberties and limits on state power. Backing the Soviet Union counts the same as backing an ethno-nationalist party. A big public sector on its own is not authoritarian.
+- **Being offensive is not authoritarian, and being cancelled is not libertarian.** Neither saying shocking things nor being the target of a boycott, ban or blacklist moves a mark. What counts is what the person calls for.
+- **Pressure outside the state counts, narrowly.** An act moves a mark towards authority only if all three hold:
+  1. **A sanction, not criticism:** the person calls for someone to lose a job, a platform, a venue, a contract or legal status. Saying someone is wrong, or refusing to work with them yourself, is not a sanction.
+  2. **Aimed at speech, belief or identity, not conduct:** demanding a festival drop an abuser fails this test; demanding it drop someone for their opinions passes.
+  3. **Called for or organised by the person:** signing on to a campaign counts; being caught up in one does not.
+
+  Weights: state power (laws, police, censorship) counts most, institutional pressure (employers, labels, platforms, radio) less, diffuse social pressure only when organised and sustained. States and their organs are not protected speakers: boycotting a country, a state broadcaster or a company over its policies (Sun City, BDS, Eurovision, Bud Light as a consumer) is not a sanction on speech. Organising others to punish a company for featuring someone because of who they are is. Apply the test the same way whichever side is calling for it; if a case would move one side's mark, the mirror case must move the other's.
+- **Bans on conduct are not speech.** Support for banning fox hunting or wildlife markets is animal-welfare law, not censorship, and does not move the authority axis on its own.
+- **The axes measure fixed content, never "against whoever is in power".** Anti-establishment temperament is not a position: a person who always opposes the dominant side can sit anywhere. Place them by what they actually back.
+
+### Evidence
+
+- **Gate 1, attribution.** Is the person speaking as themselves? Lyrics count as first-person evidence only when the artist owns them: says the song is their view, performs it at rallies or picket lines, gives its proceeds to the cause or controls its use by campaigns, or writes in that line across a body of work. Characters, irony and stage personas (Bowie, Eminem) fail this gate, and so does a song the writer later disowns (Lydon on "Anarchy in the UK"). Lyrics are credited to whoever wrote them, not whoever sang them.
+- **Gate 2, cost.** Weight follows what the evidence cost the person, not its category:
+  1. Costly action: office held; prison, exile, bans or violence risked; years of organising; donations large relative to means; money refused (boycotts, withheld licences, a catalogue pulled from a platform).
   2. Sustained public work they stand behind: activism, an owned body of political songs, rally performances.
   3. Explicit self-description and specific policy statements.
-  4. Single signals: one vote, one endorsement, a small donation, one remark. Direction only: a placement resting on nothing stronger stays within 4 units of the centre on that axis, at low confidence.
+  4. Single signals: one vote, one endorsement, a small donation, one remark, one signed open letter. Direction only: a placement resting on nothing stronger stays within 4 units of the centre on that axis, at low confidence.
   5. Stray interview remarks and lyrics that fail gate 1: context only, never move a mark alone.
 
   Ties go to the more specific claim, then the more consistent record. The current position uses the most recent evidence; an earlier one is kept as a shift.
 - **Thin evidence widens the halo, not the pull to the centre.** Having little on record lowers confidence; it is not evidence of moderation. Not voting can itself be a position.
 - **Influence does not count.** How far a song spread says nothing about how strongly its writer holds the view. The chart measures belief, not impact.
+- **Economic evidence** means positions on taxes, wages, unions, public services, ownership or markets, or sustained campaigning for candidates whose platforms are mainly economic.
+  - A single endorsement, a vote or a party preference gives `ce` 1 (a partisan proxy). Holding party office gives `ce` 2.
+  - A scholar's or journalist's reading of the person's politics, with no first-person statement, gives `ce` 1 at most.
+  - Mixed evidence that cancels out gives an evidenced 0, with the confidence the evidence earns, not `ce` 0.
+  - Charity is not economic evidence. Neither is defending one's own copyright: copyright is a state-granted monopoly, not a free-market stance.
+  - Private financial behaviour (tax exile, offshore accounts, overpaying tax) is not evidence of a position; what the person says about the economy outranks it. Tax avoidance by someone who calls for higher taxes is hypocrisy, not a different view.
+
+### Confidence and halos
+
+- `ce` (economic) and `ca` (authority) are each high (3, about ±1 unit), medium (2, ±1.5) or low (1, ±2.5). The halo is an ellipse with those two radii.
+- `ce` 0 means no economic record and is drawn as ±5. Every current placement has `ce` ≥ 1; a new person should only be added with `ce` 0 after a real search has come up empty, and that should be said in `basis`.
+- `confidence` is the overall rating used for the mark's fill and the filters. It currently equals `ca`; whether it should become the weaker of the two axes is an open decision.
+
+### Shifts
+
+- A shift is an earlier position, kept when the record shows a real change. It goes through the same two gates and gets its own `ce`, `ca`, `basis` and `sources`.
+- **Solid or dashed:** the arrow is solid only if, on every axis it moves along by 1 unit or more, both ends are at least medium confidence. Otherwise it is dashed and the panel says it is weak. The page works this out from the data.
+- The arrow shows where someone stood then and stands now, not why they moved. Do not read "sold out" or "stayed rebellious" into it; that is interpretation, not placement.
+- Use dated labels (`"Pistols, 1977"`). Where the record has turning points, prefer the clearest earlier point over a vague era.
+
+### Inclusion and the default view
+
 - **Inclusion:** widely known, or a substantial political record. Cap of 200.
 - **The starting 50 (default view):** everyone with a documented shift, the person furthest from the centre in each quadrant, then the most-viewed English Wikipedia articles (Nov 2025 – Oct 2026) until there are 50. The page computes this from `data.json`, so the rule applies itself when the data changes.
-- **Confidence, per axis:** `ce` (economic) and `ca` (authority) are each high (about ±1 unit), medium (±1.5) or low (±2.5); `ce` can also be 0, no economic record, drawn as ±5. The halo is an ellipse with those two radii. `confidence` is the overall rating used for the mark's fill and the filters.
-  - Economic evidence means positions on taxes, wages, unions, public services, ownership or markets, or sustained campaigning for candidates whose platforms are mainly economic. A single endorsement gives `ce` 1.
-  - Charity is not economic evidence. Neither is defending one's own copyright: copyright is a state-granted monopoly, not a free-market stance.
-  - Private financial behaviour (tax exile, offshore accounts) is not evidence of a position; what the person says about the economy outranks it. Tax avoidance by someone who calls for higher taxes is hypocrisy, not a different view.
 - **Sourcing:** every placement needs at least one link. Placements without one are marked *not yet sourced* and are either sourced or removed before the site goes public.
+
+## Adding a person: checklist
+
+Work through this in order for every new entry, and for any re-check of an old one.
+
+1. **Find the fastest source route first.** Wikipedia's API from a browser script (the `/w/api.php` parse or extracts endpoints) for the politics section and the whole article; then targeted searches. Pages that cannot be read (Reddit, paywalls) are noted for a human to open, not guessed at.
+2. **Wikipedia link:** set `wiki` to the article title and `wsec` to the anchor of its politics heading, or `""` if there is none.
+3. **List the evidence** and run each item through gate 1 (attribution) and gate 2 (cost). Drop personas, disowned songs and stray remarks from anything that moves the mark.
+4. **Economic axis:** look for taxes, wages, unions, public services, ownership, markets, party office or sustained campaigning. Set `econ` and `ce` by the rules above; a single partisan signal keeps `econ` within 4 of the centre.
+5. **Authority axis:** state power first, then the three-part test for pressure outside the state. Check for calls to ban, fire, deplatform, drop or blacklist someone, and for defences of others' speech. Apply the mirror test before moving a mark.
+6. **Shift:** is there an earlier, sourced position on fixed content that differs by a unit or more? If so, add `shift` with its own `ce`, `ca`, `basis`, `sources` and a dated `label`.
+7. **Write `basis`** in one to three plain sentences: what they did, and how strong it is. Say when something is a single signal or context only.
+8. **Sources:** at least one link per claim that moves a mark, primary or reputable press over aggregators. Set `checked` to today.
+9. **Review:** open the person on the page, check the halo, the arrow (solid or dashed) and the panel text read correctly.
+
+### Audits done
+
+- **11 Nov 2026, economic record:** all 180 searched until every placement had an economic source; nobody is left at `ce` 0. Weakest: James Hetfield (a journalist's summary only).
+- **11 Nov 2026, authority, pressure outside the state:** all 180 Wikipedia articles scanned for bans, boycotts, blacklists, deplatforming, petitions and censorship, then checked against the three-part test. Moved: Neil Young (−4 → −3, the Spotify ultimatum over Rogan). Context only, no move: Kid Rock, Travis Tritt and John Rich (Bud Light, 2023), Olivia Rodrigo (Kimmel letter). Excluded as boycotts of states or policy: BDS and Eurovision calls (Eno, Björk, Waters and others), Sun City. Excluded as conduct bans: fox hunting, wildlife markets.
+- **11 Nov 2026, shifts:** all 11 earlier positions given their own confidence and sources. Solid: Novoselic, Peart, Sinatra, Seeger, Theodorakis. Dashed: Weller, Morrissey, Lydon, Mustaine, Minaj, M.I.A. Lydon's 1977 authority moved from −7 to −3 because it rested on a song he disowns; Morrissey's Smiths-era economics capped at −4.
 
 ## Data
 
@@ -39,13 +91,16 @@ Everything lives in [`data.json`](data.json), one object per person:
 |---|---|
 | `name`, `band` | `band` is `"solo"` for solo artists |
 | `genre` | `R` rock, `P` punk & new wave, `M` metal & hard rock, `O` pop, `H` hip-hop, `C` country, `F` folk/soul/reggae, `E` electronic |
+| `start` | year the career began |
 | `econ`, `auth` | position from -10 to +10 |
-| `confidence` | 3 high, 2 medium, 1 low |
-| `basis` | one or two sentences on why |
-| `shift` | optional earlier position: `econ`, `auth`, `label` |
+| `ce`, `ca` | confidence per axis: 3 high, 2 medium, 1 low; `ce` 0 means no economic record |
+| `confidence` | overall rating for the fill and filters: 3, 2 or 1 |
+| `basis` | one to three sentences on why |
+| `shift` | optional earlier position: `econ`, `auth`, `label`, `ce`, `ca`, `basis`, `sources` |
 | `sources` | list of `{title, url}`; `url` may be absent for print sources |
 | `checked` | date the sources were last checked, or `null` |
-| `wiki`, `views` | English Wikipedia article and its user pageviews, Nov 2025 – Oct 2026 |
+| `wiki`, `wsec` | English Wikipedia article and the anchor of its politics heading (`""` if none) |
+| `views` | the article's user pageviews, Nov 2025 – Oct 2026 |
 
 ## Disputing a placement
 

@@ -338,11 +338,11 @@
   "band": "solo",
   "genre": "R",
   "econ": -5,
-  "auth": -4,
+  "auth": -3,
   "confidence": 2,
   "ce": 2,
   "ca": 2,
-  "basis": "Living with War (2006) with \"Let's Impeach the President\"; endorsed Sanders in 2020 calling for higher taxes on the super-rich. But briefly supported Reagan in the early 1980s.",
+  "basis": "Living with War (2006) with \"Let's Impeach the President\"; endorsed Sanders in 2020 calling for higher taxes on the super-rich. But briefly supported Reagan in the early 1980s. In 2022 told Spotify 'they can have Rogan or Young, not both' over vaccine misinformation and pulled his catalogue when it kept Rogan: a costly demand that a platform drop someone's speech, so it moves him one unit towards authority.",
   "sources": [
    {
     "title": "Rolling Stone: Neil Young endorses Bernie Sanders",
@@ -351,6 +351,10 @@
    {
     "title": "Rolling Stone AU: Young and the presidents, including Reagan",
     "url": "https://rs.thebrag.com/?p=7832"
+   },
+   {
+    "title": "The Guardian via MediaWell: Young demands Spotify remove his music over Rogan (2022)",
+    "url": "https://www.theguardian.com/music/2022/jan/25/neil-young-demands-spotify-remove-his-music-over-joe-rogan-vaccine-misinformation"
    }
   ],
   "checked": "2026-11-11",
@@ -436,7 +440,20 @@
   "shift": {
    "econ": -3,
    "auth": -5,
-   "label": "Novoselic, 2000s"
+   "label": "Novoselic, 2000s",
+   "ce": 2,
+   "ca": 2,
+   "basis": "Chaired the Wahkiakum County Democrats (2006–09), a party office, while leading FairVote; resigned to become an independent.",
+   "sources": [
+    {
+     "title": "Forward Party: Krist Novoselic bio",
+     "url": "https://home.forwardparty.com/bod_meet_krist_novoselic"
+    },
+    {
+     "title": "Punknews: Novoselic, county Democratic chair, runs for clerk (2009)",
+     "url": "https://www.punknews.org/article/33909"
+    }
+   ]
   },
   "sources": [
    {
@@ -1233,7 +1250,16 @@
   "shift": {
    "econ": 2,
    "auth": 0,
-   "label": "Weller, 1977"
+   "label": "Weller, 1977",
+   "ce": 1,
+   "ca": 1,
+   "basis": "One remark to the NME at 19 that he would vote for Thatcher; nothing else on record from that time. A single signal, so a direction only.",
+   "sources": [
+    {
+     "title": "Prospect: Weller told NME in 1977 he would vote for Thatcher",
+     "url": "https://prospectmagazine.co.uk/culture/39542/caught-beneath-a-landslide-why-pop-and-politicians-have-always-had-a-rocky-relationship"
+    }
+   ]
   },
   "sources": [
    {
@@ -1262,9 +1288,18 @@
   "ca": 3,
   "basis": "Backed the anti-Islam party For Britain (2018-19) and praised Farage. Still animal-rights and anti-monarchy, which keeps him off the economic right.",
   "shift": {
-   "econ": -5,
+   "econ": -4,
    "auth": -3.2,
-   "label": "Smiths era"
+   "label": "Smiths era",
+   "ce": 1,
+   "ca": 2,
+   "basis": "Repeated anti-Thatcher interviews (\"the entire history of Margaret Thatcher is one of violence and oppression\", 1984) and an owned anti-monarchy record (The Queen Is Dead). Opposition to Thatcher without economic specifics counts as a partisan signal, so economic is capped at 4 from the centre.",
+   "sources": [
+    {
+     "title": "Uncut: the making of Meat Is Murder, Morrissey on Thatcher (1984)",
+     "url": "https://uncut.co.uk/features/the-smiths-the-making-of-meat-is-murder-70835/2"
+    }
+   ]
   },
   "sources": [
    {
@@ -1324,8 +1359,21 @@
   "basis": "Defended Brexit and Farage (2017) and voted for Trump (2020), while still talking up a borderless world.",
   "shift": {
    "econ": -3,
-   "auth": -7,
-   "label": "Pistols, 1977"
+   "auth": -3,
+   "label": "Pistols, 1977",
+   "ce": 1,
+   "ca": 1,
+   "basis": "Rests mostly on 'Anarchy in the UK', which fails the attribution gate: Lydon says he is \"not an anarchist\" and calls anarchy \"mind games for the middle class\". So it sits near the centre, at low confidence on both axes.",
+   "sources": [
+    {
+     "title": "NME: Lydon, 'Anarchy is a terrible idea… I'm not an anarchist' (2022)",
+     "url": "https://www.nme.com/news/music/sex-pistols-john-lydon-anarchy-is-a-terrible-idea-3239698"
+    },
+    {
+     "title": "New Statesman: Lydon calls anarchy a 'mind game for the middle classes'",
+     "url": "https://newstatesman.com/?p=120420"
+    }
+   ]
   },
   "sources": [
    {
@@ -1454,7 +1502,7 @@
   "confidence": 3,
   "ce": 2,
   "ca": 3,
-  "basis": "Performed at the 2024 Republican convention on the night Trump accepted the nomination; calls himself libertarian and supports abortion rights and same-sex marriage.",
+  "basis": "Performed at the 2024 Republican convention on the night Trump accepted the nomination; calls himself libertarian and supports abortion rights and same-sex marriage. Helped start the 2023 Bud Light boycott over a trans influencer's promotion; his own venue kept selling it, so a cheap single signal that does not move the mark.",
   "sources": [
    {
     "title": "Fox News: Kid Rock rallies Trump supporters at the RNC",
@@ -1463,6 +1511,10 @@
    {
     "title": "The Spectator: Trump's Rock",
     "url": "https://spectator.com/article/trumps-rock/"
+   },
+   {
+    "title": "Ultimate Classic Rock: Kid Rock and the Bud Light boycott (2023)",
+    "url": "https://ultimateclassicrock.com/kid-rock-caught-on-video-drinking-bud-light-after-boycott/"
    }
   ],
   "checked": "2026-11-11",
@@ -1484,7 +1536,20 @@
   "shift": {
    "econ": -1,
    "auth": -2,
-   "label": "Mustaine, 1992"
+   "label": "Mustaine, 1992",
+   "ce": 1,
+   "ca": 1,
+   "basis": "Reported on the 1992 Democratic convention for MTV's non-partisan Rock the Vote and called himself \"an anarchist, a rebellious man\". Voter registration is not a party position: low confidence on both axes.",
+   "sources": [
+    {
+     "title": "Tampa Bay Times: Heavy metal plucks at global politics (1992)",
+     "url": "https://www.tampabay.com/archive/1992/10/30/heavy-metal-plucks-at-global-politics"
+    },
+    {
+     "title": "Louder: Mustaine as MTV's convention correspondent",
+     "url": "https://www.loudersound.com/features/megadeth-dave-mustaine-democratic-nationa-convention-1992"
+    }
+   ]
   },
   "sources": [
    {
@@ -1661,7 +1726,16 @@
   "shift": {
    "econ": 6,
    "auth": -6,
-   "label": "Rush, 1976"
+   "label": "Rush, 1976",
+   "ce": 2,
+   "ca": 2,
+   "basis": "Credited \"the genius of Ayn Rand\" on 2112 and wrote Anthem and 2112 around her ideas; called himself a libertarian through the 1980s. An owned body of work.",
+   "sources": [
+    {
+     "title": "Rush Vault: Rolling Stone interview transcript (2012)",
+     "url": "https://rushvault.com/2012/06/14/neil-peart-recent-rush-attention-feels-like-a-vindication/"
+    }
+   ]
   },
   "sources": [
    {
@@ -3395,7 +3469,16 @@
   "shift": {
    "econ": -2.0,
    "auth": -3.0,
-   "label": "Minaj, 2018"
+   "label": "Minaj, 2018",
+   "ce": 1,
+   "ca": 1,
+   "basis": "One statement criticising Trump's family-separation policy (2018). A single signal.",
+   "sources": [
+    {
+     "title": "theGrio: Minaj condemns Trump's family-separation policy (2018)",
+     "url": "https://thegrio.com/2018/06/22/nicki-minaj-condemns-trump-policy-recalling-her-immigrant-experience-i-cant-imagine-the-horror-of-being-in-a-strange-place-and-having-my-parents-stripped-away-from-me"
+    }
+   ]
   },
   "sources": [
    {
@@ -3568,7 +3651,7 @@
   "confidence": 2,
   "ce": 1,
   "ca": 2,
-  "basis": "Fund 4 Good sends tour proceeds to abortion funds; handed out emergency contraception at a Missouri show; accepted a Planned Parenthood award; promoted Covid vaccination at the White House in 2021. Endorsed Kamala Harris in 2024: a partisan proxy, so a single economic signal.",
+  "basis": "Fund 4 Good sends tour proceeds to abortion funds; handed out emergency contraception at a Missouri show; accepted a Planned Parenthood award; promoted Covid vaccination at the White House in 2021. Endorsed Kamala Harris in 2024: a partisan proxy, so a single economic signal. Called ABC's 2025 suspension of Jimmy Kimmel 'blatant censorship' and signed the ACLU's letter against it.",
   "sources": [
    {
     "title": "Rolling Stone: Abortion funds applaud Rodrigo's Fund 4 Good",
@@ -3585,6 +3668,10 @@
    {
     "title": "Inquirer USA: Olivia Rodrigo backs Kamala Harris (2024)",
     "url": "https://usa.inquirer.net/153892/olivia-rodrigo-backs-kamala-harris-for-2024-presidential-race"
+   },
+   {
+    "title": "ACLU: over 400 artists support free speech after Kimmel suspension (2025)",
+    "url": "https://www.aclu.org/press-releases/over-400-artists-join-with-the-aclu-to-support-free-speech-after-jimmy-kimmel-suspension"
    }
   ],
   "checked": "2026-11-11",
@@ -3722,7 +3809,16 @@
   "shift": {
    "econ": -3.0,
    "auth": -2.0,
-   "label": "Sinatra, 1960"
+   "label": "Sinatra, 1960",
+   "ce": 2,
+   "ca": 2,
+   "basis": "Campaigned for Roosevelt, Truman, Stevenson and Kennedy as a New Deal Democrat and refused to play hotels and casinos that barred black guests and performers.",
+   "sources": [
+    {
+     "title": "Wikipedia: Political life of Frank Sinatra",
+     "url": "https://en.wikipedia.org/wiki/Political_life_of_Frank_Sinatra"
+    }
+   ]
   },
   "sources": [
    {
@@ -4132,7 +4228,16 @@
   "shift": {
    "econ": -9,
    "auth": 2,
-   "label": "Seeger, 1940s"
+   "label": "Seeger, 1940s",
+   "ce": 3,
+   "ca": 2,
+   "basis": "Communist Party member 1942–c.1950 who followed the party line, including on the Soviet Union: costly, sustained, and authoritarian on foreign policy.",
+   "sources": [
+    {
+     "title": "East Carolina University: Seeger before HUAC, later break with communism",
+     "url": "https://sites.ecu.edu/cwis/?p=132"
+    }
+   ]
   },
   "wiki": "Pete Seeger",
   "views": 701383,
@@ -4562,7 +4667,16 @@
   "shift": {
    "econ": -3,
    "auth": -7,
-   "label": "M.I.A., 2005–2015"
+   "label": "M.I.A., 2005–2015",
+   "ce": 1,
+   "ca": 2,
+   "basis": "A decade of owned work and activism on Tamil rights, state violence and surveillance; little on economics.",
+   "sources": [
+    {
+     "title": "NME: 15 M.I.A. moments – Tamil advocacy, Rajapaksa war-crimes call",
+     "url": "https://www.nme.com/photos/15-thought-provoking-m-i-a-moments-1431781"
+    }
+   ]
   },
   "wsec": "Politics"
  },
@@ -4721,7 +4835,16 @@
   "shift": {
    "econ": -8,
    "auth": 2,
-   "label": "KKE years"
+   "label": "KKE years",
+   "ce": 3,
+   "ca": 2,
+   "basis": "Communist MP for the KKE, jailed and banned by the junta: costly and sustained.",
+   "sources": [
+    {
+     "title": "Wikipedia: Mikis Theodorakis",
+     "url": "https://en.wikipedia.org/wiki/Mikis_Theodorakis"
+    }
+   ]
   },
   "sources": [
    {
@@ -5422,7 +5545,7 @@
   "confidence": 2,
   "ce": 2,
   "ca": 2,
-  "basis": "Strong Republican: backed Rand Paul then Trump in 2016, played Trump's 2017 pre-inaugural concert, co-wrote \"Shut Up About Politics\" with Fox's Greg Gutfeld (2019), and campaigns for Trump-aligned candidates in Tennessee.",
+  "basis": "Strong Republican: backed Rand Paul then Trump in 2016, played Trump's 2017 pre-inaugural concert, co-wrote \"Shut Up About Politics\" with Fox's Greg Gutfeld (2019), and campaigns for Trump-aligned candidates in Tennessee. Pulled Bud Light from his Nashville bar during the 2023 boycott: a single signal, context only.",
   "sources": [
    {
     "title": "Taste of Country: John Rich – 'Shut Up About Politics' (2019)",
@@ -5435,6 +5558,10 @@
    {
     "title": "Fox News: Rich endorses Jody Barrett in Tennessee's special election",
     "url": "https://www.foxnews.com/politics/country-artist-shares-why-hes-throwing-his-star-power-race-replace-top-republican"
+   },
+   {
+    "title": "WSMV: Travis Tritt, John Rich drop Anheuser-Busch (2023)",
+    "url": "https://www.wsmv.com/2023/04/07/travis-tritt-john-rich-drop-anheuser-busch-tour/?outputType=amp"
    }
   ],
   "checked": "2026-11-11",
@@ -5452,7 +5579,7 @@
   "confidence": 2,
   "ce": 2,
   "ca": 2,
-  "basis": "Cancelled four 2021 shows at venues requiring Covid vaccination, tests or masks, calling it discrimination, and took the case to Tucker Carlson. A Republican who openly backed George W. Bush in 2000 and Trump in 2024 ('This is my President!'), and in 2025 urged other country stars to come out for Trump.",
+  "basis": "Cancelled four 2021 shows at venues requiring Covid vaccination, tests or masks, calling it discrimination, and took the case to Tucker Carlson. A Republican who openly backed George W. Bush in 2000 and Trump in 2024 ('This is my President!'), and in 2025 urged other country stars to come out for Trump. Dropped Anheuser-Busch from his tour rider over the 2023 Bud Light promotion with a trans influencer: a single signal, context only.",
   "sources": [
    {
     "title": "Travis Tritt official: cancels concerts requiring vaccinations, tests or masks (2021)",
@@ -5473,6 +5600,10 @@
    {
     "title": "Country Town: Tritt and others react to Trump's 2024 win",
     "url": "https://countrytown.com/news/travis-tritt-brian-kelley-john-rich-more-react-to-donald-trump-presidential-election-victory/1OVqxsnIy8o/07-11-24"
+   },
+   {
+    "title": "Fox 29: Tritt drops Anheuser-Busch products (2023)",
+    "url": "https://www.fox29.com/news/country-musics-travis-tritt-drops-all-anheuser-busch-products-after-bud-lights-dylan-mulvaney-campaign"
    }
   ],
   "checked": "2026-11-11",

@@ -280,9 +280,9 @@
   "econ": 1.5,
   "auth": 0.5,
   "confidence": 1,
-  "ce": 0,
+  "ce": 1,
   "ca": 1,
-  "basis": "Told BBC Newsnight in 2017 he would have voted Leave because \"to be in control of your own country is a good move\", though he did not vote. Little else on record.",
+  "basis": "Told BBC Newsnight in 2017 he would have voted Leave because \"to be in control of your own country is a good move\", though he did not vote. Little else on record. Asked in 2017 whether Theresa May or Jeremy Corbyn would bring 'peace and love', said he was 'not political' but backed May.",
   "sources": [
    {
     "title": "The Daily Beast: Ringo Starr says he would have voted for Brexit (2017)",
@@ -291,6 +291,10 @@
    {
     "title": "NPR: Ringo Starr on Brexit (2017)",
     "url": "https://www.wnyc.org/story/ringo-starr-on-brexit-beatlemania-and-give-more-love/"
+   },
+   {
+    "title": "RTÉ: Ringo Starr backs Theresa May (2017)",
+    "url": "https://www.rte.ie/entertainment/2017/0708/888715-77-year-old-ringo-starr-backs-theresa-may"
    }
   ],
   "checked": "2026-11-11",
@@ -1002,12 +1006,12 @@
   "name": "Kathleen Hanna",
   "band": "Bikini Kill",
   "genre": "P",
-  "econ": -7,
+  "econ": -5,
   "auth": -7,
   "confidence": 3,
-  "ce": 0,
+  "ce": 2,
   "ca": 3,
-  "basis": "Co-founded riot grrrl and its zines; Bikini Kill's feminist punk; played the 1993 Rock for Choice abortion-rights benefit; memoir Rebel Girl (2024) on abortion, assault and intersectional feminism.",
+  "basis": "Co-founded riot grrrl and its zines; Bikini Kill's feminist punk; played the 1993 Rock for Choice abortion-rights benefit; memoir Rebel Girl (2024) on abortion, assault and intersectional feminism. Le Tigre's 'I'm With Her' (2016) backed Hillary Clinton after she had felt the Bern; in 2020 she backed Elizabeth Warren: mainstream-left economics, so less far left than her punk image.",
   "sources": [
    {
     "title": "Ms. Magazine: 'My Life as a Feminist Punk' – Kathleen Hanna interview (2024)",
@@ -1020,6 +1024,10 @@
    {
     "title": "Exclaim!: Kathleen Hanna – There's a Riot Goin' On (2013)",
     "url": "https://exclaim.ca/music/article/kathleen_hanna-theres_riot_goin_on"
+   },
+   {
+    "title": "Rolling Stone: Kathleen Hanna's Hillary Clinton song, and backing Warren (2020)",
+    "url": "https://au.rollingstone.com/music/music-news/kathleen-hanna-hillary-clinton-le-tigre-8193"
    }
   ],
   "checked": "2026-11-11",
@@ -1346,9 +1354,9 @@
   "econ": 3,
   "auth": 1,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "1976 on-stage rant in Birmingham backing Enoch Powell; still called Powell a prophet in 1978, apologised later; headlined Countryside Alliance benefits against the hunting ban (2006-07); anti-lockdown songs with Van Morrison in 2020-21.",
+  "basis": "1976 on-stage rant in Birmingham backing Enoch Powell; still called Powell a prophet in 1978, apologised later; headlined Countryside Alliance benefits against the hunting ban (2006-07); anti-lockdown songs with Van Morrison in 2020-21. Calls himself an 'old-fashioned conservative' and spoke in 1989 about voting for Thatcher.",
   "sources": [
    {
     "title": "Snopes: Clapton's 1976 rant and his later responses",
@@ -1365,6 +1373,14 @@
    {
     "title": "Farmers Weekly: Countryside Alliance concert with Clapton and Ferry",
     "url": "https://www.fwi.co.uk/farm-life/countryside-alliance-plans-rock-concert-featuring-eric-clapton-and-bryan-ferry"
+   },
+   {
+    "title": "Far Out: why rock music isn't as left-wing as people think",
+    "url": "https://faroutmagazine.co.uk/rock-isnt-left-wing/"
+   },
+   {
+    "title": "Rock's Backpages: Eric Clapton interview (1989), on voting for Thatcher",
+    "url": "https://rocksbackpages.com/Library/Article/eric-clapton-1989?pfv=True"
    }
   ],
   "checked": "2026-11-11",
@@ -1380,9 +1396,9 @@
   "econ": 2,
   "auth": -5,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "Three anti-lockdown protest songs in 2020 (\"No More Lockdown\", \"Born to Be Free\", \"As I Walked Out\"); a defamation fight with Northern Ireland's health minister Robin Swann, settled in 2024; a long-running anti-establishment grievance.",
+  "basis": "Three anti-lockdown protest songs in 2020 (\"No More Lockdown\", \"Born to Be Free\", \"As I Walked Out\"); a defamation fight with Northern Ireland's health minister Robin Swann, settled in 2024; a long-running anti-establishment grievance. Said 'COVID didn't wreck the economy, the NI Executive did' and that those 'shutting down our economy haven't missed a paycheck' (2021): an anti-state economic complaint.",
   "sources": [
    {
     "title": "Rolling Stone: Van Morrison, Robin Swann settle defamation battle",
@@ -1391,6 +1407,10 @@
    {
     "title": "Euronews: Van Morrison sued by NI minister over Covid rules (2021)",
     "url": "https://www.euronews.com/2021/11/08/van-morrison-sued-by-ni-government-minister-for-libel-over-covid-rules"
+   },
+   {
+    "title": "News Letter: Van Morrison launches another attack on Stormont ministers (2021)",
+    "url": "https://www.newsletter.co.uk/health/van-morrison-launches-another-attack-on-stormont-ministers-3076234"
    }
   ],
   "checked": "2026-11-11",
@@ -1667,12 +1687,12 @@
   "name": "Lemmy",
   "band": "Motörhead",
   "genre": "M",
-  "econ": 0,
+  "econ": 2.5,
   "auth": -8,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "\"I'm essentially an anarchist\" (2007): anti-government, anti-religion, anti-war, pro-choice; said all politicians are thieves and stopped voting; also said he believed in the royal family.",
+  "basis": "\"I'm essentially an anarchist\" (2007): anti-government, anti-religion, anti-war, pro-choice; said all politicians are thieves and stopped voting; also said he believed in the royal family. Once called himself a Thatcherite, then a libertarian anarchist because 'government causes more problems than it solves', though the last politician he would have voted for was Harold Wilson.",
   "sources": [
    {
     "title": "Blabbermouth / The Times: Lemmy – 'I'm essentially an anarchist' (2007)",
@@ -1685,6 +1705,14 @@
    {
     "title": "Louder: Lemmy on God and religion",
     "url": "https://www.loudersound.com/bands-artists/god-maybe-hes-gone-senile-lemmy-was-once-asked-what-he-thought-about-god-and-religion-and-he-didnt-hold-back"
+   },
+   {
+    "title": "spiked: Lemmy, the nice man of rock'n'roll (2016)",
+    "url": "https://spiked-online.com/2016/01/08/lemmy-the-nice-man-of-rock-n-roll"
+   },
+   {
+    "title": "Guardian via inkl: Lemmy interviewed in 2004",
+    "url": "https://www.inkl.com/news/lemmy-interviewed-in-2004-people-don-t-know-how-to-be-outrageous-any-more"
    }
   ],
   "checked": "2026-11-11",
@@ -1730,9 +1758,9 @@
   "econ": 3,
   "auth": -3,
   "confidence": 1,
-  "ce": 0,
+  "ce": 1,
   "ca": 1,
-  "basis": "NRA member and hunter who left the Bay Area for Colorado in 2016, citing an \"elitist attitude\" toward anyone not \"their way politically\"; otherwise keeps out of politics.",
+  "basis": "NRA member and hunter who left the Bay Area for Colorado in 2016, citing an \"elitist attitude\" toward anyone not \"their way politically\"; otherwise keeps out of politics. Rolling Stone, interviewing him: has never voted; 'a defiantly individual mix of right-of-center values with a strong dislike of rules — kind of a conservative anarchist.' Says 'I hate politics' and keeps his view of Trump to himself. A journalist's summary, not an economic stance he stated, so the weakest economic record here.",
   "sources": [
    {
     "title": "Blabbermouth: Hetfield moved to Colorado over Bay Area's elitist attitude",
@@ -1741,6 +1769,14 @@
    {
     "title": "Metal Injection: Hetfield on elitist attitudes, NRA membership",
     "url": "https://metalinjection.net/news/metallicas-james-hetfield-says-elitist-attidues-in-san-francisco-made-him-move-to-colorado"
+   },
+   {
+    "title": "Rolling Stone: Don't Tread On Me: Metallica's James Hetfield",
+    "url": "https://rollingstone.com/feature/dont-tread-on-me-metallicas-james-hetfield-82055/"
+   },
+   {
+    "title": "Louder: Hetfield on keeping politics out of Metallica shows",
+    "url": "https://www.loudersound.com/bands-artists/metallica-is-not-here-like-some-other-entertainers-to-influence-you-with-their-bull-james-hetfield-explains-why-you-wont-get-any-political-statements-at-a-metallica-show-any-time-soon"
    }
   ],
   "checked": "2026-11-11",
@@ -1845,9 +1881,9 @@
   "econ": 2.5,
   "auth": 4,
   "confidence": 1,
-  "ce": 0,
+  "ce": 1,
   "ca": 1,
-  "basis": "Asked Nixon in 1970 to make him a \"federal agent at large\" against the drug culture and got a narcotics badge; told Nixon the Beatles promoted anti-American themes. A single episode with no economic content.",
+  "basis": "Asked Nixon in 1970 to make him a \"federal agent at large\" against the drug culture and got a narcotics badge; told Nixon the Beatles promoted anti-American themes. A single episode with no economic content. Admired Kennedy early on, then backed Nixon openly from 1970; publicly refused to give political views ('I'm just an entertainer'). The one consistent signal is Nixon-era Republicanism, so a direction only. Reports that he overpaid his taxes are private financial behaviour and don't count.",
   "sources": [
    {
     "title": "White House Historical Association: Nixon meets Presley (1970)",
@@ -1856,6 +1892,14 @@
    {
     "title": "Biography.com: Elvis asked Nixon to make him a federal agent",
     "url": "https://www.biography.com/history-culture/a65656732/elvis-nixon-white-house-meeting"
+   },
+   {
+    "title": "Neatorama: Elvis Presley and politics",
+    "url": "https://neatorama.com/2015/07/15/Elvis-Presley-and-Politics"
+   },
+   {
+    "title": "The Independent via Yahoo: how would Elvis have felt about Trump's medal? (2018)",
+    "url": "https://news.yahoo.com/elvis-presley-medal-freedom-king-214245221.html"
    }
   ],
   "checked": "2026-11-11",
@@ -1983,9 +2027,9 @@
   "econ": -3,
   "auth": -6,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "New York (1989) as social critique of the AIDS-era city; on the Sun City anti-apartheid record and the 1986 Amnesty tour; interviewed Vaclav Havel in Prague in 1990 and stayed close to him.",
+  "basis": "New York (1989) as social critique of the AIDS-era city; on the Sun City anti-apartheid record and the 1986 Amnesty tour; interviewed Vaclav Havel in Prague in 1990 and stayed close to him. Questioned a promised 30% tax cut ('how is she gonna... keep the schools going?', 1994) and stood with Occupy Wall Street (2011).",
   "sources": [
    {
     "title": "Rolling Stone: Lou Reed, Out of the Darkness (1986) – Sun City, Amnesty tour",
@@ -1998,6 +2042,14 @@
    {
     "title": "NYPL Lou Reed papers: Interview with Václav Havel (1990 recording)",
     "url": "https://digitalcollections.nypl.org/items/20a07830-0ae8-0137-0b80-27f3e85ac430"
+   },
+   {
+    "title": "COVER Magazine: Lou Speaks for Himself (1994)",
+    "url": "https://covermagnyc.com/articles/lou-reed-int/"
+   },
+   {
+    "title": "The Nation: Lou Reed's politics (2013)",
+    "url": "https://www.thenation.com/article/archive/lou-reeds-more-perfect-union-politics"
    }
   ],
   "checked": "2026-11-11",
@@ -2069,9 +2121,9 @@
   "econ": 1,
   "auth": -2.3,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "Calls himself \"temperamentally\" conservative, small c, and wary of the idea of progress; calls cancel culture \"mercy's antithesis\"; called the cultural boycott of Israel \"cowardly and shameful\"; attended the 2023 coronation.",
+  "basis": "Calls himself \"temperamentally\" conservative, small c, and wary of the idea of progress; calls cancel culture \"mercy's antithesis\"; called the cultural boycott of Israel \"cowardly and shameful\"; attended the 2023 coronation. Calls his own politics centrist (2023), 'neither right nor left', and 'temperamentally conservative'.",
   "sources": [
    {
     "title": "Guardian via inkl: Is Nick Cave a conservative?",
@@ -2084,6 +2136,10 @@
    {
     "title": "Irish Times: Cave criticises cancel culture",
     "url": "https://www.irishtimes.com/culture/music/nick-cave-criticises-cancel-culture-as-bad-religion-run-amuck-1.4329332"
+   },
+   {
+    "title": "NME: Nick Cave on being a centrist (2023)",
+    "url": "https://www.nme.com/news/music/nick-cave-on-being-a-centrist-i-just-dont-really-know-about-anything-for-sure-3425871"
    }
   ],
   "checked": "2026-11-11",
@@ -2224,12 +2280,12 @@
   "name": "Sinéad O'Connor",
   "band": "solo",
   "genre": "R",
-  "econ": -6,
+  "econ": -4,
   "auth": -5.2,
   "confidence": 3,
-  "ce": 0,
+  "ce": 1,
   "ca": 3,
-  "basis": "Tore up the Pope's photograph on Saturday Night Live in 1992 to protest child abuse in the Catholic Church, and never withdrew the point.",
+  "basis": "Tore up the Pope's photograph on Saturday Night Live in 1992 to protest child abuse in the Catholic Church, and never withdrew the point. Applied to join Sinn Féin in 2014 as 'the only party standing up for ordinary people', then withdrew within weeks.",
   "sources": [
    {
     "title": "Harvard Gazette: Taking a second look at Sinéad O'Connor",
@@ -2238,6 +2294,14 @@
    {
     "title": "History.com: O'Connor tears up a photo of the Pope on SNL",
     "url": "https://www.history.com/this-day-in-history/october-3/sinead-oconnor-tears-up-photo-of-pope-john-paul-snl"
+   },
+   {
+    "title": "Derry Daily: Sinéad O'Connor joins Sinn Féin (2014)",
+    "url": "https://www.derrydaily.net/2014/12/10/singer-sinead-oconnor-joins-sinn-fein-and-calls-on-martin-mcguinness-to-stand-down"
+   },
+   {
+    "title": "TheJournal.ie: O'Connor is not joining Sinn Féin after all (2015)",
+    "url": "https://jrnl.ie/1906705"
    }
   ],
   "checked": "2026-11-11",
@@ -2373,9 +2437,9 @@
   "econ": -4.4,
   "auth": -3.3,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "Band sent the Trump campaign a cease-and-desist in 2020 (\"did not and does not endorse Trump\"); co-founded the disaster-relief charity Music for Relief (2005); covered the 2012 US election for The Big Issue.",
+  "basis": "Band sent the Trump campaign a cease-and-desist in 2020 (\"did not and does not endorse Trump\"); co-founded the disaster-relief charity Music for Relief (2005); covered the 2012 US election for The Big Issue. The Trump cease-and-desist is the only partisan signal: a single economic signal.",
   "sources": [
    {
     "title": "Rolling Stone: Linkin Park issue cease and desist after 'In the End' appears in Trump video (2020)",
@@ -2527,9 +2591,9 @@
   "econ": -4.8,
   "auth": -8.4,
   "confidence": 3,
-  "ce": 0,
+  "ce": 2,
   "ca": 3,
-  "basis": "Jailed in 2012 for Pussy Riot's anti-Putin \"Punk Prayer\" and named a prisoner of conscience by Amnesty; on release co-founded the prisoners'-rights group Zona Prava and the news site MediaZona.",
+  "basis": "Jailed in 2012 for Pussy Riot's anti-Putin \"Punk Prayer\" and named a prisoner of conscience by Amnesty; on release co-founded the prisoners'-rights group Zona Prava and the news site MediaZona. In her prison letters with Žižek (2013) she criticised global capitalism alongside Putin; her 2016 protest manifesto includes anti-capitalist activism.",
   "sources": [
    {
     "title": "Al Jazeera: After jail, Pussy Riot focuses on prisons (2014)",
@@ -2542,6 +2606,14 @@
    {
     "title": "PEN America: Nadya Tolokonnikova",
     "url": "https://pen.org/?p=164870"
+   },
+   {
+    "title": "Common Dreams: Tolokonnikova's prison letters to Slavoj Žižek (2013)",
+    "url": "https://www.commondreams.org/views/2013/11/16/nadezhda-tolokonnikova-pussy-riots-prison-letters-slavoj-zizek"
+   },
+   {
+    "title": "Dazed: the Pussy Riot protest manifesto (2016)",
+    "url": "https://www.dazeddigital.com/artsandculture/article/33090/1/the-pussy-riot-protest-manifesto-nadya-tolokonnikova"
    }
   ],
   "checked": "2026-11-11",
@@ -2737,9 +2809,9 @@
   "econ": -5.6,
   "auth": -3,
   "confidence": 3,
-  "ce": 0,
+  "ce": 1,
   "ca": 3,
-  "basis": "Wrote and produced \"Sun City\" and founded Artists United Against Apartheid in 1985; the participants pledged never to play the resort.",
+  "basis": "Wrote and produced \"Sun City\" and founded Artists United Against Apartheid in 1985; the participants pledged never to play the resort. His 1980s solo albums each took on a theme, the economy among them; in 2022 he said the Republican Party 'no longer believe[s] in democracy, equality, science': a partisan proxy, so a direction only.",
   "sources": [
    {
     "title": "Open Culture: how Van Zandt organised the Sun City boycott",
@@ -2752,6 +2824,14 @@
    {
     "title": "UPI: Van Zandt on Sun City and fighting apartheid",
     "url": "https://www.upi.com/blog/2013/12/13/Steven-Van-Zandt-talks-Sun-City-and-fighting-apartheid/8571386960721/"
+   },
+   {
+    "title": "Yahoo/The Telegraph: Stevie Van Zandt on the Republican Party (2022)",
+    "url": "https://uk.news.yahoo.com/stevie-van-zandt-youre-going-075149528.html"
+   },
+   {
+    "title": "Folk and Tumble: interview with Steven Van Zandt",
+    "url": "https://folkandtumble.com/article/interview-with-steven-van-zandt/"
    }
   ],
   "checked": "2026-11-11",
@@ -2853,9 +2933,9 @@
   "econ": -1.5,
   "auth": -1.5,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "\"Land of the Free\" (2019) on gun violence, mass incarceration and the border wall; played for Democrat Harry Reid's campaign and lunched with fellow Mormon Mitt Romney; otherwise guarded (\"left, right, or straddle the line\").",
+  "basis": "\"Land of the Free\" (2019) on gun violence, mass incarceration and the border wall; played for Democrat Harry Reid's campaign and lunched with fellow Mormon Mitt Romney; otherwise guarded (\"left, right, or straddle the line\"). Playing for Harry Reid's campaign is a partisan proxy: a single economic signal.",
   "sources": [
    {
     "title": "Rolling Stone: The Killers address gun violence, border wall in 'Land of the Free' (2019)",
@@ -2883,9 +2963,9 @@
   "econ": -4,
   "auth": -5.4,
   "confidence": 3,
-  "ce": 0,
+  "ce": 1,
   "ca": 3,
-  "basis": "Told DeSantis voters they were dead to her (2023); played the Love Rising benefit against Tennessee's drag and trans-care laws; urged a vote against Trump from the stage in 2024.",
+  "basis": "Told DeSantis voters they were dead to her (2023); played the Love Rising benefit against Tennessee's drag and trans-care laws; urged a vote against Trump from the stage in 2024. Campaigns against Republican candidates (DeSantis 2023, Trump 2024): a partisan proxy, so a single economic signal.",
   "sources": [
    {
     "title": "Loudwire: Williams on DeSantis voters; Love Rising benefit",
@@ -2894,6 +2974,10 @@
    {
     "title": "Independent via Yahoo: Williams on DeSantis and the Tennessee bills",
     "url": "https://uk.news.yahoo.com/paramore-hayley-williams-says-anyone-070756338.html"
+   },
+   {
+    "title": "PinkNews: Hayley Williams calls out Trump ahead of the election (2024)",
+    "url": "https://www.thepinknews.com/2024/09/22/paramores-hayley-williams-calls-out-donald-trump-ahead-of-election"
    }
   ],
   "checked": "2026-11-11",
@@ -3013,9 +3097,9 @@
   "econ": -4.0,
   "auth": -4.0,
   "confidence": 1,
-  "ce": 0,
+  "ce": 1,
   "ca": 1,
-  "basis": "\"Alright\" (2015) became the chant of Black Lives Matter protests against police violence, though his own relationship with the movement has been described as complicated; avoids endorsements. What a crowd made of a song is influence, not his own stated view, so confidence is low until his own statements are sourced.",
+  "basis": "\"Alright\" (2015) became the chant of Black Lives Matter protests against police violence, though his own relationship with the movement has been described as complicated; avoids endorsements. What a crowd made of a song is influence, not his own stated view, so confidence is low until his own statements are sourced. Section.80 (2011), including 'Ronald Reagan Era', is read by scholars as a critique of Reaganomics' effect on Black communities: an owned work, but the economic reading is interpretation.",
   "sources": [
    {
     "title": "NPR: Kendrick Lamar's Alright, party and protest",
@@ -3028,6 +3112,10 @@
    {
     "title": "Slate: protesters chant Alright (2015)",
     "url": "https://www.slate.com/articles/arts/culturebox/2015/08/black_lives_matter_protesters_chant_kendrick_lamar_s_alright_what_makes.html"
+   },
+   {
+    "title": "Routledge: 'Kendrick Lamar's Section.80: Reagan-era blues' (Bristout)",
+    "url": "https://www.taylorfrancis.com/books/e/9781351010856/chapters/10.4324/9781351010856-2"
    }
   ],
   "checked": "2026-11-11",
@@ -3478,9 +3566,9 @@
   "econ": -4.0,
   "auth": -4.4,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "Fund 4 Good sends tour proceeds to abortion funds; handed out emergency contraception at a Missouri show; accepted a Planned Parenthood award; promoted Covid vaccination at the White House in 2021.",
+  "basis": "Fund 4 Good sends tour proceeds to abortion funds; handed out emergency contraception at a Missouri show; accepted a Planned Parenthood award; promoted Covid vaccination at the White House in 2021. Endorsed Kamala Harris in 2024: a partisan proxy, so a single economic signal.",
   "sources": [
    {
     "title": "Rolling Stone: Abortion funds applaud Rodrigo's Fund 4 Good",
@@ -3493,6 +3581,10 @@
    {
     "title": "Washington Times: Rodrigo's 2026 benefit festival for Planned Parenthood",
     "url": "https://www.washingtontimes.com/news/2026/aug/6/olivia-rodrigo-teams-planned-parenthood-abortion-pill-faces-fda/"
+   },
+   {
+    "title": "Inquirer USA: Olivia Rodrigo backs Kamala Harris (2024)",
+    "url": "https://usa.inquirer.net/153892/olivia-rodrigo-backs-kamala-harris-for-2024-presidential-race"
    }
   ],
   "checked": "2026-11-11",
@@ -3715,9 +3807,9 @@
   "econ": -4.0,
   "auth": -4.8,
   "confidence": 3,
-  "ce": 0,
+  "ce": 2,
   "ca": 3,
-  "basis": "Told a London crowd in March 2003 the band were ashamed Bush was from Texas and opposed the coming Iraq invasion; country radio blacklisted them; she withdrew her apology in 2006.",
+  "basis": "Told a London crowd in March 2003 the band were ashamed Bush was from Texas and opposed the coming Iraq invasion; country radio blacklisted them; she withdrew her apology in 2006. A self-described Democrat ('people were so shocked that I was a Democrat'); the Chicks sang at the 2020 Democratic convention and endorsed Democrat James Talarico in 2026.",
   "sources": [
    {
     "title": "TIME: The Dixie Chicks' Bush comment",
@@ -3730,6 +3822,14 @@
    {
     "title": "Saving Country Music: Destroying the Dixie Chicks, ten years after",
     "url": "https://savingcountrymusic.com/?p=38733"
+   },
+   {
+    "title": "Dallas Voice: Natalie Maines interview (2013)",
+    "url": "https://dallasvoice.com/?p=149013"
+   },
+   {
+    "title": "Daily Beast: the Chicks endorse Talarico, hit back at the White House (2026)",
+    "url": "https://www.thedailybeast.com/obsessed/music-legend-gets-sweet-revenge-after-white-house-meltdown"
    }
   ],
   "checked": "2026-11-11",
@@ -3921,9 +4021,9 @@
   "econ": 4,
   "auth": 2,
   "confidence": 1,
-  "ce": 0,
+  "ce": 1,
   "ca": 1,
-  "basis": "Compared Obama golfing with Boehner to \"Hitler playing golf with Netanyahu\" on Fox in 2011 and called Obama and Biden \"the enemy\"; ESPN dropped his Monday Night Football theme, restored in 2017. The Trump-supporter part is not yet sourced. On the sourced record this is one inflammatory remark; offensive is not the same as authoritarian, so it gives a direction, not a distance.",
+  "basis": "Compared Obama golfing with Boehner to \"Hitler playing golf with Netanyahu\" on Fox in 2011 and called Obama and Biden \"the enemy\"; ESPN dropped his Monday Night Football theme, restored in 2017. The Trump-supporter part is not yet sourced. On the sourced record this is one inflammatory remark; offensive is not the same as authoritarian, so it gives a direction, not a distance. Called Obama and Biden 'the enemy': a partisan proxy, so a single economic signal.",
   "sources": [
    {
     "title": "NPR: ESPN pulls Hank Williams Jr. song over Hitler remark (2011)",
@@ -4081,12 +4181,12 @@
   "name": "Nina Simone",
   "band": "solo",
   "genre": "F",
-  "econ": -7.0,
+  "econ": -4,
   "auth": -4.0,
   "confidence": 3,
-  "ce": 0,
+  "ce": 1,
   "ca": 3,
-  "basis": "\"Mississippi Goddam\" (1964), written after the Birmingham church bombing and Medgar Evers's murder; benefit concerts for CORE and SNCC and the Selma march; came to identify with Black Power and Black nationalism over non-violence.",
+  "basis": "\"Mississippi Goddam\" (1964), written after the Birmingham church bombing and Medgar Evers's murder; benefit concerts for CORE and SNCC and the Selma march; came to identify with Black Power and Black nationalism over non-violence. Sang Langston Hughes's 'Backlash Blues' ('You raise my taxes, freeze my wages… second-class houses') for the rest of her career at his dying request: one owned economic grievance, so a direction, not a distance.",
   "sources": [
    {
     "title": "National Women's History Museum: Nina Simone",
@@ -4099,6 +4199,10 @@
    {
     "title": "Biography.com: Nina Simone's activism",
     "url": "https://www.biography.com/musicians/nina-simone-activism"
+   },
+   {
+    "title": "UNC Press: Kimberley Phillips on 'The Backlash Blues'",
+    "url": "https://uncpressblog.com/2012/01/26/excerpt-war-what-is-it-good-for-by-kimberley-l-phillips"
    }
   ],
   "checked": "2026-11-11",
@@ -4298,9 +4402,9 @@
   "econ": -5.0,
   "auth": -4.0,
   "confidence": 3,
-  "ce": 0,
+  "ce": 2,
   "ca": 3,
-  "basis": "Quietly funded civil-rights work for decades (per Jesse Jackson); in 1970 publicly offered to post bail for Angela Davis.",
+  "basis": "Quietly funded civil-rights work for decades (per Jesse Jackson); in 1970 publicly offered to post bail for Angela Davis. 'Daddy was a staunch, lifelong Democrat, as I am' (autobiography); gave free concerts and a fundraiser for Jesse Jackson's campaign.",
   "sources": [
    {
     "title": "Quartz: When Aretha Franklin offered to post bail for Angela Davis",
@@ -4309,6 +4413,14 @@
    {
     "title": "Atlanta Journal-Constitution: Franklin and social justice",
     "url": "https://www.ajc.com/news/aretha-franklin-used-her-voice-deliver-music-for-social-justice/5yr4uEf2f4jYhAbPOtHBLN"
+   },
+   {
+    "title": "AP via The Reporter: Aretha Franklin came to Washington to sing (2018)",
+    "url": "https://www.pressreader.com/usa/the-reporter-lansdale-pa/20180821/281556586676381"
+   },
+   {
+    "title": "BET: Aretha Franklin's civil-rights contributions (2018)",
+    "url": "https://www.bet.com/article/9yfjz7/aretha-franklin-s-contributions-from-mlk-to-inspiring-obama"
    }
   ],
   "checked": "2026-11-11",
@@ -4458,12 +4570,12 @@
   "name": "Björk",
   "band": "solo",
   "genre": "E",
-  "econ": -5.0,
+  "econ": -2.5,
   "auth": -6.0,
   "confidence": 3,
-  "ce": 0,
+  "ce": 2,
   "ca": 3,
-  "basis": "Dedicated \"Declare Independence\" to Greenland and the Faroes, Kosovo and Tibet (shouting \"Tibet!\" on stage in Shanghai, 2008); backed a Yes vote in Scotland (2014) and Greenlandic independence again in 2026.",
+  "basis": "Dedicated \"Declare Independence\" to Greenland and the Faroes, Kosovo and Tibet (shouting \"Tibet!\" on stage in Shanghai, 2008); backed a Yes vote in Scotland (2014) and Greenlandic independence again in 2026. In a 2008 Times essay on the crash she argued against more aluminium smelters for big corporations and for small, green, home-grown businesses: anti-corporate but pro-entrepreneur, so moderately left.",
   "sources": [
    {
     "title": "Wikipedia: Declare Independence",
@@ -4476,6 +4588,14 @@
    {
     "title": "mxdwn: Björk urges Greenland to declare independence (2026)",
     "url": "https://music.mxdwn.com/2026/01/05/news/bjork-wants-greenland-to-declare-independence-as-donald-trump-threatens-possibly-taking-over/"
+   },
+   {
+    "title": "Newser: Björk – Iceland must heal itself (2008, summarising her Times essay)",
+    "url": "https://amp.newser.com/story/41082/bjork-iceland-must-heal-itself.html"
+   },
+   {
+    "title": "Náttúran.is: Björk's Times essay 'After financial meltdown, now it's smeltdown' (2008)",
+    "url": "https://www.nature.is/samfelagid/efni/7985/"
    }
   ],
   "checked": "2026-11-11",
@@ -4818,9 +4938,9 @@
   "econ": -5,
   "auth": -4,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "HIV campaigning through her SING campaign; campaigned against the 2003 Iraq invasion; signed the Artists4Ceasefire letter and called for a Gaza ceasefire on stage at the 2024 Grammys.",
+  "basis": "HIV campaigning through her SING campaign; campaigned against the 2003 Iraq invasion; signed the Artists4Ceasefire letter and called for a Gaza ceasefire on stage at the 2024 Grammys. Didn't vote for years, then voted Labour in 1997 and left over Iraq; has never joined a party: one partisan proxy, so a direction only.",
   "sources": [
    {
     "title": "The Nation: Annie Lennox and Artists for Cease-Fire (2024)",
@@ -4833,6 +4953,14 @@
    {
     "title": "Democracy Now: Lennox calls for Gaza ceasefire at Grammys (2024)",
     "url": "https://www.democracynow.org/2024/2/5/headlines/annie_lennox_calls_for_gaza_ceasefire_during_sinead_oconnor_tribute_at_grammys"
+   },
+   {
+    "title": "New Statesman interview: Annie Lennox (2011)",
+    "url": "https://www.newstatesman.com/long-reads/2011/06/interview-life-sexuality-women"
+   },
+   {
+    "title": "Sunday Post: 'I've never joined a political party' (2021)",
+    "url": "https://www.pressreader.com/uk/the-sunday-post-dundee/20210418/282406992181914"
    }
   ],
   "checked": "2026-11-11",
@@ -5028,9 +5156,9 @@
   "econ": -8,
   "auth": -5,
   "confidence": 2,
-  "ce": 0,
+  "ce": 1,
   "ca": 2,
-  "basis": "Kneecap's Irish-language republicanism and pro-Palestinian stage messages; charged under the Terrorism Act for allegedly displaying a Hezbollah flag at a 2024 London gig; the case was thrown out in 2025 as filed a day too late.",
+  "basis": "Kneecap's Irish-language republicanism and pro-Palestinian stage messages; charged under the Terrorism Act for allegedly displaying a Hezbollah flag at a 2024 London gig; the case was thrown out in 2025 as filed a day too late. Kneecap backed Catherine Connolly, the left independent endorsed by People Before Profit and the Social Democrats, for Irish president in 2025 ('Vote Connolly… cause we can't'); calls the band working-class. One endorsement, so a direction only.",
   "sources": [
    {
     "title": "AP via AJC: British court throws out terror charge against Kneecap member (2025)",
@@ -5043,6 +5171,14 @@
    {
     "title": "Mixmag: Mo Chara statement after the charge was dropped",
     "url": "https://mixmag.net/read/terror-charge-against-kneecaps-mo-chara-thrown-out-by-court-news"
+   },
+   {
+    "title": "Hot Press: Kneecap support Catherine Connolly for president (2025)",
+    "url": "https://www.hotpress.com/culture/kneecap-support-catherine-connolly-for-president-23113584"
+   },
+   {
+    "title": "Dublin People: People Before Profit endorses Connolly (2025)",
+    "url": "https://dublinpeople.com/news/dublin/articles/2025/07/14/pbp-connolly/"
    }
   ],
   "checked": "2026-11-11",
@@ -5126,9 +5262,9 @@
   "econ": -6,
   "auth": -6,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "Filmed himself undergoing the Guantánamo force-feeding procedure for the human-rights group Reprieve in 2013 to protest it.",
+  "basis": "Filmed himself undergoing the Guantánamo force-feeding procedure for the human-rights group Reprieve in 2013 to protest it. Remade 'Niggas in Paris' as the working-class 'Niggas in Poorest' (2012), opposed the Barclays Center for what it did to his Brooklyn neighbourhood, and calls streaming payouts a continuation of colonisation.",
   "sources": [
    {
     "title": "ACLU: Yasiin Bey undergoes force-feeding endured by Guantánamo hunger strikers (2013)",
@@ -5141,6 +5277,14 @@
    {
     "title": "Reprieve: litigation challenging force-feeding",
     "url": "https://reprieve.org/us/?p=4129"
+   },
+   {
+    "title": "Complex: 'Niggas in Poorest' (2012)",
+    "url": "https://content-prod.adc-blue.infra.complex.com/music/a/toure/who-killed-it-yasiin-bey-aka-mos-def-niggas-in-poorest"
+   },
+   {
+    "title": "HotNewHipHop: Yasiin Bey on the Barclays Center",
+    "url": "https://www.hotnewhiphop.com/9401-yasiin-bey-addresses-jay-z-opposition-to-the-barclay-s-center-news"
    }
   ],
   "checked": "2026-11-11",
@@ -5208,9 +5352,9 @@
   "econ": -7,
   "auth": -5,
   "confidence": 2,
-  "ce": 0,
+  "ce": 2,
   "ca": 2,
-  "basis": "Helped organise and lead the 2019 #RickyRenuncia protests that forced Governor Rosselló to resign, co-writing the protest anthem \"Afilando los Cuchillos\"; Calle 13's work is often pro-independence and anti-colonial.",
+  "basis": "Helped organise and lead the 2019 #RickyRenuncia protests that forced Governor Rosselló to resign, co-writing the protest anthem \"Afilando los Cuchillos\"; Calle 13's work is often pro-independence and anti-colonial. Attacked Governor Fortuño's layoff of over 30,000 public employees (2009); backed Bernie Sanders, who he says 'understands' Puerto Rico (2018, 2020).",
   "sources": [
    {
     "title": "NPR: 'Afilando los Cuchillos' soundtracks Puerto Rico's social movement (2019)",
@@ -5223,6 +5367,14 @@
    {
     "title": "Guardian via inkl: Puerto Rico's musicians lend voice to protesters (2019)",
     "url": "https://www.inkl.com/news/ricky-resign-puerto-rico-s-famous-musicians-lend-voice-to-surging-protesters"
+   },
+   {
+    "title": "The Nation: Residente says the US owes Puerto Rico (2018)",
+    "url": "https://www.thenation.com/article/archive/residente-says-the-united-states-owes-puerto-rico-not-the-other-way-around/tnamp/"
+   },
+   {
+    "title": "ET: Residente on activism and Bernie Sanders (2020)",
+    "url": "https://www.etonline.com/residente-opens-up-about-his-new-album-fatherhood-and-the-power-of-social-activism-exclusive-143292"
    }
   ],
   "checked": "2026-11-11",
@@ -5295,12 +5447,12 @@
   "name": "Travis Tritt",
   "band": "solo",
   "genre": "C",
-  "econ": 2,
+  "econ": 4,
   "auth": 0,
-  "confidence": 1,
-  "ce": 0,
-  "ca": 1,
-  "basis": "Cancelled four 2021 shows at venues requiring Covid vaccination, tests or masks, calling it discrimination, and took the case to Tucker Carlson. The Trump-supporter part is not yet sourced. Opposing vaccine mandates is not an economic position; with the Trump claim unsourced, only a mild right lean is supported.",
+  "confidence": 2,
+  "ce": 2,
+  "ca": 2,
+  "basis": "Cancelled four 2021 shows at venues requiring Covid vaccination, tests or masks, calling it discrimination, and took the case to Tucker Carlson. A Republican who openly backed George W. Bush in 2000 and Trump in 2024 ('This is my President!'), and in 2025 urged other country stars to come out for Trump.",
   "sources": [
    {
     "title": "Travis Tritt official: cancels concerts requiring vaccinations, tests or masks (2021)",
@@ -5313,6 +5465,14 @@
    {
     "title": "Rev: Tritt on Tucker Carlson (2021)",
     "url": "https://www.rev.com/blog/?p=26116"
+   },
+   {
+    "title": "CMT: Tritt open about political leanings (2001)",
+    "url": "https://www.cmt.com/news/bf1eao/tritt-open-about-political-leanings"
+   },
+   {
+    "title": "Country Town: Tritt and others react to Trump's 2024 win",
+    "url": "https://countrytown.com/news/travis-tritt-brian-kelley-john-rich-more-react-to-donald-trump-presidential-election-victory/1OVqxsnIy8o/07-11-24"
    }
   ],
   "checked": "2026-11-11",
@@ -5355,12 +5515,12 @@
   "name": "Zach Bryan",
   "band": "solo",
   "genre": "C",
-  "econ": -1,
+  "econ": 1,
   "auth": -2,
   "confidence": 1,
-  "ce": 0,
+  "ce": 1,
   "ca": 1,
-  "basis": "\"Bad News\" (2025) sang about ICE raids and drew rebukes from the Homeland Security secretary and the White House; he answered that he loves the country and that the full song \"hits on both sides of the aisle\". One song is the whole record, and a single signal shows a direction, not a distance from the centre.",
+  "basis": "\"Bad News\" (2025) sang about ICE raids and drew rebukes from the Homeland Security secretary and the White House; he answered that he loves the country and that the full song \"hits on both sides of the aisle\". One song is the whole record, and a single signal shows a direction, not a distance from the centre. Has described himself as a libertarian: a single economic signal leaning right.",
   "sources": [
    {
     "title": "ABC News: Zach Bryan addresses backlash over ICE lyrics",
@@ -5369,6 +5529,10 @@
    {
     "title": "Axios: DHS escalates fight over Bryan's ICE lyric",
     "url": "https://www.axios.com/2025/10/08/zach-bryan-ice-lyric-bad-news-dhs"
+   },
+   {
+    "title": "Independent via inkl: Zach Bryan's statement after the ICE lyric controversy (2025)",
+    "url": "https://www.inkl.com/news/zach-bryan-shares-statement-on-political-stance-after-ice-raid-song-lyric-controversy"
    }
   ],
   "checked": "2026-11-11",

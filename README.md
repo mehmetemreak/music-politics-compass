@@ -28,6 +28,7 @@ The axes follow [the Political Compass](https://www.politicalcompass.org) ([back
 - **Confidence, per axis:** `ce` (economic) and `ca` (authority) are each high (about ±1 unit), medium (±1.5) or low (±2.5); `ce` can also be 0, no economic record, drawn as ±5. The halo is an ellipse with those two radii. `confidence` is the overall rating used for the mark's fill and the filters.
   - Economic evidence means positions on taxes, wages, unions, public services, ownership or markets, or sustained campaigning for candidates whose platforms are mainly economic. A single endorsement gives `ce` 1.
   - Charity is not economic evidence. Neither is defending one's own copyright: copyright is a state-granted monopoly, not a free-market stance.
+  - Private financial behaviour (tax exile, offshore accounts) is not evidence of a position; what the person says about the economy outranks it. Tax avoidance by someone who calls for higher taxes is hypocrisy, not a different view.
 - **Sourcing:** every placement needs at least one link. Placements without one are marked *not yet sourced* and are either sourced or removed before the site goes public.
 
 ## Data

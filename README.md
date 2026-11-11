@@ -60,7 +60,16 @@ The axes follow [the Political Compass](https://www.politicalcompass.org) ([back
 ### Inclusion and the default view
 
 - **Inclusion:** widely known, or a substantial political record. Cap of 200.
-- **The starting 50 (default view):** everyone with a documented shift, the person furthest from the centre in each quadrant, then the most-viewed English Wikipedia articles (Nov 2025 – Oct 2026) until there are 50. The page computes this from `data.json`, so the rule applies itself when the data changes.
+- **The starting 50 (default view)**, filled in this order. The page computes it from `data.json`, so the rule applies itself when the data changes.
+  1. Everyone with a documented shift.
+  2. The person furthest from the centre in each quadrant.
+  3. **Ten with a costly political record** (`cost: 1`): held office, or were jailed, charged, attacked, exiled, banned or blacklisted for their politics. The ten most popular of them get in. This lane exists because English-language popularity alone kept out people like Fela Kuti, Víctor Jara and Nadya Tolokonnikova.
+  4. The rest by **popularity**, skipping low-confidence placements, until there are 50.
+- **Popularity** is the average of two ranks, so neither measure decides alone:
+  - **Reach:** the number of Wikipedia language editions with an article on the person (from Wikidata), with English pageviews breaking ties. It counts every language equally and is stable from month to month. Summing pageviews across all editions was tried first; the Wikimedia APIs rate-limit that many calls from a browser, so it was dropped.
+  - **Listeners:** Last.fm listeners. A band is not a voter, but listening happens to bands, so a person known through their band takes the larger of their own and their band's count (Morello uses Rage Against the Machine). This is used only for ranking, never for placement. Someone with no usable Last.fm count is ranked on reach alone.
+  - Both measure fame, not belief, so neither affects where anyone sits. Spotify's monthly listeners are not used: they are not in its public API.
+- **List view** can be sorted by either measure ("Most read", "Most listened").
 - **Sourcing:** every placement needs at least one link. Placements without one are marked *not yet sourced* and are either sourced or removed before the site goes public.
 
 ## Adding a person: checklist
@@ -75,7 +84,8 @@ Work through this in order for every new entry, and for any re-check of an old o
 6. **Shift:** is there an earlier, sourced position on fixed content that differs by a unit or more? If so, add `shift` with its own `ce`, `ca`, `basis`, `sources` and a dated `label`.
 7. **Write `basis`** in one to three plain sentences: what they did, and how strong it is. Say when something is a single signal or context only.
 8. **Sources:** at least one link per claim that moves a mark, primary or reputable press over aggregators. Set `checked` to today.
-9. **Review:** open the person on the page, check the halo, the arrow (solid or dashed) and the panel text read correctly.
+9. **Cost and popularity:** set `cost`/`costWhy` if the record shows office, prison, charges, violence, exile, bans or blacklists, sourced in `basis`. Fill `langs`, `lfm`, `lfmAct` with the same scripts used for everyone else (Wikidata sitelinks; Last.fm artist pages), so the new person is ranked on the same terms.
+10. **Review:** open the person on the page, check the halo, the arrow (solid or dashed) and the panel text read correctly.
 
 ### Audits done
 
@@ -100,7 +110,10 @@ Everything lives in [`data.json`](data.json), one object per person:
 | `sources` | list of `{title, url}`; `url` may be absent for print sources |
 | `checked` | date the sources were last checked, or `null` |
 | `wiki`, `wsec` | English Wikipedia article and the anchor of its politics heading (`""` if none) |
-| `views` | the article's user pageviews, Nov 2025 – Oct 2026 |
+| `views` | English Wikipedia user pageviews, Nov 2025 – Oct 2026 |
+| `langs` | number of Wikipedia language editions with an article on the person (Wikidata sitelinks) |
+| `lfm`, `lfmAct` | Last.fm listeners and the act they were counted under (the person or their band, whichever is larger); `lfmChecked` is the date |
+| `cost`, `costWhy` | `1` for a costly political record (office, prison, charges, violence, exile, bans, blacklists), with a few words saying what |
 
 ## Disputing a placement
 

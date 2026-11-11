@@ -223,7 +223,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 </section>
 
 <section id="vList" hidden>
-<div class="lh"><span id="lc"></span><label>Sort <select id="sort"><option value="name">Name</option><option value="econ">Left to right</option><option value="auth">Libertarian to authoritarian</option><option value="src">Sourced first</option><option value="start">Career began</option></select></label></div>
+<div class="lh"><span id="lc"></span><label>Sort <select id="sort"><option value="name">Name</option><option value="econ">Left to right</option><option value="auth">Libertarian to authoritarian</option><option value="src">Sourced first</option><option value="start">Career began</option><option value="read">Most languages on Wikipedia</option><option value="heard">Most listened (Last.fm)</option></select></label></div>
 <div id="list"></div>
 </section>
 
@@ -240,7 +240,7 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <li><b>Shifts are drawn only from evidence that passes the same tests.</b> A solid arrow means both ends are at least medium confidence; a dashed one means one end rests on a single signal. The arrow says where someone stood then and stands now, not why they moved: the axes measure fixed positions, not whether someone is against whoever is in power.</li>
 <li><b>Two tests for every piece of evidence.</b> First: is the person speaking as themselves? Lyrics count only when the artist owns them, by saying the song is their view, taking it to rallies or picket lines, giving its money to the cause, or writing in that line across their whole work. Characters, irony and stage personas do not count. Second: what did it cost them? Office, prison, exile, bans, years of organising and money given up count most. Sustained activism and political work they stand behind come next, then what they call themselves. A single vote, endorsement or small donation shows only a direction: a mark resting on nothing stronger stays within 4 units of the centre, at low confidence. A stray interview line never moves a mark on its own.</li>
 <li><b>Thin evidence widens the halo; it does not pull anyone to the centre.</b> Someone who never voted but spent decades on political work they stand behind can sit far out. How famous a song became does not count either: the chart measures belief, not influence.</li>
-<li><b>The starting 50:</b> everyone with a documented shift in position, the person furthest from the centre in each quadrant, then the most-viewed English Wikipedia articles from November 2025 to October 2026 until there are 50. <i>All</i> shows everyone. A search always looks through everyone.</li>
+<li><b>The starting 50:</b> everyone with a documented shift in position, the person furthest from the centre in each quadrant, ten people with a costly political record (office held, prison, charges, violence, exile, bans or blacklists), then the most popular until there are 50. Popularity blends two ranks: how many language editions of Wikipedia have an article on the person (English views break ties) and Last.fm listeners, counting a band's listeners for someone known through their band. Low-confidence placements do not get in on popularity alone. The list can be sorted by either measure. <i>All</i> shows everyone. A search always looks through everyone.</li>
 <li><b>Who is included:</b> people who are either widely known or have a substantial political record, up to 200. Genre is shown by colour and shape together, and is a filing decision, not a claim.</li>
 <li><b>Precision, axis by axis:</b> each axis has its own confidence: high is good to about &plusmn;1 unit, medium &plusmn;1.5, low &plusmn;2.5. Many musicians have a clear record on authority but none on economics, so their halo is an ellipse, wide from side to side; with no economic record at all it spans &plusmn;5. Charity is not economic evidence, and neither is defending their own copyright. Crowded areas collapse into numbered groups; tap one to open it.</li>
 <li><b>Sourcing:</b> placements marked <i>not yet sourced</i> come from general knowledge and are being checked one by one. Anything that cannot be sourced will be removed.</li>
@@ -294,11 +294,14 @@ fetch("data.json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(init).catch(
 function init(data){
  D=data;D.forEach(d=>{d.x=d.econ;d.y=d.auth});
  // the starting 50: everyone with a documented shift, the person furthest from the centre in each quadrant,
- // then the most-viewed Wikipedia articles of the past year until there are 50
+ // ten with a costly political record, then the most popular by a blend of reading and listening
+ const rk=f=>{const r={};D.slice().sort(f).forEach((d,i)=>r[d.name]=i);return r},R1=rk((a,b)=>(b.langs||0)-(a.langs||0)||(b.views||0)-(a.views||0)),R2=rk((a,b)=>(b.lfm||0)-(a.lfm||0));
+ D.forEach(d=>d.pop=d.lfm?(R1[d.name]+R2[d.name])/2:R1[d.name]);const byPop=D.slice().sort((a,b)=>a.pop-b.pop);
  const far={};D.forEach(d=>{if(!d.econ||!d.auth)return;const k=(d.auth>0?"auth":"lib")+"-"+(d.econ>0?"right":"left");if(!far[k]||Math.hypot(d.econ,d.auth)>Math.hypot(far[k].econ,far[k].auth))far[k]=d});
  D.forEach(d=>{if(d.shift){d.starter=1;d.why="has a documented shift in position"}});
  Object.entries(far).forEach(([k,d])=>{if(!d.starter){d.starter=1;d.why=`furthest from the centre in the ${k} quadrant`}});
- D.slice().sort((a,b)=>(b.views||0)-(a.views||0)).forEach(d=>{if(D.filter(e=>e.starter).length<50&&!d.starter){d.starter=1;d.why="among the most-viewed"}});
+ let nc=0;byPop.forEach(d=>{if(nc<10&&d.cost===1&&!d.starter){d.starter=1;nc++;d.why="a costly political record: "+d.costWhy}});
+ const n=()=>D.filter(e=>e.starter).length;byPop.forEach(d=>{if(n()<50&&!d.starter&&d.confidence>1){d.starter=1;d.why="among the most widely known (Wikipedia languages and Last.fm listeners)"}});
  // nudge overlapping marks apart (data units; always well inside the uncertainty)
  const MIN=.31;
  for(let it=0;it<120;it++)for(let i=0;i<D.length;i++)for(let j=i+1;j<D.length;j++){let dx=D[j].x-D[i].x,dy=D[j].y-D[i].y,r=Math.hypot(dx,dy);if(r>=MIN)continue;if(r<1e-4){dx=Math.cos(i*2.4+j);dy=Math.sin(i*2.4+j);r=1}const p=(MIN-r)/2/r;D[i].x-=dx*p;D[i].y-=dy*p;D[j].x+=dx*p;D[j].y+=dy*p}
@@ -310,6 +313,7 @@ const slug=s=>s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[
 
 // a shift is firm only if both ends are at least medium confidence on every axis it moves along
 const shWeak=d=>{const h=d.shift,a=Math.abs(h.econ-d.econ)>=1&&Math.min(h.ce??1,d.ce??1)<2,b=Math.abs(h.auth-d.auth)>=1&&Math.min(h.ca??1,d.ca??1)<2;return a||b};
+const big=v=>!v?"0":v>=1e6?(v/1e6).toFixed(1)+"M":v>=1e3?Math.round(v/1e3)+"k":String(v);
 const CI={3:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--ink2)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',2:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6"/></svg>',1:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--panel)" stroke="var(--ink2)" stroke-width="1.6" stroke-dasharray="2.4 2"/></svg>'},CLG={3:"Filled: high confidence",2:"Hollow: medium",1:"Dashed: low"};
 function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.filter(d=>d.sources.length).length;
  $("vS").setAttribute("aria-pressed",st.view==="start");$("vA").setAttribute("aria-pressed",st.view==="all");$("vA").textContent=`All ${D.length}`;$("vS2").setAttribute("aria-pressed",st.view==="start");$("vA2").setAttribute("aria-pressed",st.view==="all");$("vA2").textContent=D.length;$("vA2").setAttribute("aria-label",`Show all ${D.length}`);
@@ -476,7 +480,7 @@ function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
  const s=src.length?`<span class="st y">&#10003; Sourced · checked ${new Date(d.checked+"T00:00:00").toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"})}</span>`:`<span class="st">Not yet sourced · placed from general knowledge, pending a check</span>`;
  const issue=`${REPO}/issues/new?template=placement.yml&title=${encodeURIComponent("Placement: "+d.name)}`;
  $("sh").style.transform="";$("sh").innerHTML=`<div class="grab" id="grab"></div><div class="sh-h"><div><h3 id="shName">${esc(d.name)}</h3><div class="meta">${esc(d.band==="solo"?"Solo":d.band)} · ${GN[d.genre]}${d.start?` · career began ${d.start}`:""}</div></div><button class="x" aria-label="Close" id="shX">&times;</button></div>
- <div class="why">${d.starter?`In the starting 50: ${d.why}.`:"Shown under All."} ${d.views>=1e6?(d.views/1e6).toFixed(1)+"M":Math.round(d.views/1e3)+"k"} Wikipedia views in the past year.</div><div class="pos">Economic ${fmt(d.econ)} ${(d.ce??d.confidence)===0?"(no economic record: &plusmn;5)":`(&plusmn;${HX[d.ce??d.confidence]})`} · Authority ${fmt(d.auth)} (&plusmn;${HR[d.ca??d.confidence]}) · ${CL[d.confidence]} confidence</div>${s}
+ <div class="why">${d.starter?`In the starting 50: ${d.why}.`:"Shown under All."} Wikipedia article in ${d.langs} ${d.langs===1?"language":"languages"}, ${big(d.views)} English views in the past year${d.lfm?` · ${big(d.lfm)} Last.fm listeners${d.lfmAct&&d.lfmAct!==d.name?` (as ${esc(d.lfmAct)})`:""}`:""}.</div><div class="pos">Economic ${fmt(d.econ)} ${(d.ce??d.confidence)===0?"(no economic record: &plusmn;5)":`(&plusmn;${HX[d.ce??d.confidence]})`} · Authority ${fmt(d.auth)} (&plusmn;${HR[d.ca??d.confidence]}) · ${CL[d.confidence]} confidence</div>${s}
  <p>${esc(d.basis)}</p>${d.shift?`<p><i>Earlier position (${esc(d.shift.label)}):</i> economic ${fmt(d.shift.econ)} (&plusmn;${HX[d.shift.ce??1]}), authority ${fmt(d.shift.auth)} (&plusmn;${HR[d.shift.ca??1]})${shWeak(d)?" · <b>weak shift</b>: one end rests on a single signal, so the arrow is dashed":""}. ${esc(d.shift.basis||"")}${(d.shift.sources||[]).length?" "+d.shift.sources.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join("; "):""}</p>`:""}
  <h4>Sources</h4>${src.length?`<ol>${src.map(x=>`<li>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`:esc(x.title)}</li>`).join("")}</ol>`:`<p style="color:var(--mut)">None yet.</p>`}
  <p class="wk" id="shW">${wkLink(d)}</p><div class="acts">${st.mode==="list"?`<button id="shGo">Show on chart</button>`:""}<a href="${issue}" target="_blank" rel="noopener">Dispute this placement</a><button id="shL">Copy link</button></div>`;
@@ -496,9 +500,9 @@ function focusOn(i){setMode("chart");const d=D[i];if(!pass(d)){st.genres.clear()
 // ---------- list ----------
 function drawList(){
  let a=D.map((d,i)=>i).filter(i=>pass(D[i])&&(!st.q||hit(D[i])));
- const c={name:(x,y)=>D[x].name.localeCompare(D[y].name),econ:(x,y)=>D[x].econ-D[y].econ,auth:(x,y)=>D[x].auth-D[y].auth,src:(x,y)=>(D[y].sources.length>0)-(D[x].sources.length>0)||D[x].name.localeCompare(D[y].name),start:(x,y)=>(D[x].start||9999)-(D[y].start||9999)}[st.sort];
+ const c={name:(x,y)=>D[x].name.localeCompare(D[y].name),econ:(x,y)=>D[x].econ-D[y].econ,auth:(x,y)=>D[x].auth-D[y].auth,src:(x,y)=>(D[y].sources.length>0)-(D[x].sources.length>0)||D[x].name.localeCompare(D[y].name),start:(x,y)=>(D[x].start||9999)-(D[y].start||9999),read:(x,y)=>(D[y].langs||0)-(D[x].langs||0)||(D[y].views||0)-(D[x].views||0),heard:(x,y)=>(D[y].lfm||0)-(D[x].lfm||0)}[st.sort];
  a.sort(c);$("lc").textContent=`${a.length} ${a.length===1?"person":"people"}`;
- $("list").innerHTML=a.length?a.map(i=>{const d=D[i];return `<button class="row" data-i="${i}">${icon(d.genre,d.confidence)}<span class="t"><b>${esc(d.name)}</b><small>${esc(d.band==="solo"?GN[d.genre]:d.band+" · "+GN[d.genre])}${d.start?" · "+d.start:""}</small></span><span class="p">${fmt(d.econ)}, ${fmt(d.auth)}<br>${d.sources.length?'<span class="ok">&#10003; sourced</span>':"unsourced"}</span></button>`}).join(""):`<div class="empty">Nobody matches.</div>`}
+ $("list").innerHTML=a.length?a.map(i=>{const d=D[i];return `<button class="row" data-i="${i}">${icon(d.genre,d.confidence)}<span class="t"><b>${esc(d.name)}</b><small>${esc(d.band==="solo"?GN[d.genre]:d.band+" · "+GN[d.genre])}${d.start?" · "+d.start:""}</small></span><span class="p">${fmt(d.econ)}, ${fmt(d.auth)}<br>${st.sort==="read"?d.langs+" languages":st.sort==="heard"?big(d.lfm)+" listeners":d.sources.length?'<span class="ok">&#10003; sourced</span>':"unsourced"}</span></button>`}).join(""):`<div class="empty">Nobody matches.</div>`}
 $("list").addEventListener("click",e=>{const r=e.target.closest(".row");if(r)openSheet(+r.dataset.i)});
 $("sort").onchange=e=>{st.sort=e.target.value;drawList()};
 

@@ -31,7 +31,11 @@
   "wiki": "Tom Morello",
   "views": 1143851,
   "start": 1979,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 4345979,
+  "lfmAct": "Rage Against the Machine",
+  "lfmChecked": "2026-11-11",
+  "langs": 40
  },
  {
   "name": "Zack de la Rocha",
@@ -61,7 +65,11 @@
   "wiki": "Zack de la Rocha",
   "views": 800783,
   "start": 1987,
-  "wsec": "Activism"
+  "wsec": "Activism",
+  "lfm": 4345979,
+  "lfmAct": "Rage Against the Machine",
+  "lfmChecked": "2026-11-11",
+  "langs": 33
  },
  {
   "name": "Joe Strummer",
@@ -91,7 +99,11 @@
   "wiki": "Joe Strummer",
   "views": 566983,
   "start": 1970,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 4272999,
+  "lfmAct": "The Clash",
+  "lfmChecked": "2026-11-11",
+  "langs": 40
  },
  {
   "name": "Billy Bragg",
@@ -121,7 +133,11 @@
   "wiki": "Billy Bragg",
   "views": 240704,
   "start": 1977,
-  "wsec": "Politics_and_activism"
+  "wsec": "Politics_and_activism",
+  "lfm": 664534,
+  "lfmAct": "Billy Bragg",
+  "lfmChecked": "2026-11-11",
+  "langs": 24
  },
  {
   "name": "Roger Waters",
@@ -151,7 +167,11 @@
   "wiki": "Roger Waters",
   "views": 1047439,
   "start": 1960,
-  "wsec": "Political_views_and_activism"
+  "wsec": "Political_views_and_activism",
+  "lfm": 5713999,
+  "lfmAct": "Pink Floyd",
+  "lfmChecked": "2026-11-11",
+  "langs": 69
  },
  {
   "name": "David Gilmour",
@@ -189,7 +209,11 @@
   "wiki": "David Gilmour",
   "views": 978853,
   "start": 1963,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 5713999,
+  "lfmAct": "Pink Floyd",
+  "lfmChecked": "2026-11-11",
+  "langs": 66
  },
  {
   "name": "John Lennon",
@@ -215,7 +239,11 @@
   "wiki": "John Lennon",
   "views": 3625374,
   "start": 1956,
-  "wsec": "Political_activism"
+  "wsec": "Political_activism",
+  "lfm": 6709685,
+  "lfmAct": "The Beatles",
+  "lfmChecked": "2026-11-11",
+  "langs": 145
  },
  {
   "name": "Paul McCartney",
@@ -245,7 +273,11 @@
   "wiki": "Paul McCartney",
   "views": 4634979,
   "start": 1957,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 6709685,
+  "lfmAct": "The Beatles",
+  "lfmChecked": "2026-11-11",
+  "langs": 128
  },
  {
   "name": "George Harrison",
@@ -271,7 +303,11 @@
   "wiki": "George Harrison",
   "views": 2995413,
   "start": 1958,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 6709685,
+  "lfmAct": "The Beatles",
+  "lfmChecked": "2026-11-11",
+  "langs": 109
  },
  {
   "name": "Ringo Starr",
@@ -301,7 +337,11 @@
   "wiki": "Ringo Starr",
   "views": 2547998,
   "start": 1957,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 6709685,
+  "lfmAct": "The Beatles",
+  "lfmChecked": "2026-11-11",
+  "langs": 104
  },
  {
   "name": "Bruce Springsteen",
@@ -331,7 +371,11 @@
   "wiki": "Bruce Springsteen",
   "views": 3333247,
   "start": 1964,
-  "wsec": "Political_views_and_activism"
+  "wsec": "Political_views_and_activism",
+  "lfm": 3669491,
+  "lfmAct": "Bruce Springsteen",
+  "lfmChecked": "2026-11-11",
+  "langs": 93
  },
  {
   "name": "Neil Young",
@@ -361,7 +405,11 @@
   "wiki": "Neil Young",
   "views": 2000437,
   "start": 1963,
-  "wsec": "Activism,_philanthropy,_and_humanitarian_efforts"
+  "wsec": "Activism,_philanthropy,_and_humanitarian_efforts",
+  "lfm": 2842762,
+  "lfmAct": "Neil Young",
+  "lfmChecked": "2026-11-11",
+  "langs": 67
  },
  {
   "name": "Eddie Vedder",
@@ -391,7 +439,11 @@
   "wiki": "Eddie Vedder",
   "views": 1374205,
   "start": 1988,
-  "wsec": "Activism"
+  "wsec": "Activism",
+  "lfm": 4499133,
+  "lfmAct": "Pearl Jam",
+  "lfmChecked": "2026-11-11",
+  "langs": 49
  },
  {
   "name": "Kurt Cobain",
@@ -425,7 +477,11 @@
   "wiki": "Kurt Cobain",
   "views": 2561139,
   "start": 1985,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 7758314,
+  "lfmAct": "Nirvana",
+  "lfmChecked": "2026-11-11",
+  "langs": 102
  },
  {
   "name": "Krist Novoselic",
@@ -469,7 +525,11 @@
   "wiki": "Krist Novoselic",
   "views": 597193,
   "start": 1987,
-  "wsec": "Political_and_social_activism"
+  "wsec": "Political_and_social_activism",
+  "lfm": 7758314,
+  "lfmAct": "Nirvana",
+  "lfmChecked": "2026-11-11",
+  "langs": 51
  },
  {
   "name": "Dave Grohl",
@@ -499,7 +559,11 @@
   "wiki": "Dave Grohl",
   "views": 1699229,
   "start": 1982,
-  "wsec": "Advocacy,_philanthropy_and_views"
+  "wsec": "Advocacy,_philanthropy_and_views",
+  "lfm": 6553194,
+  "lfmAct": "Foo Fighters",
+  "lfmChecked": "2026-11-11",
+  "langs": 67
  },
  {
   "name": "Thom Yorke",
@@ -537,7 +601,11 @@
   "wiki": "Thom Yorke",
   "views": 863196,
   "start": 1985,
-  "wsec": "Politics_and_activism"
+  "wsec": "Politics_and_activism",
+  "lfm": 8510830,
+  "lfmAct": "Radiohead",
+  "lfmChecked": "2026-11-11",
+  "langs": 56
  },
  {
   "name": "Billie Joe Armstrong",
@@ -563,7 +631,11 @@
   "wiki": "Billie Joe Armstrong",
   "views": 1255148,
   "start": 1977,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 6806919,
+  "lfmAct": "Green Day",
+  "lfmChecked": "2026-11-11",
+  "langs": 63
  },
  {
   "name": "Flea",
@@ -589,7 +661,11 @@
   "wiki": "Flea (musician)",
   "views": 1471067,
   "start": 1982,
-  "wsec": "Political_activism"
+  "wsec": "Political_activism",
+  "lfm": 7445840,
+  "lfmAct": "Red Hot Chili Peppers",
+  "lfmChecked": "2026-11-11",
+  "langs": 51
  },
  {
   "name": "John Fogerty",
@@ -615,7 +691,11 @@
   "wiki": "John Fogerty",
   "views": 1089405,
   "start": 1959,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 4213332,
+  "lfmAct": "Creedence Clearwater Revival",
+  "lfmChecked": "2026-11-11",
+  "langs": 38
  },
  {
   "name": "Don Henley",
@@ -649,7 +729,11 @@
   "wiki": "Don Henley",
   "views": 1308044,
   "start": 1970,
-  "wsec": "Political_activity"
+  "wsec": "Political_activity",
+  "lfm": 3989961,
+  "lfmAct": "Eagles",
+  "lfmChecked": "2026-11-11",
+  "langs": 38
  },
  {
   "name": "Axl Rose",
@@ -679,7 +763,11 @@
   "wiki": "Axl Rose",
   "views": 1213170,
   "start": 1983,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 5384445,
+  "lfmAct": "Guns N' Roses",
+  "lfmChecked": "2026-11-11",
+  "langs": 56
  },
  {
   "name": "Bono",
@@ -713,7 +801,11 @@
   "wiki": "Bono",
   "views": 1122529,
   "start": 1976,
-  "wsec": "Activism_and_philanthropy"
+  "wsec": "Activism_and_philanthropy",
+  "lfm": 5135875,
+  "lfmAct": "U2",
+  "lfmChecked": "2026-11-11",
+  "langs": 78
  },
  {
   "name": "Brian May",
@@ -747,7 +839,11 @@
   "wiki": "Brian May",
   "views": 1328639,
   "start": 1963,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 7427791,
+  "lfmAct": "Queen",
+  "lfmChecked": "2026-11-11",
+  "langs": 81
  },
  {
   "name": "Pete Townshend",
@@ -777,7 +873,11 @@
   "wiki": "Pete Townshend",
   "views": 761337,
   "start": 1960,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 3961267,
+  "lfmAct": "The Who",
+  "lfmChecked": "2026-11-11",
+  "langs": 51
  },
  {
   "name": "Roger Daltrey",
@@ -807,7 +907,11 @@
   "wiki": "Roger Daltrey",
   "views": 557403,
   "start": 1959,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 3961267,
+  "lfmAct": "The Who",
+  "lfmChecked": "2026-11-11",
+  "langs": 47
  },
  {
   "name": "Bob Dylan",
@@ -841,7 +945,11 @@
   "wiki": "Bob Dylan",
   "views": 3699808,
   "start": 1957,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 4397832,
+  "lfmAct": "Bob Dylan",
+  "lfmChecked": "2026-11-11",
+  "langs": 146
  },
  {
   "name": "Mick Jagger",
@@ -867,7 +975,11 @@
   "wiki": "Mick Jagger",
   "views": 2413482,
   "start": 1960,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 5966956,
+  "lfmAct": "The Rolling Stones",
+  "lfmChecked": "2026-11-11",
+  "langs": 84
  },
  {
   "name": "David Bowie",
@@ -897,7 +1009,11 @@
   "wiki": "David Bowie",
   "views": 4080064,
   "start": 1962,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 5756365,
+  "lfmAct": "David Bowie",
+  "lfmChecked": "2026-11-11",
+  "langs": 118
  },
  {
   "name": "Patti Smith",
@@ -927,7 +1043,11 @@
   "wiki": "Patti Smith",
   "views": 1465273,
   "start": 1967,
-  "wsec": "Politics_and_activism"
+  "wsec": "Politics_and_activism",
+  "lfm": 1425334,
+  "lfmAct": "Patti Smith",
+  "lfmChecked": "2026-11-11",
+  "langs": 65
  },
  {
   "name": "Jello Biafra",
@@ -938,7 +1058,7 @@
   "confidence": 3,
   "ce": 3,
   "ca": 3,
-  "basis": "Ran for mayor of San Francisco (1979); came second to Nader for the Green presidential nomination (2000) on a platform including a maximum wage and drug decriminalisation; Green Party member.",
+  "basis": "Ran for mayor of San Francisco (1979); came second to Nader for the Green presidential nomination (2000) on a platform including a maximum wage and drug decriminalisation; Green Party member. Prosecuted in 1986–87 for distributing 'harmful matter' over the Frankenchrist poster; police raided his home, the trial ended the Dead Kennedys, and he fought it on free-speech grounds until it was dismissed.",
   "sources": [
    {
     "title": "Wikipedia: Jello Biafra",
@@ -947,13 +1067,23 @@
    {
     "title": "Far Out: Biafra's 1979 mayoral run and 2000 Green bid",
     "url": "https://faroutmagazine.co.uk/jello-biafra-for-mayor-the-dead-kennedys-bid-for-power/"
+   },
+   {
+    "title": "Encyclopedia.com: Dead Kennedys and the Frankenchrist obscenity trial",
+    "url": "https://encyclopedia.com/media/encyclopedias-almanacs-transcripts-and-maps/dead-kennedys"
    }
   ],
   "checked": "2026-11-11",
   "wiki": "Jello Biafra",
   "views": 334969,
   "start": 1976,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "cost": 1,
+  "costWhy": "prosecuted for obscenity",
+  "lfm": 1399284,
+  "lfmAct": "Dead Kennedys",
+  "lfmChecked": "2026-11-11",
+  "langs": 36
  },
  {
   "name": "Henry Rollins",
@@ -987,7 +1117,11 @@
   "wiki": "Henry Rollins",
   "views": 908622,
   "start": 1980,
-  "wsec": "Views_and_relationships"
+  "wsec": "Views_and_relationships",
+  "lfm": 986827,
+  "lfmAct": "Black Flag",
+  "lfmChecked": "2026-11-11",
+  "langs": 36
  },
  {
   "name": "Ian MacKaye",
@@ -1017,7 +1151,11 @@
   "wiki": "Ian MacKaye",
   "views": 272649,
   "start": 1979,
-  "wsec": "Campaigning,_business_and_activism"
+  "wsec": "Campaigning,_business_and_activism",
+  "lfm": 1588148,
+  "lfmAct": "Fugazi",
+  "lfmChecked": "2026-11-11",
+  "langs": 23
  },
  {
   "name": "Kathleen Hanna",
@@ -1051,7 +1189,11 @@
   "wiki": "Kathleen Hanna",
   "views": 364334,
   "start": 1989,
-  "wsec": "Activism_and_impact"
+  "wsec": "Activism_and_impact",
+  "lfm": 811055,
+  "lfmAct": "Bikini Kill",
+  "lfmChecked": "2026-11-11",
+  "langs": 30
  },
  {
   "name": "Serj Tankian",
@@ -1081,7 +1223,11 @@
   "wiki": "Serj Tankian",
   "views": 780865,
   "start": 1992,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 5994389,
+  "lfmAct": "System of a Down",
+  "lfmChecked": "2026-11-11",
+  "langs": 53
  },
  {
   "name": "John Dolmayan",
@@ -1111,7 +1257,11 @@
   "wiki": "John Dolmayan",
   "views": 287078,
   "start": 1994,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 5994389,
+  "lfmAct": "System of a Down",
+  "lfmChecked": "2026-11-11",
+  "langs": 41
  },
  {
   "name": "Michael Stipe",
@@ -1141,7 +1291,11 @@
   "wiki": "Michael Stipe",
   "views": 691105,
   "start": 1980,
-  "wsec": "Political_activism"
+  "wsec": "Political_activism",
+  "lfm": 4484193,
+  "lfmAct": "R.E.M.",
+  "lfmChecked": "2026-11-11",
+  "langs": 38
  },
  {
   "name": "Chris Martin",
@@ -1171,7 +1325,11 @@
   "wiki": "Chris Martin",
   "views": 1935835,
   "start": 1997,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 9349997,
+  "lfmAct": "Coldplay",
+  "lfmChecked": "2026-11-11",
+  "langs": 69
  },
  {
   "name": "Damon Albarn",
@@ -1205,7 +1363,11 @@
   "wiki": "Damon Albarn",
   "views": 1532470,
   "start": 1988,
-  "wsec": "Politics_and_activism"
+  "wsec": "Politics_and_activism",
+  "lfm": 4940970,
+  "lfmAct": "Blur",
+  "lfmChecked": "2026-11-11",
+  "langs": 43
  },
  {
   "name": "Noel Gallagher",
@@ -1235,7 +1397,11 @@
   "wiki": "Noel Gallagher",
   "views": 886469,
   "start": 1991,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 6128249,
+  "lfmAct": "Oasis",
+  "lfmChecked": "2026-11-11",
+  "langs": 51
  },
  {
   "name": "Paul Weller",
@@ -1275,7 +1441,11 @@
   "wiki": "Paul Weller",
   "views": 474569,
   "start": 1972,
-  "wsec": "Political_views_and_activism"
+  "wsec": "Political_views_and_activism",
+  "lfm": 1260066,
+  "lfmAct": "The Jam",
+  "lfmChecked": "2026-11-11",
+  "langs": 30
  },
  {
   "name": "Morrissey",
@@ -1315,7 +1485,11 @@
   "wiki": "Morrissey",
   "views": 1268377,
   "start": 1977,
-  "wsec": "Political_opinions"
+  "wsec": "Political_opinions",
+  "lfm": 5304347,
+  "lfmAct": "The Smiths",
+  "lfmChecked": "2026-11-11",
+  "langs": 50
  },
  {
   "name": "Johnny Marr",
@@ -1345,7 +1519,11 @@
   "wiki": "Johnny Marr",
   "views": 684105,
   "start": 1982,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 5304347,
+  "lfmAct": "The Smiths",
+  "lfmChecked": "2026-11-11",
+  "langs": 31
  },
  {
   "name": "John Lydon",
@@ -1393,7 +1571,11 @@
   "wiki": "John Lydon",
   "views": 836855,
   "start": 1975,
-  "wsec": "Political_and_social_criticism"
+  "wsec": "Political_and_social_criticism",
+  "lfm": 1786077,
+  "lfmAct": "Sex Pistols",
+  "lfmChecked": "2026-11-11",
+  "langs": 50
  },
  {
   "name": "Eric Clapton",
@@ -1435,7 +1617,11 @@
   "wiki": "Eric Clapton",
   "views": 2193241,
   "start": 1962,
-  "wsec": "Political_opinions"
+  "wsec": "Political_opinions",
+  "lfm": 3479290,
+  "lfmAct": "Eric Clapton",
+  "lfmChecked": "2026-11-11",
+  "langs": 85
  },
  {
   "name": "Van Morrison",
@@ -1465,7 +1651,11 @@
   "wiki": "Van Morrison",
   "views": 930454,
   "start": 1958,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 2707632,
+  "lfmAct": "Van Morrison",
+  "lfmChecked": "2026-11-11",
+  "langs": 49
  },
  {
   "name": "Ted Nugent",
@@ -1491,7 +1681,11 @@
   "wiki": "Ted Nugent",
   "views": 625679,
   "start": 1963,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 691004,
+  "lfmAct": "Ted Nugent",
+  "lfmChecked": "2026-11-11",
+  "langs": 32
  },
  {
   "name": "Kid Rock",
@@ -1521,7 +1715,11 @@
   "wiki": "Kid Rock",
   "views": 2062574,
   "start": 1988,
-  "wsec": "Politics_and_views"
+  "wsec": "Politics_and_views",
+  "lfm": 1226178,
+  "lfmAct": "Kid Rock",
+  "lfmChecked": "2026-11-11",
+  "langs": 37
  },
  {
   "name": "Dave Mustaine",
@@ -1565,7 +1763,11 @@
   "wiki": "Dave Mustaine",
   "views": 800900,
   "start": 1978,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 2378985,
+  "lfmAct": "Megadeth",
+  "lfmChecked": "2026-11-11",
+  "langs": 57
  },
  {
   "name": "Johnny Ramone",
@@ -1595,7 +1797,11 @@
   "wiki": "Johnny Ramone",
   "views": 360768,
   "start": 1965,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 2824267,
+  "lfmAct": "Ramones",
+  "lfmChecked": "2026-11-11",
+  "langs": 35
  },
  {
   "name": "Joey Ramone",
@@ -1625,7 +1831,11 @@
   "wiki": "Joey Ramone",
   "views": 520389,
   "start": 1972,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 2824267,
+  "lfmAct": "Ramones",
+  "lfmChecked": "2026-11-11",
+  "langs": 38
  },
  {
   "name": "Gene Simmons",
@@ -1655,7 +1865,11 @@
   "wiki": "Gene Simmons",
   "views": 1539067,
   "start": 1970,
-  "wsec": "Personal_views_and_politics"
+  "wsec": "Personal_views_and_politics",
+  "lfm": 3358688,
+  "lfmAct": "Kiss",
+  "lfmChecked": "2026-11-11",
+  "langs": 45
  },
  {
   "name": "Frank Zappa",
@@ -1681,7 +1895,11 @@
   "wiki": "Frank Zappa",
   "views": 1350001,
   "start": 1955,
-  "wsec": "Beliefs_and_politics"
+  "wsec": "Beliefs_and_politics",
+  "lfm": 1398302,
+  "lfmAct": "Frank Zappa",
+  "lfmChecked": "2026-11-11",
+  "langs": 80
  },
  {
   "name": "Dee Snider",
@@ -1711,7 +1929,11 @@
   "wiki": "Dee Snider",
   "views": 444823,
   "start": 1976,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 1383151,
+  "lfmAct": "Twisted Sister",
+  "lfmChecked": "2026-11-11",
+  "langs": 31
  },
  {
   "name": "Neil Peart",
@@ -1755,7 +1977,11 @@
   "wiki": "Neil Peart",
   "views": 820905,
   "start": 1968,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 1883854,
+  "lfmAct": "Rush",
+  "lfmChecked": "2026-11-11",
+  "langs": 33
  },
  {
   "name": "Lemmy",
@@ -1793,7 +2019,11 @@
   "wiki": "Lemmy",
   "views": 730972,
   "start": 1960,
-  "wsec": "Religious_and_political_views"
+  "wsec": "Religious_and_political_views",
+  "lfm": 2191245,
+  "lfmAct": "Motörhead",
+  "lfmChecked": "2026-11-11",
+  "langs": 61
  },
  {
   "name": "Bruce Dickinson",
@@ -1823,7 +2053,11 @@
   "wiki": "Bruce Dickinson",
   "views": 593159,
   "start": 1976,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 3277934,
+  "lfmAct": "Iron Maiden",
+  "lfmChecked": "2026-11-11",
+  "langs": 63
  },
  {
   "name": "James Hetfield",
@@ -1857,7 +2091,11 @@
   "wiki": "James Hetfield",
   "views": 1155921,
   "start": 1978,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 5344480,
+  "lfmAct": "Metallica",
+  "lfmChecked": "2026-11-11",
+  "langs": 78
  },
  {
   "name": "Ian Curtis",
@@ -1878,7 +2116,11 @@
   "wiki": "Ian Curtis",
   "views": 841132,
   "start": 1976,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 3465424,
+  "lfmAct": "Joy Division",
+  "lfmChecked": "2026-11-11",
+  "langs": 48
  },
  {
   "name": "Sting",
@@ -1916,7 +2158,11 @@
   "wiki": "Sting (musician)",
   "views": 1716954,
   "start": 1969,
-  "wsec": "Activism"
+  "wsec": "Activism",
+  "lfm": 4792656,
+  "lfmAct": "The Police",
+  "lfmChecked": "2026-11-11",
+  "langs": 80
  },
  {
   "name": "Elvis Costello",
@@ -1946,7 +2192,11 @@
   "wiki": "Elvis Costello",
   "views": 729994,
   "start": 1970,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 1346324,
+  "lfmAct": "Elvis Costello",
+  "lfmChecked": "2026-11-11",
+  "langs": 51
  },
  {
   "name": "Elvis Presley",
@@ -1980,7 +2230,11 @@
   "wiki": "Elvis Presley",
   "views": 5303706,
   "start": 1953,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 4627210,
+  "lfmAct": "Elvis Presley",
+  "lfmChecked": "2026-11-11",
+  "langs": 188
  },
  {
   "name": "Johnny Cash",
@@ -2010,7 +2264,11 @@
   "wiki": "Johnny Cash",
   "views": 2370466,
   "start": 1954,
-  "wsec": "Activism_for_Native_Americans"
+  "wsec": "Activism_for_Native_Americans",
+  "lfm": 4183633,
+  "lfmAct": "Johnny Cash",
+  "lfmChecked": "2026-11-11",
+  "langs": 111
  },
  {
   "name": "Mike Love",
@@ -2036,7 +2294,11 @@
   "wiki": "Mike Love",
   "views": 617440,
   "start": 1961,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 4223754,
+  "lfmAct": "The Beach Boys",
+  "lfmChecked": "2026-11-11",
+  "langs": 26
  },
  {
   "name": "Joe Perry",
@@ -2066,7 +2328,11 @@
   "wiki": "Joe Perry (musician)",
   "views": 389948,
   "start": 1965,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 4844399,
+  "lfmAct": "Aerosmith",
+  "lfmChecked": "2026-11-11",
+  "langs": 38
  },
  {
   "name": "Moe Tucker",
@@ -2092,7 +2358,11 @@
   "wiki": "Moe Tucker",
   "views": 132135,
   "start": 1963,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 3254874,
+  "lfmAct": "The Velvet Underground",
+  "lfmChecked": "2026-11-11",
+  "langs": 26
  },
  {
   "name": "Lou Reed",
@@ -2130,7 +2400,11 @@
   "wiki": "Lou Reed",
   "views": 1031416,
   "start": 1958,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 3254874,
+  "lfmAct": "The Velvet Underground",
+  "lfmChecked": "2026-11-11",
+  "langs": 66
  },
  {
   "name": "Jon Bon Jovi",
@@ -2156,7 +2430,11 @@
   "wiki": "Jon Bon Jovi",
   "views": 2286015,
   "start": 1974,
-  "wsec": "Activism"
+  "wsec": "Activism",
+  "lfm": 4400815,
+  "lfmAct": "Bon Jovi",
+  "lfmChecked": "2026-11-11",
+  "langs": 64
  },
  {
   "name": "Tom Petty",
@@ -2186,7 +2464,11 @@
   "wiki": "Tom Petty",
   "views": 1440909,
   "start": 1967,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 1980029,
+  "lfmAct": "Tom Petty",
+  "lfmChecked": "2026-11-11",
+  "langs": 51
  },
  {
   "name": "Nick Cave",
@@ -2220,7 +2502,11 @@
   "wiki": "Nick Cave",
   "views": 1178638,
   "start": 1973,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 1606508,
+  "lfmAct": "Nick Cave & The Bad Seeds",
+  "lfmChecked": "2026-11-11",
+  "langs": 51
  },
  {
   "name": "Robert Smith",
@@ -2250,7 +2536,11 @@
   "wiki": "Robert Smith (musician)",
   "views": 1230457,
   "start": 1972,
-  "wsec": "Views"
+  "wsec": "Views",
+  "lfm": 5747377,
+  "lfmAct": "The Cure",
+  "lfmChecked": "2026-11-11",
+  "langs": 45
  },
  {
   "name": "Bryan Ferry",
@@ -2284,7 +2574,11 @@
   "wiki": "Bryan Ferry",
   "views": 628279,
   "start": 1967,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 1314589,
+  "lfmAct": "Roxy Music",
+  "lfmChecked": "2026-11-11",
+  "langs": 46
  },
  {
   "name": "Brian Eno",
@@ -2314,7 +2608,11 @@
   "wiki": "Brian Eno",
   "views": 836622,
   "start": 1969,
-  "wsec": "Politics_and_activism"
+  "wsec": "Politics_and_activism",
+  "lfm": 1821821,
+  "lfmAct": "Brian Eno",
+  "lfmChecked": "2026-11-11",
+  "langs": 57
  },
  {
   "name": "Peter Gabriel",
@@ -2348,7 +2646,11 @@
   "wiki": "Peter Gabriel",
   "views": 1125909,
   "start": 1965,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 2116370,
+  "lfmAct": "Genesis",
+  "lfmChecked": "2026-11-11",
+  "langs": 66
  },
  {
   "name": "Sinéad O'Connor",
@@ -2382,7 +2684,11 @@
   "wiki": "Sinéad O'Connor",
   "views": 1982369,
   "start": 1984,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 1427197,
+  "lfmAct": "Sinéad O'Connor",
+  "lfmChecked": "2026-11-11",
+  "langs": 78
  },
  {
   "name": "Bob Geldof",
@@ -2412,7 +2718,11 @@
   "wiki": "Bob Geldof",
   "views": 788821,
   "start": 1975,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 393476,
+  "lfmAct": "The Boomtown Rats",
+  "lfmChecked": "2026-11-11",
+  "langs": 45
  },
  {
   "name": "Elton John",
@@ -2446,7 +2756,11 @@
   "wiki": "Elton John",
   "views": 2626218,
   "start": 1962,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 5417103,
+  "lfmAct": "Elton John",
+  "lfmChecked": "2026-11-11",
+  "langs": 100
  },
  {
   "name": "David Crosby",
@@ -2476,7 +2790,11 @@
   "wiki": "David Crosby",
   "views": 728956,
   "start": 1963,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 1416617,
+  "lfmAct": "Crosby, Stills, Nash & Young",
+  "lfmChecked": "2026-11-11",
+  "langs": 48
  },
  {
   "name": "Stevie Nicks",
@@ -2502,7 +2820,11 @@
   "wiki": "Stevie Nicks",
   "views": 2758599,
   "start": 1967,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 5102998,
+  "lfmAct": "Fleetwood Mac",
+  "lfmChecked": "2026-11-11",
+  "langs": 55
  },
  {
   "name": "Mike Shinoda",
@@ -2532,7 +2854,11 @@
   "wiki": "Mike Shinoda",
   "views": 797978,
   "start": 1994,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 7171702,
+  "lfmAct": "Linkin Park",
+  "lfmChecked": "2026-11-11",
+  "langs": 61
  },
  {
   "name": "Corey Taylor",
@@ -2566,7 +2892,11 @@
   "wiki": "Corey Taylor",
   "views": 834075,
   "start": 1992,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 4363427,
+  "lfmAct": "Slipknot",
+  "lfmChecked": "2026-11-11",
+  "langs": 42
  },
  {
   "name": "Aaron Lewis",
@@ -2596,7 +2926,11 @@
   "wiki": "Aaron Lewis",
   "views": 389465,
   "start": 1990,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 2347210,
+  "lfmAct": "Staind",
+  "lfmChecked": "2026-11-11",
+  "langs": 20
  },
  {
   "name": "Charlie Daniels",
@@ -2626,7 +2960,11 @@
   "wiki": "Charlie Daniels",
   "views": 271730,
   "start": 1953,
-  "wsec": "Views"
+  "wsec": "Views",
+  "lfm": 256583,
+  "lfmAct": "Charlie Daniels Band",
+  "lfmChecked": "2026-11-11",
+  "langs": 26
  },
  {
   "name": "Peter Garrett",
@@ -2656,7 +2994,13 @@
   "wiki": "Peter Garrett",
   "views": 148591,
   "start": 1973,
-  "wsec": "Political_career"
+  "wsec": "Political_career",
+  "cost": 1,
+  "costWhy": "an MP and minister",
+  "lfm": 779200,
+  "lfmAct": "Midnight Oil",
+  "lfmChecked": "2026-11-11",
+  "langs": 18
  },
  {
   "name": "Nadya Tolokonnikova",
@@ -2694,7 +3038,13 @@
   "wiki": "Nadya Tolokonnikova",
   "views": 126274,
   "start": 2008,
-  "wsec": "Release_and_later_global_activism"
+  "wsec": "Release_and_later_global_activism",
+  "cost": 1,
+  "costWhy": "jailed for Pussy Riot's protest",
+  "lfm": 204153,
+  "lfmAct": "Pussy Riot",
+  "lfmChecked": "2026-11-11",
+  "langs": 32
  },
  {
   "name": "Greg Graffin",
@@ -2724,7 +3074,11 @@
   "wiki": "Greg Graffin",
   "views": 112784,
   "start": 1980,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 1603323,
+  "lfmAct": "Bad Religion",
+  "lfmChecked": "2026-11-11",
+  "langs": 23
  },
  {
   "name": "Fat Mike",
@@ -2754,7 +3108,11 @@
   "wiki": "Fat Mike",
   "views": 175507,
   "start": 1983,
-  "wsec": "Activism"
+  "wsec": "Activism",
+  "lfm": 1431214,
+  "lfmAct": "NOFX",
+  "lfmChecked": "2026-11-11",
+  "langs": 19
  },
  {
   "name": "Tim McIlrath",
@@ -2784,7 +3142,11 @@
   "wiki": "Tim McIlrath",
   "views": 83681,
   "start": 1995,
-  "wsec": "Political_lyrics"
+  "wsec": "Political_lyrics",
+  "lfm": 2945894,
+  "lfmAct": "Rise Against",
+  "lfmChecked": "2026-11-11",
+  "langs": 27
  },
  {
   "name": "Jerry Dammers",
@@ -2814,7 +3176,11 @@
   "wiki": "Jerry Dammers",
   "views": 87556,
   "start": 1977,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 1154431,
+  "lfmAct": "The Specials",
+  "lfmChecked": "2026-11-11",
+  "langs": 8
  },
  {
   "name": "John Mellencamp",
@@ -2844,7 +3210,11 @@
   "wiki": "John Mellencamp",
   "views": 1188590,
   "start": 1974,
-  "wsec": "Politics_and_activism"
+  "wsec": "Politics_and_activism",
+  "lfm": 1113591,
+  "lfmAct": "John Mellencamp",
+  "lfmChecked": "2026-11-11",
+  "langs": 27
  },
  {
   "name": "Jackson Browne",
@@ -2874,7 +3244,11 @@
   "wiki": "Jackson Browne",
   "views": 948027,
   "start": 1964,
-  "wsec": "Activism_and_music"
+  "wsec": "Activism_and_music",
+  "lfm": 1084293,
+  "lfmAct": "Jackson Browne",
+  "lfmChecked": "2026-11-11",
+  "langs": 38
  },
  {
   "name": "Steven Van Zandt",
@@ -2912,7 +3286,11 @@
   "wiki": "Steven Van Zandt",
   "views": 1100843,
   "start": 1968,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 34657,
+  "lfmAct": "Little Steven",
+  "lfmChecked": "2026-11-11",
+  "langs": 29
  },
  {
   "name": "Matt Bellamy",
@@ -2938,7 +3316,11 @@
   "wiki": "Matt Bellamy",
   "views": 788705,
   "start": 1991,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 6599853,
+  "lfmAct": "Muse",
+  "lfmChecked": "2026-11-11",
+  "langs": 49
  },
  {
   "name": "Joe Talbot",
@@ -2968,7 +3350,11 @@
   "wiki": "Joe Talbot (singer)",
   "views": 122361,
   "start": 2009,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 631869,
+  "lfmAct": "Idles",
+  "lfmChecked": "2026-11-11",
+  "langs": 1
  },
  {
   "name": "Jarvis Cocker",
@@ -2998,7 +3384,11 @@
   "wiki": "Jarvis Cocker",
   "views": 372603,
   "start": 1978,
-  "wsec": "Activism"
+  "wsec": "Activism",
+  "lfm": 1898652,
+  "lfmAct": "Pulp",
+  "lfmChecked": "2026-11-11",
+  "langs": 32
  },
  {
   "name": "Brandon Flowers",
@@ -3028,7 +3418,11 @@
   "wiki": "Brandon Flowers",
   "views": 737200,
   "start": 2001,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 7157331,
+  "lfmAct": "The Killers",
+  "lfmChecked": "2026-11-11",
+  "langs": 34
  },
  {
   "name": "Hayley Williams",
@@ -3058,7 +3452,11 @@
   "wiki": "Hayley Williams",
   "views": 2086734,
   "start": 2003,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 5898495,
+  "lfmAct": "Paramore",
+  "lfmChecked": "2026-11-11",
+  "langs": 62
  },
  {
   "name": "Rod Stewart",
@@ -3084,7 +3482,11 @@
   "wiki": "Rod Stewart",
   "views": 2275989,
   "start": 1961,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 2333371,
+  "lfmAct": "Rod Stewart",
+  "lfmChecked": "2026-11-11",
+  "langs": 69
  },
  {
   "name": "Billy Corgan",
@@ -3106,7 +3508,11 @@
   "wiki": "Billy Corgan",
   "views": 1086847,
   "start": 1985,
-  "wsec": "Political_beliefs"
+  "wsec": "Political_beliefs",
+  "lfm": 4727874,
+  "lfmAct": "The Smashing Pumpkins",
+  "lfmChecked": "2026-11-11",
+  "langs": 32
  },
  {
   "name": "Nicky Wire",
@@ -3136,7 +3542,11 @@
   "wiki": "Nicky Wire",
   "views": 52701,
   "start": 1986,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 1375567,
+  "lfmAct": "Manic Street Preachers",
+  "lfmChecked": "2026-11-11",
+  "langs": 16
  },
  {
   "name": "Kanye West",
@@ -3162,7 +3572,11 @@
   "wiki": "Kanye West",
   "views": 3793317,
   "start": 1993,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 8188411,
+  "lfmAct": "Kanye West",
+  "lfmChecked": "2026-11-11",
+  "langs": 94
  },
  {
   "name": "Kendrick Lamar",
@@ -3196,7 +3610,11 @@
   "wiki": "Kendrick Lamar",
   "views": 1891685,
   "start": 2003,
-  "wsec": "Philanthropy_and_activism"
+  "wsec": "Philanthropy_and_activism",
+  "lfm": 5332996,
+  "lfmAct": "Kendrick Lamar",
+  "lfmChecked": "2026-11-11",
+  "langs": 70
  },
  {
   "name": "Killer Mike",
@@ -3226,7 +3644,11 @@
   "wiki": "Killer Mike",
   "views": 250049,
   "start": 1995,
-  "wsec": "Political_involvement"
+  "wsec": "Political_involvement",
+  "lfm": 835008,
+  "lfmAct": "Run the Jewels",
+  "lfmChecked": "2026-11-11",
+  "langs": 17
  },
  {
   "name": "Chuck D",
@@ -3256,7 +3678,11 @@
   "wiki": "Chuck D",
   "views": 209651,
   "start": 1984,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 1353787,
+  "lfmAct": "Public Enemy",
+  "lfmChecked": "2026-11-11",
+  "langs": 21
  },
  {
   "name": "Ice Cube",
@@ -3286,7 +3712,11 @@
   "wiki": "Ice Cube",
   "views": 1495283,
   "start": 1986,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 3326401,
+  "lfmAct": "Ice Cube",
+  "lfmChecked": "2026-11-11",
+  "langs": 81
  },
  {
   "name": "Jay-Z",
@@ -3312,7 +3742,11 @@
   "wiki": "Jay-Z",
   "views": 2062671,
   "start": 1986,
-  "wsec": "Political_involvement"
+  "wsec": "Political_involvement",
+  "lfm": 5543340,
+  "lfmAct": "Jay-Z",
+  "lfmChecked": "2026-11-11",
+  "langs": 81
  },
  {
   "name": "Eminem",
@@ -3342,7 +3776,11 @@
   "wiki": "Eminem",
   "views": 3361560,
   "start": 1988,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 7995760,
+  "lfmAct": "Eminem",
+  "lfmChecked": "2026-11-11",
+  "langs": 158
  },
  {
   "name": "Tupac Shakur",
@@ -3368,7 +3806,11 @@
   "wiki": "Tupac Shakur",
   "views": 4132087,
   "start": 1989,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 4331425,
+  "lfmAct": "Tupac Shakur",
+  "lfmChecked": "2026-11-11",
+  "langs": 115
  },
  {
   "name": "Snoop Dogg",
@@ -3398,7 +3840,11 @@
   "wiki": "Snoop Dogg",
   "views": 2462956,
   "start": 1991,
-  "wsec": "Political_views_and_activism"
+  "wsec": "Political_views_and_activism",
+  "lfm": 4546356,
+  "lfmAct": "Snoop Dogg",
+  "lfmChecked": "2026-11-11",
+  "langs": 90
  },
  {
   "name": "Boots Riley",
@@ -3428,7 +3874,11 @@
   "wiki": "Boots Riley",
   "views": 490232,
   "start": 1991,
-  "wsec": "Activism"
+  "wsec": "Activism",
+  "lfm": 220607,
+  "lfmAct": "The Coup",
+  "lfmChecked": "2026-11-11",
+  "langs": 12
  },
  {
   "name": "Cardi B",
@@ -3454,7 +3904,11 @@
   "wiki": "Cardi B",
   "views": 2878894,
   "start": 2015,
-  "wsec": "Political_statements"
+  "wsec": "Political_statements",
+  "lfm": 2573146,
+  "lfmAct": "Cardi B",
+  "lfmChecked": "2026-11-11",
+  "langs": 79
  },
  {
   "name": "Nicki Minaj",
@@ -3494,7 +3948,11 @@
   "wiki": "Nicki Minaj",
   "views": 3981801,
   "start": 2002,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 4896988,
+  "lfmAct": "Nicki Minaj",
+  "lfmChecked": "2026-11-11",
+  "langs": 104
  },
  {
   "name": "Taylor Swift",
@@ -3520,7 +3978,11 @@
   "wiki": "Taylor Swift",
   "views": 6774412,
   "start": 2003,
-  "wsec": "Social_activism"
+  "wsec": "Social_activism",
+  "lfm": 6163311,
+  "lfmAct": "Taylor Swift",
+  "lfmChecked": "2026-11-11",
+  "langs": 157
  },
  {
   "name": "Beyoncé",
@@ -3550,7 +4012,11 @@
   "wiki": "Beyoncé",
   "views": 2625411,
   "start": 1990,
-  "wsec": "Social_activism"
+  "wsec": "Social_activism",
+  "lfm": 6597312,
+  "lfmAct": "Beyoncé",
+  "lfmChecked": "2026-11-11",
+  "langs": 158
  },
  {
   "name": "Lady Gaga",
@@ -3584,7 +4050,11 @@
   "wiki": "Lady Gaga",
   "views": 4274261,
   "start": 2000,
-  "wsec": "Activism"
+  "wsec": "Activism",
+  "lfm": 7993943,
+  "lfmAct": "Lady Gaga",
+  "lfmChecked": "2026-11-11",
+  "langs": 173
  },
  {
   "name": "Madonna",
@@ -3614,7 +4084,11 @@
   "wiki": "Madonna",
   "views": 5259403,
   "start": 1979,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 5919904,
+  "lfmAct": "Madonna",
+  "lfmChecked": "2026-11-11",
+  "langs": 158
  },
  {
   "name": "Billie Eilish",
@@ -3640,7 +4114,11 @@
   "wiki": "Billie Eilish",
   "views": 3508329,
   "start": 2015,
-  "wsec": "Political_activism"
+  "wsec": "Political_activism",
+  "lfm": 4453462,
+  "lfmAct": "Billie Eilish",
+  "lfmChecked": "2026-11-11",
+  "langs": 109
  },
  {
   "name": "Olivia Rodrigo",
@@ -3678,7 +4156,11 @@
   "wiki": "Olivia Rodrigo",
   "views": 4389382,
   "start": 2015,
-  "wsec": "Philanthropy_and_activism"
+  "wsec": "Philanthropy_and_activism",
+  "lfm": 3430752,
+  "lfmAct": "Olivia Rodrigo",
+  "lfmChecked": "2026-11-11",
+  "langs": 79
  },
  {
   "name": "Ariana Grande",
@@ -3708,7 +4190,11 @@
   "wiki": "Ariana Grande",
   "views": 6602678,
   "start": 2008,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 4751721,
+  "lfmAct": "Ariana Grande",
+  "lfmChecked": "2026-11-11",
+  "langs": 127
  },
  {
   "name": "Cher",
@@ -3738,7 +4224,11 @@
   "wiki": "Cher",
   "views": 3667636,
   "start": 1963,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 2271385,
+  "lfmAct": "Cher",
+  "lfmChecked": "2026-11-11",
+  "langs": 102
  },
  {
   "name": "Barbra Streisand",
@@ -3768,7 +4258,11 @@
   "wiki": "Barbra Streisand",
   "views": 2655053,
   "start": 1960,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 994004,
+  "lfmAct": "Barbra Streisand",
+  "lfmChecked": "2026-11-11",
+  "langs": 92
  },
  {
   "name": "Chappell Roan",
@@ -3794,7 +4288,11 @@
   "wiki": "Chappell Roan",
   "views": 2678275,
   "start": 2014,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 2741715,
+  "lfmAct": "Chappell Roan",
+  "lfmChecked": "2026-11-11",
+  "langs": 49
  },
  {
   "name": "Frank Sinatra",
@@ -3834,7 +4332,11 @@
   "wiki": "Frank Sinatra",
   "views": 3039593,
   "start": 1935,
-  "wsec": "Political_views_and_activism"
+  "wsec": "Political_views_and_activism",
+  "lfm": 5078654,
+  "lfmAct": "Frank Sinatra",
+  "lfmChecked": "2026-11-11",
+  "langs": 114
  },
  {
   "name": "Willie Nelson",
@@ -3864,7 +4366,11 @@
   "wiki": "Willie Nelson",
   "views": 2173264,
   "start": 1956,
-  "wsec": "Political_views_and_activism"
+  "wsec": "Political_views_and_activism",
+  "lfm": 1637077,
+  "lfmAct": "Willie Nelson",
+  "lfmChecked": "2026-11-11",
+  "langs": 63
  },
  {
   "name": "Toby Keith",
@@ -3894,7 +4400,11 @@
   "wiki": "Toby Keith",
   "views": 1062966,
   "start": 1993,
-  "wsec": "Political_beliefs"
+  "wsec": "Political_beliefs",
+  "lfm": 1132695,
+  "lfmAct": "Toby Keith",
+  "lfmChecked": "2026-11-11",
+  "langs": 32
  },
  {
   "name": "Natalie Maines",
@@ -3932,7 +4442,13 @@
   "wiki": "Natalie Maines",
   "views": 462104,
   "start": 1995,
-  "wsec": ""
+  "wsec": "",
+  "cost": 1,
+  "costWhy": "blacklisted by country radio",
+  "lfm": 448537,
+  "lfmAct": "The Chicks",
+  "lfmChecked": "2026-11-11",
+  "langs": 23
  },
  {
   "name": "Jason Aldean",
@@ -3962,7 +4478,11 @@
   "wiki": "Jason Aldean",
   "views": 468798,
   "start": 1998,
-  "wsec": "Political_beliefs"
+  "wsec": "Political_beliefs",
+  "lfm": 1117046,
+  "lfmAct": "Jason Aldean",
+  "lfmChecked": "2026-11-11",
+  "langs": 25
  },
  {
   "name": "Merle Haggard",
@@ -3992,7 +4512,11 @@
   "wiki": "Merle Haggard",
   "views": 524609,
   "start": 1961,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 568689,
+  "lfmAct": "Merle Haggard",
+  "lfmChecked": "2026-11-11",
+  "langs": 39
  },
  {
   "name": "Garth Brooks",
@@ -4022,7 +4546,11 @@
   "wiki": "Garth Brooks",
   "views": 791159,
   "start": 1985,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 620817,
+  "lfmAct": "Garth Brooks",
+  "lfmChecked": "2026-11-11",
+  "langs": 49
  },
  {
   "name": "Lee Greenwood",
@@ -4052,7 +4580,11 @@
   "wiki": "Lee Greenwood",
   "views": 329916,
   "start": 1962,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 118287,
+  "lfmAct": "Lee Greenwood",
+  "lfmChecked": "2026-11-11",
+  "langs": 18
  },
  {
   "name": "Steve Earle",
@@ -4082,7 +4614,11 @@
   "wiki": "Steve Earle",
   "views": 400314,
   "start": 1968,
-  "wsec": "Political_views_and_activism"
+  "wsec": "Political_views_and_activism",
+  "lfm": 657841,
+  "lfmAct": "Steve Earle",
+  "lfmChecked": "2026-11-11",
+  "langs": 25
  },
  {
   "name": "Oliver Anthony",
@@ -4108,7 +4644,11 @@
   "wiki": "Oliver Anthony",
   "views": 140800,
   "start": 2021,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 147890,
+  "lfmAct": "Oliver Anthony Music",
+  "lfmChecked": "2026-11-11",
+  "langs": 15
  },
  {
   "name": "Hank Williams Jr.",
@@ -4138,7 +4678,11 @@
   "wiki": "Hank Williams Jr.",
   "views": 618438,
   "start": 1957,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 188235,
+  "lfmAct": "Hank Williams Jr.",
+  "lfmChecked": "2026-11-11",
+  "langs": 24
  },
  {
   "name": "Dolly Parton",
@@ -4168,7 +4712,11 @@
   "wiki": "Dolly Parton",
   "views": 16878612,
   "start": 1956,
-  "wsec": "Philanthropy_and_advocacy"
+  "wsec": "Philanthropy_and_advocacy",
+  "lfm": 2394739,
+  "lfmAct": "Dolly Parton",
+  "lfmChecked": "2026-11-11",
+  "langs": 103
  },
  {
   "name": "Woody Guthrie",
@@ -4198,7 +4746,11 @@
   "wiki": "Woody Guthrie",
   "views": 980091,
   "start": 1930,
-  "wsec": "Political_views_and_relation_to_the_Communist_Party"
+  "wsec": "Political_views_and_relation_to_the_Communist_Party",
+  "lfm": 572004,
+  "lfmAct": "Woody Guthrie",
+  "lfmChecked": "2026-11-11",
+  "langs": 53
  },
  {
   "name": "Pete Seeger",
@@ -4242,7 +4794,13 @@
   "wiki": "Pete Seeger",
   "views": 701383,
   "start": 1939,
-  "wsec": "Early_activism"
+  "wsec": "Early_activism",
+  "cost": 1,
+  "costWhy": "blacklisted and cited for contempt of Congress",
+  "lfm": 327570,
+  "lfmAct": "Pete Seeger",
+  "lfmChecked": "2026-11-11",
+  "langs": 84
  },
  {
   "name": "Joan Baez",
@@ -4280,7 +4838,13 @@
   "wiki": "Joan Baez",
   "views": 1171279,
   "start": 1958,
-  "wsec": "Current_activism_and_public_engagement"
+  "wsec": "Current_activism_and_public_engagement",
+  "cost": 1,
+  "costWhy": "jailed twice for draft resistance",
+  "lfm": 1092779,
+  "lfmAct": "Joan Baez",
+  "lfmChecked": "2026-11-11",
+  "langs": 86
  },
  {
   "name": "Nina Simone",
@@ -4314,7 +4878,11 @@
   "wiki": "Nina Simone",
   "views": 769110,
   "start": 1954,
-  "wsec": "Activism"
+  "wsec": "Activism",
+  "lfm": 3061312,
+  "lfmAct": "Nina Simone",
+  "lfmChecked": "2026-11-11",
+  "langs": 77
  },
  {
   "name": "Bob Marley",
@@ -4348,7 +4916,11 @@
   "wiki": "Bob Marley",
   "views": 2222196,
   "start": 1962,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 3606526,
+  "lfmAct": "Bob Marley & The Wailers",
+  "lfmChecked": "2026-11-11",
+  "langs": 136
  },
  {
   "name": "Fela Kuti",
@@ -4378,7 +4950,13 @@
   "wiki": "Fela Kuti",
   "views": 488535,
   "start": 1958,
-  "wsec": "Political_views_and_activism"
+  "wsec": "Political_views_and_activism",
+  "cost": 1,
+  "costWhy": "jailed, and his commune burned by soldiers",
+  "lfm": 489900,
+  "lfmAct": "Fela Kuti",
+  "lfmChecked": "2026-11-11",
+  "langs": 51
  },
  {
   "name": "Víctor Jara",
@@ -4408,7 +4986,13 @@
   "wiki": "Víctor Jara",
   "views": 116555,
   "start": 1946,
-  "wsec": "Political_activism"
+  "wsec": "Political_activism",
+  "cost": 1,
+  "costWhy": "killed after the 1973 coup",
+  "lfm": 138946,
+  "lfmAct": "Victor Jara",
+  "lfmChecked": "2026-11-11",
+  "langs": 51
  },
  {
   "name": "Marvin Gaye",
@@ -4434,7 +5018,11 @@
   "wiki": "Marvin Gaye",
   "views": 1738334,
   "start": 1957,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 3966292,
+  "lfmAct": "Marvin Gaye",
+  "lfmChecked": "2026-11-11",
+  "langs": 73
  },
  {
   "name": "James Brown",
@@ -4464,7 +5052,11 @@
   "wiki": "James Brown",
   "views": 1215538,
   "start": 1953,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 2460080,
+  "lfmAct": "James Brown",
+  "lfmChecked": "2026-11-11",
+  "langs": 88
  },
  {
   "name": "Stevie Wonder",
@@ -4498,7 +5090,11 @@
   "wiki": "Stevie Wonder",
   "views": 2036045,
   "start": 1961,
-  "wsec": "Religion_and_politics"
+  "wsec": "Religion_and_politics",
+  "lfm": 4119732,
+  "lfmAct": "Stevie Wonder",
+  "lfmChecked": "2026-11-11",
+  "langs": 85
  },
  {
   "name": "Aretha Franklin",
@@ -4532,7 +5128,11 @@
   "wiki": "Aretha Franklin",
   "views": 2033782,
   "start": 1954,
-  "wsec": "Activism"
+  "wsec": "Activism",
+  "lfm": 2973968,
+  "lfmAct": "Aretha Franklin",
+  "lfmChecked": "2026-11-11",
+  "langs": 103
  },
  {
   "name": "Gil Scott-Heron",
@@ -4562,7 +5162,11 @@
   "wiki": "Gil Scott-Heron",
   "views": 350349,
   "start": 1969,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 836942,
+  "lfmAct": "Gil Scott-Heron",
+  "lfmChecked": "2026-11-11",
+  "langs": 36
  },
  {
   "name": "Robert Del Naja",
@@ -4600,7 +5204,13 @@
   "wiki": "Robert Del Naja",
   "views": 309108,
   "start": 1984,
-  "wsec": "Activism_and_politics"
+  "wsec": "Activism_and_politics",
+  "cost": 1,
+  "costWhy": "arrested at a protest",
+  "lfm": 4008353,
+  "lfmAct": "Massive Attack",
+  "lfmChecked": "2026-11-11",
+  "langs": 16
  },
  {
   "name": "Moby",
@@ -4626,7 +5236,11 @@
   "wiki": "Moby",
   "views": 647948,
   "start": 1983,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 3731321,
+  "lfmAct": "Moby",
+  "lfmChecked": "2026-11-11",
+  "langs": 59
  },
  {
   "name": "M.I.A.",
@@ -4678,7 +5292,11 @@
     }
    ]
   },
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 3476139,
+  "lfmAct": "M.I.A.",
+  "lfmChecked": "2026-11-11",
+  "langs": 50
  },
  {
   "name": "Björk",
@@ -4716,7 +5334,11 @@
   "wiki": "Björk",
   "views": 1635776,
   "start": 1977,
-  "wsec": "Political_activity"
+  "wsec": "Political_activity",
+  "lfm": 3559889,
+  "lfmAct": "Björk",
+  "lfmChecked": "2026-11-11",
+  "langs": 95
  },
  {
   "name": "Paul Robeson",
@@ -4727,7 +5349,7 @@
   "confidence": 3,
   "ce": 3,
   "ca": 3,
-  "basis": "Accepted the Stalin Peace Prize (1952) and wrote the eulogy \"To You Beloved Comrade\" when Stalin died in 1953; never publicly broke with the USSR.",
+  "basis": "Accepted the Stalin Peace Prize (1952) and wrote the eulogy \"To You Beloved Comrade\" when Stalin died in 1953; never publicly broke with the USSR. The State Department revoked his passport in 1950 for his outspoken politics and kept it until the Supreme Court ruled in 1958; his concerts were cancelled and his income collapsed.",
   "sources": [
    {
     "title": "Robeson, 'To You Beloved Comrade', New World Review (1953)",
@@ -4736,13 +5358,27 @@
    {
     "title": "BBC Music Magazine: how Robeson fell under the spell of Stalinism",
     "url": "https://www.classical-music.com/features/artists/how-paul-robeson-fell-under-the-spell-of-stalinism"
+   },
+   {
+    "title": "East Carolina University: Paul Robeson appears before HUAC, 1956",
+    "url": "https://sites.ecu.edu/cwis/?p=492"
+   },
+   {
+    "title": "The Nation: Robeson's passport revoked, income plummeted",
+    "url": "https://www.thenation.com/article/archive/huac-jackie-robinson-paul-robeson/"
    }
   ],
   "checked": "2026-11-11",
   "wiki": "Paul Robeson",
   "views": 455690,
   "start": 1925,
-  "wsec": "Political_activism_and_McCarthy-era_persecution"
+  "wsec": "Political_activism_and_McCarthy-era_persecution",
+  "cost": 1,
+  "costWhy": "passport revoked for eight years",
+  "lfm": 62466,
+  "lfmAct": "Paul Robeson",
+  "lfmChecked": "2026-11-11",
+  "langs": 51
  },
  {
   "name": "Dean Reed",
@@ -4768,7 +5404,11 @@
   "wiki": "Dean Reed",
   "views": 33297,
   "start": 1958,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 4161,
+  "lfmAct": "Dean Reed",
+  "lfmChecked": "2026-11-11",
+  "langs": 30
  },
  {
   "name": "Ewan MacColl",
@@ -4794,7 +5434,11 @@
   "wiki": "Ewan MacColl",
   "views": 175693,
   "start": 1930,
-  "wsec": "Political_songs"
+  "wsec": "Political_songs",
+  "lfm": 57810,
+  "lfmAct": "Ewan MacColl",
+  "lfmChecked": "2026-11-11",
+  "langs": 22
  },
  {
   "name": "Silvio Rodríguez",
@@ -4820,7 +5464,11 @@
   "wiki": "Silvio Rodríguez",
   "views": 39805,
   "start": 1967,
-  "wsec": ""
+  "wsec": "",
+  "cost": 1,
+  "costWhy": "15 years in Cuba's National Assembly",
+  "lfmChecked": "2026-11-11",
+  "langs": 31
  },
  {
   "name": "Mikis Theodorakis",
@@ -4860,7 +5508,13 @@
   "wiki": "Mikis Theodorakis",
   "views": 59458,
   "start": 1943,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "cost": 1,
+  "costWhy": "jailed by the Greek junta",
+  "lfm": 102610,
+  "lfmAct": "Mikis Theodorakis",
+  "lfmChecked": "2026-11-11",
+  "langs": 58
  },
  {
   "name": "Carlos Puebla",
@@ -4890,7 +5544,11 @@
   "wiki": "Carlos Puebla",
   "views": 8955,
   "start": 1930,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 63991,
+  "lfmAct": "Carlos Puebla",
+  "lfmChecked": "2026-11-11",
+  "langs": 21
  },
  {
   "name": "Harry Belafonte",
@@ -4920,7 +5578,11 @@
   "wiki": "Harry Belafonte",
   "views": 701403,
   "start": 1948,
-  "wsec": "Political_activism"
+  "wsec": "Political_activism",
+  "lfm": 946858,
+  "lfmAct": "Harry Belafonte",
+  "lfmChecked": "2026-11-11",
+  "langs": 69
  },
  {
   "name": "Ian Stuart Donaldson",
@@ -4950,7 +5612,11 @@
   "wiki": "Ian Stuart Donaldson",
   "views": 110588,
   "start": 1975,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 40323,
+  "lfmAct": "Skrewdriver",
+  "lfmChecked": "2026-11-11",
+  "langs": 21
  },
  {
   "name": "Manu Chao",
@@ -4980,7 +5646,11 @@
   "wiki": "Manu Chao",
   "views": 216840,
   "start": 1984,
-  "wsec": "Political_views_and_activism"
+  "wsec": "Political_views_and_activism",
+  "lfm": 2096953,
+  "lfmAct": "Manu Chao",
+  "lfmChecked": "2026-11-11",
+  "langs": 42
  },
  {
   "name": "Bad Bunny",
@@ -5018,7 +5688,11 @@
   "wiki": "Bad Bunny",
   "views": 7593119,
   "start": 2013,
-  "wsec": "Activism"
+  "wsec": "Activism",
+  "lfm": 2769760,
+  "lfmAct": "Bad Bunny",
+  "lfmChecked": "2026-11-11",
+  "langs": 62
  },
  {
   "name": "George Michael",
@@ -5052,7 +5726,11 @@
   "wiki": "George Michael",
   "views": 3377568,
   "start": 1981,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 3434687,
+  "lfmAct": "George Michael",
+  "lfmChecked": "2026-11-11",
+  "langs": 90
  },
  {
   "name": "Annie Lennox",
@@ -5090,7 +5768,11 @@
   "wiki": "Annie Lennox",
   "views": 984996,
   "start": 1976,
-  "wsec": "Views"
+  "wsec": "Views",
+  "lfm": 2955398,
+  "lfmAct": "Eurythmics",
+  "lfmChecked": "2026-11-11",
+  "langs": 64
  },
  {
   "name": "Lily Allen",
@@ -5124,7 +5806,11 @@
   "wiki": "Lily Allen",
   "views": 2643931,
   "start": 1988,
-  "wsec": "Politics_and_activism"
+  "wsec": "Politics_and_activism",
+  "lfm": 3908113,
+  "lfmAct": "Lily Allen",
+  "lfmChecked": "2026-11-11",
+  "langs": 66
  },
  {
   "name": "Andrew Lloyd Webber",
@@ -5154,7 +5840,13 @@
   "wiki": "Andrew Lloyd Webber",
   "views": 1001963,
   "start": 1965,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "cost": 1,
+  "costWhy": "sat in the House of Lords",
+  "lfm": 933488,
+  "lfmAct": "Andrew Lloyd Webber",
+  "lfmChecked": "2026-11-11",
+  "langs": 65
  },
  {
   "name": "Phil Collins",
@@ -5180,7 +5872,11 @@
   "wiki": "Phil Collins",
   "views": 3448992,
   "start": 1963,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 3359463,
+  "lfmAct": "Phil Collins",
+  "lfmChecked": "2026-11-11",
+  "langs": 84
  },
  {
   "name": "Pat Boone",
@@ -5210,7 +5906,11 @@
   "wiki": "Pat Boone",
   "views": 529530,
   "start": 1953,
-  "wsec": "Politics"
+  "wsec": "Politics",
+  "lfm": 347847,
+  "lfmAct": "Pat Boone",
+  "lfmChecked": "2026-11-11",
+  "langs": 42
  },
  {
   "name": "Stormzy",
@@ -5240,7 +5940,11 @@
   "wiki": "Stormzy",
   "views": 346610,
   "start": 2010,
-  "wsec": "Political_activism"
+  "wsec": "Political_activism",
+  "lfm": 837819,
+  "lfmAct": "Stormzy",
+  "lfmChecked": "2026-11-11",
+  "langs": 28
  },
  {
   "name": "Akala",
@@ -5270,7 +5974,11 @@
   "wiki": "Akala (rapper)",
   "views": 57057,
   "start": 2003,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 148914,
+  "lfmAct": "Akala",
+  "lfmChecked": "2026-11-11",
+  "langs": 6
  },
  {
   "name": "Mo Chara",
@@ -5308,7 +6016,13 @@
   "wiki": "Mo Chara",
   "views": 212668,
   "start": 2017,
-  "wsec": "Political_activism"
+  "wsec": "Political_activism",
+  "cost": 1,
+  "costWhy": "charged under the Terrorism Act",
+  "lfm": 286860,
+  "lfmAct": "Kneecap",
+  "lfmChecked": "2026-11-11",
+  "langs": 6
  },
  {
   "name": "Lupe Fiasco",
@@ -5346,7 +6060,11 @@
   "wiki": "Lupe Fiasco",
   "views": 306251,
   "start": 2000,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 3081036,
+  "lfmAct": "Lupe Fiasco",
+  "lfmChecked": "2026-11-11",
+  "langs": 33
  },
  {
   "name": "Macklemore",
@@ -5376,7 +6094,11 @@
   "wiki": "Macklemore",
   "views": 1515794,
   "start": 2000,
-  "wsec": "Activism_and_political_views"
+  "wsec": "Activism_and_political_views",
+  "lfm": 1662504,
+  "lfmAct": "Macklemore",
+  "lfmChecked": "2026-11-11",
+  "langs": 52
  },
  {
   "name": "Yasiin Bey",
@@ -5414,7 +6136,11 @@
   "wiki": "Yasiin Bey",
   "views": 531962,
   "start": 1987,
-  "wsec": "Social_and_political_views"
+  "wsec": "Social_and_political_views",
+  "lfm": 1657951,
+  "lfmAct": "Mos Def",
+  "lfmChecked": "2026-11-11",
+  "langs": 40
  },
  {
   "name": "50 Cent",
@@ -5440,7 +6166,11 @@
   "wiki": "50 Cent",
   "views": 2510776,
   "start": 1996,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 5099370,
+  "lfmAct": "50 Cent",
+  "lfmChecked": "2026-11-11",
+  "langs": 103
  },
  {
   "name": "Lil Wayne",
@@ -5466,7 +6196,11 @@
   "wiki": "Lil Wayne",
   "views": 1372008,
   "start": 1991,
-  "wsec": "Political_and_racial_views"
+  "wsec": "Political_and_racial_views",
+  "lfm": 2320672,
+  "lfmAct": "Lil Wayne",
+  "lfmChecked": "2026-11-11",
+  "langs": 76
  },
  {
   "name": "Residente",
@@ -5504,7 +6238,11 @@
   "wiki": "Residente",
   "views": 89631,
   "start": 2004,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 644415,
+  "lfmAct": "Calle 13",
+  "lfmChecked": "2026-11-11",
+  "langs": 10
  },
  {
   "name": "Kris Kristofferson",
@@ -5534,7 +6272,13 @@
   "wiki": "Kris Kristofferson",
   "views": 1740077,
   "start": 1959,
-  "wsec": "Political_views_and_advocacy"
+  "wsec": "Political_views_and_advocacy",
+  "cost": 1,
+  "costWhy": "banned by radio stations",
+  "lfm": 469264,
+  "lfmAct": "Kris Kristofferson",
+  "lfmChecked": "2026-11-11",
+  "langs": 62
  },
  {
   "name": "John Rich",
@@ -5568,7 +6312,11 @@
   "wiki": "John Rich",
   "views": 166119,
   "start": 1992,
-  "wsec": "Political_views"
+  "wsec": "Political_views",
+  "lfm": 508617,
+  "lfmAct": "Big & Rich",
+  "lfmChecked": "2026-11-11",
+  "langs": 5
  },
  {
   "name": "Travis Tritt",
@@ -5610,7 +6358,11 @@
   "wiki": "Travis Tritt",
   "views": 226059,
   "start": 1987,
-  "wsec": "Political_views_and_advocacy"
+  "wsec": "Political_views_and_advocacy",
+  "lfm": 440217,
+  "lfmAct": "Travis Tritt",
+  "lfmChecked": "2026-11-11",
+  "langs": 13
  },
  {
   "name": "Jason Isbell",
@@ -5640,7 +6392,11 @@
   "wiki": "Jason Isbell",
   "views": 359650,
   "start": 1995,
-  "wsec": ""
+  "wsec": "",
+  "lfm": 268279,
+  "lfmAct": "Jason Isbell",
+  "lfmChecked": "2026-11-11",
+  "langs": 11
  },
  {
   "name": "Zach Bryan",
@@ -5670,6 +6426,10 @@
   "wiki": "Zach Bryan",
   "views": 1210255,
   "start": 2017,
-  "wsec": "Activism_and_political_views"
+  "wsec": "Activism_and_political_views",
+  "lfm": 1282168,
+  "lfmAct": "Zach Bryan",
+  "lfmChecked": "2026-11-11",
+  "langs": 23
  }
 ]

@@ -1,3 +1,5 @@
+[🇹🇷 Türkçe](README.tr.md) | [🇬🇧 English](README.md)
+
 # Off Key
 
 **A political compass of musicians**, placed by what they have said and done, with the uncertainty drawn in.

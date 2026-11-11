@@ -127,6 +127,24 @@ details.opt[open] summary{border-color:var(--ink)}
 .empty{padding:18px;color:var(--mut);font-size:14px}
 #sheet{position:fixed;left:0;right:0;bottom:0;z-index:10;display:flex;justify-content:center;pointer-events:none}
 #sheet[hidden]{display:none}
+#insp0{display:none}
+.wh{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--bg);border:1px solid var(--grid2);border-radius:8px;padding:8px 12px;font-size:13px;color:var(--ink);box-shadow:0 4px 14px rgba(0,0,0,.16);pointer-events:none;opacity:0;transition:opacity .2s;z-index:3}
+.wh.on{opacity:1}
+#sv:focus{outline:none}#sv:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.pt .kf,.cl .kf{fill:none;stroke:var(--ink);stroke-width:2;stroke-dasharray:3 3}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;z-index:30;background:var(--bg);padding:6px 10px;border:1px solid var(--ink);border-radius:6px}
+@media (min-width:1200px){
+ main{max-width:1560px}
+ .layout{grid-template-columns:250px minmax(0,1fr) 340px}
+ #sheet,#insp0{grid-column:3;grid-row:1;position:sticky;top:12px;align-self:start}
+ #sheet{display:block;z-index:auto;pointer-events:auto}
+ #sheet[hidden]{display:none}
+ #sheet:not([hidden])+#insp0{display:none}
+ #insp0{display:block;border:1px dashed var(--grid2);border-radius:10px;padding:16px;color:var(--mut);font-size:14px}
+ .sh{max-width:none;max-height:calc(100vh - 24px);border:1px solid var(--grid2);border-radius:10px;box-shadow:none;padding:14px 16px 16px;transform:none!important}
+ .grab{display:none}
+}
 .sh{transition:transform .18s ease;pointer-events:auto;width:100%;max-width:600px;max-height:62vh;overflow:auto;background:var(--bg);border:1px solid var(--grid2);border-bottom:0;border-radius:14px 14px 0 0;box-shadow:0 -8px 28px rgba(0,0,0,.2);padding:14px 16px calc(18px + env(safe-area-inset-bottom))}
 .grab{width:40px;height:5px;border-radius:3px;background:var(--grid2);margin:-4px auto 10px;touch-action:none}
 .sh{touch-action:pan-y}
@@ -180,11 +198,12 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <div class="bar2"><input id="q" type="search" placeholder="Find a name or band" aria-label="Find a name or band" enterkeyhint="search" autocomplete="off"></div>
 <div class="pills" id="pills"></div>
 <section id="vChart">
+<a class="skip" href="#tabL" id="skipL">Skip to the list view</a>
 <div class="wrap" id="wrap">
-<svg id="sv" role="img" aria-label="Political compass of musicians. Use the List tab for an accessible version."><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--acc)"/></marker><clipPath id="cp"><rect id="cpr"/></clipPath></defs>
+<svg id="sv" tabindex="0" role="group" aria-roledescription="chart" aria-label="Political compass of musicians. Arrow keys move between people, Enter opens one, plus and minus zoom. The List tab has the same data as a table."><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--acc)"/></marker><clipPath id="cp"><rect id="cpr"/></clipPath></defs>
 <g id="gBg"></g><g id="gIn" clip-path="url(#cp)"><g id="gSp" class="sp"></g><g id="gTr" class="tr"></g><g id="gPt"></g></g><g id="gAx"></g></svg>
 <svg id="mm" viewBox="0 0 20 20" aria-label="Overview map; tap to move there"></svg>
-<div id="tip"></div>
+<div id="tip"></div><div class="wh" id="wh"></div><div id="live" class="vh" aria-live="polite"></div>
 </div>
 <div class="ctl"><div class="zb"><button id="zOut" aria-label="Zoom out">&minus;</button><button id="zIn" aria-label="Zoom in">+</button><button id="zR" aria-label="Reset view">&#8634;</button></div><span class="hint" id="hint"></span></div>
 <div class="leg" id="leg"></div>
@@ -195,7 +214,10 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <div id="list"></div>
 </section>
 
-</div></div>
+</div>
+<div id="sheet" hidden><div class="sh" id="sh" role="dialog" aria-modal="false" aria-labelledby="shName"></div></div>
+<div id="insp0">Pick a point, or a row in the list, to see the placement, its sources and the Wikipedia section on their politics.</div>
+</div>
 
 <h2>How to read it</h2>
 <ul class="note">
@@ -211,7 +233,6 @@ footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2
 <footer>Code and data: <a id="repo" href="#" target="_blank" rel="noopener">GitHub</a>. Think a placement is wrong? Open the person and use <i>Dispute this placement</i>.</footer>
 </main>
 
-<div id="sheet" hidden><div class="sh" id="sh" role="dialog" aria-modal="false" aria-labelledby="shName"></div></div>
 
 <script>
 const REPO="https://github.com/mehmetemreak/music-politics-compass";
@@ -297,6 +318,7 @@ function syncView(){const base=D.filter(d=>st.view==="all"||d.starter),n=base.fi
 function setView(v){st.view=v;refresh()}
 function resize(){const w=$("wrap").clientWidth;if(!w)return;S=w;M=w<520?24:30;P=S-2*M;$("sv").setAttribute("viewBox",`0 0 ${S} ${S}`);const r=$("cpr");r.setAttribute("x",M);r.setAttribute("y",M);r.setAttribute("width",P);r.setAttribute("height",P);draw()}
 
+let PV=[],KF=null;
 let raf=0;function req(){if(!raf)raf=requestAnimationFrame(()=>{raf=0;draw()})}
 
 const ov=(a,b)=>a.x<b.x+b.w&&a.x+a.w>b.x&&a.y<b.y+b.h&&a.y+a.h>b.y;
@@ -345,18 +367,18 @@ function draw(){
   let cap="";if(bx.x>M&&bx.x+w<S-M&&bx.y>M&&bx.y+14<S-M&&!boxes.some(o=>ov(bx,o))){boxes.push(bx);cap=`<text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" text-anchor="${right?"end":"start"}">${esc(d.shift.label)}</text>`}
   tr+=`<g${dm}><line x1="${(x1+ux_*8).toFixed(1)}" y1="${(y1+uy_*8).toFixed(1)}" x2="${(x2-ux_*13).toFixed(1)}" y2="${(y2-uy_*13).toFixed(1)}" marker-end="url(#ah)"/><circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="6"/>${cap}</g>`});
  $("gTr").innerHTML=tr;
- let pts="";
+ let pts="";PV=[];
 const order=solo.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
- order.forEach(i=>{const d=D[i],X=d.X,Y=d.Y,l=lab[i],dm=q&&!hit(d)&&i!==st.sel;
+ order.forEach(i=>{const d=D[i],X=d.X,Y=d.Y,l=lab[i],dm=q&&!hit(d)&&i!==st.sel;PV.push({i,X,Y});
   pts+=`<g class="pt g${d.genre} c${d.confidence}${i===st.sel?" sel":""}${dm?" dm":""}" data-i="${i}">`+(fan.has(i)?`<line class="ld" x1="${d.tX.toFixed(1)}" y1="${d.tY.toFixed(1)}" x2="${X.toFixed(1)}" y2="${Y.toFixed(1)}"/><circle class="tp" cx="${d.tX.toFixed(1)}" cy="${d.tY.toFixed(1)}" r="1.8"/>`:"")+
   ((st.halos||i===st.sel)?`<circle class="h" cx="${(fan.has(i)?d.tX:X).toFixed(1)}" cy="${(fan.has(i)?d.tY:Y).toFixed(1)}" r="${(HR[d.confidence]*U).toFixed(1)}"/>`:"")+
   `<circle cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="16" fill="transparent"/>`+
-  (i===st.sel?`<circle class="ring" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="11"/>`:"")+SH[d.genre](X,Y)+
+  (i===st.sel?`<circle class="ring" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="11"/>`:"")+(KF&&KF.i===i?`<circle class="kf" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="14"/>`:"")+SH[d.genre](X,Y)+
   (l?`<text x="${l.tx.toFixed(1)}" y="${l.ty.toFixed(1)}" text-anchor="${l.a}">${esc(d.name)}</text>`:"")+`</g>`});
  CL_.forEach((c,ci)=>{const cnt={};c.m.forEach(j=>cnt[D[j].genre]=(cnt[D[j].genre]||0)+1);
   // thin genre ring around the bubble, segment length by count
   let a0=-Math.PI/2,ring="";const C=2*Math.PI*(c.r+3);[...GO].forEach(g=>{if(!cnt[g])return;const f=cnt[g]/c.m.length;ring+=`<circle class="cg g${g}" cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${(c.r+3).toFixed(1)}" stroke="var(--c)" stroke-dasharray="${(f*C).toFixed(1)} ${C.toFixed(1)}" transform="rotate(${(a0*180/Math.PI).toFixed(1)} ${c.X.toFixed(1)} ${c.Y.toFixed(1)})"/>`;a0+=f*2*Math.PI});
-  pts+=`<g class="cl" data-c="${ci}" role="button" aria-label="${c.m.length} people; tap to zoom in">${ring}<circle cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${c.r.toFixed(1)}"/><text x="${c.X.toFixed(1)}" y="${c.Y.toFixed(1)}">${c.m.length}</text></g>`});
+  PV.push({c:ci,X:c.X,Y:c.Y});pts+=`<g class="cl" data-c="${ci}" role="button" aria-label="${c.m.length} people; tap to zoom in">${ring}${KF&&KF.c===ci?`<circle class="kf" cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${(c.r+7).toFixed(1)}"/>`:""}<circle cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${c.r.toFixed(1)}"/><text x="${c.X.toFixed(1)}" y="${c.Y.toFixed(1)}">${c.m.length}</text></g>`});
  $("gPt").innerHTML=pts;
  // chrome
  $("zIn").disabled=st.k>=KMAX;$("zOut").disabled=st.k<=1;$("zR").disabled=st.k<=1;
@@ -367,8 +389,8 @@ const order=solo.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
  const hn=$("hint");
  const grouped=CL_.reduce((s,c)=>s+c.m.length,0),coarse=matchMedia("(pointer:coarse)").matches;
  if(grouped)hn.textContent=`${grouped} people in ${CL_.length} crowded group${CL_.length>1?"s":""} · tap a number to open it`;
- else if(hidden&&st.k<KMAX)hn.textContent=`${hidden} names hidden at this zoom · ${coarse?"pinch or double-tap":"scroll or double-click"} to see more`;
- else hn.textContent=st.k>1?(coarse?"Drag to move around":"Drag to move around · scroll to zoom"):"";
+ else if(hidden&&st.k<KMAX)hn.textContent=`${hidden} names hidden at this zoom · ${coarse?"pinch or double-tap":(MAC?"\u2318":"Ctrl")+" + scroll or double-click"} to see more`;
+ else hn.textContent=st.k>1?(coarse?"Drag to move around":`Drag to move around · ${MAC?"\u2318":"Ctrl"} + scroll to zoom`):"";
 }
 
 // ---------- gestures ----------
@@ -376,24 +398,43 @@ const sv=$("sv"),tip=$("tip");
 const pt=e=>{const r=sv.getBoundingClientRect();return{x:(e.clientX-r.left)*S/r.width,y:(e.clientY-r.top)*S/r.height}};
 const ptrs=new Map();let g0=null,pinch=null,lastTap=null;
 sv.addEventListener("pointerdown",e=>{if(e.button>0)return;sv.setPointerCapture(e.pointerId);const p=pt(e);ptrs.set(e.pointerId,p);tip.style.display="none";
- if(ptrs.size===1){const t=e.target.closest&&e.target.closest(".pt"),c=e.target.closest&&e.target.closest(".cl");g0={x:p.x,y:p.y,moved:false,i:t?+t.dataset.i:null,c:c?+c.dataset.c:null}}
+ if(ptrs.size===1){const t=e.target.closest&&e.target.closest(".pt"),c=e.target.closest&&e.target.closest(".cl"),r=sv.getBoundingClientRect(),nr=t?nearest(p,16):null;
+  g0={x:p.x,y:p.y,moved:false,i:nr&&nr.i!=null?nr.i:t?+t.dataset.i:null,c:c?+c.dataset.c:null,thr:(e.pointerType==="mouse"?4:10)*S/r.width}}
  else if(ptrs.size===2){const[a,b]=[...ptrs.values()];pinch={d:Math.hypot(a.x-b.x,a.y-b.y)||1,mx:(a.x+b.x)/2,my:(a.y+b.y)/2};if(g0)g0.moved=true}});
 sv.addEventListener("pointermove",e=>{const p=pt(e);
  if(!ptrs.has(e.pointerId)){if(e.pointerType==="mouse")hover(e,p);return}
  const prev=ptrs.get(e.pointerId);ptrs.set(e.pointerId,p);
- if(ptrs.size===1&&g0){if(!g0.moved&&Math.hypot(p.x-g0.x,p.y-g0.y)>6)g0.moved=true;if(g0.moved)panBy(p.x-prev.x,p.y-prev.y)}
+ if(ptrs.size===1&&g0){if(!g0.moved&&Math.hypot(p.x-g0.x,p.y-g0.y)>g0.thr)g0.moved=true;if(g0.moved)panBy(p.x-prev.x,p.y-prev.y)}
  else if(ptrs.size===2&&pinch){const[a,b]=[...ptrs.values()],d=Math.hypot(a.x-b.x,a.y-b.y)||1,mx=(a.x+b.x)/2,my=(a.y+b.y)/2;zoomAt(mx,my,d/pinch.d);panBy(mx-pinch.mx,my-pinch.my);pinch={d,mx,my}}});
 function endP(e){if(!ptrs.has(e.pointerId))return;ptrs.delete(e.pointerId);
  if(ptrs.size===0){if(g0&&!g0.moved&&e.type==="pointerup")tap(g0,pt(e));g0=null;pinch=null}else pinch=null}
 sv.addEventListener("pointerup",endP);sv.addEventListener("pointercancel",endP);
 sv.addEventListener("pointerleave",()=>tip.style.display="none");
+// the nearest drawn person to p within r (svg units); hit circles overlap in crowded areas, so the DOM target can be a neighbour
+function nearest(p,r){let b=null,bd=r;PV.forEach(v=>{if(v.i==null)return;const dd=Math.hypot(v.X-p.x,v.Y-p.y);if(dd<bd){bd=dd;b=v}});return b}
 function tap(g,p){
  if(g.i!=null){openSheet(g.i);lastTap=null;return}
  if(g.c!=null&&CL_[g.c]){openCluster(CL_[g.c]);lastTap=null;return}
  const now=Date.now();
  if(lastTap&&now-lastTap.t<350&&Math.hypot(p.x-lastTap.x,p.y-lastTap.y)<30){zoomTo(p.x,p.y,st.k>=KMAX-.01?1/st.k:2);lastTap=null;return}
  lastTap={t:now,x:p.x,y:p.y};closeSheet()}
-sv.addEventListener("wheel",e=>{const dy=e.deltaY*(e.deltaMode===1?30:1),f=Math.exp(-dy*.0015);if(st.k<=1&&f<1)return;e.preventDefault();const p=pt(e);zoomAt(p.x,p.y,f)},{passive:false});
+const MAC=/Mac|iP(hone|ad)/.test(navigator.platform||navigator.userAgent);let whT=0;
+sv.addEventListener("wheel",e=>{if(!(e.ctrlKey||e.metaKey)){if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){const w=$("wh");w.textContent=`Hold ${MAC?"\u2318":"Ctrl"} and scroll to zoom`;w.classList.add("on");clearTimeout(whT);whT=setTimeout(()=>w.classList.remove("on"),1200)}return}
+ const dy=e.deltaY*(e.deltaMode===1?30:1),f=Math.exp(-dy*(e.ctrlKey&&!e.metaKey&&Math.abs(dy)<50?.01:.0015));e.preventDefault();if(st.k<=1&&f<1)return;const p=pt(e);zoomAt(p.x,p.y,f)},{passive:false});
+// keyboard: one tab stop for the whole chart, arrow keys move between drawn people and groups
+function kfSay(){const v=KF;if(!v)return;$("live").textContent=v.i!=null?`${D[v.i].name}. Economic ${fmt(D[v.i].econ)}, authority ${fmt(D[v.i].auth)}. Enter to open.`:`Group of ${CL_[v.c].m.length} people. Enter to zoom in.`}
+function kfFind(v){return v&&PV.find(w=>v.i!=null?w.i===v.i:w.c===v.c)}
+sv.addEventListener("keydown",e=>{const k=e.key;
+ if(k==="+"||k==="="){zoomAt(S/2,S/2,1.5);e.preventDefault();return}
+ if(k==="-"||k==="_"){zoomAt(S/2,S/2,1/1.5);e.preventDefault();return}
+ const dir={ArrowRight:[1,0],ArrowLeft:[-1,0],ArrowUp:[0,-1],ArrowDown:[0,1]}[k];
+ if(dir){e.preventDefault();let cur=kfFind(KF);
+  if(!cur){let b=null,bd=1e9;PV.forEach(w=>{const dd=Math.hypot(w.X-S/2,w.Y-S/2);if(dd<bd){bd=dd;b=w}});cur=null;KF=b&&{i:b.i,c:b.c}}
+  else{let b=null,bs=1e9;PV.forEach(w=>{if(w===cur)return;const dx=w.X-cur.X,dy=w.Y-cur.Y,a=dx*dir[0]+dy*dir[1];if(a<=1)return;const s=a+2*Math.abs(dx*dir[1]+dy*dir[0]);if(s<bs){bs=s;b=w}});if(b)KF={i:b.i,c:b.c}}
+  kfSay();req();return}
+ if((k==="Enter"||k===" ")&&KF){e.preventDefault();if(KF.i!=null)openSheet(KF.i);else if(CL_[KF.c]){openCluster(CL_[KF.c]);KF=null}return}
+ if(k==="Escape"){KF=null;req()}});
+sv.addEventListener("blur",()=>{if(KF){KF=null;req()}});
 sv.addEventListener("dblclick",e=>e.preventDefault());
 function hover(e,p){const t=e.target.closest&&e.target.closest(".pt");if(!t){tip.style.display="none";return}const d=D[+t.dataset.i];
  tip.innerHTML=`<b>${esc(d.name)}</b> <span>${esc(d.band==="solo"?GN[d.genre]:d.band)}</span>`;tip.style.display="block";
@@ -427,7 +468,7 @@ function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
 function closeSheet(){if(st.sel==null&&$("sheet").hidden)return;st.sel=null;$("sheet").hidden=true;req()}
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeSheet();closeF()}});
 (()=>{const sh=$("sh");let y0=null,dy=0;
- sh.addEventListener("pointerdown",e=>{if(!e.target.closest(".grab,.sh-h")||e.target.closest("button"))return;y0=e.clientY;dy=0;sh.classList.add("drag");sh.setPointerCapture(e.pointerId)});
+ sh.addEventListener("pointerdown",e=>{if(matchMedia("(min-width:1200px)").matches||!e.target.closest(".grab,.sh-h")||e.target.closest("button"))return;y0=e.clientY;dy=0;sh.classList.add("drag");sh.setPointerCapture(e.pointerId)});
  sh.addEventListener("pointermove",e=>{if(y0==null)return;dy=Math.max(0,e.clientY-y0);sh.style.transform=`translateY(${dy}px)`});
  const up=()=>{if(y0==null)return;y0=null;sh.classList.remove("drag");if(dy>70)closeSheet();else sh.style.transform=""};
  sh.addEventListener("pointerup",up);sh.addEventListener("pointercancel",up)})();
@@ -444,6 +485,7 @@ $("sort").onchange=e=>{st.sort=e.target.value;drawList()};
 
 // ---------- controls ----------
 function setMode(m){st.mode=m;$("tabC").setAttribute("aria-selected",m==="chart");$("tabL").setAttribute("aria-selected",m==="list");$("vChart").hidden=m!=="chart";$("vList").hidden=m!=="list";if(m==="list"){drawList();document.querySelector(".tabs").scrollIntoView({block:"start"})}else resize()}
+$("skipL").onclick=e=>{e.preventDefault();setMode("list");$("tabL").focus()};
 $("vS").onclick=()=>setView("start");$("vS2").onclick=()=>setView("start");$("vA2").onclick=()=>setView("all");$("vA").onclick=()=>setView("all");
 $("tabC").onclick=()=>setMode("chart");$("tabL").onclick=()=>setMode("list");
 function toggle(set,k){if(k==null)set.clear();else set.has(k)?set.delete(k):set.add(k)}

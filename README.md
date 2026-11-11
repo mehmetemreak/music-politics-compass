@@ -45,3 +45,10 @@ python3 -m http.server
 ```
 
 Then open http://localhost:8000.
+
+## Later
+
+Parked on 11 Nov 2026, with the reason each one is waiting.
+
+- **Render cost on low-end Android.** `draw()` rebuilds the whole points layer with `innerHTML` on every pan and zoom frame. Measure before changing anything: Chrome DevTools, 6x CPU throttle, All 180, halos and shifts on. If frames drop, move only a wrapper `<g>` with `transform` during a gesture and redraw labels and groups once when it ends. Do not switch to canvas: it would break keyboard and screen-reader access to the points.
+- **Share cards and meta tags** (description, OpenGraph, Twitter card, a PNG card image). These only matter once the page has its own public address. The claude.ai shared page runs inside a frame, so link previews never read its tags. Waiting on two decisions: hosting (GitHub Pages needs the repo public, or a paid plan) and the final title ("Off Key: A Political Compass of Musicians" is a candidate, not confirmed).

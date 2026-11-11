@@ -2,6 +2,8 @@
 
 The full rulebook behind every placement, the checklist for adding someone, the log of audits run over all entries, and the data format. The [README](README.md) is the short version; where the two differ, this file wins.
 
+**Where this started.** The project grew out of [a reel by @mcantuzer](https://www.instagram.com/p/DfkCZ8VRQhA) that placed fifty rock acts on the same two axes and asked which of them surprised you. It got the big picture right: the crowd sits in the libertarian left, and the most interesting cases are the people who moved. This chart asks the same question with a different unit and a stricter rulebook. It places people rather than bands, because members of one band can disagree (the Ramones' Johnny and Joey end up in opposite quadrants). It scores the claims behind a stance rather than its mood, so an anti-war song or a party endorsement counts for less here and most of the left sits closer to the centre. And it shows its working: every mark carries its sources and an uncertainty halo, so anyone can check a placement and dispute it.
+
 ## How placements work
 
 The axes follow [the Political Compass](https://www.politicalcompass.org) ([background and criticism](https://en.wikipedia.org/wiki/The_Political_Compass)). The chart borrows its axes, not its test or its placements.

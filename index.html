@@ -58,19 +58,6 @@ h1{font:600 24px/1.2 Georgia,"Times New Roman",serif;margin:0 0 4px}
 .pill i{font-style:normal;color:var(--mut);font-size:15px;line-height:1}
 .pill.clr{border-color:var(--grid2);color:var(--ink2)}
 #scrim{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:19}
-@media (max-width:899px){
- #filters{position:fixed;left:0;right:0;bottom:0;z-index:20;max-height:82vh;overflow:auto;background:var(--bg);border-top:1px solid var(--grid2);border-radius:14px 14px 0 0;box-shadow:0 -8px 28px rgba(0,0,0,.22);padding:14px 16px 0;transform:translateY(105%);transition:transform .22s ease;visibility:hidden}
- #filters.open{transform:none;visibility:visible}
- .ffoot{padding-bottom:calc(14px + env(safe-area-inset-bottom))}
-}
-@media (min-width:900px){
- main{max-width:1180px}
- .layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:22px;align-items:start}
- #filters{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto;padding:0 2px}
- .wrap{max-width:min(100%,calc(100vh - 230px))}
- .ctl,.leg{max-width:min(100%,calc(100vh - 230px))}
- .fhead,.ffoot,#fOpen,.pills,#scrim{display:none!important}
-}
 details.opt{flex:none}
 details.opt summary{list-style:none;cursor:pointer;font-size:14px;padding:8px 12px;border:1px solid var(--grid2);border-radius:8px;background:var(--panel);color:var(--ink2)}
 details.opt summary::-webkit-details-marker{display:none}
@@ -134,17 +121,6 @@ details.opt[open] summary{border-color:var(--ink)}
 .pt .kf,.cl .kf{fill:none;stroke:var(--ink);stroke-width:2;stroke-dasharray:3 3}
 .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;z-index:30;background:var(--bg);padding:6px 10px;border:1px solid var(--ink);border-radius:6px}
-@media (min-width:1200px){
- main{max-width:1560px}
- .layout{grid-template-columns:250px minmax(0,1fr) 340px}
- #sheet,#insp0{grid-column:3;grid-row:1;position:sticky;top:12px;align-self:start}
- #sheet{display:block;z-index:auto;pointer-events:auto}
- #sheet[hidden]{display:none}
- #sheet:not([hidden])+#insp0{display:none}
- #insp0{display:block;border:1px dashed var(--grid2);border-radius:10px;padding:16px;color:var(--mut);font-size:14px}
- .sh{max-width:none;max-height:calc(100vh - 24px);border:1px solid var(--grid2);border-radius:10px;box-shadow:none;padding:14px 16px 16px;transform:none!important}
- .grab{display:none}
-}
 .sh{transition:transform .18s ease;pointer-events:auto;width:100%;max-width:600px;max-height:62vh;overflow:auto;background:var(--bg);border:1px solid var(--grid2);border-bottom:0;border-radius:14px 14px 0 0;box-shadow:0 -8px 28px rgba(0,0,0,.2);padding:14px 16px calc(18px + env(safe-area-inset-bottom))}
 .grab{width:40px;height:5px;border-radius:3px;background:var(--grid2);margin:-4px auto 10px;touch-action:none}
 .sh{touch-action:pan-y}
@@ -168,6 +144,42 @@ h2{font:600 18px Georgia,serif;margin:28px 0 8px}
 footer{margin-top:24px;font-size:13px;color:var(--mut)}footer a{color:var(--ink2)}
 #err{padding:14px;border:1px solid var(--gE);border-radius:8px;color:var(--ink)}
 .wk{font-size:.92em;margin:10px 0 0}
+/* layouts: <900 phone (bottom drawers) · 900–1023 filters|chart · 1024–1279 chart|panel, filters in a drawer · 1280+ filters|chart|panel */
+@media (max-width:899px),(min-width:1024px) and (max-width:1279px){
+ #filters{position:fixed;left:0;right:0;bottom:0;z-index:20;max-height:82vh;overflow:auto;background:var(--bg);border-top:1px solid var(--grid2);border-radius:14px 14px 0 0;box-shadow:0 -8px 28px rgba(0,0,0,.22);padding:14px 16px 0;transform:translateY(105%);transition:transform .22s ease;visibility:hidden}
+ #filters.open{transform:none;visibility:visible}
+ .ffoot{padding-bottom:calc(14px + env(safe-area-inset-bottom))}
+}
+@media (min-width:900px){
+ main{max-width:1180px}
+ .wrap{max-width:min(100%,calc(100vh - 230px))}
+ .ctl,.leg{max-width:min(100%,calc(100vh - 230px))}
+}
+@media (min-width:900px) and (max-width:1023px),(min-width:1280px){
+ .layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:22px;align-items:start}
+ #filters{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto;padding:0 2px}
+ .fhead,.ffoot,#fOpen,.pills,#scrim{display:none!important}
+}
+@media (min-width:1024px){
+ main{max-width:1560px}
+ .layout{display:grid;grid-template-columns:minmax(0,calc(100vh - 230px)) 340px;justify-content:center;gap:22px;align-items:start}
+ #sheet,#insp0{grid-column:-2/-1;grid-row:1;position:sticky;top:12px;align-self:start}
+ #sheet{display:block;z-index:auto;pointer-events:auto}
+ #sheet[hidden]{display:none}
+ #sheet:not([hidden])+#insp0{display:none}
+ #insp0{display:block;border:1px dashed var(--grid2);border-radius:10px;padding:16px;color:var(--mut);font-size:14px}
+ .sh{max-width:none;max-height:calc(100vh - 24px);border:1px solid var(--grid2);border-radius:10px;box-shadow:none;padding:14px 16px 16px;transform:none!important}
+ .grab{display:none}
+ #filters{max-width:640px;margin:0 auto}
+}
+@media (min-width:1280px){
+ .layout{grid-template-columns:250px minmax(0,calc(100vh - 230px)) 340px}
+ #filters{max-width:none;margin:0}
+}
+/* hover (mouse only): dim everyone else, show the hovered person's halo and shift */
+#sv.hovering #gPt>g:not(.hov):not(.sel){opacity:.3}
+#sv.hovering #gTr>g:not(.hv){opacity:.15}
+#gTr>g.hv line{stroke:var(--ink)}
 </style>
 </head>
 <body>
@@ -242,7 +254,7 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
 const fmt=n=>(n>0?"+":"")+n;
 let D=[],S=600,M=26,P=548;
-const st={k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:false,sourced:false,sel:null,mode:"chart",sort:"name",cluster:true,view:"start",genres:new Set(),decades:new Set(),conf:new Set()};
+const st={hov:null,k:1,cx:0,cy:0,genre:null,q:"",shifts:true,splits:false,halos:false,sourced:false,sel:null,mode:"chart",sort:"name",cluster:true,view:"start",genres:new Set(),decades:new Set(),conf:new Set()};
 const dec=d=>d.start?String(Math.floor(d.start/10)*10):"?";
 const DL=k=>k==="?"?"Unknown":k+"s";
 let CL_=[];
@@ -362,16 +374,16 @@ function draw(){
   for(const k of c){const bx={x:k.x,y:k.y,w,h};if(bx.x<M+2||bx.x+w>S-M-2||bx.y<M+2||bx.y+h>S-M-2)continue;if(i!==st.sel&&boxes.some(o=>o!==own[i]&&ov(bx,o)))continue;boxes.push(bx);lab[i]={tx:k.tx,ty:k.y+11.5,a:k.a};return}
   hidden++});
  // shifts (caption only where it fits)
- let tr="";if(st.shifts)vis.forEach(i=>{const d=D[i];if(!d.shift)return;const x1=sx(d.shift.econ),y1=sy(d.shift.auth),x2=d.X,y2=d.Y,L=Math.hypot(x2-x1,y2-y1);if(L<20)return;const ux_=(x2-x1)/L,uy_=(y2-y1)/L,dm=q&&!hit(d)?' class="dm"':"";
+ let tr="";if(st.shifts||st.hov!=null)vis.forEach(i=>{const d=D[i];if(!d.shift||(!st.shifts&&i!==st.hov))return;const x1=sx(d.shift.econ),y1=sy(d.shift.auth),x2=d.X,y2=d.Y,L=Math.hypot(x2-x1,y2-y1);if(L<20)return;const ux_=(x2-x1)/L,uy_=(y2-y1)/L,dm=q&&!hit(d)?' class="dm"':"";
   const right=d.shift.econ>0,tx=x1+(right?-10:10),ty=y1+(d.shift.auth<-6?19:-10),w=d.shift.label.length*6.2+4,bx={x:right?tx-w:tx,y:ty-11,w,h:14};
   let cap="";if(bx.x>M&&bx.x+w<S-M&&bx.y>M&&bx.y+14<S-M&&!boxes.some(o=>ov(bx,o))){boxes.push(bx);cap=`<text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" text-anchor="${right?"end":"start"}">${esc(d.shift.label)}</text>`}
-  tr+=`<g${dm}><line x1="${(x1+ux_*8).toFixed(1)}" y1="${(y1+uy_*8).toFixed(1)}" x2="${(x2-ux_*13).toFixed(1)}" y2="${(y2-uy_*13).toFixed(1)}" marker-end="url(#ah)"/><circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="6"/>${cap}</g>`});
+  tr+=`<g${i===st.hov?' class="hv"':dm}><line x1="${(x1+ux_*8).toFixed(1)}" y1="${(y1+uy_*8).toFixed(1)}" x2="${(x2-ux_*13).toFixed(1)}" y2="${(y2-uy_*13).toFixed(1)}" marker-end="url(#ah)"/><circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="6"/>${cap}</g>`});
  $("gTr").innerHTML=tr;
  let pts="";PV=[];
 const order=solo.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
  order.forEach(i=>{const d=D[i],X=d.X,Y=d.Y,l=lab[i],dm=q&&!hit(d)&&i!==st.sel;PV.push({i,X,Y});
-  pts+=`<g class="pt g${d.genre} c${d.confidence}${i===st.sel?" sel":""}${dm?" dm":""}" data-i="${i}">`+(fan.has(i)?`<line class="ld" x1="${d.tX.toFixed(1)}" y1="${d.tY.toFixed(1)}" x2="${X.toFixed(1)}" y2="${Y.toFixed(1)}"/><circle class="tp" cx="${d.tX.toFixed(1)}" cy="${d.tY.toFixed(1)}" r="1.8"/>`:"")+
-  ((st.halos||i===st.sel)?`<circle class="h" cx="${(fan.has(i)?d.tX:X).toFixed(1)}" cy="${(fan.has(i)?d.tY:Y).toFixed(1)}" r="${(HR[d.confidence]*U).toFixed(1)}"/>`:"")+
+  pts+=`<g class="pt g${d.genre} c${d.confidence}${i===st.sel?" sel":""}${i===st.hov?" hov":""}${dm?" dm":""}" data-i="${i}">`+(fan.has(i)?`<line class="ld" x1="${d.tX.toFixed(1)}" y1="${d.tY.toFixed(1)}" x2="${X.toFixed(1)}" y2="${Y.toFixed(1)}"/><circle class="tp" cx="${d.tX.toFixed(1)}" cy="${d.tY.toFixed(1)}" r="1.8"/>`:"")+
+  ((st.halos||i===st.sel||i===st.hov)?`<circle class="h" cx="${(fan.has(i)?d.tX:X).toFixed(1)}" cy="${(fan.has(i)?d.tY:Y).toFixed(1)}" r="${(HR[d.confidence]*U).toFixed(1)}"/>`:"")+
   `<circle cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="16" fill="transparent"/>`+
   (i===st.sel?`<circle class="ring" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="11"/>`:"")+(KF&&KF.i===i?`<circle class="kf" cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="14"/>`:"")+SH[d.genre](X,Y)+
   (l?`<text x="${l.tx.toFixed(1)}" y="${l.ty.toFixed(1)}" text-anchor="${l.a}">${esc(d.name)}</text>`:"")+`</g>`});
@@ -379,7 +391,7 @@ const order=solo.slice().sort((a,b)=>(a===st.sel)-(b===st.sel));
   // thin genre ring around the bubble, segment length by count
   let a0=-Math.PI/2,ring="";const C=2*Math.PI*(c.r+3);[...GO].forEach(g=>{if(!cnt[g])return;const f=cnt[g]/c.m.length;ring+=`<circle class="cg g${g}" cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${(c.r+3).toFixed(1)}" stroke="var(--c)" stroke-dasharray="${(f*C).toFixed(1)} ${C.toFixed(1)}" transform="rotate(${(a0*180/Math.PI).toFixed(1)} ${c.X.toFixed(1)} ${c.Y.toFixed(1)})"/>`;a0+=f*2*Math.PI});
   PV.push({c:ci,X:c.X,Y:c.Y});pts+=`<g class="cl" data-c="${ci}" role="button" aria-label="${c.m.length} people; tap to zoom in">${ring}${KF&&KF.c===ci?`<circle class="kf" cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${(c.r+7).toFixed(1)}"/>`:""}<circle cx="${c.X.toFixed(1)}" cy="${c.Y.toFixed(1)}" r="${c.r.toFixed(1)}"/><text x="${c.X.toFixed(1)}" y="${c.Y.toFixed(1)}">${c.m.length}</text></g>`});
- $("gPt").innerHTML=pts;
+ $("gPt").innerHTML=pts;$("sv").classList.toggle("hovering",st.hov!=null);
  // chrome
  $("zIn").disabled=st.k>=KMAX;$("zOut").disabled=st.k<=1;$("zR").disabled=st.k<=1;
  $("sv").style.touchAction=st.k>1?"none":"pan-y";
@@ -409,7 +421,7 @@ sv.addEventListener("pointermove",e=>{const p=pt(e);
 function endP(e){if(!ptrs.has(e.pointerId))return;ptrs.delete(e.pointerId);
  if(ptrs.size===0){if(g0&&!g0.moved&&e.type==="pointerup")tap(g0,pt(e));g0=null;pinch=null}else pinch=null}
 sv.addEventListener("pointerup",endP);sv.addEventListener("pointercancel",endP);
-sv.addEventListener("pointerleave",()=>tip.style.display="none");
+sv.addEventListener("pointerleave",()=>{tip.style.display="none";setHov(null)});
 // the nearest drawn person to p within r (svg units); hit circles overlap in crowded areas, so the DOM target can be a neighbour
 function nearest(p,r){let b=null,bd=r;PV.forEach(v=>{if(v.i==null)return;const dd=Math.hypot(v.X-p.x,v.Y-p.y);if(dd<bd){bd=dd;b=v}});return b}
 function tap(g,p){
@@ -436,7 +448,8 @@ sv.addEventListener("keydown",e=>{const k=e.key;
  if(k==="Escape"){KF=null;req()}});
 sv.addEventListener("blur",()=>{if(KF){KF=null;req()}});
 sv.addEventListener("dblclick",e=>e.preventDefault());
-function hover(e,p){const t=e.target.closest&&e.target.closest(".pt");if(!t){tip.style.display="none";return}const d=D[+t.dataset.i];
+function setHov(i){if(st.hov!==i){st.hov=i;req()}}
+function hover(e,p){const t=e.target.closest&&e.target.closest(".pt");if(!t){tip.style.display="none";setHov(null);return}const d=D[+t.dataset.i];setHov(+t.dataset.i);
  tip.innerHTML=`<b>${esc(d.name)}</b> <span>${esc(d.band==="solo"?GN[d.genre]:d.band)}</span>`;tip.style.display="block";
  const r=$("wrap").getBoundingClientRect(),k=r.width/S,x=p.x*k,y=p.y*k,tw=tip.offsetWidth;tip.style.left=Math.max(4,Math.min(r.width-tw-4,x+14))+"px";tip.style.top=Math.max(4,y-34)+"px"}
 $("zIn").onclick=()=>zoomTo(S/2,S/2,1.8);$("zOut").onclick=()=>zoomTo(S/2,S/2,1/1.8);$("zR").onclick=()=>animateTo(1,0,0);
@@ -468,7 +481,7 @@ function openSheet(i){st.sel=i;const d=D[i],src=d.sources;
 function closeSheet(){if(st.sel==null&&$("sheet").hidden)return;st.sel=null;$("sheet").hidden=true;req()}
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeSheet();closeF()}});
 (()=>{const sh=$("sh");let y0=null,dy=0;
- sh.addEventListener("pointerdown",e=>{if(matchMedia("(min-width:1200px)").matches||!e.target.closest(".grab,.sh-h")||e.target.closest("button"))return;y0=e.clientY;dy=0;sh.classList.add("drag");sh.setPointerCapture(e.pointerId)});
+ sh.addEventListener("pointerdown",e=>{if(matchMedia("(min-width:1024px)").matches||!e.target.closest(".grab,.sh-h")||e.target.closest("button"))return;y0=e.clientY;dy=0;sh.classList.add("drag");sh.setPointerCapture(e.pointerId)});
  sh.addEventListener("pointermove",e=>{if(y0==null)return;dy=Math.max(0,e.clientY-y0);sh.style.transform=`translateY(${dy}px)`});
  const up=()=>{if(y0==null)return;y0=null;sh.classList.remove("drag");if(dy>70)closeSheet();else sh.style.transform=""};
  sh.addEventListener("pointerup",up);sh.addEventListener("pointercancel",up)})();

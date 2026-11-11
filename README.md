@@ -2,6 +2,8 @@
 
 A phone-first political compass of musicians, placed by what they have said, funded and campaigned for. People, not bands: a band is not a voter.
 
+Phone-first, not phone-only: from 1024px wide the person's details sit in a side panel next to the chart instead of a sheet over it, and hovering a mark highlights that person's uncertainty and any shift in position.
+
 **Status:** private while the sourcing pass runs. It goes public when the 100 best-known placements are sourced and zoom works well on a phone.
 
 ## How placements work
